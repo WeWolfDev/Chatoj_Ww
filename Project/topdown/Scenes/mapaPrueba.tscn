@@ -19,4 +19,3 @@ position = Vector2(-164, -604)
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1611556933]
 stream = ExtResource("4_xhuvk")
-autoplay = true

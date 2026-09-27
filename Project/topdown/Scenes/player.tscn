@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://bm2j4weqdw3jk"]
 
 [ext_resource type="Script" uid="uid://7khnwrn8atg3" path="res://Scenes/player.gd" id="1_f1ek2"]
+[ext_resource type="PackedScene" uid="uid://0vl8c86cr7en" path="res://Scenes/Armas/DaggerProjectile.tscn" id="2_fd4e3"]
 [ext_resource type="Texture2D" uid="uid://da5i1jfcgu3uk" path="res://assets/Animaciones/char_idle_down_anim_strip_6.png" id="2_tx1dd"]
 [ext_resource type="Texture2D" uid="uid://dvvtg67kdwqq8" path="res://assets/Animaciones/char_pushing_down_anim_strip_6.png" id="2_ukyrk"]
 [ext_resource type="Texture2D" uid="uid://blkvyaqapyec8" path="res://assets/Animaciones/char_pushing_left_anim_strip_6.png" id="3_7dp3o"]
@@ -14,6 +15,7 @@
 [ext_resource type="Texture2D" uid="uid://c8544fscpm1yf" path="res://assets/Animaciones/char_run_right_anim_strip_6.png" id="8_fd4e3"]
 [ext_resource type="Texture2D" uid="uid://3r67lua7bfbk" path="res://assets/Animaciones/char_run_up_anim_strip_6.png" id="9_qqcod"]
 [ext_resource type="Texture2D" uid="uid://cfm2mu1g1ii41" path="res://assets/Animaciones/espada ataques.png" id="14_7dp3o"]
+[ext_resource type="Texture2D" uid="uid://djev04j5gkkod" path="res://assets/Animaciones/char_shielded_hit_down_anim_strip_5.png" id="15_h4iuc"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qqcod"]
 atlas = ExtResource("2_ukyrk")
@@ -821,14 +823,51 @@ animations = [{
 "speed": 15.0
 }]
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_fip0x"]
+atlas = ExtResource("15_h4iuc")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4tc2f"]
+atlas = ExtResource("15_h4iuc")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u5w1p"]
+atlas = ExtResource("15_h4iuc")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fnpki"]
+atlas = ExtResource("15_h4iuc")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_am3o3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fip0x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4tc2f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u5w1p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fnpki")
+}],
+"loop": 1,
+"name": &"shield",
+"speed": 5.0
+}]
+
 [node name="Player" type="CharacterBody2D" unique_id=272724457]
 collision_mask = 0
 script = ExtResource("1_f1ek2")
+dagger_scene = ExtResource("2_fd4e3")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2002133221]
 scale = Vector2(4.375, 4.375)
 sprite_frames = SubResource("SpriteFrames_f60y1")
-animation = &"idle_down"
+animation = &"dash_down"
 autoplay = "idle_down"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2041622108]
@@ -862,3 +901,9 @@ sprite_frames = SubResource("SpriteFrames_82v0y")
 animation = &"attack_up"
 frame = 5
 frame_progress = 1.0
+
+[node name="ShieldSprite" type="AnimatedSprite2D" parent="." unique_id=794997582]
+scale = Vector2(4.375, 4.375)
+sprite_frames = SubResource("SpriteFrames_am3o3")
+animation = &"shield"
+frame_progress = 0.9504926

@@ -2,12 +2,18 @@
 
 [ext_resource type="PackedScene" uid="uid://bm2j4weqdw3jk" path="res://Scenes/player.tscn" id="1_gkxnq"]
 [ext_resource type="Texture2D" uid="uid://ciwmenfmgnji5" path="res://assets/Fondos/WhatsApp Image 2026-09-25 at 4.17.27 PM.jpeg" id="2_wrjfv"]
+[ext_resource type="AudioStream" uid="uid://ddjjxg83auykl" path="res://assets/Audio/Music/Musica de fondo.wav" id="3_wrjfv"]
 
 [node name="Node2D" type="Node2D" unique_id=114042325]
 
+[node name="Player" parent="." unique_id=272724457 instance=ExtResource("1_gkxnq")]
+
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1415810993]
+z_index = -1
 position = Vector2(-336.00018, -638.0001)
 scale = Vector2(1.7566667, 1.7566667)
 texture = ExtResource("2_wrjfv")
 
-[node name="Player" parent="." unique_id=272724457 instance=ExtResource("1_gkxnq")]
+[node name="BackgroundMusic" type="AudioStreamPlayer2D" parent="." unique_id=1086899704]
+stream = ExtResource("3_wrjfv")
+autoplay = true

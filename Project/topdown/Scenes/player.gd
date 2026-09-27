@@ -5,7 +5,7 @@ extends CharacterBody2D
 # MOVIMIENTO
 # =========================
 
-var speed = 400.0
+var speed = 250.0
 var run_multiplier = 1.25
 
 var facing_direction = Vector2.DOWN

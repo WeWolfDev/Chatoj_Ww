@@ -14,8 +14,7 @@ texture = ExtResource("2_wrjfv")
 
 [node name="Player" parent="." unique_id=272724457 instance=ExtResource("1_gkxnq")]
 
-[node name="NPC" parent="." unique_id=971462257 instance=ExtResource("3_wrjfv")]
-position = Vector2(-164, -604)
+[node name="NPC" parent="." unique_id=671918444 instance=ExtResource("3_wrjfv")]
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1611556933]
 stream = ExtResource("4_xhuvk")

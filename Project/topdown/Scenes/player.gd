@@ -37,7 +37,9 @@ var health = 100
 # =========================
 
 var attack_damage = 20
-var attack_distance = 18
+var attack_distance = 50
+
+var is_attacking = false
 
 
 # =========================
@@ -46,7 +48,9 @@ var attack_distance = 18
 
 @onready var animated_sprite = $AnimatedSprite2D
 @onready var health_bar = $HUD/HealthBar
+
 @onready var attack_area = $AttackArea
+@onready var attack_sprite = $AttackArea/AttackSprite
 
 
 # =========================
@@ -55,22 +59,23 @@ var attack_distance = 18
 
 func _ready():
 
-	# Vida inicial
 	health = max_health
 
 	health_bar.min_value = 0
 	health_bar.max_value = max_health
 	health_bar.value = health
 
-	# Animación inicial
-	animated_sprite.play("idle_down")
+	attack_sprite.visible = false
 
+	animated_sprite.visible = true
+	animated_sprite.play("idle_down")
 
 # =========================
 # PROCESO PRINCIPAL
 # =========================
 
 func _physics_process(_delta):
+
 
 	# =========================
 	# PRUEBA DE DAÑO
@@ -84,7 +89,7 @@ func _physics_process(_delta):
 	# ATAQUE
 	# =========================
 
-	if Input.is_action_just_pressed("attack"):
+	if Input.is_action_just_pressed("attack") and not is_attacking:
 		attack()
 
 
@@ -100,7 +105,7 @@ func _physics_process(_delta):
 	)
 
 
-	# Guardar la última dirección
+	# Guardar última dirección
 	if input_direction != Vector2.ZERO:
 		facing_direction = input_direction
 
@@ -133,7 +138,6 @@ func _physics_process(_delta):
 	var current_speed = speed
 
 
-	# Correr con Shift
 	if Input.is_key_pressed(KEY_SHIFT):
 		current_speed = speed * run_multiplier
 
@@ -145,70 +149,42 @@ func _physics_process(_delta):
 	# ANIMACIONES
 	# =========================
 
-	if input_direction != Vector2.ZERO:
+	if Input.is_key_pressed(KEY_SHIFT) and input_direction != Vector2.ZERO:
 
-		# =========================
+
 		# CORRER
-		# =========================
 
-		if Input.is_key_pressed(KEY_SHIFT):
+		if input_direction.x > 0:
+			animated_sprite.play("run_right")
 
-			if input_direction.x > 0:
-				animated_sprite.play("run_right")
+		elif input_direction.x < 0:
+			animated_sprite.play("run_left")
 
-			elif input_direction.x < 0:
-				animated_sprite.play("run_left")
+		elif input_direction.y > 0:
+			animated_sprite.play("run_down")
 
-			elif input_direction.y > 0:
-				animated_sprite.play("run_down")
+		elif input_direction.y < 0:
+			animated_sprite.play("run_up")
 
-			elif input_direction.y < 0:
-				animated_sprite.play("run_up")
-
-
-		# =========================
-		# MOVIMIENTO NORMAL
-		# =========================
-
-		else:
-
-			if input_direction.x > 0:
-				animated_sprite.play("idle_right")
-
-			elif input_direction.x < 0:
-				animated_sprite.play("idle_left")
-
-			elif input_direction.y > 0:
-				animated_sprite.play("idle_down")
-
-			elif input_direction.y < 0:
-				animated_sprite.play("idle_up")
-
-
-	# =========================
-	# QUIETO
-	# =========================
 
 	else:
 
-		if abs(facing_direction.x) > abs(facing_direction.y):
 
-			if facing_direction.x > 0:
-				animated_sprite.play("idle_right")
+		# MOVIMIENTO NORMAL
 
-			else:
-				animated_sprite.play("idle_left")
+		if input_direction.x > 0:
+			animated_sprite.play("idle_right")
 
-		else:
+		elif input_direction.x < 0:
+			animated_sprite.play("idle_left")
 
-			if facing_direction.y > 0:
-				animated_sprite.play("idle_down")
+		elif input_direction.y > 0:
+			animated_sprite.play("idle_down")
 
-			else:
-				animated_sprite.play("idle_up")
+		elif input_direction.y < 0:
+			animated_sprite.play("idle_up")
 
 
-	# Mover personaje
 	move_and_slide()
 
 
@@ -224,39 +200,36 @@ func dash(direction):
 	dash_direction = direction
 
 
-	# =========================
-	# ANIMACIÓN DEL DASH
-	# =========================
+	# Elegir animación
 
 	if abs(direction.x) > abs(direction.y):
 
-		# Derecha
 		if direction.x > 0:
 			animated_sprite.play("dash_right")
 
-		# Izquierda
 		else:
 			animated_sprite.play("dash_left")
 
+
 	else:
 
-		# Abajo
 		if direction.y > 0:
 			animated_sprite.play("dash_down")
 
-		# Arriba
 		else:
 			animated_sprite.play("dash_up")
 
 
-	# Duración del dash
+	# Duración
 	await get_tree().create_timer(dash_duration).timeout
+
 
 	is_dashing = false
 
 
 	# Cooldown
 	await get_tree().create_timer(dash_cooldown).timeout
+
 
 	can_dash = true
 
@@ -267,13 +240,22 @@ func dash(direction):
 
 func attack():
 
+	is_attacking = true
+
+
+	# Mostrar espada
+	attack_sprite.visible = true
+
+
 	# =========================
-	# ATAQUE HORIZONTAL
+	# HORIZONTAL
 	# =========================
 
 	if abs(facing_direction.x) > abs(facing_direction.y):
 
-		# Derecha
+
+		# DERECHA
+
 		if facing_direction.x > 0:
 
 			attack_area.position = Vector2(
@@ -281,7 +263,11 @@ func attack():
 				0
 			)
 
-		# Izquierda
+			attack_sprite.play("attack_right")
+
+
+		# IZQUIERDA
+
 		else:
 
 			attack_area.position = Vector2(
@@ -289,14 +275,18 @@ func attack():
 				0
 			)
 
+			attack_sprite.play("attack_left")
+
 
 	# =========================
-	# ATAQUE VERTICAL
+	# VERTICAL
 	# =========================
 
 	else:
 
-		# Abajo
+
+		# ABAJO
+
 		if facing_direction.y > 0:
 
 			attack_area.position = Vector2(
@@ -304,13 +294,30 @@ func attack():
 				attack_distance
 			)
 
-		# Arriba
+			attack_sprite.play("attack_down")
+
+
+		# ARRIBA
+
 		else:
 
 			attack_area.position = Vector2(
 				0,
 				-attack_distance
 			)
+
+			attack_sprite.play("attack_up")
+
+
+	# Esperar a que termine
+	await attack_sprite.animation_finished
+
+
+	# Ocultar espada
+	attack_sprite.visible = false
+
+
+	is_attacking = false
 
 
 	print("Ataque")
@@ -325,19 +332,16 @@ func take_damage(damage):
 	health -= damage
 
 
-	# Evitar vida negativa
 	if health < 0:
 		health = 0
 
 
-	# Actualizar barra
 	health_bar.value = health
 
 
 	print("Vida: ", health, "/", max_health)
 
 
-	# Comprobar muerte
 	if health <= 0:
 		die()
 
@@ -351,12 +355,10 @@ func heal(amount):
 	health += amount
 
 
-	# Evitar superar la vida máxima
 	if health > max_health:
 		health = max_health
 
 
-	# Actualizar barra
 	health_bar.value = health
 
 

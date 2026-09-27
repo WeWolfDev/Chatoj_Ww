@@ -822,6 +822,7 @@ animations = [{
 }]
 
 [node name="Player" type="CharacterBody2D" unique_id=272724457]
+collision_mask = 0
 script = ExtResource("1_f1ek2")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2002133221]
@@ -847,7 +848,9 @@ step = 1.0
 value = 100.0
 show_percentage = false
 
-[node name="AttackArea" type="Area2D" parent="." unique_id=2107688576]
+[node name="AttackArea" type="Area2D" parent="." unique_id=2107688576 groups=["player_attack"]]
+collision_layer = 4
+collision_mask = 8
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AttackArea" unique_id=689621327]
 scale = Vector2(2, 2)

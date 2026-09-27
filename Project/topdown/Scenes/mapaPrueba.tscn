@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://bm2j4weqdw3jk" path="res://Scenes/player.tscn" id="1_gkxnq"]
 [ext_resource type="Texture2D" uid="uid://ciwmenfmgnji5" path="res://assets/Fondos/WhatsApp Image 2026-09-25 at 4.17.27 PM.jpeg" id="2_wrjfv"]
 [ext_resource type="PackedScene" uid="uid://b7jwhg35t35m4" path="res://Scenes/npc1.tscn" id="3_wrjfv"]
+[ext_resource type="AudioStream" uid="uid://ddjjxg83auykl" path="res://assets/Audio/Music/Musica de fondo.wav" id="4_xhuvk"]
 
 [node name="Node2D" type="Node2D" unique_id=114042325]
 
@@ -15,3 +16,7 @@ texture = ExtResource("2_wrjfv")
 
 [node name="NPC" parent="." unique_id=971462257 instance=ExtResource("3_wrjfv")]
 position = Vector2(-164, -604)
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1611556933]
+stream = ExtResource("4_xhuvk")
+autoplay = true

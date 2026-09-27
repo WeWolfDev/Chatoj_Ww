@@ -51,6 +51,7 @@ var is_attacking = false
 
 @onready var attack_area = $AttackArea
 @onready var attack_sprite = $AttackArea/AttackSprite
+@onready var attack_collision = $AttackArea/CollisionShape2D
 
 
 # =========================
@@ -67,8 +68,12 @@ func _ready():
 
 	attack_sprite.visible = false
 
+	# Hitbox apagada hasta atacar
+	attack_collision.disabled = true
+
 	animated_sprite.visible = true
 	animated_sprite.play("idle_down")
+
 
 # =========================
 # PROCESO PRINCIPAL
@@ -200,8 +205,6 @@ func dash(direction):
 	dash_direction = direction
 
 
-	# Elegir animación
-
 	if abs(direction.x) > abs(direction.y):
 
 		if direction.x > 0:
@@ -220,14 +223,12 @@ func dash(direction):
 			animated_sprite.play("dash_up")
 
 
-	# Duración
 	await get_tree().create_timer(dash_duration).timeout
 
 
 	is_dashing = false
 
 
-	# Cooldown
 	await get_tree().create_timer(dash_cooldown).timeout
 
 
@@ -242,8 +243,6 @@ func attack():
 
 	is_attacking = true
 
-
-	# Mostrar espada
 	attack_sprite.visible = true
 
 
@@ -309,13 +308,19 @@ func attack():
 			attack_sprite.play("attack_up")
 
 
-	# Esperar a que termine
+	# Activar hitbox
+	attack_collision.set_deferred("disabled", false)
+
+
+	# Esperar a que termine la animación
 	await attack_sprite.animation_finished
 
 
-	# Ocultar espada
-	attack_sprite.visible = false
+	# Apagar hitbox
+	attack_collision.set_deferred("disabled", true)
 
+
+	attack_sprite.visible = false
 
 	is_attacking = false
 

@@ -7,6 +7,7 @@ extends CharacterBody2D
 
 var speed = 250.0
 var run_multiplier = 1.25
+var block_speed_multiplier = 0.5
 
 var facing_direction = Vector2.DOWN
 
@@ -33,6 +34,21 @@ var health = 100
 
 
 # =========================
+# UNGÜENTOS
+# =========================
+
+var max_heal_consumables = 3
+var heal_consumables = 3
+
+var heal_consumable_amount = 30
+
+var heal_use_duration = 1.25
+var heal_speed_multiplier = 0.35
+
+var is_healing = false
+
+
+# =========================
 # ATAQUE ESPADA
 # =========================
 
@@ -49,20 +65,12 @@ var is_attacking = false
 var max_dagger_charges = 3
 var dagger_charges = 3
 
-# Doble del daño de la espada
 var dagger_damage = 40.0
-
-# Mitad del daño de espada
-# repartido durante 3 segundos
 var dagger_bleed_damage = 10.0
-
 var dagger_bleed_duration = 3.0
 
-# Tiempo para recuperar UNA carga
 var dagger_regen_time = 3.0
-
 var dagger_regen_running = false
-
 
 @export var dagger_scene: PackedScene
 
@@ -75,7 +83,6 @@ var shield_active = false
 var can_activate_shield = true
 
 var shield_damage_reduction = 0.80
-
 var shield_cooldown = 1.5
 
 var perfect_block_duration = 0.20
@@ -95,6 +102,17 @@ var is_camera_shaking = false
 
 
 # =========================
+# HUD
+# =========================
+
+var dagger_hud_tween: Tween
+var heal_hud_tween: Tween
+
+var dagger_hud_base_scale = Vector2.ONE
+var heal_hud_base_scale = Vector2.ONE
+
+
+# =========================
 # NODOS
 # =========================
 
@@ -105,30 +123,192 @@ var is_camera_shaking = false
 
 @onready var health_bar = $HUD/HealthBar
 
+@onready var dagger_hud = $HUD/ConsumablesHUD/DaggerIcon
+@onready var heal_hud = $HUD/ConsumablesHUD/HealIcon
+
 @onready var attack_area = $AttackArea
 @onready var attack_sprite = $AttackArea/AttackSprite
 @onready var attack_collision = $AttackArea/CollisionShape2D
 
 
 # =========================
-# AL INICIAR
+# INICIO
 # =========================
 
 func _ready():
 
 	health = max_health
 
+
+	# VIDA
+
 	health_bar.min_value = 0
 	health_bar.max_value = max_health
 	health_bar.value = health
 
+
+	# DAGAS
+
+	dagger_hud.min_value = 0
+	dagger_hud.max_value = max_dagger_charges
+
+	# IMPORTANTE:
+	# Siempre mostramos la daga completa.
+	dagger_hud.value = max_dagger_charges
+
+
+	# UNGÜENTOS
+
+	heal_hud.min_value = 0
+	heal_hud.max_value = max_heal_consumables
+	heal_hud.value = heal_consumables
+
+
+	# ATAQUE
+
 	attack_sprite.visible = false
 	attack_collision.disabled = true
 
+
+	# ESCUDO
+
 	shield_sprite.visible = false
+
+
+	# PERSONAJE
 
 	animated_sprite.visible = true
 	animated_sprite.play("idle_down")
+
+
+	call_deferred("setup_consumable_hud")
+	call_deferred("configure_enemy_collisions")
+
+
+# =========================
+# CONFIGURAR HUD
+# =========================
+
+func setup_consumable_hud():
+
+	# Guardar las escalas que pusiste
+	# manualmente en el Inspector.
+
+	dagger_hud_base_scale = dagger_hud.scale
+	heal_hud_base_scale = heal_hud.scale
+
+
+	# Hacer que crezcan desde el centro.
+
+	dagger_hud.pivot_offset = dagger_hud.size / 2.0
+	heal_hud.pivot_offset = heal_hud.size / 2.0
+
+
+	# Aplicar estado inicial.
+
+	update_dagger_hud()
+	update_heal_hud()
+
+
+# =========================
+# VISUAL DE CARGAS DE DAGA
+# =========================
+
+func apply_dagger_charge_visual():
+
+	# 3 / 3
+	if dagger_charges >= 3:
+
+		dagger_hud.modulate = Color(
+			1.0,
+			1.0,
+			1.0,
+			1.0
+		)
+
+
+	# 2 / 3
+	elif dagger_charges == 2:
+
+		dagger_hud.modulate = Color(
+			0.75,
+			0.75,
+			0.75,
+			1.0
+		)
+
+
+	# 1 / 3
+	elif dagger_charges == 1:
+
+		dagger_hud.modulate = Color(
+			0.45,
+			0.45,
+			0.45,
+			1.0
+		)
+
+
+	# 0 / 3
+	else:
+
+		dagger_hud.modulate = Color(
+			0.20,
+			0.20,
+			0.20,
+			0.65
+		)
+
+
+# =========================
+# RESET HUD DAGA
+# =========================
+
+func reset_dagger_hud():
+
+	dagger_hud.scale = dagger_hud_base_scale
+
+	# Volver al brillo correspondiente
+	# a las cargas actuales.
+	apply_dagger_charge_visual()
+
+
+# =========================
+# RESET HUD UNGÜENTO
+# =========================
+
+func reset_heal_hud():
+
+	heal_hud.scale = heal_hud_base_scale
+	heal_hud.modulate = Color.WHITE
+
+
+# =========================
+# COLISIONES PLAYER - NPC
+# =========================
+
+func configure_enemy_collisions():
+
+	var enemies = []
+
+	find_damageable_characters(
+		get_tree().current_scene,
+		enemies
+	)
+
+
+	for enemy in enemies:
+
+		if not is_instance_valid(enemy):
+			continue
+
+		if enemy == self:
+			continue
+
+
+		add_collision_exception_with(enemy)
+
+		enemy.add_collision_exception_with(self)
 
 
 # =========================
@@ -138,16 +318,46 @@ func _ready():
 func _physics_process(_delta):
 
 
-	# =========================
-	# PRUEBA DE DAÑO
-	# =========================
+	# PRUEBA DAÑO
 
 	if Input.is_action_just_pressed("test_damage"):
 		take_damage(20)
 
 
+	# CURACIÓN
+
+	if Input.is_action_just_pressed("heal_consumable"):
+		use_heal_consumable()
+
+
 	# =========================
-	# LANZAR DAGA
+	# MIENTRAS SE CURA
+	# =========================
+
+	if is_healing:
+
+		var heal_direction = Input.get_vector(
+			"left",
+			"right",
+			"up",
+			"down"
+		)
+
+
+		velocity = (
+			heal_direction
+			* speed
+			* heal_speed_multiplier
+		)
+
+
+		move_and_slide()
+
+		return
+
+
+	# =========================
+	# DAGA
 	# =========================
 
 	if Input.is_action_just_pressed("throw_dagger"):
@@ -161,12 +371,14 @@ func _physics_process(_delta):
 	if Input.is_action_pressed("shield"):
 
 		if not shield_active and can_activate_shield:
+
 			activate_shield()
 
 
 	if Input.is_action_just_released("shield"):
 
 		if shield_active:
+
 			deactivate_shield()
 
 
@@ -174,12 +386,15 @@ func _physics_process(_delta):
 	# ATAQUE
 	# =========================
 
-	if Input.is_action_just_pressed("attack") and not is_attacking:
+	if Input.is_action_just_pressed("attack") \
+	and not is_attacking \
+	and not shield_active:
+
 		attack()
 
 
 	# =========================
-	# DIRECCIÓN
+	# MOVIMIENTO
 	# =========================
 
 	var input_direction = Input.get_vector(
@@ -191,6 +406,7 @@ func _physics_process(_delta):
 
 
 	if input_direction != Vector2.ZERO:
+
 		facing_direction = input_direction
 
 
@@ -198,13 +414,12 @@ func _physics_process(_delta):
 	# DASH
 	# =========================
 
-	if Input.is_action_just_pressed("dash") and can_dash and input_direction != Vector2.ZERO:
+	if Input.is_action_just_pressed("dash") \
+	and can_dash \
+	and input_direction != Vector2.ZERO:
+
 		dash(input_direction)
 
-
-	# =========================
-	# DURANTE EL DASH
-	# =========================
 
 	if is_dashing:
 
@@ -222,11 +437,26 @@ func _physics_process(_delta):
 	var current_speed = speed
 
 
-	if Input.is_key_pressed(KEY_SHIFT):
-		current_speed = speed * run_multiplier
+	if shield_active:
+
+		current_speed = (
+			speed
+			* block_speed_multiplier
+		)
 
 
-	velocity = input_direction * current_speed
+	elif Input.is_key_pressed(KEY_SHIFT):
+
+		current_speed = (
+			speed
+			* run_multiplier
+		)
+
+
+	velocity = (
+		input_direction
+		* current_speed
+	)
 
 
 	# =========================
@@ -235,33 +465,50 @@ func _physics_process(_delta):
 
 	if not shield_active:
 
-		if Input.is_key_pressed(KEY_SHIFT) and input_direction != Vector2.ZERO:
+		if Input.is_key_pressed(KEY_SHIFT) \
+		and input_direction != Vector2.ZERO:
+
 
 			if input_direction.x > 0:
+
 				animated_sprite.play("run_right")
 
+
 			elif input_direction.x < 0:
+
 				animated_sprite.play("run_left")
 
+
 			elif input_direction.y > 0:
+
 				animated_sprite.play("run_down")
 
+
 			elif input_direction.y < 0:
+
 				animated_sprite.play("run_up")
 
 
 		else:
 
+
 			if input_direction.x > 0:
+
 				animated_sprite.play("idle_right")
 
+
 			elif input_direction.x < 0:
+
 				animated_sprite.play("idle_left")
 
+
 			elif input_direction.y > 0:
+
 				animated_sprite.play("idle_down")
 
+
 			elif input_direction.y < 0:
+
 				animated_sprite.play("idle_up")
 
 
@@ -269,10 +516,238 @@ func _physics_process(_delta):
 
 
 # =========================
+# USAR UNGÜENTO
+# =========================
+
+func use_heal_consumable():
+
+	if is_healing:
+		return
+
+
+	if heal_consumables <= 0:
+
+		print("No quedan curaciones")
+
+		return
+
+
+	if health >= max_health:
+
+		print("La vida ya está completa")
+
+		return
+
+
+	if is_attacking:
+
+		print("No puedes curarte mientras atacas")
+
+		return
+
+
+	if is_dashing:
+
+		print("No puedes curarte durante un dash")
+
+		return
+
+
+	if shield_active:
+
+		print("No puedes curarte mientras bloqueas")
+
+		return
+
+
+	is_healing = true
+
+
+	heal_consumables -= 1
+
+
+	update_heal_hud()
+
+	animate_heal_use()
+
+
+	animated_sprite.play("heal_down")
+
+
+	print(
+		"Curaciones restantes: ",
+		heal_consumables,
+		"/",
+		max_heal_consumables
+	)
+
+
+	await get_tree().create_timer(
+		heal_use_duration
+	).timeout
+
+
+	heal(
+		heal_consumable_amount
+	)
+
+
+	is_healing = false
+
+
+	play_idle_animation()
+
+
+# =========================
+# AÑADIR UNGÜENTO
+# =========================
+
+func add_heal_consumable(amount = 1):
+
+	var previous_amount = heal_consumables
+
+
+	heal_consumables += amount
+
+
+	if heal_consumables > max_heal_consumables:
+
+		heal_consumables = max_heal_consumables
+
+
+	update_heal_hud()
+
+
+	if heal_consumables > previous_amount:
+
+		animate_heal_recharge()
+
+
+# =========================
+# HUD UNGÜENTO
+# =========================
+
+func update_heal_hud():
+
+	heal_hud.value = heal_consumables
+
+
+# =========================
+# EFECTO USAR UNGÜENTO
+# =========================
+
+func animate_heal_use():
+
+	if heal_hud_tween != null:
+
+		if heal_hud_tween.is_valid():
+
+			heal_hud_tween.kill()
+
+
+	reset_heal_hud()
+
+
+	heal_hud_tween = create_tween()
+
+
+	heal_hud_tween.tween_property(
+		heal_hud,
+		"scale",
+		heal_hud_base_scale * 1.20,
+		0.10
+	)
+
+
+	heal_hud_tween.tween_property(
+		heal_hud,
+		"scale",
+		heal_hud_base_scale,
+		0.15
+	)
+
+
+	heal_hud_tween.tween_callback(
+		Callable(
+			self,
+			"reset_heal_hud"
+		)
+	)
+
+
+# =========================
+# RECARGA UNGÜENTO
+# =========================
+
+func animate_heal_recharge():
+
+	if heal_hud_tween != null:
+
+		if heal_hud_tween.is_valid():
+
+			heal_hud_tween.kill()
+
+
+	reset_heal_hud()
+
+
+	heal_hud_tween = create_tween()
+
+
+	heal_hud_tween.tween_property(
+		heal_hud,
+		"scale",
+		heal_hud_base_scale * 1.18,
+		0.10
+	)
+
+
+	heal_hud_tween.parallel().tween_property(
+		heal_hud,
+		"modulate",
+		Color(
+			1.8,
+			1.8,
+			1.8,
+			1.0
+		),
+		0.10
+	)
+
+
+	heal_hud_tween.tween_property(
+		heal_hud,
+		"scale",
+		heal_hud_base_scale,
+		0.15
+	)
+
+
+	heal_hud_tween.parallel().tween_property(
+		heal_hud,
+		"modulate",
+		Color.WHITE,
+		0.15
+	)
+
+
+	heal_hud_tween.tween_callback(
+		Callable(
+			self,
+			"reset_heal_hud"
+		)
+	)
+
+
+# =========================
 # DASH
 # =========================
 
 func dash(direction):
+
+	if is_healing:
+		return
+
 
 	is_dashing = true
 	can_dash = false
@@ -283,18 +758,22 @@ func dash(direction):
 	if abs(direction.x) > abs(direction.y):
 
 		if direction.x > 0:
+
 			animated_sprite.play("dash_right")
 
 		else:
+
 			animated_sprite.play("dash_left")
 
 
 	else:
 
 		if direction.y > 0:
+
 			animated_sprite.play("dash_down")
 
 		else:
+
 			animated_sprite.play("dash_up")
 
 
@@ -315,10 +794,18 @@ func dash(direction):
 
 
 # =========================
-# ATAQUE ESPADA
+# ATAQUE
 # =========================
 
 func attack():
+
+	if shield_active:
+		return
+
+
+	if is_healing:
+		return
+
 
 	is_attacking = true
 
@@ -327,8 +814,6 @@ func attack():
 
 	if abs(facing_direction.x) > abs(facing_direction.y):
 
-
-		# DERECHA
 
 		if facing_direction.x > 0:
 
@@ -339,8 +824,6 @@ func attack():
 
 			attack_sprite.play("attack_right")
 
-
-		# IZQUIERDA
 
 		else:
 
@@ -355,8 +838,6 @@ func attack():
 	else:
 
 
-		# ABAJO
-
 		if facing_direction.y > 0:
 
 			attack_area.position = Vector2(
@@ -366,8 +847,6 @@ func attack():
 
 			attack_sprite.play("attack_down")
 
-
-		# ARRIBA
 
 		else:
 
@@ -399,19 +878,15 @@ func attack():
 	is_attacking = false
 
 
-	print("Ataque")
-
-
 # =========================
 # LANZAR DAGA
 # =========================
 
 func throw_dagger():
 
+	if is_healing:
+		return
 
-	# =========================
-	# CARGAS
-	# =========================
 
 	if dagger_charges <= 0:
 
@@ -420,20 +895,14 @@ func throw_dagger():
 		return
 
 
-	# =========================
-	# ESCENA DE DAGA
-	# =========================
-
 	if dagger_scene == null:
 
-		print("ERROR: Dagger Scene no está asignada")
+		print(
+			"ERROR: Dagger Scene no está asignada"
+		)
 
 		return
 
-
-	# =========================
-	# BUSCAR ENEMIGO
-	# =========================
 
 	var enemy = get_nearest_enemy()
 
@@ -445,12 +914,6 @@ func throw_dagger():
 		return
 
 
-	print(
-		"Enemigo encontrado: ",
-		enemy.name
-	)
-
-
 	# =========================
 	# GASTAR CARGA
 	# =========================
@@ -458,12 +921,9 @@ func throw_dagger():
 	dagger_charges -= 1
 
 
-	print(
-		"Dagas: ",
-		dagger_charges,
-		"/",
-		max_dagger_charges
-	)
+	update_dagger_hud()
+
+	animate_dagger_use()
 
 
 	# =========================
@@ -481,25 +941,11 @@ func throw_dagger():
 	dagger.global_position = global_position
 
 
-	# =========================
-	# DIRECCIÓN
-	# =========================
-
 	var direction = (
 		enemy.global_position
 		- global_position
 	).normalized()
 
-
-	print(
-		"Dirección daga: ",
-		direction
-	)
-
-
-	# =========================
-	# CONFIGURAR DAGA
-	# =========================
 
 	dagger.setup(
 		direction,
@@ -509,115 +955,143 @@ func throw_dagger():
 	)
 
 
-	# =========================
-	# REGENERACIÓN
-	# =========================
-
 	if not dagger_regen_running:
+
 		regenerate_daggers()
 
 
 # =========================
-# ENEMIGO MÁS CERCANO
+# ACTUALIZAR HUD DAGA
 # =========================
 
-func get_nearest_enemy():
+func update_dagger_hud():
 
-	var possible_enemies = []
+	# Mantenemos la textura completa.
+	dagger_hud.value = max_dagger_charges
 
-	var scene_root = get_tree().current_scene
+	# Cambiamos solamente su brillo.
+	apply_dagger_charge_visual()
 
 
-	# Buscar todos los NPC dentro de la escena
-	find_damageable_characters(
-		scene_root,
-		possible_enemies
+# =========================
+# EFECTO USAR DAGA
+# =========================
+
+func animate_dagger_use():
+
+	if dagger_hud_tween != null:
+
+		if dagger_hud_tween.is_valid():
+
+			dagger_hud_tween.kill()
+
+
+	reset_dagger_hud()
+
+
+	dagger_hud_tween = create_tween()
+
+
+	dagger_hud_tween.tween_property(
+		dagger_hud,
+		"scale",
+		dagger_hud_base_scale * 1.20,
+		0.10
 	)
 
 
-	print(
-		"Posibles enemigos encontrados: ",
-		possible_enemies.size()
+	dagger_hud_tween.tween_property(
+		dagger_hud,
+		"scale",
+		dagger_hud_base_scale,
+		0.15
 	)
 
 
-	var nearest_enemy = null
-
-	var nearest_distance = INF
-
-
-	for enemy in possible_enemies:
-
-
-		if not is_instance_valid(enemy):
-			continue
-
-
-		if enemy == self:
-			continue
-
-
-		var distance = global_position.distance_squared_to(
-			enemy.global_position
+	dagger_hud_tween.tween_callback(
+		Callable(
+			self,
+			"reset_dagger_hud"
 		)
-
-
-		print(
-			"NPC encontrado: ",
-			enemy.name,
-			" | Distancia: ",
-			sqrt(distance)
-		)
-
-
-		if distance < nearest_distance:
-
-			nearest_distance = distance
-
-			nearest_enemy = enemy
-
-
-	return nearest_enemy
+	)
 
 
 # =========================
-# BUSCAR NPC RECURSIVAMENTE
+# EFECTO RECARGA DAGA
 # =========================
 
-func find_damageable_characters(
-	node,
-	results
-):
+func animate_dagger_recharge():
+
+	if dagger_hud_tween != null:
+
+		if dagger_hud_tween.is_valid():
+
+			dagger_hud_tween.kill()
 
 
-	for child in node.get_children():
+	reset_dagger_hud()
 
 
-		# =========================
-		# POSIBLE NPC
-		# =========================
+	# Guardar el color correspondiente
+	# al número actual de cargas.
 
-		if child is CharacterBody2D:
-
-			if child != self:
-
-				if child.has_method(
-					"take_damage"
-				):
-
-					results.append(
-						child
-					)
+	var normal_color = dagger_hud.modulate
 
 
-		# =========================
-		# BUSCAR EN SUS HIJOS
-		# =========================
+	dagger_hud_tween = create_tween()
 
-		find_damageable_characters(
-			child,
-			results
+
+	# Crecer
+
+	dagger_hud_tween.tween_property(
+		dagger_hud,
+		"scale",
+		dagger_hud_base_scale * 1.18,
+		0.10
+	)
+
+
+	# Flash blanco
+
+	dagger_hud_tween.parallel().tween_property(
+		dagger_hud,
+		"modulate",
+		Color(
+			1.8,
+			1.8,
+			1.8,
+			1.0
+		),
+		0.10
+	)
+
+
+	# Volver de tamaño
+
+	dagger_hud_tween.tween_property(
+		dagger_hud,
+		"scale",
+		dagger_hud_base_scale,
+		0.15
+	)
+
+
+	# Volver al brillo de las cargas actuales
+
+	dagger_hud_tween.parallel().tween_property(
+		dagger_hud,
+		"modulate",
+		normal_color,
+		0.15
+	)
+
+
+	dagger_hud_tween.tween_callback(
+		Callable(
+			self,
+			"reset_dagger_hud"
 		)
+	)
 
 
 # =========================
@@ -631,6 +1105,7 @@ func regenerate_daggers():
 
 	while dagger_charges < max_dagger_charges:
 
+
 		await get_tree().create_timer(
 			dagger_regen_time
 		).timeout
@@ -638,7 +1113,13 @@ func regenerate_daggers():
 
 		if dagger_charges < max_dagger_charges:
 
+
 			dagger_charges += 1
+
+
+			update_dagger_hud()
+
+			animate_dagger_recharge()
 
 
 			print(
@@ -653,10 +1134,91 @@ func regenerate_daggers():
 
 
 # =========================
+# ENEMIGO MÁS CERCANO
+# =========================
+
+func get_nearest_enemy():
+
+	var possible_enemies = []
+
+
+	find_damageable_characters(
+		get_tree().current_scene,
+		possible_enemies
+	)
+
+
+	var nearest_enemy = null
+	var nearest_distance = INF
+
+
+	for enemy in possible_enemies:
+
+
+		if not is_instance_valid(enemy):
+			continue
+
+
+		if enemy == self:
+			continue
+
+
+		var distance = (
+			global_position.distance_squared_to(
+				enemy.global_position
+			)
+		)
+
+
+		if distance < nearest_distance:
+
+			nearest_distance = distance
+			nearest_enemy = enemy
+
+
+	return nearest_enemy
+
+
+# =========================
+# BUSCAR ENEMIGOS
+# =========================
+
+func find_damageable_characters(
+	node,
+	results
+):
+
+	for child in node.get_children():
+
+
+		if child is CharacterBody2D:
+
+
+			if child != self:
+
+
+				if child.has_method(
+					"take_damage"
+				):
+
+					results.append(child)
+
+
+		find_damageable_characters(
+			child,
+			results
+		)
+
+
+# =========================
 # ACTIVAR ESCUDO
 # =========================
 
 func activate_shield():
+
+	if is_healing:
+		return
+
 
 	if shield_active:
 		return
@@ -674,12 +1236,9 @@ func activate_shield():
 
 	animated_sprite.visible = false
 
-
 	shield_sprite.visible = true
+
 	shield_sprite.play("shield")
-
-
-	print("Escudo activado")
 
 
 	await get_tree().create_timer(
@@ -706,9 +1265,6 @@ func activate_shield():
 	can_activate_shield = true
 
 
-	print("Escudo disponible")
-
-
 # =========================
 # DESACTIVAR ESCUDO
 # =========================
@@ -716,17 +1272,12 @@ func activate_shield():
 func deactivate_shield():
 
 	shield_active = false
-
 	perfect_block_active = false
 
 
 	shield_sprite.visible = false
 
-
 	animated_sprite.visible = true
-
-
-	print("Escudo desactivado")
 
 
 # =========================
@@ -741,51 +1292,36 @@ func take_damage(damage):
 	if shield_active:
 
 
-		# BLOQUEO PERFECTO
-
 		if perfect_block_active:
 
 			final_damage = 0
 
-
 			print("¡BLOQUEO PERFECTO!")
-
 
 			perfect_block_flash()
 
 
-		# BLOQUEO NORMAL
-
 		else:
 
-			final_damage = damage * (
-				1.0
-				- shield_damage_reduction
+			final_damage = (
+				damage
+				* (
+					1.0
+					- shield_damage_reduction
+				)
 			)
 
-
-			print(
-				"Bloqueo normal. Daño recibido: ",
-				final_damage
-			)
-
-
-	# =========================
-	# CAMERA SHAKE
-	# =========================
 
 	if final_damage > 0:
+
 		camera_shake()
 
-
-	# =========================
-	# DAÑO
-	# =========================
 
 	health -= final_damage
 
 
 	if health < 0:
+
 		health = 0
 
 
@@ -801,6 +1337,7 @@ func take_damage(damage):
 
 
 	if health <= 0:
+
 		die()
 
 
@@ -823,12 +1360,7 @@ func perfect_block_flash():
 	).timeout
 
 
-	shield_sprite.modulate = Color(
-		1,
-		1,
-		1,
-		1
-	)
+	shield_sprite.modulate = Color.WHITE
 
 
 # =========================
@@ -887,6 +1419,7 @@ func heal(amount):
 
 
 	if health > max_health:
+
 		health = max_health
 
 
@@ -899,6 +1432,36 @@ func heal(amount):
 		"/",
 		max_health
 	)
+
+
+# =========================
+# VOLVER A IDLE
+# =========================
+
+func play_idle_animation():
+
+	if abs(facing_direction.x) > abs(facing_direction.y):
+
+
+		if facing_direction.x > 0:
+
+			animated_sprite.play("idle_right")
+
+		else:
+
+			animated_sprite.play("idle_left")
+
+
+	else:
+
+
+		if facing_direction.y > 0:
+
+			animated_sprite.play("idle_down")
+
+		else:
+
+			animated_sprite.play("idle_up")
 
 
 # =========================

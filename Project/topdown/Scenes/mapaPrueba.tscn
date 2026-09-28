@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://d3g7mcix4dw2q"]
 
 [ext_resource type="PackedScene" uid="uid://bm2j4weqdw3jk" path="res://Scenes/player.tscn" id="1_gkxnq"]
-[ext_resource type="PackedScene" uid="uid://dwvct1rbbnx7g" path="res://NPCs/Wayobs.tscn" id="1_xhuvk"]
 [ext_resource type="Texture2D" uid="uid://ciwmenfmgnji5" path="res://assets/Fondos/WhatsApp Image 2026-09-25 at 4.17.27 PM.jpeg" id="2_wrjfv"]
+[ext_resource type="PackedScene" uid="uid://d0d2ol47stdrq" path="res://NPCs/Camazots.tscn" id="4_m6hh2"]
 [ext_resource type="AudioStream" uid="uid://ddjjxg83auykl" path="res://assets/Audio/Music/Musica de fondo.wav" id="4_xhuvk"]
 
 [node name="Node2D" type="Node2D" unique_id=114042325]
@@ -20,5 +20,5 @@ position = Vector2(-493, 24)
 position = Vector2(-109, -309)
 stream = ExtResource("4_xhuvk")
 
-[node name="Wayob" parent="." unique_id=272724457 instance=ExtResource("1_xhuvk")]
-position = Vector2(-268, -521)
+[node name="Camazots" parent="." unique_id=272724457 instance=ExtResource("4_m6hh2")]
+position = Vector2(-266, -409)

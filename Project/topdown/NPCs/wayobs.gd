@@ -256,6 +256,8 @@ func try_attack():
 # =========================
 
 func try_summon_illusions():
+	if health <= 0:
+		return
 
 	if illusion_scene == null:
 		print("ADVERTENCIA: 'Illusion Scene' está vacío en el Inspector del villano. Asigna ilusion_clon.tscn ahí.")
@@ -381,8 +383,7 @@ func take_damage(damage, attacker_position = null):
 	# INVOCAR ILUSIONES AL SER GOLPEADO
 	# =========================
 
-	try_summon_illusions()
-
+	try_summon_illusions.call_deferred()
 
 	if attacker_position != null:
 

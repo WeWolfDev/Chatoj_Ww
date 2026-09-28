@@ -13,6 +13,7 @@
 [ext_resource type="Texture2D" uid="uid://s72kdmbs5ykl" path="res://assets/Animaciones/char_run_left_anim_strip_6.png" id="11_jwufo"]
 [ext_resource type="Texture2D" uid="uid://c8544fscpm1yf" path="res://assets/Animaciones/char_run_right_anim_strip_6.png" id="12_35af7"]
 [ext_resource type="Texture2D" uid="uid://3r67lua7bfbk" path="res://assets/Animaciones/char_run_up_anim_strip_6.png" id="13_idf61"]
+[ext_resource type="PackedScene" uid="uid://b7jwhg35t35m4" path="res://Scenes/npc1.tscn" id="14_qrxy0"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qqcod"]
 atlas = ExtResource("2_ih6jo")
@@ -663,3 +664,10 @@ collision_layer = 0
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionArea" unique_id=964657278]
 position = Vector2(29, 26)
 shape = SubResource("CircleShape2D_v1p6p")
+
+[node name="NPC" parent="." unique_id=1070288709 instance=ExtResource("14_qrxy0")]
+position = Vector2(-338, 194)
+
+[node name="HealthBar" type="ProgressBar" parent="." unique_id=1108208333]
+offset_right = 4.0
+offset_bottom = 27.0

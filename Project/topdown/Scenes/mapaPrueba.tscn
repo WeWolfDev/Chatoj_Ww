@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://ciwmenfmgnji5" path="res://assets/Fondos/WhatsApp Image 2026-09-25 at 4.17.27 PM.jpeg" id="2_wrjfv"]
 [ext_resource type="PackedScene" uid="uid://b7jwhg35t35m4" path="res://Scenes/npc1.tscn" id="4_m6hh2"]
 [ext_resource type="AudioStream" uid="uid://ddjjxg83auykl" path="res://assets/Audio/Music/Musica de fondo.wav" id="4_xhuvk"]
+[ext_resource type="PackedScene" uid="uid://d0d2ol47stdrq" path="res://NPCs/Camazots.tscn" id="5_m6hh2"]
 
 [node name="Node2D" type="Node2D" unique_id=114042325]
 
@@ -22,3 +23,6 @@ stream = ExtResource("4_xhuvk")
 
 [node name="NPC" parent="." unique_id=272724457 instance=ExtResource("4_m6hh2")]
 position = Vector2(-80, -365)
+
+[node name="Camazots" parent="." unique_id=80789014 instance=ExtResource("5_m6hh2")]
+position = Vector2(-516, -558)

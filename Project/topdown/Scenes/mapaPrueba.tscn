@@ -21,4 +21,4 @@ position = Vector2(-109, -309)
 stream = ExtResource("4_xhuvk")
 
 [node name="NPC" parent="." unique_id=272724457 instance=ExtResource("4_m6hh2")]
-position = Vector2(-109, -309)
+position = Vector2(-80, -365)

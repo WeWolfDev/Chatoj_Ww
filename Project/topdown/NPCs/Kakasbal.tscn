@@ -13,7 +13,6 @@
 [ext_resource type="Texture2D" uid="uid://s72kdmbs5ykl" path="res://assets/Animaciones/char_run_left_anim_strip_6.png" id="11_jwufo"]
 [ext_resource type="Texture2D" uid="uid://c8544fscpm1yf" path="res://assets/Animaciones/char_run_right_anim_strip_6.png" id="12_35af7"]
 [ext_resource type="Texture2D" uid="uid://3r67lua7bfbk" path="res://assets/Animaciones/char_run_up_anim_strip_6.png" id="13_idf61"]
-[ext_resource type="PackedScene" uid="uid://b7jwhg35t35m4" path="res://Scenes/npc1.tscn" id="14_qrxy0"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qqcod"]
 atlas = ExtResource("2_ih6jo")
@@ -625,36 +624,34 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_v0iea"]
-size = Vector2(64, 66)
+size = Vector2(89, 43)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_82v0y"]
-size = Vector2(42.5, 20)
+size = Vector2(81.25, 46)
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_v1p6p"]
-radius = 130.00385
+radius = 243.0
 
 [node name="NPC" type="CharacterBody2D" unique_id=272724457]
-collision_layer = 2
-collision_mask = 0
+motion_mode = 1
 script = ExtResource("1_0os47")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2002133221]
-position = Vector2(30, 27)
-scale = Vector2(4.375, 4.375)
+position = Vector2(-3.5000038, -8.500001)
+scale = Vector2(8.5625, 8.812499)
 sprite_frames = SubResource("SpriteFrames_f60y1")
 animation = &"dash_up"
 autoplay = "idle_down"
 frame_progress = 0.88306344
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2041622108]
-position = Vector2(29, 26)
+position = Vector2(-3.5, 25.5)
 shape = SubResource("RectangleShape2D_v0iea")
 
 [node name="Hurtbox" type="Area2D" parent="." unique_id=2107688576]
-collision_layer = 8
-collision_mask = 4
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox" unique_id=689621327]
+position = Vector2(-43, -68)
 scale = Vector2(2, 2)
 shape = SubResource("RectangleShape2D_82v0y")
 
@@ -662,11 +659,8 @@ shape = SubResource("RectangleShape2D_82v0y")
 collision_layer = 0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionArea" unique_id=964657278]
-position = Vector2(29, 26)
+position = Vector2(0, -3)
 shape = SubResource("CircleShape2D_v1p6p")
-
-[node name="NPC" parent="." unique_id=1070288709 instance=ExtResource("14_qrxy0")]
-position = Vector2(-338, 194)
 
 [node name="HealthBar" type="ProgressBar" parent="." unique_id=1108208333]
 offset_right = 4.0

@@ -1,0 +1,61 @@
+﻿archivo,sistema,uso_recomendado
+SFX/Player/player_sword_swing.wav,Player,attack() al iniciar el espadazo
+SFX/Player/player_sword_hit.wav,Player/Enemigos,cuando la espada conecta con un enemigo
+SFX/Player/player_dash.wav,Player,dash()
+SFX/Player/player_shield_raise.wav,Player,activate_shield()
+SFX/Player/player_shield_block.wav,Player,take_damage() mientras shield_active
+SFX/Player/player_perfect_block.wav,Player,perfect_block_flash()
+SFX/Player/player_dagger_throw.wav,Player,throw_dagger()
+SFX/Player/player_dagger_hit.wav,DaggerProjectile,hit_enemy()
+SFX/Player/player_dagger_disappear.wav,DaggerProjectile,disappear()
+SFX/Player/player_bleed_tick.wav,DaggerProjectile,cada tick en apply_bleed()
+SFX/Player/player_heal_start.wav,Player,use_heal_consumable() al comenzar
+SFX/Player/player_heal_complete.wav,Player,después de heal()
+SFX/Player/player_hurt.wav,Player,take_damage() si final_damage > 0
+SFX/Player/player_death.wav,Player,die()
+SFX/Player/player_step_stone_1.wav,Player,"pasos opcionales, alternar por frames"
+SFX/Player/player_step_stone_2.wav,Player,"pasos opcionales, alternar por frames"
+SFX/UI/ui_hover.wav,MainMenu/DeathScreen,mouse_entered de botones
+SFX/UI/ui_click.wav,MainMenu/DeathScreen,button_down/pressed
+SFX/UI/ui_confirm.wav,UI,confirmación genérica
+SFX/UI/checkpoint_activate.wav,Checkpoint,_on_body_entered()
+SFX/UI/death_screen_reveal.wav,DeathScreen,al iniciar el fade de muerte
+SFX/UI/respawn.wav,DeathScreen,al elegir Último Checkpoint
+SFX/UI/game_start_stinger.wav,MainMenu,al pulsar JUGAR
+SFX/Enemies/Soldier/soldier_detect.wav,Soldado/NPC,_on_detection_area_body_entered()
+SFX/Enemies/Soldier/soldier_attack.wav,Soldado/NPC,try_attack()
+SFX/Enemies/Soldier/soldier_hurt.wav,Soldado/NPC,take_damage()
+SFX/Enemies/Soldier/soldier_death.wav,Soldado/NPC,die()
+SFX/Enemies/Wayob/wayob_attack.wav,Wayob,try_attack()
+SFX/Enemies/Wayob/wayob_hurt.wav,Wayob,take_damage()
+SFX/Enemies/Wayob/wayob_summon.wav,Wayob,try_summon_illusions()
+SFX/Enemies/Wayob/wayob_swap.wav,Wayob,al intercambiar posición con una sombra
+SFX/Enemies/Wayob/wayob_shadow_vanish.wav,Wayob Shadow,vanish()
+SFX/Enemies/Wayob/wayob_death.wav,Wayob,die()
+SFX/Enemies/Bat/bat_bite.wav,Murciélago,try_attack()
+SFX/Enemies/Bat/bat_hurt.wav,Murciélago,take_damage()
+SFX/Enemies/Bat/bat_death.wav,Murciélago,die()
+SFX/Enemies/Bat/bat_flap_loop.wav,Murciélago,loop opcional mientras vuela
+SFX/Bosses/Camazots/camazots_charge_windup.wav,Camazots,WINDUP_CHARGE
+SFX/Bosses/Camazots/camazots_charge.wav,Camazots,CHARGING
+SFX/Bosses/Camazots/camazots_slam_windup.wav,Camazots,WINDUP_SLAM
+SFX/Bosses/Camazots/camazots_slam_impact.wav,Camazots,cuando termina el slam
+SFX/Bosses/Camazots/camazots_summon.wav,Camazots,WINDUP_SUMMON / spawn_bats()
+SFX/Bosses/Camazots/camazots_enrage.wav,Camazots,enter_enraged()
+SFX/Bosses/Camazots/camazots_hurt.wav,Camazots,take_damage()
+SFX/Bosses/Camazots/camazots_death.wav,Camazots,die()
+SFX/Bosses/Kakasbal/kakasbal_scratch_windup.wav,Kakasbal,start_scratch_windup()
+SFX/Bosses/Kakasbal/kakasbal_scratch.wav,Kakasbal,cuando conecta/ejecuta rasguño
+SFX/Bosses/Kakasbal/kakasbal_tail_windup.wav,Kakasbal,start_tail_windup()
+SFX/Bosses/Kakasbal/kakasbal_tail_sweep.wav,Kakasbal,cuando ejecuta coletazo
+SFX/Bosses/Kakasbal/kakasbal_charge_windup.wav,Kakasbal,start_charge_windup()
+SFX/Bosses/Kakasbal/kakasbal_charge_lock.wav,Kakasbal,cuando charge_locked = true
+SFX/Bosses/Kakasbal/kakasbal_charge.wav,Kakasbal,CHARGING
+SFX/Bosses/Kakasbal/kakasbal_wall_crash.wav,Kakasbal,hit_obstacle() durante embestida
+SFX/Bosses/Kakasbal/kakasbal_hurt.wav,Kakasbal,take_damage()
+SFX/Bosses/Kakasbal/kakasbal_enrage.wav,Kakasbal,enter_enraged()
+SFX/Bosses/Kakasbal/kakasbal_death.wav,Kakasbal,die()
+Ambience/jungle_ambience_loop.wav,Mapa,ambiente de jungla en loop
+Music/main_menu_theme_loop.wav,MainMenu,"música de menú, Loop ON"
+Music/exploration_theme_loop.wav,mapaPrueba,"música de exploración, Loop ON"
+Music/boss_theme_loop.wav,Jefes,"música para Camazots/Kakasbal, Loop ON"

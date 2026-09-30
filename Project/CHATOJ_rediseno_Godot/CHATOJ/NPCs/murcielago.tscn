@@ -1,0 +1,109 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://murcielago.gd" id="1_m24mm"]
+[ext_resource type="Texture2D" path="res://assets/Rediseno/actor_7_0.png" id="2_wvjqc"]
+[ext_resource type="Texture2D" path="res://assets/Rediseno/actor_7_3.png" id="3_46olg"]
+[ext_resource type="Texture2D" path="res://assets/Rediseno/actor_7_1.png" id="4_ml1rl"]
+[ext_resource type="Texture2D" path="res://assets/Rediseno/actor_7_2.png" id="5_16k04"]
+[ext_resource type="Script" path="res://Scripts/sprite_motion.gd" id="6_gaglw"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5n3tw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_wvjqc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_wvjqc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_wvjqc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_wvjqc")
+}],
+"loop": 1,
+"name": &"fly",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_46olg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_46olg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_46olg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_46olg")
+}],
+"loop": 1,
+"name": &"fly_back",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_ml1rl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ml1rl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ml1rl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ml1rl")
+}],
+"loop": 1,
+"name": &"fly_left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_16k04")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_16k04")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_16k04")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_16k04")
+}],
+"loop": 1,
+"name": &"fly_right",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_i2bjb"]
+size = Vector2(57, 45)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_53rd1"]
+radius = 53.0
+
+[node name="Murcielago" type="CharacterBody2D" unique_id=650511299 groups=["enemies", "player_attack"]]
+collision_layer = 2
+motion_mode = 1
+script = ExtResource("1_m24mm")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=52533536]
+texture_filter = 2
+position = Vector2(0, -14.4)
+scale = Vector2(0.53571427, 0.53571427)
+sprite_frames = SubResource("SpriteFrames_5n3tw")
+animation = &"fly"
+script = ExtResource("6_gaglw")
+flying = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=414516395]
+position = Vector2(4.5, 3.5)
+shape = SubResource("RectangleShape2D_i2bjb")
+
+[node name="Hurtbox" type="Area2D" parent="." unique_id=1690863471]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox" unique_id=580993315]
+position = Vector2(5, 3)
+shape = SubResource("CircleShape2D_53rd1")

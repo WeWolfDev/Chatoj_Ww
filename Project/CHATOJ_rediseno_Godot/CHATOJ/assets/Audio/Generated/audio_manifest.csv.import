@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cofefrb0ns47d"
+
+[deps]
+
+files=["res://assets/Audio/Generated/audio_manifest.sistema.translation", "res://assets/Audio/Generated/audio_manifest.uso.translation"]
+
+source_file="res://assets/Audio/Generated/audio_manifest.csv"
+dest_files=["res://assets/Audio/Generated/audio_manifest.sistema.translation", "res://assets/Audio/Generated/audio_manifest.uso.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

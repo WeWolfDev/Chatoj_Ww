@@ -1,0 +1,346 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://NPCs/wayobs_shadow.gd" id="1_uhail"]
+[ext_resource type="Texture2D" path="res://assets/Rediseno/actor_4_0.png" id="2_htpcl"]
+[ext_resource type="Texture2D" path="res://assets/Rediseno/actor_4_1.png" id="3_k7kmu"]
+[ext_resource type="Texture2D" path="res://assets/Rediseno/actor_4_2.png" id="4_ndiho"]
+[ext_resource type="Texture2D" path="res://assets/Rediseno/actor_4_3.png" id="5_1i0le"]
+[ext_resource type="Script" path="res://Scripts/sprite_motion.gd" id="6_q1oqp"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yp4ia"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_htpcl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_htpcl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_htpcl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_htpcl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_htpcl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_htpcl")
+}],
+"loop": 1,
+"name": &"dash_down",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_k7kmu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_k7kmu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_k7kmu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_k7kmu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_k7kmu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_k7kmu")
+}],
+"loop": 1,
+"name": &"dash_left",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_ndiho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ndiho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ndiho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ndiho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ndiho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ndiho")
+}],
+"loop": 1,
+"name": &"dash_right",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_1i0le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1i0le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1i0le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1i0le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1i0le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1i0le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1i0le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1i0le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1i0le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1i0le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1i0le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1i0le")
+}],
+"loop": 1,
+"name": &"dash_up",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_htpcl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_htpcl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_htpcl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_htpcl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_htpcl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_htpcl")
+}],
+"loop": 1,
+"name": &"idle_down",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_k7kmu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_k7kmu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_k7kmu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_k7kmu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_k7kmu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_k7kmu")
+}],
+"loop": 1,
+"name": &"idle_left",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_ndiho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ndiho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ndiho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ndiho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ndiho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ndiho")
+}],
+"loop": 1,
+"name": &"idle_right",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_1i0le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1i0le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1i0le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1i0le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1i0le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1i0le")
+}],
+"loop": 1,
+"name": &"idle_up",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_htpcl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_htpcl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_htpcl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_htpcl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_htpcl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_htpcl")
+}],
+"loop": 1,
+"name": &"run_down",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_k7kmu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_k7kmu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_k7kmu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_k7kmu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_k7kmu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_k7kmu")
+}],
+"loop": 1,
+"name": &"run_left",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_ndiho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ndiho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ndiho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ndiho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ndiho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ndiho")
+}],
+"loop": 1,
+"name": &"run_right",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_1i0le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1i0le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1i0le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1i0le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1i0le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1i0le")
+}],
+"loop": 1,
+"name": &"run_up",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v0iea"]
+size = Vector2(64, 66)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_82v0y"]
+size = Vector2(42.5, 20)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_v1p6p"]
+radius = 130.00385
+
+[node name="NPC" type="CharacterBody2D" unique_id=272724457]
+collision_layer = 2
+script = ExtResource("1_uhail")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2002133221]
+texture_filter = 2
+position = Vector2(0, -21.6)
+scale = Vector2(0.8035714, 0.8035714)
+sprite_frames = SubResource("SpriteFrames_yp4ia")
+animation = &"dash_up"
+autoplay = "idle_down"
+script = ExtResource("6_q1oqp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2041622108]
+position = Vector2(29, 26)
+shape = SubResource("RectangleShape2D_v0iea")
+
+[node name="Hurtbox" type="Area2D" parent="." unique_id=2107688576]
+collision_layer = 8
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox" unique_id=689621327]
+scale = Vector2(2, 2)
+shape = SubResource("RectangleShape2D_82v0y")
+
+[node name="DetectionArea" type="Area2D" parent="." unique_id=1275441828]
+collision_layer = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionArea" unique_id=964657278]
+position = Vector2(29, 26)
+shape = SubResource("CircleShape2D_v1p6p")

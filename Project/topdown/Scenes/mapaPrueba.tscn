@@ -1,7 +1,6 @@
 [gd_scene format=3 uid="uid://d3g7mcix4dw2q"]
 
 [ext_resource type="PackedScene" uid="uid://bm2j4weqdw3jk" path="res://Scenes/player.tscn" id="1_gkxnq"]
-[ext_resource type="Texture2D" uid="uid://ciwmenfmgnji5" path="res://assets/Fondos/WhatsApp Image 2026-09-25 at 4.17.27 PM.jpeg" id="2_wrjfv"]
 [ext_resource type="PackedScene" uid="uid://b7jwhg35t35m4" path="res://Scenes/npc1.tscn" id="4_m6hh2"]
 [ext_resource type="AudioStream" uid="uid://ddjjxg83auykl" path="res://assets/Audio/Music/Musica de fondo.wav" id="4_xhuvk"]
 [ext_resource type="PackedScene" uid="uid://d0d2ol47stdrq" path="res://NPCs/Camazots.tscn" id="5_m6hh2"]
@@ -10,14 +9,10 @@
 [ext_resource type="PackedScene" uid="uid://dg0pkl0556rll" path="res://NPCs/Soldado.tscn" id="8_hybnr"]
 [ext_resource type="PackedScene" uid="uid://dr5pcy4loqpn7" path="res://NPCs/Wayobs_shadow.tscn" id="9_7b34l"]
 [ext_resource type="PackedScene" uid="uid://dwvct1rbbnx7g" path="res://NPCs/Wayobs.tscn" id="10_jvh2n"]
+[ext_resource type="Texture2D" uid="uid://biew0lp4k0e0r" path="res://assets/Fondos/Mapa_master_10752x7168.png" id="11_hybnr"]
+[ext_resource type="PackedScene" uid="uid://cwroijqqjhhct" path="res://Scenes/checkpoint.tscn" id="11_ok606"]
 
 [node name="Node2D" type="Node2D" unique_id=114042325]
-
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1415810993]
-z_index = -1
-position = Vector2(-336.00018, -638.0001)
-scale = Vector2(1.7566667, 1.7566667)
-texture = ExtResource("2_wrjfv")
 
 [node name="Player" parent="." unique_id=96486904 instance=ExtResource("1_gkxnq")]
 position = Vector2(-493, 24)
@@ -46,3 +41,10 @@ position = Vector2(-1239, -387)
 
 [node name="Wayob" parent="." unique_id=1274164152 instance=ExtResource("10_jvh2n")]
 position = Vector2(-141, -143)
+
+[node name="Checkpoint" parent="." unique_id=1567582986 instance=ExtResource("11_ok606")]
+position = Vector2(320, -25)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1976003445]
+z_index = -2
+texture = ExtResource("11_hybnr")

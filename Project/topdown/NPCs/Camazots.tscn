@@ -4,22 +4,6 @@
 [ext_resource type="PackedScene" uid="uid://bp0ofmqeypory" path="res://NPCs/murcielago.tscn" id="2_8d8cv"]
 [ext_resource type="Texture2D" uid="uid://4myhieok82g7" path="res://assets/Animaciones/camazots_idea1.png" id="3_e3vss"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_ty1vh"]
-atlas = ExtResource("3_e3vss")
-region = Rect2(0, 0, 221, 221)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_wqrtw"]
-atlas = ExtResource("3_e3vss")
-region = Rect2(221, 0, 221, 221)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_kqthk"]
-atlas = ExtResource("3_e3vss")
-region = Rect2(442, 0, 221, 221)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_h31w1"]
-atlas = ExtResource("3_e3vss")
-region = Rect2(663, 0, 221, 221)
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_hkrlt"]
 atlas = ExtResource("3_e3vss")
 region = Rect2(0, 221, 221, 221)
@@ -35,6 +19,22 @@ region = Rect2(442, 221, 221, 221)
 [sub_resource type="AtlasTexture" id="AtlasTexture_kfnd2"]
 atlas = ExtResource("3_e3vss")
 region = Rect2(663, 221, 221, 221)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ty1vh"]
+atlas = ExtResource("3_e3vss")
+region = Rect2(0, 0, 221, 221)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wqrtw"]
+atlas = ExtResource("3_e3vss")
+region = Rect2(221, 0, 221, 221)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kqthk"]
+atlas = ExtResource("3_e3vss")
+region = Rect2(442, 0, 221, 221)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h31w1"]
+atlas = ExtResource("3_e3vss")
+region = Rect2(663, 0, 221, 221)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_16l7a"]
 atlas = ExtResource("3_e3vss")
@@ -115,21 +115,9 @@ animations = [{
 "name": &"back_attack",
 "speed": 5.0
 }, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_ty1vh")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_wqrtw")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_kqthk")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_h31w1")
-}],
+"frames": [],
 "loop": 1,
-"name": &"fly",
+"name": &"dead",
 "speed": 5.0
 }, {
 "frames": [{
@@ -147,6 +135,23 @@ animations = [{
 }],
 "loop": 1,
 "name": &"fly_back",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ty1vh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wqrtw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kqthk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h31w1")
+}],
+"loop": 1,
+"name": &"fly_front",
 "speed": 5.0
 }, {
 "frames": [{
@@ -200,6 +205,11 @@ animations = [{
 "name": &"front_attack",
 "speed": 5.0
 }, {
+"frames": [],
+"loop": 1,
+"name": &"idle",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_wxa22")
@@ -248,7 +258,7 @@ bat_scene = ExtResource("2_8d8cv")
 position = Vector2(0.99998856, -0.9999962)
 scale = Vector2(1.3475324, 1.2468536)
 sprite_frames = SubResource("SpriteFrames_v1p6p")
-animation = &"fly"
+animation = &"dead"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2041622108]
 position = Vector2(19, 18.75)

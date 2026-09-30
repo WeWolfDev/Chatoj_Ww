@@ -11,6 +11,8 @@ var target = null
 var detection_range = 220.0
 var forget_range = 400.0
 
+var facing_direction = Vector2.DOWN  # hacia dónde mira (para elegir animación)
+
 
 # =========================
 # ATAQUE DEL VILLANO
@@ -74,7 +76,7 @@ func _ready():
 
 	health = max_health
 
-	animated_sprite.play("idle_down")
+	animated_sprite.play("idle")
 
 	hurtbox.area_entered.connect(_on_hurtbox_area_entered)
 
@@ -129,6 +131,8 @@ func _physics_process(delta):
 
 		velocity = Vector2.ZERO
 
+		play_movement_animation(facing_direction)
+
 		move_and_slide()
 
 		return
@@ -155,6 +159,8 @@ func _physics_process(delta):
 
 		velocity = Vector2.ZERO
 
+		play_movement_animation(facing_direction)
+
 		move_and_slide()
 
 		return
@@ -168,6 +174,8 @@ func _physics_process(delta):
 		target.global_position - global_position
 	).normalized()
 
+	facing_direction = direction
+
 
 	# =========================
 	# PERSEGUIR
@@ -177,23 +185,7 @@ func _physics_process(delta):
 
 		velocity = direction * speed
 
-
-		if abs(direction.x) > abs(direction.y):
-
-			if direction.x > 0:
-				animated_sprite.play("run_right")
-
-			else:
-				animated_sprite.play("run_left")
-
-
-		else:
-
-			if direction.y > 0:
-				animated_sprite.play("run_down")
-
-			else:
-				animated_sprite.play("run_up")
+		play_movement_animation(direction)
 
 
 	# =========================
@@ -234,6 +226,8 @@ func try_attack():
 
 
 	can_attack = false
+
+	play_attack_animation(facing_direction)
 
 
 	if target and target.has_method("take_damage"):
@@ -337,6 +331,41 @@ func try_summon_illusions():
 
 
 # =========================
+# ANIMACIONES
+# =========================
+
+func get_direction_name(direction):
+
+	if abs(direction.x) > abs(direction.y):
+
+		if direction.x > 0:
+			return "right"
+
+		return "left"
+
+	if direction.y > 0:
+		return "front"  # de frente (hacia abajo en pantalla)
+
+	return "back"  # de espaldas (hacia arriba en pantalla)
+
+
+# Elige "walk_x" si se está moviendo, o el "idle" único si está detenido
+func play_movement_animation(direction):
+
+	facing_direction = direction
+
+	if velocity.length() < 1.0:
+		animated_sprite.play("idle")
+	else:
+		animated_sprite.play("walk_" + get_direction_name(direction))
+
+
+func play_attack_animation(direction):
+
+	animated_sprite.play(get_direction_name(direction) + "_attack")
+
+
+# =========================
 # HURTBOX
 # =========================
 
@@ -379,6 +408,13 @@ func take_damage(damage, attacker_position = null):
 	)
 
 
+	if health <= 0:
+
+		die()
+
+		return
+
+
 	# =========================
 	# INVOCAR ILUSIONES AL SER GOLPEADO
 	# =========================
@@ -398,10 +434,6 @@ func take_damage(damage, attacker_position = null):
 
 
 	flash_hurt()
-
-
-	if health <= 0:
-		die()
 
 
 # =========================
@@ -430,5 +462,14 @@ func flash_hurt():
 func die():
 
 	print("El villano ha muerto")
+
+	# Queda inmóvil y deja de recibir/hacer daño mientras muere
+	set_physics_process(false)
+	hurtbox.set_deferred("monitoring", false)
+	velocity = Vector2.ZERO
+
+	animated_sprite.play("dead")
+
+	await animated_sprite.animation_finished
 
 	queue_free()

@@ -162,7 +162,7 @@ func _ready():
 
 	attack_timer = attack_interval
 
-	play_directional_animation("walk", Vector2.DOWN)
+	animated_sprite.play("idle")
 
 	hurtbox.area_entered.connect(_on_hurtbox_area_entered)
 
@@ -356,6 +356,16 @@ func direction_to_target():
 	return (target.global_position - global_position).normalized()
 
 
+# Elige "walk_x" si se está moviendo, o el "idle" único si está detenido
+# (perseguir a poca distancia, o frenando tras una embestida)
+func play_movement_animation(direction):
+
+	if velocity.length() < 1.0:
+		animated_sprite.play("idle")
+	else:
+		play_directional_animation("walk", direction)
+
+
 # =========================
 # ESTADO: PERSEGUIR
 # =========================
@@ -375,7 +385,7 @@ func process_chase(delta):
 	else:
 		velocity = Vector2.ZERO
 
-	play_directional_animation("walk", facing_direction)
+	play_movement_animation(facing_direction)
 
 
 	# Cuenta atrás para el próximo ataque especial
@@ -691,7 +701,7 @@ func enter_recover(duration = -1.0):
 
 	state_timer = duration
 
-	play_directional_animation("walk", facing_direction)
+	play_movement_animation(facing_direction)
 
 	queue_redraw()
 
@@ -700,6 +710,9 @@ func process_recover(delta):
 
 	# Frena poco a poco (derrape tras la embestida)
 	velocity = velocity.move_toward(Vector2.ZERO, skid_friction * delta)
+
+	# Cuando ya se detiene del todo, pasa de la animación de embestida/derrape a idle
+	play_movement_animation(facing_direction)
 
 	state_timer -= delta
 
@@ -984,5 +997,17 @@ func flash_hurt():
 func die():
 
 	print("Kakasbal ha muerto")
+
+	# Queda inmóvil y deja de recibir/hacer daño mientras muere
+	set_physics_process(false)
+	hurtbox.set_deferred("monitoring", false)
+	velocity = Vector2.ZERO
+
+	if health_bar:
+		health_bar.visible = false
+
+	animated_sprite.play("dead")
+
+	await animated_sprite.animation_finished
 
 	queue_free()

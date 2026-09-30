@@ -5,6 +5,11 @@
 [ext_resource type="PackedScene" uid="uid://b7jwhg35t35m4" path="res://Scenes/npc1.tscn" id="4_m6hh2"]
 [ext_resource type="AudioStream" uid="uid://ddjjxg83auykl" path="res://assets/Audio/Music/Musica de fondo.wav" id="4_xhuvk"]
 [ext_resource type="PackedScene" uid="uid://d0d2ol47stdrq" path="res://NPCs/Camazots.tscn" id="5_m6hh2"]
+[ext_resource type="PackedScene" uid="uid://cvnfahsmp811n" path="res://NPCs/Kakasbal.tscn" id="6_1suf2"]
+[ext_resource type="PackedScene" uid="uid://bp0ofmqeypory" path="res://NPCs/murcielago.tscn" id="7_ok606"]
+[ext_resource type="PackedScene" uid="uid://dg0pkl0556rll" path="res://NPCs/Soldado.tscn" id="8_hybnr"]
+[ext_resource type="PackedScene" uid="uid://dr5pcy4loqpn7" path="res://NPCs/Wayobs_shadow.tscn" id="9_7b34l"]
+[ext_resource type="PackedScene" uid="uid://dwvct1rbbnx7g" path="res://NPCs/Wayobs.tscn" id="10_jvh2n"]
 
 [node name="Node2D" type="Node2D" unique_id=114042325]
 
@@ -26,3 +31,18 @@ position = Vector2(-80, -365)
 
 [node name="Camazots" parent="." unique_id=80789014 instance=ExtResource("5_m6hh2")]
 position = Vector2(-516, -558)
+
+[node name="NPC2" parent="." unique_id=660415307 instance=ExtResource("6_1suf2")]
+position = Vector2(240, -565)
+
+[node name="Murcielago" parent="." unique_id=650511299 instance=ExtResource("7_ok606")]
+position = Vector2(-1118, -101)
+
+[node name="NPC3" parent="." unique_id=809860655 instance=ExtResource("8_hybnr")]
+position = Vector2(-847, -120)
+
+[node name="NPC4" parent="." unique_id=1551099574 instance=ExtResource("9_7b34l")]
+position = Vector2(-1239, -387)
+
+[node name="Wayob" parent="." unique_id=1274164152 instance=ExtResource("10_jvh2n")]
+position = Vector2(-141, -143)

@@ -151,3 +151,4 @@ justification_flags = 161
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1764227944]
 libraries/ = SubResource("AnimationLibrary_smuf4")
+autoplay = &"Introduccion"

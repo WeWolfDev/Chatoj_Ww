@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://dn4m1461jr3cr"]
+
+[ext_resource type="Script" uid="uid://dbiwerxueeaqq" path="res://tzucan.gd" id="1_2mbk1"]
+[ext_resource type="Texture2D" uid="uid://fs7wy3jgo64o" path="res://icon.svg" id="2_s73f1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_krwa1"]
+atlas = ExtResource("2_s73f1")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_v1p6p"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_krwa1")
+}],
+"loop": 1,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v1p6p"]
+size = Vector2(118.5, 112)
+
+[node name="Tzucan" type="CharacterBody2D" unique_id=775520832]
+script = ExtResource("1_2mbk1")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1830179093]
+scale = Vector2(3.53125, 3.53125)
+sprite_frames = SubResource("SpriteFrames_v1p6p")
+animation = &"idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=432537623]
+position = Vector2(-1.75, 1)
+shape = SubResource("RectangleShape2D_v1p6p")

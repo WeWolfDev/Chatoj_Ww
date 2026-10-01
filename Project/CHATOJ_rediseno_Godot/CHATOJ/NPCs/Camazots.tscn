@@ -1,12 +1,12 @@
-[gd_scene format=3]
+[gd_scene format=3 uid="uid://bn4plnjvfqm78"]
 
-[ext_resource type="Script" path="res://NPCs/camazots.gd" id="1_prd0a"]
+[ext_resource type="Script" uid="uid://btckm4pc8s7ts" path="res://NPCs/camazots.gd" id="1_prd0a"]
 [ext_resource type="PackedScene" path="res://NPCs/murcielago.tscn" id="2_8d8cv"]
-[ext_resource type="Texture2D" path="res://assets/Rediseno/actor_6_0.png" id="3_kqthk"]
-[ext_resource type="Texture2D" path="res://assets/Rediseno/actor_6_3.png" id="4_h31w1"]
-[ext_resource type="Texture2D" path="res://assets/Rediseno/actor_6_1.png" id="5_kfnd2"]
-[ext_resource type="Texture2D" path="res://assets/Rediseno/actor_6_2.png" id="6_16l7a"]
-[ext_resource type="Script" path="res://Scripts/sprite_motion.gd" id="7_f3dmo"]
+[ext_resource type="Texture2D" uid="uid://c234iotxagjfb" path="res://assets/Rediseno/actor_6_0.png" id="3_kqthk"]
+[ext_resource type="Texture2D" uid="uid://dsyq2rp1js7l5" path="res://assets/Rediseno/actor_6_3.png" id="4_h31w1"]
+[ext_resource type="Texture2D" uid="uid://db35lrge53jte" path="res://assets/Rediseno/actor_6_1.png" id="5_kfnd2"]
+[ext_resource type="Texture2D" uid="uid://dq5uw25rawqot" path="res://assets/Rediseno/actor_6_2.png" id="6_16l7a"]
+[ext_resource type="Script" uid="uid://05abiuljrq5g" path="res://Scripts/sprite_motion.gd" id="7_f3dmo"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_5rb0q"]
 animations = [{
@@ -149,7 +149,7 @@ texture_filter = 2
 position = Vector2(0, -55.2)
 scale = Vector2(2.0535715, 2.0535715)
 sprite_frames = SubResource("SpriteFrames_5rb0q")
-animation = &"fly"
+animation = &"left_attack"
 script = ExtResource("7_f3dmo")
 flying = true
 

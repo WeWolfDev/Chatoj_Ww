@@ -1,14 +1,14 @@
-[gd_resource type="TileSet" format=3 uid="uid://beua1egnqvxnh"]
+[gd_resource type="TileSet" format=3 uid="uid://bcexnt5oylf17"]
 
-[ext_resource type="Texture2D" uid="uid://d1lyiguiq1jc3" path="res://assets/TileSets/Cenote/cenote_64x64_detallado.png" id="1_n15x5"]
-[ext_resource type="Texture2D" uid="uid://c1k1qprttqfhx" path="res://assets/Rediseno/selva_tileset.png" id="2_tq3bx"]
-[ext_resource type="Texture2D" uid="uid://bq4voy6jx7r2h" path="res://assets/TileSets/Cenote/cenote_armado_25x25.png" id="3_qsa7q"]
-[ext_resource type="Texture2D" uid="uid://dl6pigutslvh2" path="res://assets/TileSets/Cenote/cenote_suelo_25x25.png" id="4_tq3bx"]
-[ext_resource type="Texture2D" uid="uid://cf46x6t7ris8j" path="res://assets/TileSets/Cenote/atlas_decoracion_768x576.png" id="5_mrl7m"]
-[ext_resource type="Texture2D" uid="uid://5hqnhsp25c5a" path="res://assets/TileSets/Cenote/atlas_modular_64.png" id="6_mhmyi"]
+[ext_resource type="Texture2D" uid="uid://d1lyiguiq1jc3" path="res://assets/TileSets/Cenote/cenote_64x64_detallado.png" id="1_greuv"]
+[ext_resource type="Texture2D" uid="uid://c1k1qprttqfhx" path="res://assets/Rediseno/selva_tileset.png" id="2_otqif"]
+[ext_resource type="Texture2D" uid="uid://bq4voy6jx7r2h" path="res://assets/TileSets/Cenote/cenote_armado_25x25.png" id="3_71674"]
+[ext_resource type="Texture2D" uid="uid://dl6pigutslvh2" path="res://assets/TileSets/Cenote/cenote_suelo_25x25.png" id="4_v0qaj"]
+[ext_resource type="Texture2D" uid="uid://cf46x6t7ris8j" path="res://assets/TileSets/Cenote/atlas_decoracion_768x576.png" id="5_a2ifb"]
+[ext_resource type="Texture2D" uid="uid://5hqnhsp25c5a" path="res://assets/TileSets/Cenote/atlas_modular_64.png" id="6_p43ai"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mrl7m"]
-texture = ExtResource("1_n15x5")
+texture = ExtResource("1_greuv")
 texture_region_size = Vector2i(64, 64)
 0:0/0 = 0
 1:0/0 = 0
@@ -2044,7 +2044,7 @@ texture_region_size = Vector2i(64, 64)
 63:31/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mhmyi"]
-texture = ExtResource("2_tq3bx")
+texture = ExtResource("2_otqif")
 texture_region_size = Vector2i(64, 64)
 0:0/0 = 0
 1:0/0 = 0
@@ -2176,7 +2176,7 @@ texture_region_size = Vector2i(64, 64)
 15:7/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xkcc0"]
-texture = ExtResource("3_qsa7q")
+texture = ExtResource("3_71674")
 texture_region_size = Vector2i(64, 64)
 0:0/0 = 0
 1:0/0 = 0
@@ -2805,7 +2805,7 @@ texture_region_size = Vector2i(64, 64)
 24:24/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qsa7q"]
-texture = ExtResource("4_tq3bx")
+texture = ExtResource("4_v0qaj")
 texture_region_size = Vector2i(64, 64)
 0:0/0 = 0
 1:0/0 = 0
@@ -3434,7 +3434,7 @@ texture_region_size = Vector2i(64, 64)
 24:24/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mpaak"]
-texture = ExtResource("5_mrl7m")
+texture = ExtResource("5_a2ifb")
 texture_region_size = Vector2i(64, 64)
 0:0/0 = 0
 1:0/0 = 0
@@ -3521,8 +3521,7 @@ texture_region_size = Vector2i(64, 64)
 5:8/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ttrmy"]
-texture = ExtResource("6_mhmyi")
-margins = Vector2i(0, 6)
+texture = ExtResource("6_p43ai")
 texture_region_size = Vector2i(64, 64)
 0:0/0 = 0
 1:0/0 = 0

@@ -17,10 +17,10 @@
 [ext_resource type="Texture2D" uid="uid://cp6bsrkg7tqgd" path="res://assets/DeathScreen/Death.png" id="25_83xs0"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_v0iea"]
-size = Vector2(64, 66)
+size = Vector2(67, 72)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_82v0y"]
-size = Vector2(42.5, 20)
+size = Vector2(51, 27.5)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fd4e3"]
 atlas = ExtResource("14_h4iuc")
@@ -281,14 +281,14 @@ dagger_scene = ExtResource("2_fd4e3")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2002133221]
 texture_filter = 2
-position = Vector2(0, -18.72)
-scale = Vector2(0.6964286, 0.6964286)
+scale = Vector2(1.2, 1.2)
 sprite_frames = ExtResource("3_h4iuc")
 animation = &"idle_up"
 autoplay = "idle_down"
 script = ExtResource("7_wpjfl")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2041622108]
+position = Vector2(-1.5, 3)
 shape = SubResource("RectangleShape2D_v0iea")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=2142554519]
@@ -410,6 +410,7 @@ collision_layer = 4
 collision_mask = 8
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AttackArea" unique_id=689621327]
+position = Vector2(0, 2.5)
 scale = Vector2(2, 2)
 shape = SubResource("RectangleShape2D_82v0y")
 
@@ -419,7 +420,6 @@ sprite_frames = SubResource("SpriteFrames_82v0y")
 animation = &"attack_down"
 
 [node name="ShieldSprite" type="AnimatedSprite2D" parent="." unique_id=794997582]
-position = Vector2(0, -18.72)
-scale = Vector2(0.6964286, 0.6964286)
+scale = Vector2(1.2, 1.2)
 sprite_frames = SubResource("SpriteFrames_fd4e3")
 animation = &"shield"

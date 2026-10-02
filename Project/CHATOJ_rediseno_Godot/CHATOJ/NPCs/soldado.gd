@@ -18,6 +18,8 @@ var target = null
 var detection_range = 220.0
 var forget_range = 400.0
 
+var facing_direction = Vector2.DOWN  # hacia dónde mira (para elegir animación)
+
 
 # =========================
 # ATAQUE DEL NPC
@@ -69,12 +71,7 @@ func _ready():
 
 	health = max_health
 
-
-
-
-
 	animated_sprite.play("idle_down")
-
 
 	hurtbox.area_entered.connect(_on_hurtbox_area_entered)
 
@@ -116,6 +113,8 @@ func _physics_process(delta):
 
 		velocity = Vector2.ZERO
 
+		play_movement_animation(facing_direction)
+
 		move_and_slide()
 
 		return
@@ -142,6 +141,8 @@ func _physics_process(delta):
 
 		velocity = Vector2.ZERO
 
+		play_movement_animation(facing_direction)
+
 		move_and_slide()
 
 		return
@@ -155,6 +156,8 @@ func _physics_process(delta):
 		target.global_position - global_position
 	).normalized()
 
+	facing_direction = direction
+
 
 	# =========================
 	# PERSEGUIR
@@ -164,23 +167,7 @@ func _physics_process(delta):
 
 		velocity = direction * speed
 
-
-		if abs(direction.x) > abs(direction.y):
-
-			if direction.x > 0:
-				animated_sprite.play("run_right")
-
-			else:
-				animated_sprite.play("run_left")
-
-
-		else:
-
-			if direction.y > 0:
-				animated_sprite.play("run_down")
-
-			else:
-				animated_sprite.play("run_up")
+		play_movement_animation(direction)
 
 
 	# =========================
@@ -224,6 +211,8 @@ func try_attack():
 
 	can_attack = false
 
+	play_attack_animation(facing_direction)
+
 
 	if target and target.has_method("take_damage"):
 
@@ -240,6 +229,57 @@ func try_attack():
 
 
 	can_attack = true
+
+
+# =========================
+# ANIMACIONES
+# =========================
+
+func get_cardinal_name(direction):
+
+	if abs(direction.x) > abs(direction.y):
+
+		if direction.x > 0:
+			return "right"
+
+		return "left"
+
+	if direction.y > 0:
+		return "down"
+
+	return "up"
+
+
+# Las animaciones de ataque usan "front"/"back" en vez de "down"/"up"
+func get_attack_name(direction):
+
+	var cardinal = get_cardinal_name(direction)
+
+	if cardinal == "down":
+		return "front"
+
+	if cardinal == "up":
+		return "back"
+
+	return cardinal  # "left" / "right" se quedan igual
+
+
+# Elige "idle_x" si está detenido, o "run_x" si se está moviendo
+func play_movement_animation(direction):
+
+	facing_direction = direction
+
+	var cardinal = get_cardinal_name(direction)
+
+	if velocity.length() < 1.0:
+		animated_sprite.play("idle_" + cardinal)
+	else:
+		animated_sprite.play("run_" + cardinal)
+
+
+func play_attack_animation(direction):
+
+	animated_sprite.play(get_attack_name(direction) + "_attack")
 
 
 # =========================
@@ -288,9 +328,6 @@ func take_damage(damage, attacker_position = null):
 
 	if health < 0:
 		health = 0
-
-
-
 
 
 	print(

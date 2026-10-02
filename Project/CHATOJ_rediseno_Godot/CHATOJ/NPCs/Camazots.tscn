@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bn4plnjvfqm78"]
 
 [ext_resource type="Script" uid="uid://btckm4pc8s7ts" path="res://NPCs/camazots.gd" id="1_prd0a"]
-[ext_resource type="PackedScene" path="res://NPCs/murcielago.tscn" id="2_8d8cv"]
+[ext_resource type="PackedScene" uid="uid://c66vgkovnae5t" path="res://NPCs/murcielago.tscn" id="2_8d8cv"]
 [ext_resource type="Texture2D" uid="uid://dfvpfuh6agi2s" path="res://assets/Animaciones/camazots/camazoats.png" id="3_e3vss"]
 [ext_resource type="Script" uid="uid://05abiuljrq5g" path="res://Scripts/sprite_motion.gd" id="7_f3dmo"]
 
@@ -261,7 +261,6 @@ bat_scene = ExtResource("2_8d8cv")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2002133221]
 texture_filter = 2
-position = Vector2(0, -55.2)
 scale = Vector2(2.0535715, 2.0535715)
 sprite_frames = SubResource("SpriteFrames_5rb0q")
 animation = &"fly_back"

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://68t7cnwkft3g"
-path="res://.godot/imported/boss_taskmaster.png-47b68439c1d281055e74b3fb1ff73d72.ctex"
+path="res://.godot/imported/boss_taskmaster.png-6057bb526092d9a5c9abaaab519d3f0c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/boss_taskmaster.png"
-dest_files=["res://.godot/imported/boss_taskmaster.png-47b68439c1d281055e74b3fb1ff73d72.ctex"]
+source_file="res://Efectos de impacto/units/boss_taskmaster.png"
+dest_files=["res://.godot/imported/boss_taskmaster.png-6057bb526092d9a5c9abaaab519d3f0c.ctex"]
 
 [params]
 

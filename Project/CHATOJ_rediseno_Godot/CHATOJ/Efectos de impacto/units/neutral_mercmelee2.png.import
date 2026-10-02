@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://blqep25vqxfd"
-path="res://.godot/imported/neutral_mercmelee2.png-ffd7d9f150aa58c4463079741489d09e.ctex"
+path="res://.godot/imported/neutral_mercmelee2.png-b70c18c63d32e3706bee4b397b686106.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_mercmelee2.png"
-dest_files=["res://.godot/imported/neutral_mercmelee2.png-ffd7d9f150aa58c4463079741489d09e.ctex"]
+source_file="res://Efectos de impacto/units/neutral_mercmelee2.png"
+dest_files=["res://.godot/imported/neutral_mercmelee2.png-b70c18c63d32e3706bee4b397b686106.ctex"]
 
 [params]
 

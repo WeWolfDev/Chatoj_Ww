@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://lv7nd2kamkuc"
-path="res://.godot/imported/icon_f2_earthtwilight.png-21f43f9cf15d5bca2b26965859b30765.ctex"
+path="res://.godot/imported/icon_f2_earthtwilight.png-0481a4956e27cd4caff7724660e37bab.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f2_earthtwilight.png"
-dest_files=["res://.godot/imported/icon_f2_earthtwilight.png-21f43f9cf15d5bca2b26965859b30765.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f2_earthtwilight.png"
+dest_files=["res://.godot/imported/icon_f2_earthtwilight.png-0481a4956e27cd4caff7724660e37bab.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dtpxqm2np43ws"
-path="res://.godot/imported/f4_limbodweller.png-7ecddcdda4c1c1f9304559df0e0c30ce.ctex"
+path="res://.godot/imported/f4_limbodweller.png-0272b64166f8700b894af6c929b1f92f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f4_limbodweller.png"
-dest_files=["res://.godot/imported/f4_limbodweller.png-7ecddcdda4c1c1f9304559df0e0c30ce.ctex"]
+source_file="res://Efectos de impacto/units/f4_limbodweller.png"
+dest_files=["res://.godot/imported/f4_limbodweller.png-0272b64166f8700b894af6c929b1f92f.ctex"]
 
 [params]
 

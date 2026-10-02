@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://by4gbowi8kg4t"
-path="res://.godot/imported/rice_panicles_01.png-fccbf423c37f3428ea976842876ad4d8.ctex"
+path="res://.godot/imported/rice_panicles_01.png-3cfc2107cafea13e82d36587c29220ff.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/rice_panicles_01.png"
-dest_files=["res://.godot/imported/rice_panicles_01.png-fccbf423c37f3428ea976842876ad4d8.ctex"]
+source_file="res://Rpg sprites/rice_panicles_01.png"
+dest_files=["res://.godot/imported/rice_panicles_01.png-3cfc2107cafea13e82d36587c29220ff.ctex"]
 
 [params]
 

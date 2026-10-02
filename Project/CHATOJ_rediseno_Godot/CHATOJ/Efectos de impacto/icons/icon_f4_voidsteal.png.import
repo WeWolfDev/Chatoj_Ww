@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dviprmd80wsvc"
-path="res://.godot/imported/icon_f4_voidsteal.png-908e051ad7657dcd6c59db54df4c449d.ctex"
+path="res://.godot/imported/icon_f4_voidsteal.png-04eac13a92c99f925f24fb881a1d986a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f4_voidsteal.png"
-dest_files=["res://.godot/imported/icon_f4_voidsteal.png-908e051ad7657dcd6c59db54df4c449d.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f4_voidsteal.png"
+dest_files=["res://.godot/imported/icon_f4_voidsteal.png-04eac13a92c99f925f24fb881a1d986a.ctex"]
 
 [params]
 

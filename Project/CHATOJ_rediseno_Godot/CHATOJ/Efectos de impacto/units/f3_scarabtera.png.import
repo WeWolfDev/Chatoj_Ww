@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://e7k356jwhmyl"
-path="res://.godot/imported/f3_scarabtera.png-2a1d0597806268c00f4c86c5cc8b33de.ctex"
+path="res://.godot/imported/f3_scarabtera.png-4181d3b698ea752300d0893b551c99ae.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f3_scarabtera.png"
-dest_files=["res://.godot/imported/f3_scarabtera.png-2a1d0597806268c00f4c86c5cc8b33de.ctex"]
+source_file="res://Efectos de impacto/units/f3_scarabtera.png"
+dest_files=["res://.godot/imported/f3_scarabtera.png-4181d3b698ea752300d0893b551c99ae.ctex"]
 
 [params]
 

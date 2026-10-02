@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3p5btqmdsq0c"
-path="res://.godot/imported/f4_creepydemon.png-6c2c34911529b1f553a9d8e63a03a10b.ctex"
+path="res://.godot/imported/f4_creepydemon.png-d8385f96e5e96285a905de5aa3342e2e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f4_creepydemon.png"
-dest_files=["res://.godot/imported/f4_creepydemon.png-6c2c34911529b1f553a9d8e63a03a10b.ctex"]
+source_file="res://Efectos de impacto/units/f4_creepydemon.png"
+dest_files=["res://.godot/imported/f4_creepydemon.png-d8385f96e5e96285a905de5aa3342e2e.ctex"]
 
 [params]
 

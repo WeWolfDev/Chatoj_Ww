@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://djeuy4253kedv"
-path="res://.godot/imported/bossspell_laceratingfrost.png-fbc609478330949292d4689fbef90cf7.ctex"
+path="res://.godot/imported/bossspell_laceratingfrost.png-7138392edd91295d070403334eddce2d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/bossspell_laceratingfrost.png"
-dest_files=["res://.godot/imported/bossspell_laceratingfrost.png-fbc609478330949292d4689fbef90cf7.ctex"]
+source_file="res://Efectos de impacto/icons/bossspell_laceratingfrost.png"
+dest_files=["res://.godot/imported/bossspell_laceratingfrost.png-7138392edd91295d070403334eddce2d.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d0pslufm6plyk"
-path="res://.godot/imported/f1_shieldforger.png-acbb5c31bbc6a2c5c9c249835164a82a.ctex"
+path="res://.godot/imported/f1_shieldforger.png-a79dc13c6c9675162c30a498374fb8aa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f1_shieldforger.png"
-dest_files=["res://.godot/imported/f1_shieldforger.png-acbb5c31bbc6a2c5c9c249835164a82a.ctex"]
+source_file="res://Efectos de impacto/units/f1_shieldforger.png"
+dest_files=["res://.godot/imported/f1_shieldforger.png-a79dc13c6c9675162c30a498374fb8aa.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxiopt4bm7bnx"
-path="res://.godot/imported/artifact_f4_ghostazalea.png-2890c25c797608749ae0cf6858969afa.ctex"
+path="res://.godot/imported/artifact_f4_ghostazalea.png-a4acd2181807d7b7cd807357dd18d548.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/artifact_f4_ghostazalea.png"
-dest_files=["res://.godot/imported/artifact_f4_ghostazalea.png-2890c25c797608749ae0cf6858969afa.ctex"]
+source_file="res://Efectos de impacto/icons/artifact_f4_ghostazalea.png"
+dest_files=["res://.godot/imported/artifact_f4_ghostazalea.png-a4acd2181807d7b7cd807357dd18d548.ctex"]
 
 [params]
 

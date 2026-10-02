@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c31r3mibv85xj"
-path="res://.godot/imported/artifact_f2_braceletofblinding.png-58f20653a146b9b7c0c45d4c5fdd553b.ctex"
+path="res://.godot/imported/artifact_f2_braceletofblinding.png-1b3c17547d585d6a400182be18d118c1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/artifact_f2_braceletofblinding.png"
-dest_files=["res://.godot/imported/artifact_f2_braceletofblinding.png-58f20653a146b9b7c0c45d4c5fdd553b.ctex"]
+source_file="res://Efectos de impacto/icons/artifact_f2_braceletofblinding.png"
+dest_files=["res://.godot/imported/artifact_f2_braceletofblinding.png-1b3c17547d585d6a400182be18d118c1.ctex"]
 
 [params]
 

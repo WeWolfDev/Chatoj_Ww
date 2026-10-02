@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://clonp4h3imgjl"
-path="res://.godot/imported/neutral_bloodstonealchemist.png-7b03ad788163c70653aafebb576a8f39.ctex"
+path="res://.godot/imported/neutral_bloodstonealchemist.png-70fe159bdb42b38b5195c336b2776ef5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_bloodstonealchemist.png"
-dest_files=["res://.godot/imported/neutral_bloodstonealchemist.png-7b03ad788163c70653aafebb576a8f39.ctex"]
+source_file="res://Efectos de impacto/units/neutral_bloodstonealchemist.png"
+dest_files=["res://.godot/imported/neutral_bloodstonealchemist.png-70fe159bdb42b38b5195c336b2776ef5.ctex"]
 
 [params]
 

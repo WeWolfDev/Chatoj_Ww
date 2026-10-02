@@ -1223,72 +1223,7 @@ func _physics_process(delta):
 
 
 	if not shield_active:
-
-
-		if (
-			Input.is_key_pressed(KEY_SHIFT)
-			and input_direction != Vector2.ZERO
-		):
-
-
-			if input_direction.x > 0:
-
-				animated_sprite.play(
-					"run_right"
-				)
-
-
-			elif input_direction.x < 0:
-
-				animated_sprite.play(
-					"run_left"
-				)
-
-
-			elif input_direction.y > 0:
-
-				animated_sprite.play(
-					"run_down"
-				)
-
-
-			elif input_direction.y < 0:
-
-				animated_sprite.play(
-					"run_up"
-				)
-
-
-		else:
-
-
-			if input_direction.x > 0:
-
-				animated_sprite.play(
-					"idle_right"
-				)
-
-
-			elif input_direction.x < 0:
-
-				animated_sprite.play(
-					"idle_left"
-				)
-
-
-			elif input_direction.y > 0:
-
-				animated_sprite.play(
-					"idle_down"
-				)
-
-
-			elif input_direction.y < 0:
-
-				animated_sprite.play(
-					"idle_up"
-				)
-
+		play_movement_animation(input_direction)
 
 	update_footsteps(delta, input_direction)
 
@@ -1367,10 +1302,7 @@ func use_heal_consumable():
 	animate_heal_use()
 
 
-	animated_sprite.play(
-		"heal_down"
-	)
-
+	animated_sprite.play("heal_" + get_direction_name(facing_direction))
 
 	await get_tree().create_timer(
 		heal_use_duration
@@ -1570,42 +1502,7 @@ func dash(
 	can_dash = false
 
 	dash_direction = direction
-
-
-	if (
-		abs(direction.x)
-		> abs(direction.y)
-	):
-
-
-		if direction.x > 0:
-
-			animated_sprite.play(
-				"dash_right"
-			)
-
-		else:
-
-			animated_sprite.play(
-				"dash_left"
-			)
-
-
-	else:
-
-
-		if direction.y > 0:
-
-			animated_sprite.play(
-				"dash_down"
-			)
-
-		else:
-
-			animated_sprite.play(
-				"dash_up"
-			)
-
+	animated_sprite.play("dash_" + get_direction_name(direction))
 
 	await get_tree().create_timer(
 		dash_duration
@@ -2339,47 +2236,37 @@ func camera_shake():
 # IDLE
 # =========================
 
+func get_direction_name(direction):
+
+	if abs(direction.x) > abs(direction.y):
+
+		if direction.x > 0:
+			return "right"
+
+		return "left"
+
+	if direction.y > 0:
+		return "down"
+
+	return "up"
+
+
+# Quieto = idle_x, en movimiento = run_x
+func play_movement_animation(input_direction):
+
+	if input_direction == Vector2.ZERO:
+		play_idle_animation()
+		return
+
+	animated_sprite.play("run_" + get_direction_name(input_direction))
+
+
 func play_idle_animation():
 
 	if is_dead:
 		return
 
-
-	if (
-		abs(facing_direction.x)
-		> abs(facing_direction.y)
-	):
-
-
-		if facing_direction.x > 0:
-
-			animated_sprite.play(
-				"idle_right"
-			)
-
-		else:
-
-			animated_sprite.play(
-				"idle_left"
-			)
-
-
-	else:
-
-
-		if facing_direction.y > 0:
-
-			animated_sprite.play(
-				"idle_down"
-			)
-
-		else:
-
-			animated_sprite.play(
-				"idle_up"
-			)
-
-
+	animated_sprite.play("idle_" + get_direction_name(facing_direction))
 # =========================
 # MUERTE
 # =========================

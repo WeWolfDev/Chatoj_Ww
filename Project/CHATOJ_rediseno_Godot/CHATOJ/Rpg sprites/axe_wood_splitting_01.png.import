@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://clkqgr7p2r2nx"
-path="res://.godot/imported/axe_wood_splitting_01.png-c2aa76b2c71beb5df76aff7d06d8b458.ctex"
+path="res://.godot/imported/axe_wood_splitting_01.png-d16952d8a4c41568d34187e9de96fa69.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/axe_wood_splitting_01.png"
-dest_files=["res://.godot/imported/axe_wood_splitting_01.png-c2aa76b2c71beb5df76aff7d06d8b458.ctex"]
+source_file="res://Rpg sprites/axe_wood_splitting_01.png"
+dest_files=["res://.godot/imported/axe_wood_splitting_01.png-d16952d8a4c41568d34187e9de96fa69.ctex"]
 
 [params]
 

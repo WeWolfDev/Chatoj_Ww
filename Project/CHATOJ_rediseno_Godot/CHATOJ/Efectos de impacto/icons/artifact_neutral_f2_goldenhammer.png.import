@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dod6jju6e1y5m"
-path="res://.godot/imported/artifact_neutral_f2_goldenhammer.png-8c9974b8a61b110f7828f4e57d983f40.ctex"
+path="res://.godot/imported/artifact_neutral_f2_goldenhammer.png-d96b6752e3a2129ebb6121736c700945.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/artifact_neutral_f2_goldenhammer.png"
-dest_files=["res://.godot/imported/artifact_neutral_f2_goldenhammer.png-8c9974b8a61b110f7828f4e57d983f40.ctex"]
+source_file="res://Efectos de impacto/icons/artifact_neutral_f2_goldenhammer.png"
+dest_files=["res://.godot/imported/artifact_neutral_f2_goldenhammer.png-d96b6752e3a2129ebb6121736c700945.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bh72fgy83uojc"
-path="res://.godot/imported/icon_f1_trinityoath.png-d9e89b5b85fa89c5ed6f35b8764f96ee.ctex"
+path="res://.godot/imported/icon_f1_trinityoath.png-53cf4ab036c70b700afe6a6ecd4bc2e0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f1_trinityoath.png"
-dest_files=["res://.godot/imported/icon_f1_trinityoath.png-d9e89b5b85fa89c5ed6f35b8764f96ee.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f1_trinityoath.png"
+dest_files=["res://.godot/imported/icon_f1_trinityoath.png-53cf4ab036c70b700afe6a6ecd4bc2e0.ctex"]
 
 [params]
 

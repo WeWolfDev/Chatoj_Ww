@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cnrb1885f50io"
-path="res://.godot/imported/f3_desertspirit.png-2b219397ed848354ec5a2ea01511ad50.ctex"
+path="res://.godot/imported/f3_desertspirit.png-cb56c40ba3afcec6a0b30d6b0091697c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f3_desertspirit.png"
-dest_files=["res://.godot/imported/f3_desertspirit.png-2b219397ed848354ec5a2ea01511ad50.ctex"]
+source_file="res://Efectos de impacto/units/f3_desertspirit.png"
+dest_files=["res://.godot/imported/f3_desertspirit.png-cb56c40ba3afcec6a0b30d6b0091697c.ctex"]
 
 [params]
 

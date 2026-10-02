@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bmc1yttihlwm7"
-path="res://.godot/imported/f3_eurus.png-d00bc94bbd3bb85c661c50340fb24cb9.ctex"
+path="res://.godot/imported/f3_eurus.png-8281744fd064d16650fc51d4e20ddd25.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f3_eurus.png"
-dest_files=["res://.godot/imported/f3_eurus.png-d00bc94bbd3bb85c661c50340fb24cb9.ctex"]
+source_file="res://Efectos de impacto/units/f3_eurus.png"
+dest_files=["res://.godot/imported/f3_eurus.png-8281744fd064d16650fc51d4e20ddd25.ctex"]
 
 [params]
 

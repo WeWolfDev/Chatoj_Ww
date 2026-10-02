@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bombynrhngsb7"
-path="res://.godot/imported/boss_decepticleprime.png-eb8a721fe55fad9a1285b063a29863a8.ctex"
+path="res://.godot/imported/boss_decepticleprime.png-3ce5cbff5d34219fe81af6cced7cf0ee.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/boss_decepticleprime.png"
-dest_files=["res://.godot/imported/boss_decepticleprime.png-eb8a721fe55fad9a1285b063a29863a8.ctex"]
+source_file="res://Efectos de impacto/units/boss_decepticleprime.png"
+dest_files=["res://.godot/imported/boss_decepticleprime.png-3ce5cbff5d34219fe81af6cced7cf0ee.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://btiu1lja8qmkt"
-path="res://.godot/imported/icon_f2_hellskitchen.png-48889c23c26042efb4cacbfd733dc84a.ctex"
+path="res://.godot/imported/icon_f2_hellskitchen.png-3e5d130eca2cb5c7d8818a1b7c4ae472.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f2_hellskitchen.png"
-dest_files=["res://.godot/imported/icon_f2_hellskitchen.png-48889c23c26042efb4cacbfd733dc84a.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f2_hellskitchen.png"
+dest_files=["res://.godot/imported/icon_f2_hellskitchen.png-3e5d130eca2cb5c7d8818a1b7c4ae472.ctex"]
 
 [params]
 

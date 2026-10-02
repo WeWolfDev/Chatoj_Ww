@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://clki2l3rtem7x"
-path="res://.godot/imported/icon_f5_egggrenade.png-8a7ab3e9c7a5dbd4e8f86e957bf353c3.ctex"
+path="res://.godot/imported/icon_f5_egggrenade.png-4b38244a490befbd6430681f10fb7f1c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f5_egggrenade.png"
-dest_files=["res://.godot/imported/icon_f5_egggrenade.png-8a7ab3e9c7a5dbd4e8f86e957bf353c3.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f5_egggrenade.png"
+dest_files=["res://.godot/imported/icon_f5_egggrenade.png-4b38244a490befbd6430681f10fb7f1c.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://lddlelvgrcae"
-path="res://.godot/imported/fx_redplasma_vertical.png-35c65c9624ca075c9b8dda74d151f0b3.ctex"
+path="res://.godot/imported/fx_redplasma_vertical.png-4d27ae5fe9020d330e6dafba4490a88b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_redplasma_vertical.png"
-dest_files=["res://.godot/imported/fx_redplasma_vertical.png-35c65c9624ca075c9b8dda74d151f0b3.ctex"]
+source_file="res://Efectos de impacto/fx/fx_redplasma_vertical.png"
+dest_files=["res://.godot/imported/fx_redplasma_vertical.png-4d27ae5fe9020d330e6dafba4490a88b.ctex"]
 
 [params]
 

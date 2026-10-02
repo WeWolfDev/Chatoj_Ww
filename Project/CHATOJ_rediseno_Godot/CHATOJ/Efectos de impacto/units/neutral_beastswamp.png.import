@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfs7mjmdxp1bd"
-path="res://.godot/imported/neutral_beastswamp.png-92c78731219c564c7ec2ca011561874c.ctex"
+path="res://.godot/imported/neutral_beastswamp.png-f6f15197bffd4742cc7c41a89ff0b61f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_beastswamp.png"
-dest_files=["res://.godot/imported/neutral_beastswamp.png-92c78731219c564c7ec2ca011561874c.ctex"]
+source_file="res://Efectos de impacto/units/neutral_beastswamp.png"
+dest_files=["res://.godot/imported/neutral_beastswamp.png-f6f15197bffd4742cc7c41a89ff0b61f.ctex"]
 
 [params]
 

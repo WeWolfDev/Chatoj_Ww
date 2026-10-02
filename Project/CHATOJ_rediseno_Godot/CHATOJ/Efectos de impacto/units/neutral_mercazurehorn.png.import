@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ufbvaxjnilor"
-path="res://.godot/imported/neutral_mercazurehorn.png-a019cd89b825bd5b33fb9dd7dae153b2.ctex"
+path="res://.godot/imported/neutral_mercazurehorn.png-439943a66d95963f109aae7cb97e0029.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_mercazurehorn.png"
-dest_files=["res://.godot/imported/neutral_mercazurehorn.png-a019cd89b825bd5b33fb9dd7dae153b2.ctex"]
+source_file="res://Efectos de impacto/units/neutral_mercazurehorn.png"
+dest_files=["res://.godot/imported/neutral_mercazurehorn.png-439943a66d95963f109aae7cb97e0029.ctex"]
 
 [params]
 

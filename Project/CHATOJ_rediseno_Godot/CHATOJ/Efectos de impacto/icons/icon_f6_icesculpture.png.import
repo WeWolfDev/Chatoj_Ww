@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bv33i8acrxrmj"
-path="res://.godot/imported/icon_f6_icesculpture.png-f925eec903d5ced350584412a138d40a.ctex"
+path="res://.godot/imported/icon_f6_icesculpture.png-2e6038f4758248f98e54f8d940fcc790.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f6_icesculpture.png"
-dest_files=["res://.godot/imported/icon_f6_icesculpture.png-f925eec903d5ced350584412a138d40a.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f6_icesculpture.png"
+dest_files=["res://.godot/imported/icon_f6_icesculpture.png-2e6038f4758248f98e54f8d940fcc790.ctex"]
 
 [params]
 

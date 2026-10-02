@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cokcvhlaxlxt7"
-path="res://.godot/imported/neutral_purgatos.png-68fcaa4777f5e38a41e7f122f42cb61d.ctex"
+path="res://.godot/imported/neutral_purgatos.png-d5fdcb2ad641d53b96036e6cab495fdb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_purgatos.png"
-dest_files=["res://.godot/imported/neutral_purgatos.png-68fcaa4777f5e38a41e7f122f42cb61d.ctex"]
+source_file="res://Efectos de impacto/units/neutral_purgatos.png"
+dest_files=["res://.godot/imported/neutral_purgatos.png-d5fdcb2ad641d53b96036e6cab495fdb.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b62cg5awe0oks"
-path="res://.godot/imported/f1_groundbreaker.png-8de558b0574ad81d1d38e2158831dc10.ctex"
+path="res://.godot/imported/f1_groundbreaker.png-2d734f5dadef1ac717f27107f2c90833.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f1_groundbreaker.png"
-dest_files=["res://.godot/imported/f1_groundbreaker.png-8de558b0574ad81d1d38e2158831dc10.ctex"]
+source_file="res://Efectos de impacto/units/f1_groundbreaker.png"
+dest_files=["res://.godot/imported/f1_groundbreaker.png-2d734f5dadef1ac717f27107f2c90833.ctex"]
 
 [params]
 

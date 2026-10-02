@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c7rekj5r0tsl3"
-path="res://.godot/imported/icon_f6_creepingfrost.png-044548961b4d209484639aadf7976cec.ctex"
+path="res://.godot/imported/icon_f6_creepingfrost.png-1029c20fcb6f757251a5f46403a57a38.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f6_creepingfrost.png"
-dest_files=["res://.godot/imported/icon_f6_creepingfrost.png-044548961b4d209484639aadf7976cec.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f6_creepingfrost.png"
+dest_files=["res://.godot/imported/icon_f6_creepingfrost.png-1029c20fcb6f757251a5f46403a57a38.ctex"]
 
 [params]
 

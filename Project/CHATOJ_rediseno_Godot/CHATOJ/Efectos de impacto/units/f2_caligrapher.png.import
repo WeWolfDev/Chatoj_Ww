@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cnwl6e7lnx6ri"
-path="res://.godot/imported/f2_caligrapher.png-3f865b7db0afe6b9e5fbc957e2a5d1b0.ctex"
+path="res://.godot/imported/f2_caligrapher.png-1992cff658792eeeb38db3381663bdbf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f2_caligrapher.png"
-dest_files=["res://.godot/imported/f2_caligrapher.png-3f865b7db0afe6b9e5fbc957e2a5d1b0.ctex"]
+source_file="res://Efectos de impacto/units/f2_caligrapher.png"
+dest_files=["res://.godot/imported/f2_caligrapher.png-1992cff658792eeeb38db3381663bdbf.ctex"]
 
 [params]
 

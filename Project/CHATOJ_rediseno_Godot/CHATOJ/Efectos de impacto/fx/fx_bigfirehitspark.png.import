@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ce25kmj2ewuws"
-path="res://.godot/imported/fx_bigfirehitspark.png-7389b961fbae137f803c9e25992fede6.ctex"
+path="res://.godot/imported/fx_bigfirehitspark.png-0db45224e35e2aad75f892074b6be3b5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_bigfirehitspark.png"
-dest_files=["res://.godot/imported/fx_bigfirehitspark.png-7389b961fbae137f803c9e25992fede6.ctex"]
+source_file="res://Efectos de impacto/fx/fx_bigfirehitspark.png"
+dest_files=["res://.godot/imported/fx_bigfirehitspark.png-0db45224e35e2aad75f892074b6be3b5.ctex"]
 
 [params]
 

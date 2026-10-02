@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cua3y4h6jr2ms"
-path="res://.godot/imported/artifact_f1_sunstonebracers.png-4aaab9698f63cadf2e74af3497f1d9d2.ctex"
+path="res://.godot/imported/artifact_f1_sunstonebracers.png-5fd784fba40cd1826f036e0e14ba97bf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/artifact_f1_sunstonebracers.png"
-dest_files=["res://.godot/imported/artifact_f1_sunstonebracers.png-4aaab9698f63cadf2e74af3497f1d9d2.ctex"]
+source_file="res://Efectos de impacto/icons/artifact_f1_sunstonebracers.png"
+dest_files=["res://.godot/imported/artifact_f1_sunstonebracers.png-5fd784fba40cd1826f036e0e14ba97bf.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://3t8emdagbi6i"
-path="res://.godot/imported/fx_ringswirl.png-e3f63b40e937a4fb67529d6a6dc8dae1.ctex"
+path="res://.godot/imported/fx_ringswirl.png-d735231c40c299720aa6766999df3b68.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_ringswirl.png"
-dest_files=["res://.godot/imported/fx_ringswirl.png-e3f63b40e937a4fb67529d6a6dc8dae1.ctex"]
+source_file="res://Efectos de impacto/fx/fx_ringswirl.png"
+dest_files=["res://.godot/imported/fx_ringswirl.png-d735231c40c299720aa6766999df3b68.ctex"]
 
 [params]
 

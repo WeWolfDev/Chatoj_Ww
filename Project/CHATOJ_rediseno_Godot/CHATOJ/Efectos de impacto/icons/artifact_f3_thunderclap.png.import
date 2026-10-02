@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bl2hedacvfnst"
-path="res://.godot/imported/artifact_f3_thunderclap.png-adc913fd0e6d93fc2a06405daa80b06a.ctex"
+path="res://.godot/imported/artifact_f3_thunderclap.png-00d738852b1d9454f0806fca146f6486.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/artifact_f3_thunderclap.png"
-dest_files=["res://.godot/imported/artifact_f3_thunderclap.png-adc913fd0e6d93fc2a06405daa80b06a.ctex"]
+source_file="res://Efectos de impacto/icons/artifact_f3_thunderclap.png"
+dest_files=["res://.godot/imported/artifact_f3_thunderclap.png-00d738852b1d9454f0806fca146f6486.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://caga0piaoosb7"
-path="res://.godot/imported/prop_cranewisp.png-0e7dc7b7046068074366a0d3f8e40721.ctex"
+path="res://.godot/imported/prop_cranewisp.png-31b7ae6fafde8595f3ee6eba9eeb43ae.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/prop_cranewisp.png"
-dest_files=["res://.godot/imported/prop_cranewisp.png-0e7dc7b7046068074366a0d3f8e40721.ctex"]
+source_file="res://Efectos de impacto/units/prop_cranewisp.png"
+dest_files=["res://.godot/imported/prop_cranewisp.png-31b7ae6fafde8595f3ee6eba9eeb43ae.ctex"]
 
 [params]
 

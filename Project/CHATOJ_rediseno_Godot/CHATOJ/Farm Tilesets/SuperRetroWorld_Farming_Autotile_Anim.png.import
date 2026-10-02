@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://kug2h0t2pc37"
-path="res://.godot/imported/SuperRetroWorld_Farming_Autotile_Anim.png-f6e1d85b2e702d298167a527979ffc92.ctex"
+path="res://.godot/imported/SuperRetroWorld_Farming_Autotile_Anim.png-38abead77be9a01f14b1083b9c9fbf9d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Tilesets/SuperRetroWorld_Farming_Autotile_Anim.png"
-dest_files=["res://.godot/imported/SuperRetroWorld_Farming_Autotile_Anim.png-f6e1d85b2e702d298167a527979ffc92.ctex"]
+source_file="res://Farm Tilesets/SuperRetroWorld_Farming_Autotile_Anim.png"
+dest_files=["res://.godot/imported/SuperRetroWorld_Farming_Autotile_Anim.png-38abead77be9a01f14b1083b9c9fbf9d.ctex"]
 
 [params]
 

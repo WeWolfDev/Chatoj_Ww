@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bv5ufwv0r8g8b"
-path="res://.godot/imported/neutral_quahog.png-101a12866445397637450f2bc47f1a96.ctex"
+path="res://.godot/imported/neutral_quahog.png-b24308de25fddc962f990e9f2a11c868.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_quahog.png"
-dest_files=["res://.godot/imported/neutral_quahog.png-101a12866445397637450f2bc47f1a96.ctex"]
+source_file="res://Efectos de impacto/units/neutral_quahog.png"
+dest_files=["res://.godot/imported/neutral_quahog.png-b24308de25fddc962f990e9f2a11c868.ctex"]
 
 [params]
 

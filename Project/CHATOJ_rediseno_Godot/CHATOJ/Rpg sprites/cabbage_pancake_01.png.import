@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgf4a0ak75uag"
-path="res://.godot/imported/cabbage_pancake_01.png-8703dad52a82e03722f2cc2bfef9e0b2.ctex"
+path="res://.godot/imported/cabbage_pancake_01.png-1db6ed4bb3d170775a728fc0fc81e5ae.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/cabbage_pancake_01.png"
-dest_files=["res://.godot/imported/cabbage_pancake_01.png-8703dad52a82e03722f2cc2bfef9e0b2.ctex"]
+source_file="res://Rpg sprites/cabbage_pancake_01.png"
+dest_files=["res://.godot/imported/cabbage_pancake_01.png-1db6ed4bb3d170775a728fc0fc81e5ae.ctex"]
 
 [params]
 

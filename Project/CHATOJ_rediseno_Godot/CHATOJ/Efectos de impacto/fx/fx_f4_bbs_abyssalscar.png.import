@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b7djjgxybsan1"
-path="res://.godot/imported/fx_f4_bbs_abyssalscar.png-4304344af1e12d92b0f235eccc962f2f.ctex"
+path="res://.godot/imported/fx_f4_bbs_abyssalscar.png-f57407343370086ce79e9da8c03f073e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f4_bbs_abyssalscar.png"
-dest_files=["res://.godot/imported/fx_f4_bbs_abyssalscar.png-4304344af1e12d92b0f235eccc962f2f.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f4_bbs_abyssalscar.png"
+dest_files=["res://.godot/imported/fx_f4_bbs_abyssalscar.png-f57407343370086ce79e9da8c03f073e.ctex"]
 
 [params]
 

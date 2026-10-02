@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cel73csstg2ph"
-path="res://.godot/imported/f2_sekitori.png-26278fae9a5432dddeb14e050025d03a.ctex"
+path="res://.godot/imported/f2_sekitori.png-2becbb7154a749beb716b68081342b8d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f2_sekitori.png"
-dest_files=["res://.godot/imported/f2_sekitori.png-26278fae9a5432dddeb14e050025d03a.ctex"]
+source_file="res://Efectos de impacto/units/f2_sekitori.png"
+dest_files=["res://.godot/imported/f2_sekitori.png-2becbb7154a749beb716b68081342b8d.ctex"]
 
 [params]
 

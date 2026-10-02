@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bpcw5hln6gh45"
-path="res://.godot/imported/f1_elyxstormblademk2.png-3955a9492a4c053caf796b3e60e646ca.ctex"
+path="res://.godot/imported/f1_elyxstormblademk2.png-7655bb00c3063b0bf91e93bfaa97ce5b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f1_elyxstormblademk2.png"
-dest_files=["res://.godot/imported/f1_elyxstormblademk2.png-3955a9492a4c053caf796b3e60e646ca.ctex"]
+source_file="res://Efectos de impacto/units/f1_elyxstormblademk2.png"
+dest_files=["res://.godot/imported/f1_elyxstormblademk2.png-7655bb00c3063b0bf91e93bfaa97ce5b.ctex"]
 
 [params]
 

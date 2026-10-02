@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://clu2w4bop7rg4"
-path="res://.godot/imported/f1_archdeacon.png-c57ae2f944c8b9c3653f48f59e9f084e.ctex"
+path="res://.godot/imported/f1_archdeacon.png-4d9c0564bad3acb0bd0455bbd0016d91.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f1_archdeacon.png"
-dest_files=["res://.godot/imported/f1_archdeacon.png-c57ae2f944c8b9c3653f48f59e9f084e.ctex"]
+source_file="res://Efectos de impacto/units/f1_archdeacon.png"
+dest_files=["res://.godot/imported/f1_archdeacon.png-4d9c0564bad3acb0bd0455bbd0016d91.ctex"]
 
 [params]
 

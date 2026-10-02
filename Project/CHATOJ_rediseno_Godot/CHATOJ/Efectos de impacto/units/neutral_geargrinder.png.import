@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cbx2mln53ly1k"
-path="res://.godot/imported/neutral_geargrinder.png-a1b5145a1285c4b1e84649d1bb6ece08.ctex"
+path="res://.godot/imported/neutral_geargrinder.png-50046487921926edd6a508724e928c48.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_geargrinder.png"
-dest_files=["res://.godot/imported/neutral_geargrinder.png-a1b5145a1285c4b1e84649d1bb6ece08.ctex"]
+source_file="res://Efectos de impacto/units/neutral_geargrinder.png"
+dest_files=["res://.godot/imported/neutral_geargrinder.png-50046487921926edd6a508724e928c48.ctex"]
 
 [params]
 

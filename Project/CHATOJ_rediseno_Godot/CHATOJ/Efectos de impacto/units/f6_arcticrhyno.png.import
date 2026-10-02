@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bpmkpg1u6y816"
-path="res://.godot/imported/f6_arcticrhyno.png-244628bd8c126b6f060e77b14959e3f4.ctex"
+path="res://.godot/imported/f6_arcticrhyno.png-a8498e3cba95f8bbb416296d1a8a330d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f6_arcticrhyno.png"
-dest_files=["res://.godot/imported/f6_arcticrhyno.png-244628bd8c126b6f060e77b14959e3f4.ctex"]
+source_file="res://Efectos de impacto/units/f6_arcticrhyno.png"
+dest_files=["res://.godot/imported/f6_arcticrhyno.png-a8498e3cba95f8bbb416296d1a8a330d.ctex"]
 
 [params]
 

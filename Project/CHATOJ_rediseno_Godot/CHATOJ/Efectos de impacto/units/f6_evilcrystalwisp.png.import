@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cnnooekk83ys8"
-path="res://.godot/imported/f6_evilcrystalwisp.png-41d3cfe3c601e3c8eded4265fc16df5e.ctex"
+path="res://.godot/imported/f6_evilcrystalwisp.png-82a54ff9e9788f06d8ccfc4cf91b3633.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f6_evilcrystalwisp.png"
-dest_files=["res://.godot/imported/f6_evilcrystalwisp.png-41d3cfe3c601e3c8eded4265fc16df5e.ctex"]
+source_file="res://Efectos de impacto/units/f6_evilcrystalwisp.png"
+dest_files=["res://.godot/imported/f6_evilcrystalwisp.png-82a54ff9e9788f06d8ccfc4cf91b3633.ctex"]
 
 [params]
 

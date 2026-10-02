@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgjdt5f0sbrm2"
-path="res://.godot/imported/boss_shadowlord.png-1de1f3db6898ebab188c63e03d8d95ae.ctex"
+path="res://.godot/imported/boss_shadowlord.png-6d255130092459a6690c03bbdf652760.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/boss_shadowlord.png"
-dest_files=["res://.godot/imported/boss_shadowlord.png-1de1f3db6898ebab188c63e03d8d95ae.ctex"]
+source_file="res://Efectos de impacto/units/boss_shadowlord.png"
+dest_files=["res://.godot/imported/boss_shadowlord.png-6d255130092459a6690c03bbdf652760.ctex"]
 
 [params]
 

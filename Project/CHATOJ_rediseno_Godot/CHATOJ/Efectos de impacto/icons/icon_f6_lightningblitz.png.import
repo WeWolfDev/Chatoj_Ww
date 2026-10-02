@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://uwewgyfudofd"
-path="res://.godot/imported/icon_f6_lightningblitz.png-3e4e1c611184f1f6f5f0d5f57a23e10b.ctex"
+path="res://.godot/imported/icon_f6_lightningblitz.png-2c4318a2a8be14f6be1c48976be38592.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f6_lightningblitz.png"
-dest_files=["res://.godot/imported/icon_f6_lightningblitz.png-3e4e1c611184f1f6f5f0d5f57a23e10b.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f6_lightningblitz.png"
+dest_files=["res://.godot/imported/icon_f6_lightningblitz.png-2c4318a2a8be14f6be1c48976be38592.ctex"]
 
 [params]
 

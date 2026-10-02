@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://hthjm6rnssnj"
-path="res://.godot/imported/f2_seenoevil.png-bbfc261d65bcb2d0a0c2e73d5da77b37.ctex"
+path="res://.godot/imported/f2_seenoevil.png-0cc17b5fc3abdd65b1efc7c20f825268.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f2_seenoevil.png"
-dest_files=["res://.godot/imported/f2_seenoevil.png-bbfc261d65bcb2d0a0c2e73d5da77b37.ctex"]
+source_file="res://Efectos de impacto/units/f2_seenoevil.png"
+dest_files=["res://.godot/imported/f2_seenoevil.png-0cc17b5fc3abdd65b1efc7c20f825268.ctex"]
 
 [params]
 

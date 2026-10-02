@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cfklcylfxahdi"
-path="res://.godot/imported/neutral_fog.png-7e4b43224c586d8b14daca45685e109f.ctex"
+path="res://.godot/imported/neutral_fog.png-0134569b84faa592a5d66025999a890d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_fog.png"
-dest_files=["res://.godot/imported/neutral_fog.png-7e4b43224c586d8b14daca45685e109f.ctex"]
+source_file="res://Efectos de impacto/units/neutral_fog.png"
+dest_files=["res://.godot/imported/neutral_fog.png-0134569b84faa592a5d66025999a890d.ctex"]
 
 [params]
 

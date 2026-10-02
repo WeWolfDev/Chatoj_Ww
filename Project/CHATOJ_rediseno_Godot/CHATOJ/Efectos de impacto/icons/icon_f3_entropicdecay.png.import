@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://j6m4hsdph6vy"
-path="res://.godot/imported/icon_f3_entropicdecay.png-82da58ba37eecd1753ff2bf86c03832b.ctex"
+path="res://.godot/imported/icon_f3_entropicdecay.png-f51dcc9234caa265598a4853a138ce31.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f3_entropicdecay.png"
-dest_files=["res://.godot/imported/icon_f3_entropicdecay.png-82da58ba37eecd1753ff2bf86c03832b.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f3_entropicdecay.png"
+dest_files=["res://.godot/imported/icon_f3_entropicdecay.png-f51dcc9234caa265598a4853a138ce31.ctex"]
 
 [params]
 

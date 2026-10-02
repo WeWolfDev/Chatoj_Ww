@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dx1y8hs3vdd05"
-path="res://.godot/imported/f3_miniscarab.png-321b1744fb38c53f07ee45368bb28a4a.ctex"
+path="res://.godot/imported/f3_miniscarab.png-3dec45752b7bc2d63470eb1f55d2de24.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f3_miniscarab.png"
-dest_files=["res://.godot/imported/f3_miniscarab.png-321b1744fb38c53f07ee45368bb28a4a.ctex"]
+source_file="res://Efectos de impacto/units/f3_miniscarab.png"
+dest_files=["res://.godot/imported/f3_miniscarab.png-3dec45752b7bc2d63470eb1f55d2de24.ctex"]
 
 [params]
 

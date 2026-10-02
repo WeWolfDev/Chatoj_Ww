@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://beuiswi577jmy"
-path="res://.godot/imported/f3_windslicer.png-82306a4137f9e993088b3764455fd8c6.ctex"
+path="res://.godot/imported/f3_windslicer.png-94470816c703aef1330a7a067e604341.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f3_windslicer.png"
-dest_files=["res://.godot/imported/f3_windslicer.png-82306a4137f9e993088b3764455fd8c6.ctex"]
+source_file="res://Efectos de impacto/units/f3_windslicer.png"
+dest_files=["res://.godot/imported/f3_windslicer.png-94470816c703aef1330a7a067e604341.ctex"]
 
 [params]
 

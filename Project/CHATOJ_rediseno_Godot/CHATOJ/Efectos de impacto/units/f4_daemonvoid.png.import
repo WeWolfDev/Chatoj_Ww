@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b40bl1pc432nr"
-path="res://.godot/imported/f4_daemonvoid.png-aae6c46244c74d43180fbb1a780e3771.ctex"
+path="res://.godot/imported/f4_daemonvoid.png-9ed15923453a5cf21554e55f803a67d6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f4_daemonvoid.png"
-dest_files=["res://.godot/imported/f4_daemonvoid.png-aae6c46244c74d43180fbb1a780e3771.ctex"]
+source_file="res://Efectos de impacto/units/f4_daemonvoid.png"
+dest_files=["res://.godot/imported/f4_daemonvoid.png-9ed15923453a5cf21554e55f803a67d6.ctex"]
 
 [params]
 

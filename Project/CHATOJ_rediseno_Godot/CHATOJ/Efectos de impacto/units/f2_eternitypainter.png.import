@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dm72tkcs06bxc"
-path="res://.godot/imported/f2_eternitypainter.png-638eeb07edb8584cc967b2efcba8aab3.ctex"
+path="res://.godot/imported/f2_eternitypainter.png-33bd7a8bd1d4140f6b3ff7fe673efd6e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f2_eternitypainter.png"
-dest_files=["res://.godot/imported/f2_eternitypainter.png-638eeb07edb8584cc967b2efcba8aab3.ctex"]
+source_file="res://Efectos de impacto/units/f2_eternitypainter.png"
+dest_files=["res://.godot/imported/f2_eternitypainter.png-33bd7a8bd1d4140f6b3ff7fe673efd6e.ctex"]
 
 [params]
 

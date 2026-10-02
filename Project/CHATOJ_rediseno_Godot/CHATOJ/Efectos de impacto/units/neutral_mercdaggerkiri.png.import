@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bn4nuqbxmesfv"
-path="res://.godot/imported/neutral_mercdaggerkiri.png-07ac62a0683467bc92cace4641c6db57.ctex"
+path="res://.godot/imported/neutral_mercdaggerkiri.png-4ca46c245012996c9943f50a474fea25.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_mercdaggerkiri.png"
-dest_files=["res://.godot/imported/neutral_mercdaggerkiri.png-07ac62a0683467bc92cace4641c6db57.ctex"]
+source_file="res://Efectos de impacto/units/neutral_mercdaggerkiri.png"
+dest_files=["res://.godot/imported/neutral_mercdaggerkiri.png-4ca46c245012996c9943f50a474fea25.ctex"]
 
 [params]
 

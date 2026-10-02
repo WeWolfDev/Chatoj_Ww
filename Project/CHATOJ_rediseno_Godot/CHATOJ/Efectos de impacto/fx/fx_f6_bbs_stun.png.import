@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://boxvr4mo0i8yi"
-path="res://.godot/imported/fx_f6_bbs_stun.png-f3155be3a1a2496d0f1e4bef11835fed.ctex"
+path="res://.godot/imported/fx_f6_bbs_stun.png-2aa6682822f096b3ade1fd971ad62728.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f6_bbs_stun.png"
-dest_files=["res://.godot/imported/fx_f6_bbs_stun.png-f3155be3a1a2496d0f1e4bef11835fed.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f6_bbs_stun.png"
+dest_files=["res://.godot/imported/fx_f6_bbs_stun.png-2aa6682822f096b3ade1fd971ad62728.ctex"]
 
 [params]
 

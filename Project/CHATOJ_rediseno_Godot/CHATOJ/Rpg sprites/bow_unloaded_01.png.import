@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bv0ejndxnbvog"
-path="res://.godot/imported/bow_unloaded_01.png-6f49b58f06683bf454a9039452359227.ctex"
+path="res://.godot/imported/bow_unloaded_01.png-03856ec33f23bf8ccbe314bee75ab8d7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/bow_unloaded_01.png"
-dest_files=["res://.godot/imported/bow_unloaded_01.png-6f49b58f06683bf454a9039452359227.ctex"]
+source_file="res://Rpg sprites/bow_unloaded_01.png"
+dest_files=["res://.godot/imported/bow_unloaded_01.png-03856ec33f23bf8ccbe314bee75ab8d7.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cemlhfd1qpute"
-path="res://.godot/imported/fx_f2_heavenseclipse.png-13b954326295eada0b41f52cdf50a37d.ctex"
+path="res://.godot/imported/fx_f2_heavenseclipse.png-33d0b1485b709c21c87c2118738687d8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f2_heavenseclipse.png"
-dest_files=["res://.godot/imported/fx_f2_heavenseclipse.png-13b954326295eada0b41f52cdf50a37d.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f2_heavenseclipse.png"
+dest_files=["res://.godot/imported/fx_f2_heavenseclipse.png-33d0b1485b709c21c87c2118738687d8.ctex"]
 
 [params]
 

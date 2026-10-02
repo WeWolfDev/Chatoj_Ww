@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://lhgox28devja"
-path="res://.godot/imported/fx_f6_mesmerize.png-a8fb0527d38b147b1253780e3e052855.ctex"
+path="res://.godot/imported/fx_f6_mesmerize.png-d13204ef303fe3c5ffae0140f9d92c15.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f6_mesmerize.png"
-dest_files=["res://.godot/imported/fx_f6_mesmerize.png-a8fb0527d38b147b1253780e3e052855.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f6_mesmerize.png"
+dest_files=["res://.godot/imported/fx_f6_mesmerize.png-d13204ef303fe3c5ffae0140f9d92c15.ctex"]
 
 [params]
 

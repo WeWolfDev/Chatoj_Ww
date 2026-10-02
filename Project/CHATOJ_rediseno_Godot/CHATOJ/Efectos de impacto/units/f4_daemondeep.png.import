@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgt163j6v8hlh"
-path="res://.godot/imported/f4_daemondeep.png-3f01b3bfcfe5031bfdefd5128f1c8715.ctex"
+path="res://.godot/imported/f4_daemondeep.png-0e45f5d313f4c856889141671d1eb98a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f4_daemondeep.png"
-dest_files=["res://.godot/imported/f4_daemondeep.png-3f01b3bfcfe5031bfdefd5128f1c8715.ctex"]
+source_file="res://Efectos de impacto/units/f4_daemondeep.png"
+dest_files=["res://.godot/imported/f4_daemondeep.png-0e45f5d313f4c856889141671d1eb98a.ctex"]
 
 [params]
 

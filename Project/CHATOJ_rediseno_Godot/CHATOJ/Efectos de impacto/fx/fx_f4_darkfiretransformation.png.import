@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cd64paqb07mhn"
-path="res://.godot/imported/fx_f4_darkfiretransformation.png-1b1c27c51bf34971825a934b5b4efb0a.ctex"
+path="res://.godot/imported/fx_f4_darkfiretransformation.png-9e155eb4d80f3f626db6aa017bdf0a3d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f4_darkfiretransformation.png"
-dest_files=["res://.godot/imported/fx_f4_darkfiretransformation.png-1b1c27c51bf34971825a934b5b4efb0a.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f4_darkfiretransformation.png"
+dest_files=["res://.godot/imported/fx_f4_darkfiretransformation.png-9e155eb4d80f3f626db6aa017bdf0a3d.ctex"]
 
 [params]
 

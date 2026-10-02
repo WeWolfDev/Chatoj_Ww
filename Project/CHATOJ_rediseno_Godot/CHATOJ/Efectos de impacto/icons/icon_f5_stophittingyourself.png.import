@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bvr5o4kjy172m"
-path="res://.godot/imported/icon_f5_stophittingyourself.png-7b00937f5047b04d5f5dba777919a5ff.ctex"
+path="res://.godot/imported/icon_f5_stophittingyourself.png-4a4866fb43b040ac64092176556af282.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f5_stophittingyourself.png"
-dest_files=["res://.godot/imported/icon_f5_stophittingyourself.png-7b00937f5047b04d5f5dba777919a5ff.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f5_stophittingyourself.png"
+dest_files=["res://.godot/imported/icon_f5_stophittingyourself.png-4a4866fb43b040ac64092176556af282.ctex"]
 
 [params]
 

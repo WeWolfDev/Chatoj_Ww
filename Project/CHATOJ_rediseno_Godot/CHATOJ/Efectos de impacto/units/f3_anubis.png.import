@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bk7x8ix3pqdo"
-path="res://.godot/imported/f3_anubis.png-26c1073b6ad481799f6acbd93ac0c505.ctex"
+path="res://.godot/imported/f3_anubis.png-a46f46d033ba0bb8a75c1e609991004a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f3_anubis.png"
-dest_files=["res://.godot/imported/f3_anubis.png-26c1073b6ad481799f6acbd93ac0c505.ctex"]
+source_file="res://Efectos de impacto/units/f3_anubis.png"
+dest_files=["res://.godot/imported/f3_anubis.png-a46f46d033ba0bb8a75c1e609991004a.ctex"]
 
 [params]
 

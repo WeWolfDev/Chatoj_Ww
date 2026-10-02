@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bgvcwyq803104"
-path="res://.godot/imported/neutral_mercshieldoracle.png-7328d95e1580a7597632a616b5ad967d.ctex"
+path="res://.godot/imported/neutral_mercshieldoracle.png-1d97f0630eaf1780a36a00f3299593a9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_mercshieldoracle.png"
-dest_files=["res://.godot/imported/neutral_mercshieldoracle.png-7328d95e1580a7597632a616b5ad967d.ctex"]
+source_file="res://Efectos de impacto/units/neutral_mercshieldoracle.png"
+dest_files=["res://.godot/imported/neutral_mercshieldoracle.png-1d97f0630eaf1780a36a00f3299593a9.ctex"]
 
 [params]
 

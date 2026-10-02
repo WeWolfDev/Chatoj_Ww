@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://blo73k2xw0oyq"
-path="res://.godot/imported/artifact_f5_twinfang.png-048e5a27bd4ad80f9cc52c0aea6c074d.ctex"
+path="res://.godot/imported/artifact_f5_twinfang.png-80a34b6e48605603a6cf7a57fa93cc71.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/artifact_f5_twinfang.png"
-dest_files=["res://.godot/imported/artifact_f5_twinfang.png-048e5a27bd4ad80f9cc52c0aea6c074d.ctex"]
+source_file="res://Efectos de impacto/icons/artifact_f5_twinfang.png"
+dest_files=["res://.godot/imported/artifact_f5_twinfang.png-80a34b6e48605603a6cf7a57fa93cc71.ctex"]
 
 [params]
 

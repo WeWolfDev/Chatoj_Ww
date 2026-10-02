@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bj7vc7u2b8i4x"
-path="res://.godot/imported/boss_candypanda.png-1c6d8a06c440e7156c042b26177d297e.ctex"
+path="res://.godot/imported/boss_candypanda.png-61ef2317a2525fd2951be5861db90ea6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/boss_candypanda.png"
-dest_files=["res://.godot/imported/boss_candypanda.png-1c6d8a06c440e7156c042b26177d297e.ctex"]
+source_file="res://Efectos de impacto/units/boss_candypanda.png"
+dest_files=["res://.godot/imported/boss_candypanda.png-61ef2317a2525fd2951be5861db90ea6.ctex"]
 
 [params]
 

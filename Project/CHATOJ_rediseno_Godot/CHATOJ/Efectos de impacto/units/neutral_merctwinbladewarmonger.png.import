@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dn6do78gt76e0"
-path="res://.godot/imported/neutral_merctwinbladewarmonger.png-ef6f5be72b4e95e16a04d8b6bb5568e6.ctex"
+path="res://.godot/imported/neutral_merctwinbladewarmonger.png-3f39671167640c5ba7bdee9ed1e5d8ed.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_merctwinbladewarmonger.png"
-dest_files=["res://.godot/imported/neutral_merctwinbladewarmonger.png-ef6f5be72b4e95e16a04d8b6bb5568e6.ctex"]
+source_file="res://Efectos de impacto/units/neutral_merctwinbladewarmonger.png"
+dest_files=["res://.godot/imported/neutral_merctwinbladewarmonger.png-3f39671167640c5ba7bdee9ed1e5d8ed.ctex"]
 
 [params]
 

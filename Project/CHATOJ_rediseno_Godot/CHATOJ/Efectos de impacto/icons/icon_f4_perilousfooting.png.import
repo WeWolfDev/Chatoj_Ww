@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://gsfi63y4s881"
-path="res://.godot/imported/icon_f4_perilousfooting.png-b98e2a1b7a4891eb99743bd9374e57fc.ctex"
+path="res://.godot/imported/icon_f4_perilousfooting.png-7fb61d8f7c2b6459e68972bbd06c5234.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f4_perilousfooting.png"
-dest_files=["res://.godot/imported/icon_f4_perilousfooting.png-b98e2a1b7a4891eb99743bd9374e57fc.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f4_perilousfooting.png"
+dest_files=["res://.godot/imported/icon_f4_perilousfooting.png-7fb61d8f7c2b6459e68972bbd06c5234.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1dxiui4fu2aa"
-path="res://.godot/imported/fx_f2_eightgates_bluelotus.png-23a48d4440da5b9435a067fc033595da.ctex"
+path="res://.godot/imported/fx_f2_eightgates_bluelotus.png-3ed184304fa67e72577d9a8bf0b4bb28.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f2_eightgates_bluelotus.png"
-dest_files=["res://.godot/imported/fx_f2_eightgates_bluelotus.png-23a48d4440da5b9435a067fc033595da.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f2_eightgates_bluelotus.png"
+dest_files=["res://.godot/imported/fx_f2_eightgates_bluelotus.png-3ed184304fa67e72577d9a8bf0b4bb28.ctex"]
 
 [params]
 

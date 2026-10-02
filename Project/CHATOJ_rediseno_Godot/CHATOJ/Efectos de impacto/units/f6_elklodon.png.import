@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c0crlf187frem"
-path="res://.godot/imported/f6_elklodon.png-f5705418c974c5e03ce452d4a534410f.ctex"
+path="res://.godot/imported/f6_elklodon.png-5e8b3bc4382f36762a6404d532a46f8d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f6_elklodon.png"
-dest_files=["res://.godot/imported/f6_elklodon.png-f5705418c974c5e03ce452d4a534410f.ctex"]
+source_file="res://Efectos de impacto/units/f6_elklodon.png"
+dest_files=["res://.godot/imported/f6_elklodon.png-5e8b3bc4382f36762a6404d532a46f8d.ctex"]
 
 [params]
 

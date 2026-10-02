@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bg13ti7pxkmyg"
-path="res://.godot/imported/fx_collisionsparkgreen.png-22d926f00ed57b3e4f436faf418a337e.ctex"
+path="res://.godot/imported/fx_collisionsparkgreen.png-cf887b36904b0a0f9175644f9f0c2765.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_collisionsparkgreen.png"
-dest_files=["res://.godot/imported/fx_collisionsparkgreen.png-22d926f00ed57b3e4f436faf418a337e.ctex"]
+source_file="res://Efectos de impacto/fx/fx_collisionsparkgreen.png"
+dest_files=["res://.godot/imported/fx_collisionsparkgreen.png-cf887b36904b0a0f9175644f9f0c2765.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cg56di30hd3te"
-path="res://.godot/imported/fx_chainlightning.png-f80218ae637c721dd4b0064f311303a0.ctex"
+path="res://.godot/imported/fx_chainlightning.png-805dfbf145e2173b87744d7cc4af2b48.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_chainlightning.png"
-dest_files=["res://.godot/imported/fx_chainlightning.png-f80218ae637c721dd4b0064f311303a0.ctex"]
+source_file="res://Efectos de impacto/fx/fx_chainlightning.png"
+dest_files=["res://.godot/imported/fx_chainlightning.png-805dfbf145e2173b87744d7cc4af2b48.ctex"]
 
 [params]
 

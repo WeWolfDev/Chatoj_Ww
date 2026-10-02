@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dy5gj4xwjwkah"
-path="res://.godot/imported/neutral_beastrepulsion.png-75dc89b87494368f5ad7dfe297fabbab.ctex"
+path="res://.godot/imported/neutral_beastrepulsion.png-a904b718f8a1389e5fb88ff47dde3ab2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_beastrepulsion.png"
-dest_files=["res://.godot/imported/neutral_beastrepulsion.png-75dc89b87494368f5ad7dfe297fabbab.ctex"]
+source_file="res://Efectos de impacto/units/neutral_beastrepulsion.png"
+dest_files=["res://.godot/imported/neutral_beastrepulsion.png-a904b718f8a1389e5fb88ff47dde3ab2.ctex"]
 
 [params]
 

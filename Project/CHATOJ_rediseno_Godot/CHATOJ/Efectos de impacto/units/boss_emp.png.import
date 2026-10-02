@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dlunrat4y6wa8"
-path="res://.godot/imported/boss_emp.png-ec2d92999311240c9e05fb3a4e017f7f.ctex"
+path="res://.godot/imported/boss_emp.png-3a48f2e83ea7dcb84dda6f923e491dab.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/boss_emp.png"
-dest_files=["res://.godot/imported/boss_emp.png-ec2d92999311240c9e05fb3a4e017f7f.ctex"]
+source_file="res://Efectos de impacto/units/boss_emp.png"
+dest_files=["res://.godot/imported/boss_emp.png-3a48f2e83ea7dcb84dda6f923e491dab.ctex"]
 
 [params]
 

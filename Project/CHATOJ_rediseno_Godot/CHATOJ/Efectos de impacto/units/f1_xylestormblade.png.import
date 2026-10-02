@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://blvknckfewnbt"
-path="res://.godot/imported/f1_xylestormblade.png-a4d880a5ceb5bf8e9c9f668562448a37.ctex"
+path="res://.godot/imported/f1_xylestormblade.png-8530d94fc1c74d2687fb8cb2a8942aef.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f1_xylestormblade.png"
-dest_files=["res://.godot/imported/f1_xylestormblade.png-a4d880a5ceb5bf8e9c9f668562448a37.ctex"]
+source_file="res://Efectos de impacto/units/f1_xylestormblade.png"
+dest_files=["res://.godot/imported/f1_xylestormblade.png-8530d94fc1c74d2687fb8cb2a8942aef.ctex"]
 
 [params]
 

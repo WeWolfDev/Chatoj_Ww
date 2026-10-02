@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bh4rtgmmhwnx2"
-path="res://.godot/imported/neutral_mercsongweaver.png-baaa2d9a41264c20c2aabb06de8891df.ctex"
+path="res://.godot/imported/neutral_mercsongweaver.png-6349d65cf10a9173b6a21fd6b7acdc49.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_mercsongweaver.png"
-dest_files=["res://.godot/imported/neutral_mercsongweaver.png-baaa2d9a41264c20c2aabb06de8891df.ctex"]
+source_file="res://Efectos de impacto/units/neutral_mercsongweaver.png"
+dest_files=["res://.godot/imported/neutral_mercsongweaver.png-6349d65cf10a9173b6a21fd6b7acdc49.ctex"]
 
 [params]
 

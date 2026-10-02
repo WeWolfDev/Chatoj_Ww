@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbajsqqyywa0t"
-path="res://.godot/imported/icon_f4_curseofshadows.png-114d1dd08aed3841b83602b86c9be116.ctex"
+path="res://.godot/imported/icon_f4_curseofshadows.png-580b5a417bb4d3cc9f7b910851a26546.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f4_curseofshadows.png"
-dest_files=["res://.godot/imported/icon_f4_curseofshadows.png-114d1dd08aed3841b83602b86c9be116.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f4_curseofshadows.png"
+dest_files=["res://.godot/imported/icon_f4_curseofshadows.png-580b5a417bb4d3cc9f7b910851a26546.ctex"]
 
 [params]
 

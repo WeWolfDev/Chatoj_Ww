@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3junf1by74cx"
-path="res://.godot/imported/f6_ghostseraphim.png-f73d51d84c69d9d904756a27554ae2de.ctex"
+path="res://.godot/imported/f6_ghostseraphim.png-b01722291fda2cefaaf435580e92a45e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f6_ghostseraphim.png"
-dest_files=["res://.godot/imported/f6_ghostseraphim.png-f73d51d84c69d9d904756a27554ae2de.ctex"]
+source_file="res://Efectos de impacto/units/f6_ghostseraphim.png"
+dest_files=["res://.godot/imported/f6_ghostseraphim.png-b01722291fda2cefaaf435580e92a45e.ctex"]
 
 [params]
 

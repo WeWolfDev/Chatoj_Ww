@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dqikix7rk7keb"
-path="res://.godot/imported/f3_sirocco.png-e121d317553e67dd9f41b8cff1661a9c.ctex"
+path="res://.godot/imported/f3_sirocco.png-e9397c5d0b6d122cedd2b7ec3ad6cbf7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f3_sirocco.png"
-dest_files=["res://.godot/imported/f3_sirocco.png-e121d317553e67dd9f41b8cff1661a9c.ctex"]
+source_file="res://Efectos de impacto/units/f3_sirocco.png"
+dest_files=["res://.godot/imported/f3_sirocco.png-e9397c5d0b6d122cedd2b7ec3ad6cbf7.ctex"]
 
 [params]
 

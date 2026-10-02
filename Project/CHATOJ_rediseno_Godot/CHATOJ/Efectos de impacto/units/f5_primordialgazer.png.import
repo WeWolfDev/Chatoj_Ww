@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cmfps8cv5gpef"
-path="res://.godot/imported/f5_primordialgazer.png-56dec7c66d15165c2033a6316123bc68.ctex"
+path="res://.godot/imported/f5_primordialgazer.png-69b909f05d8a0a69b9715cd0f636ff93.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f5_primordialgazer.png"
-dest_files=["res://.godot/imported/f5_primordialgazer.png-56dec7c66d15165c2033a6316123bc68.ctex"]
+source_file="res://Efectos de impacto/units/f5_primordialgazer.png"
+dest_files=["res://.godot/imported/f5_primordialgazer.png-69b909f05d8a0a69b9715cd0f636ff93.ctex"]
 
 [params]
 

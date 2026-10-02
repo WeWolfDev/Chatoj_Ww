@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdnm55pxhoqfi"
-path="res://.godot/imported/neutral_taura.png-0274c5a204544a912881b35bb710de78.ctex"
+path="res://.godot/imported/neutral_taura.png-27beac08d09dc89fe57bf302ecb449ed.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_taura.png"
-dest_files=["res://.godot/imported/neutral_taura.png-0274c5a204544a912881b35bb710de78.ctex"]
+source_file="res://Efectos de impacto/units/neutral_taura.png"
+dest_files=["res://.godot/imported/neutral_taura.png-27beac08d09dc89fe57bf302ecb449ed.ctex"]
 
 [params]
 

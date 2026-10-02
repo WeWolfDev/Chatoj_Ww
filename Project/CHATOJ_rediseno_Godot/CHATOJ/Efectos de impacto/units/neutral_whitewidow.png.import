@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cx1pqn2ikeh47"
-path="res://.godot/imported/neutral_whitewidow.png-5cf65f09ecfc408c2ceb7e17e5253f5e.ctex"
+path="res://.godot/imported/neutral_whitewidow.png-9314776e13af9adee50fd8090ddc41fe.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_whitewidow.png"
-dest_files=["res://.godot/imported/neutral_whitewidow.png-5cf65f09ecfc408c2ceb7e17e5253f5e.ctex"]
+source_file="res://Efectos de impacto/units/neutral_whitewidow.png"
+dest_files=["res://.godot/imported/neutral_whitewidow.png-9314776e13af9adee50fd8090ddc41fe.ctex"]
 
 [params]
 

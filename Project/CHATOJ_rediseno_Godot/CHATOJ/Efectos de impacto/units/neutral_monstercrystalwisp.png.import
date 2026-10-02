@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://is2mqvijfbx3"
-path="res://.godot/imported/neutral_monstercrystalwisp.png-89ddafb4556b13a32e4ea3e543a2888b.ctex"
+path="res://.godot/imported/neutral_monstercrystalwisp.png-248b1cbf2d9fb3e5d9c36e0e9a4ac303.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_monstercrystalwisp.png"
-dest_files=["res://.godot/imported/neutral_monstercrystalwisp.png-89ddafb4556b13a32e4ea3e543a2888b.ctex"]
+source_file="res://Efectos de impacto/units/neutral_monstercrystalwisp.png"
+dest_files=["res://.godot/imported/neutral_monstercrystalwisp.png-248b1cbf2d9fb3e5d9c36e0e9a4ac303.ctex"]
 
 [params]
 

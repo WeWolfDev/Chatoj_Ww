@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://m3uk51mj67i3"
-path="res://.godot/imported/neutral_rok.png-ee2457a8163ebefc4f4a72228c1bdc71.ctex"
+path="res://.godot/imported/neutral_rok.png-3de16c78a9234a9ec5eba935c11e5e69.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_rok.png"
-dest_files=["res://.godot/imported/neutral_rok.png-ee2457a8163ebefc4f4a72228c1bdc71.ctex"]
+source_file="res://Efectos de impacto/units/neutral_rok.png"
+dest_files=["res://.godot/imported/neutral_rok.png-3de16c78a9234a9ec5eba935c11e5e69.ctex"]
 
 [params]
 

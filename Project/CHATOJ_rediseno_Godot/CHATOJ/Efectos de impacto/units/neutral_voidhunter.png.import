@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b5476utqlg3m3"
-path="res://.godot/imported/neutral_voidhunter.png-ef1a306484a220ea0650fa2a0550623d.ctex"
+path="res://.godot/imported/neutral_voidhunter.png-57b8b1318b40db83d11e0a297b5d6776.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_voidhunter.png"
-dest_files=["res://.godot/imported/neutral_voidhunter.png-ef1a306484a220ea0650fa2a0550623d.ctex"]
+source_file="res://Efectos de impacto/units/neutral_voidhunter.png"
+dest_files=["res://.godot/imported/neutral_voidhunter.png-57b8b1318b40db83d11e0a297b5d6776.ctex"]
 
 [params]
 

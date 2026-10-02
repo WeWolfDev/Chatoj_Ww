@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dx6siv2si5qn6"
-path="res://.godot/imported/f3_pyromancer.png-7de5bac656bb2852ffd3f78fdd0a3cdf.ctex"
+path="res://.godot/imported/f3_pyromancer.png-2b9b0b6cb5c644b3fecb0d1c9719cbd7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f3_pyromancer.png"
-dest_files=["res://.godot/imported/f3_pyromancer.png-7de5bac656bb2852ffd3f78fdd0a3cdf.ctex"]
+source_file="res://Efectos de impacto/units/f3_pyromancer.png"
+dest_files=["res://.godot/imported/f3_pyromancer.png-2b9b0b6cb5c644b3fecb0d1c9719cbd7.ctex"]
 
 [params]
 

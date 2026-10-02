@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnr2lpmkk7gwg"
-path="res://.godot/imported/f5_orphanoftheaspect.png-a71d4537e5d3d1db827aab6a050669ff.ctex"
+path="res://.godot/imported/f5_orphanoftheaspect.png-7a6e00378a37487367958b010d9964a6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f5_orphanoftheaspect.png"
-dest_files=["res://.godot/imported/f5_orphanoftheaspect.png-a71d4537e5d3d1db827aab6a050669ff.ctex"]
+source_file="res://Efectos de impacto/units/f5_orphanoftheaspect.png"
+dest_files=["res://.godot/imported/f5_orphanoftheaspect.png-7a6e00378a37487367958b010d9964a6.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjpjclydbcvlm"
-path="res://.godot/imported/icon_f1_sundropelixir.png-72e1b0c31d4b4c7a16a66b47688f7a76.ctex"
+path="res://.godot/imported/icon_f1_sundropelixir.png-84e7526afdf2fe8b9bb5c6749ee6978f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f1_sundropelixir.png"
-dest_files=["res://.godot/imported/icon_f1_sundropelixir.png-72e1b0c31d4b4c7a16a66b47688f7a76.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f1_sundropelixir.png"
+dest_files=["res://.godot/imported/icon_f1_sundropelixir.png-84e7526afdf2fe8b9bb5c6749ee6978f.ctex"]
 
 [params]
 

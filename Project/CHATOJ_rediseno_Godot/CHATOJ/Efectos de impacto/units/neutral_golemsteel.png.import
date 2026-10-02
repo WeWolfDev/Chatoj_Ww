@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cqt77hgyhy5ee"
-path="res://.godot/imported/neutral_golemsteel.png-c2bd65359753ba59c5ec4023eaec4644.ctex"
+path="res://.godot/imported/neutral_golemsteel.png-c62d34be202ea3009faef1f62504a067.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_golemsteel.png"
-dest_files=["res://.godot/imported/neutral_golemsteel.png-c2bd65359753ba59c5ec4023eaec4644.ctex"]
+source_file="res://Efectos de impacto/units/neutral_golemsteel.png"
+dest_files=["res://.godot/imported/neutral_golemsteel.png-c62d34be202ea3009faef1f62504a067.ctex"]
 
 [params]
 

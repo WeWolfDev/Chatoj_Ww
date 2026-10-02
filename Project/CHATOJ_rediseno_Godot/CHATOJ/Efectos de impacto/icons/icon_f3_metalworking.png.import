@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b340jbgt70iqc"
-path="res://.godot/imported/icon_f3_metalworking.png-f471384c307f2cf2e6ad71afb46ea367.ctex"
+path="res://.godot/imported/icon_f3_metalworking.png-e9d6533223b033de75817ea3642c5d7f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f3_metalworking.png"
-dest_files=["res://.godot/imported/icon_f3_metalworking.png-f471384c307f2cf2e6ad71afb46ea367.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f3_metalworking.png"
+dest_files=["res://.godot/imported/icon_f3_metalworking.png-e9d6533223b033de75817ea3642c5d7f.ctex"]
 
 [params]
 

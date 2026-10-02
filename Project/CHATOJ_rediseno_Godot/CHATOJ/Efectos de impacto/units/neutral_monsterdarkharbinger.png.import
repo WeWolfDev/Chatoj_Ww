@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dby1e8oohkcgw"
-path="res://.godot/imported/neutral_monsterdarkharbinger.png-61284ad7a95572b9da07b113643da06c.ctex"
+path="res://.godot/imported/neutral_monsterdarkharbinger.png-db0440061751ce9bdc05952faa5eef25.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_monsterdarkharbinger.png"
-dest_files=["res://.godot/imported/neutral_monsterdarkharbinger.png-61284ad7a95572b9da07b113643da06c.ctex"]
+source_file="res://Efectos de impacto/units/neutral_monsterdarkharbinger.png"
+dest_files=["res://.godot/imported/neutral_monsterdarkharbinger.png-db0440061751ce9bdc05952faa5eef25.ctex"]
 
 [params]
 

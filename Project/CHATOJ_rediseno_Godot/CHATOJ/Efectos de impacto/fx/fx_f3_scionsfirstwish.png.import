@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4qdo6bbqjaxf"
-path="res://.godot/imported/fx_f3_scionsfirstwish.png-c7f1fab921592da4b6829972454cb056.ctex"
+path="res://.godot/imported/fx_f3_scionsfirstwish.png-56c6f284a471d8ffd4f00f4e498ea79e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f3_scionsfirstwish.png"
-dest_files=["res://.godot/imported/fx_f3_scionsfirstwish.png-c7f1fab921592da4b6829972454cb056.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f3_scionsfirstwish.png"
+dest_files=["res://.godot/imported/fx_f3_scionsfirstwish.png-56c6f284a471d8ffd4f00f4e498ea79e.ctex"]
 
 [params]
 

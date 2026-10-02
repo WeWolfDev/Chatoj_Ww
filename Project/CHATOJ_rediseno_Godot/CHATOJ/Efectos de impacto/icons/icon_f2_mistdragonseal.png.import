@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://by4mu217pgnsw"
-path="res://.godot/imported/icon_f2_mistdragonseal.png-196d71b17f0c1d877003a72ef615c975.ctex"
+path="res://.godot/imported/icon_f2_mistdragonseal.png-487478a1e159ad2a6ecfd59fc607bdf2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f2_mistdragonseal.png"
-dest_files=["res://.godot/imported/icon_f2_mistdragonseal.png-196d71b17f0c1d877003a72ef615c975.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f2_mistdragonseal.png"
+dest_files=["res://.godot/imported/icon_f2_mistdragonseal.png-487478a1e159ad2a6ecfd59fc607bdf2.ctex"]
 
 [params]
 

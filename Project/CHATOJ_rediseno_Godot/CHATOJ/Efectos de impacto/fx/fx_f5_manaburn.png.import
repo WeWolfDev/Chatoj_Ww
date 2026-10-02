@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3x5gv53324x0"
-path="res://.godot/imported/fx_f5_manaburn.png-63ece0d5d3da14fc91f128b43f5c7f2a.ctex"
+path="res://.godot/imported/fx_f5_manaburn.png-27556f50ac09b5ffe6f74538bcd4ac5b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f5_manaburn.png"
-dest_files=["res://.godot/imported/fx_f5_manaburn.png-63ece0d5d3da14fc91f128b43f5c7f2a.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f5_manaburn.png"
+dest_files=["res://.godot/imported/fx_f5_manaburn.png-27556f50ac09b5ffe6f74538bcd4ac5b.ctex"]
 
 [params]
 

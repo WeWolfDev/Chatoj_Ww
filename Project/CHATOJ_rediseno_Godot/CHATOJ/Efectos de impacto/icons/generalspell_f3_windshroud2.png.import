@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgqpt7efppat3"
-path="res://.godot/imported/generalspell_f3_windshroud2.png-584e1a164f26208391a97bb4d541ef08.ctex"
+path="res://.godot/imported/generalspell_f3_windshroud2.png-0c5b55e0b7b15af67fd8737dae8e651c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/generalspell_f3_windshroud2.png"
-dest_files=["res://.godot/imported/generalspell_f3_windshroud2.png-584e1a164f26208391a97bb4d541ef08.ctex"]
+source_file="res://Efectos de impacto/icons/generalspell_f3_windshroud2.png"
+dest_files=["res://.godot/imported/generalspell_f3_windshroud2.png-0c5b55e0b7b15af67fd8737dae8e651c.ctex"]
 
 [params]
 

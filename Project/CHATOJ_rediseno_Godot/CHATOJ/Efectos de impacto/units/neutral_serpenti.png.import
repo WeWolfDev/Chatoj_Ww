@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cxnjforeo4k73"
-path="res://.godot/imported/neutral_serpenti.png-b2314ce6097418d06162caf50abbe0b2.ctex"
+path="res://.godot/imported/neutral_serpenti.png-67f5c20010ee9c68992ae3bf7f2a5243.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_serpenti.png"
-dest_files=["res://.godot/imported/neutral_serpenti.png-b2314ce6097418d06162caf50abbe0b2.ctex"]
+source_file="res://Efectos de impacto/units/neutral_serpenti.png"
+dest_files=["res://.godot/imported/neutral_serpenti.png-67f5c20010ee9c68992ae3bf7f2a5243.ctex"]
 
 [params]
 

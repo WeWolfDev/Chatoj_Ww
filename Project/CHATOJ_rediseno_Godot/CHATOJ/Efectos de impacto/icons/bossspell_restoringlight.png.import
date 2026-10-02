@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bchbrim7ygntd"
-path="res://.godot/imported/bossspell_restoringlight.png-866944132469d324eca54851496f2fc8.ctex"
+path="res://.godot/imported/bossspell_restoringlight.png-8e47c5d435e4890a666bda57fdb79dd0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/bossspell_restoringlight.png"
-dest_files=["res://.godot/imported/bossspell_restoringlight.png-866944132469d324eca54851496f2fc8.ctex"]
+source_file="res://Efectos de impacto/icons/bossspell_restoringlight.png"
+dest_files=["res://.godot/imported/bossspell_restoringlight.png-8e47c5d435e4890a666bda57fdb79dd0.ctex"]
 
 [params]
 

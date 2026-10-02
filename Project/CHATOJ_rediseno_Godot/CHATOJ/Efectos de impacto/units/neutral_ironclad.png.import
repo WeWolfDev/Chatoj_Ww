@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1g5wgtx5ide1"
-path="res://.godot/imported/neutral_ironclad.png-9cf3b96673a829123cb580bd55346fa7.ctex"
+path="res://.godot/imported/neutral_ironclad.png-b4f86b5060d39ac7ed92c40754157df3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_ironclad.png"
-dest_files=["res://.godot/imported/neutral_ironclad.png-9cf3b96673a829123cb580bd55346fa7.ctex"]
+source_file="res://Efectos de impacto/units/neutral_ironclad.png"
+dest_files=["res://.godot/imported/neutral_ironclad.png-b4f86b5060d39ac7ed92c40754157df3.ctex"]
 
 [params]
 

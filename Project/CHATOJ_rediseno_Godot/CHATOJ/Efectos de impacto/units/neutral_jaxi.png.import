@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cw32miipwg3id"
-path="res://.godot/imported/neutral_jaxi.png-a4e3f90e7bedc59b7f0a0114acd3bd27.ctex"
+path="res://.godot/imported/neutral_jaxi.png-c8a156f77cf4fbb6d0d72d439ae950e6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_jaxi.png"
-dest_files=["res://.godot/imported/neutral_jaxi.png-a4e3f90e7bedc59b7f0a0114acd3bd27.ctex"]
+source_file="res://Efectos de impacto/units/neutral_jaxi.png"
+dest_files=["res://.godot/imported/neutral_jaxi.png-c8a156f77cf4fbb6d0d72d439ae950e6.ctex"]
 
 [params]
 

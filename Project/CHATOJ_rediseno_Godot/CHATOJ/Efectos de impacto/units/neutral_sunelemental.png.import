@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dp4wn0bhqjvnd"
-path="res://.godot/imported/neutral_sunelemental.png-bc8fcb53f5674c844fee09ba9b6cbef5.ctex"
+path="res://.godot/imported/neutral_sunelemental.png-8d803a7dcd9f9e73e80e0cbef5895861.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_sunelemental.png"
-dest_files=["res://.godot/imported/neutral_sunelemental.png-bc8fcb53f5674c844fee09ba9b6cbef5.ctex"]
+source_file="res://Efectos de impacto/units/neutral_sunelemental.png"
+dest_files=["res://.godot/imported/neutral_sunelemental.png-8d803a7dcd9f9e73e80e0cbef5895861.ctex"]
 
 [params]
 

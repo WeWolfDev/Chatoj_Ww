@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ckq5s6tdfufap"
-path="res://.godot/imported/fx_f1_sunbloom.png-5e4dcfac7379d7351a4a07d675b6fa0a.ctex"
+path="res://.godot/imported/fx_f1_sunbloom.png-d226f4bfba0653fa302450017210b496.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f1_sunbloom.png"
-dest_files=["res://.godot/imported/fx_f1_sunbloom.png-5e4dcfac7379d7351a4a07d675b6fa0a.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f1_sunbloom.png"
+dest_files=["res://.godot/imported/fx_f1_sunbloom.png-d226f4bfba0653fa302450017210b496.ctex"]
 
 [params]
 

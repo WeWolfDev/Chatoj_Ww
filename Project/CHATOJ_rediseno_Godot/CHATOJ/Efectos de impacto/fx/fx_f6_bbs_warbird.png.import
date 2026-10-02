@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bot8h4u1yr1fw"
-path="res://.godot/imported/fx_f6_bbs_warbird.png-0128fa8416caeb73e895a18d3591e7c0.ctex"
+path="res://.godot/imported/fx_f6_bbs_warbird.png-6c5888165f9a1ca5d6b2166c3dad5223.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f6_bbs_warbird.png"
-dest_files=["res://.godot/imported/fx_f6_bbs_warbird.png-0128fa8416caeb73e895a18d3591e7c0.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f6_bbs_warbird.png"
+dest_files=["res://.godot/imported/fx_f6_bbs_warbird.png-6c5888165f9a1ca5d6b2166c3dad5223.ctex"]
 
 [params]
 

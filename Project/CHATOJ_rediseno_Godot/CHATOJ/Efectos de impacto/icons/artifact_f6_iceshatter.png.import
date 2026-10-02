@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cuom1n5p7bct1"
-path="res://.godot/imported/artifact_f6_iceshatter.png-4e28dfa69cb3e63d98ea97fc09b5ee4e.ctex"
+path="res://.godot/imported/artifact_f6_iceshatter.png-29882d8d67da59f3d6a63d29199c6144.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/artifact_f6_iceshatter.png"
-dest_files=["res://.godot/imported/artifact_f6_iceshatter.png-4e28dfa69cb3e63d98ea97fc09b5ee4e.ctex"]
+source_file="res://Efectos de impacto/icons/artifact_f6_iceshatter.png"
+dest_files=["res://.godot/imported/artifact_f6_iceshatter.png-29882d8d67da59f3d6a63d29199c6144.ctex"]
 
 [params]
 

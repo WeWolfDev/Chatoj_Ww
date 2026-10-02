@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dfnjsa6rrm5fj"
-path="res://.godot/imported/f1_peacekeeper.png-44eca1697fd474f689599365cacb4e01.ctex"
+path="res://.godot/imported/f1_peacekeeper.png-1c6b61510f2d6c40d8d81c97cfdaf4d3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f1_peacekeeper.png"
-dest_files=["res://.godot/imported/f1_peacekeeper.png-44eca1697fd474f689599365cacb4e01.ctex"]
+source_file="res://Efectos de impacto/units/f1_peacekeeper.png"
+dest_files=["res://.godot/imported/f1_peacekeeper.png-1c6b61510f2d6c40d8d81c97cfdaf4d3.ctex"]
 
 [params]
 

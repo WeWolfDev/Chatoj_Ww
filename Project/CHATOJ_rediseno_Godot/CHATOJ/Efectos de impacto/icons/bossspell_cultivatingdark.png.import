@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bpdd6s8xugoym"
-path="res://.godot/imported/bossspell_cultivatingdark.png-0062b3105dbfc34ce81e0daaa320031d.ctex"
+path="res://.godot/imported/bossspell_cultivatingdark.png-f553eb6c4d9d5b1feabca5d368cd7de1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/bossspell_cultivatingdark.png"
-dest_files=["res://.godot/imported/bossspell_cultivatingdark.png-0062b3105dbfc34ce81e0daaa320031d.ctex"]
+source_file="res://Efectos de impacto/icons/bossspell_cultivatingdark.png"
+dest_files=["res://.godot/imported/bossspell_cultivatingdark.png-f553eb6c4d9d5b1feabca5d368cd7de1.ctex"]
 
 [params]
 

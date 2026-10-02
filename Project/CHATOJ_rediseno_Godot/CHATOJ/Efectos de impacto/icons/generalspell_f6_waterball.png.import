@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ddxqor6ycbaf4"
-path="res://.godot/imported/generalspell_f6_waterball.png-96d9c12ad154c3adbedb9f746ee36a47.ctex"
+path="res://.godot/imported/generalspell_f6_waterball.png-3c2018d24ae0ea4de2d1cb536f166a25.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/generalspell_f6_waterball.png"
-dest_files=["res://.godot/imported/generalspell_f6_waterball.png-96d9c12ad154c3adbedb9f746ee36a47.ctex"]
+source_file="res://Efectos de impacto/icons/generalspell_f6_waterball.png"
+dest_files=["res://.godot/imported/generalspell_f6_waterball.png-3c2018d24ae0ea4de2d1cb536f166a25.ctex"]
 
 [params]
 

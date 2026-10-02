@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c63f3s7o8foo"
-path="res://.godot/imported/neutral_tombstone.png-cdfd64e367bf2c5101ef05141a56aac9.ctex"
+path="res://.godot/imported/neutral_tombstone.png-cff9e3f9997df52de1403f7816197739.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_tombstone.png"
-dest_files=["res://.godot/imported/neutral_tombstone.png-cdfd64e367bf2c5101ef05141a56aac9.ctex"]
+source_file="res://Efectos de impacto/units/neutral_tombstone.png"
+dest_files=["res://.godot/imported/neutral_tombstone.png-cff9e3f9997df52de1403f7816197739.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bkwepnlqefh27"
-path="res://.godot/imported/fx_f2_twilightreiki.png-602787c11bb9e729b3c0b93d2160aa2a.ctex"
+path="res://.godot/imported/fx_f2_twilightreiki.png-bc43253cb3bcd529602d1e4c179e4762.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f2_twilightreiki.png"
-dest_files=["res://.godot/imported/fx_f2_twilightreiki.png-602787c11bb9e729b3c0b93d2160aa2a.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f2_twilightreiki.png"
+dest_files=["res://.godot/imported/fx_f2_twilightreiki.png-bc43253cb3bcd529602d1e4c179e4762.ctex"]
 
 [params]
 

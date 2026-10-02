@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cp5a0smy1e5bb"
-path="res://.godot/imported/icon_f4_shadowreflection.png-5d7fedbfe02cb0c94971a1bdbdbaea9a.ctex"
+path="res://.godot/imported/icon_f4_shadowreflection.png-74a0ca416280a5a7b36be2f01cf5d0d7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f4_shadowreflection.png"
-dest_files=["res://.godot/imported/icon_f4_shadowreflection.png-5d7fedbfe02cb0c94971a1bdbdbaea9a.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f4_shadowreflection.png"
+dest_files=["res://.godot/imported/icon_f4_shadowreflection.png-74a0ca416280a5a7b36be2f01cf5d0d7.ctex"]
 
 [params]
 

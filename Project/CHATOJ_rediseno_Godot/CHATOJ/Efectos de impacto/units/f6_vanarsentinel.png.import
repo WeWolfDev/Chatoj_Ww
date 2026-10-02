@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://qtlrqwwbyue4"
-path="res://.godot/imported/f6_vanarsentinel.png-48e7ae7b325d8062e081f0c8518f23cd.ctex"
+path="res://.godot/imported/f6_vanarsentinel.png-4e5eafff37da8129788dc18001df05a4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f6_vanarsentinel.png"
-dest_files=["res://.godot/imported/f6_vanarsentinel.png-48e7ae7b325d8062e081f0c8518f23cd.ctex"]
+source_file="res://Efectos de impacto/units/f6_vanarsentinel.png"
+dest_files=["res://.godot/imported/f6_vanarsentinel.png-4e5eafff37da8129788dc18001df05a4.ctex"]
 
 [params]
 

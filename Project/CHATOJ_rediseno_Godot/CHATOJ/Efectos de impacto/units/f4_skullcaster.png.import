@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://wj00ycqxiw16"
-path="res://.godot/imported/f4_skullcaster.png-105f6cda7304910722e9e7558a0236bf.ctex"
+path="res://.godot/imported/f4_skullcaster.png-b8d399fccd122d6a99f115da0d02e142.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f4_skullcaster.png"
-dest_files=["res://.godot/imported/f4_skullcaster.png-105f6cda7304910722e9e7558a0236bf.ctex"]
+source_file="res://Efectos de impacto/units/f4_skullcaster.png"
+dest_files=["res://.godot/imported/f4_skullcaster.png-b8d399fccd122d6a99f115da0d02e142.ctex"]
 
 [params]
 

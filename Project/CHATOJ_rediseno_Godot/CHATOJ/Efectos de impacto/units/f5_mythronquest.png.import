@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b80tkywo0s46q"
-path="res://.godot/imported/f5_mythronquest.png-3a5b4a7e5184db7ff9a66c658734414c.ctex"
+path="res://.godot/imported/f5_mythronquest.png-963d8a5f42fd251450cb2a4660552e58.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f5_mythronquest.png"
-dest_files=["res://.godot/imported/f5_mythronquest.png-3a5b4a7e5184db7ff9a66c658734414c.ctex"]
+source_file="res://Efectos de impacto/units/f5_mythronquest.png"
+dest_files=["res://.godot/imported/f5_mythronquest.png-963d8a5f42fd251450cb2a4660552e58.ctex"]
 
 [params]
 

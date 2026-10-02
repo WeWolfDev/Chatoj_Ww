@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dljj28e7eemcp"
-path="res://.godot/imported/f3_falcius.png-d9eed10f262c8ff5068d2211797d3adc.ctex"
+path="res://.godot/imported/f3_falcius.png-10c2bad73c6af21a813462b20f531ca3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f3_falcius.png"
-dest_files=["res://.godot/imported/f3_falcius.png-d9eed10f262c8ff5068d2211797d3adc.ctex"]
+source_file="res://Efectos de impacto/units/f3_falcius.png"
+dest_files=["res://.godot/imported/f3_falcius.png-10c2bad73c6af21a813462b20f531ca3.ctex"]
 
 [params]
 

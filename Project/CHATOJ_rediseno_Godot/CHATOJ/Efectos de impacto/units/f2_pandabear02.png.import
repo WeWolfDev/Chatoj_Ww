@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://citduegwky46g"
-path="res://.godot/imported/f2_pandabear02.png-b3b8e063eaace89b83365cdb89a7dbc9.ctex"
+path="res://.godot/imported/f2_pandabear02.png-b8a328a2e0f78655ffe4061fa0e24a4a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f2_pandabear02.png"
-dest_files=["res://.godot/imported/f2_pandabear02.png-b3b8e063eaace89b83365cdb89a7dbc9.ctex"]
+source_file="res://Efectos de impacto/units/f2_pandabear02.png"
+dest_files=["res://.godot/imported/f2_pandabear02.png-b8a328a2e0f78655ffe4061fa0e24a4a.ctex"]
 
 [params]
 

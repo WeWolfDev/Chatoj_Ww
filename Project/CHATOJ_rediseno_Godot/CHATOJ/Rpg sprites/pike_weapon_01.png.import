@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://be8dldrm7pkoq"
-path="res://.godot/imported/pike_weapon_01.png-bcda52de408ebbd7179a7f425d8c1971.ctex"
+path="res://.godot/imported/pike_weapon_01.png-1705b0e43431d9fe8d2d876ef4fd12e3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/pike_weapon_01.png"
-dest_files=["res://.godot/imported/pike_weapon_01.png-bcda52de408ebbd7179a7f425d8c1971.ctex"]
+source_file="res://Rpg sprites/pike_weapon_01.png"
+dest_files=["res://.godot/imported/pike_weapon_01.png-1705b0e43431d9fe8d2d876ef4fd12e3.ctex"]
 
 [params]
 

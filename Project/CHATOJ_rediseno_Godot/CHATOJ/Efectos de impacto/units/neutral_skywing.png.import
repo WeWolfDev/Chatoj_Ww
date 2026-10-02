@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdmf44u8nw6lr"
-path="res://.godot/imported/neutral_skywing.png-e35326dd837b641cde04dd91a619de01.ctex"
+path="res://.godot/imported/neutral_skywing.png-65ac31db89b8b308c01b95ecff9944c6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_skywing.png"
-dest_files=["res://.godot/imported/neutral_skywing.png-e35326dd837b641cde04dd91a619de01.ctex"]
+source_file="res://Efectos de impacto/units/neutral_skywing.png"
+dest_files=["res://.godot/imported/neutral_skywing.png-65ac31db89b8b308c01b95ecff9944c6.ctex"]
 
 [params]
 

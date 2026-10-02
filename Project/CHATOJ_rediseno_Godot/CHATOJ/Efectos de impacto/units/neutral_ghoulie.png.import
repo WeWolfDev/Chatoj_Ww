@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bih5a2q1raaa1"
-path="res://.godot/imported/neutral_ghoulie.png-a03d4f0b542828b8de71c9b67db598ea.ctex"
+path="res://.godot/imported/neutral_ghoulie.png-e7f319ea3c3f277490aaa8d7518cb4d6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_ghoulie.png"
-dest_files=["res://.godot/imported/neutral_ghoulie.png-a03d4f0b542828b8de71c9b67db598ea.ctex"]
+source_file="res://Efectos de impacto/units/neutral_ghoulie.png"
+dest_files=["res://.godot/imported/neutral_ghoulie.png-e7f319ea3c3f277490aaa8d7518cb4d6.ctex"]
 
 [params]
 

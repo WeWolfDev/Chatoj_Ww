@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bwvloh2vi4y46"
-path="res://.godot/imported/spider_eggs_01.png-ec0f2033e0b6a6934cb70bffaafbc06c.ctex"
+path="res://.godot/imported/spider_eggs_01.png-0384943037dd1846a29751f1303f65fd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/spider_eggs_01.png"
-dest_files=["res://.godot/imported/spider_eggs_01.png-ec0f2033e0b6a6934cb70bffaafbc06c.ctex"]
+source_file="res://Rpg sprites/spider_eggs_01.png"
+dest_files=["res://.godot/imported/spider_eggs_01.png-0384943037dd1846a29751f1303f65fd.ctex"]
 
 [params]
 

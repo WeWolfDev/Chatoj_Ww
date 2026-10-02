@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bqr1thsun2v7x"
-path="res://.godot/imported/f5_drogon.png-a26e70cc81a13221e2816e7cff951e74.ctex"
+path="res://.godot/imported/f5_drogon.png-84c363424a10d722fb77d84961f1dff6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f5_drogon.png"
-dest_files=["res://.godot/imported/f5_drogon.png-a26e70cc81a13221e2816e7cff951e74.ctex"]
+source_file="res://Efectos de impacto/units/f5_drogon.png"
+dest_files=["res://.godot/imported/f5_drogon.png-84c363424a10d722fb77d84961f1dff6.ctex"]
 
 [params]
 

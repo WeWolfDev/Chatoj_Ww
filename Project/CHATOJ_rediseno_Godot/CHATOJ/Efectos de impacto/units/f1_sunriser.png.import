@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3rpuufy4xy0p"
-path="res://.godot/imported/f1_sunriser.png-a182881de45835014965149e872929df.ctex"
+path="res://.godot/imported/f1_sunriser.png-82b7bf73685e0094cbfe51a507ab2b07.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f1_sunriser.png"
-dest_files=["res://.godot/imported/f1_sunriser.png-a182881de45835014965149e872929df.ctex"]
+source_file="res://Efectos de impacto/units/f1_sunriser.png"
+dest_files=["res://.godot/imported/f1_sunriser.png-82b7bf73685e0094cbfe51a507ab2b07.ctex"]
 
 [params]
 

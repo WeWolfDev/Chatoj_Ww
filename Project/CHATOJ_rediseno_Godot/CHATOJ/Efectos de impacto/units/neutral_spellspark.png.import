@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0vc7flw5jlly"
-path="res://.godot/imported/neutral_spellspark.png-34e0279ffe408a07d8a3923ec28d3698.ctex"
+path="res://.godot/imported/neutral_spellspark.png-3c5ca706afc8942859d9522db52c466e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_spellspark.png"
-dest_files=["res://.godot/imported/neutral_spellspark.png-34e0279ffe408a07d8a3923ec28d3698.ctex"]
+source_file="res://Efectos de impacto/units/neutral_spellspark.png"
+dest_files=["res://.godot/imported/neutral_spellspark.png-3c5ca706afc8942859d9522db52c466e.ctex"]
 
 [params]
 

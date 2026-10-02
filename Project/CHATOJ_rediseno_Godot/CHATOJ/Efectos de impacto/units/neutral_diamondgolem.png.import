@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://s6c6l1oqxcp8"
-path="res://.godot/imported/neutral_diamondgolem.png-230dd31b90845ffdef754029195b5d8b.ctex"
+path="res://.godot/imported/neutral_diamondgolem.png-0e6c0353f20d5c3a77ae68e6630a7716.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_diamondgolem.png"
-dest_files=["res://.godot/imported/neutral_diamondgolem.png-230dd31b90845ffdef754029195b5d8b.ctex"]
+source_file="res://Efectos de impacto/units/neutral_diamondgolem.png"
+dest_files=["res://.godot/imported/neutral_diamondgolem.png-0e6c0353f20d5c3a77ae68e6630a7716.ctex"]
 
 [params]
 

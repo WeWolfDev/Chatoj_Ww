@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dqliqvykvg4w4"
-path="res://.godot/imported/f2_spellthief.png-7d1d669cd85057c000ac057c92800e4f.ctex"
+path="res://.godot/imported/f2_spellthief.png-8b33e22f878a3070e7bac878fdecda23.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f2_spellthief.png"
-dest_files=["res://.godot/imported/f2_spellthief.png-7d1d669cd85057c000ac057c92800e4f.ctex"]
+source_file="res://Efectos de impacto/units/f2_spellthief.png"
+dest_files=["res://.godot/imported/f2_spellthief.png-8b33e22f878a3070e7bac878fdecda23.ctex"]
 
 [params]
 

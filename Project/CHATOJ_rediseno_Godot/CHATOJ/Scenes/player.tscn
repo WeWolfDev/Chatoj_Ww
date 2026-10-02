@@ -1,7 +1,6 @@
 [gd_scene format=3 uid="uid://v74njklih0qu"]
 
 [ext_resource type="Script" uid="uid://7khnwrn8atg3" path="res://Scenes/player.gd" id="1_f1ek2"]
-[ext_resource type="PackedScene" uid="uid://0vl8c86cr7en" path="res://Scenes/Armas/DaggerProjectile.tscn" id="2_fd4e3"]
 [ext_resource type="SpriteFrames" uid="uid://bhrn6qq2puot7" path="res://assets/Rediseno/personaje_0.tres" id="3_h4iuc"]
 [ext_resource type="Script" uid="uid://05abiuljrq5g" path="res://Scripts/sprite_motion.gd" id="7_wpjfl"]
 [ext_resource type="Texture2D" uid="uid://cq2bhc0ywee2r" path="res://assets/Animaciones/lanzas buenas.png" id="14_h4iuc"]
@@ -277,13 +276,12 @@ animations = [{
 
 [node name="Player" type="CharacterBody2D" unique_id=272724457]
 script = ExtResource("1_f1ek2")
-dagger_scene = ExtResource("2_fd4e3")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2002133221]
 texture_filter = 2
 scale = Vector2(1.2, 1.2)
 sprite_frames = ExtResource("3_h4iuc")
-animation = &"idle_up"
+animation = &"heal_right"
 autoplay = "idle_down"
 script = ExtResource("7_wpjfl")
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ib0ey3ojs5s4"
-path="res://.godot/imported/neutral_healingmysticbandainamco.png-2776208fb61faa2b88aa87226aa34fec.ctex"
+path="res://.godot/imported/neutral_healingmysticbandainamco.png-9156958e7144f961ac77566fa106ce94.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_healingmysticbandainamco.png"
-dest_files=["res://.godot/imported/neutral_healingmysticbandainamco.png-2776208fb61faa2b88aa87226aa34fec.ctex"]
+source_file="res://Efectos de impacto/units/neutral_healingmysticbandainamco.png"
+dest_files=["res://.godot/imported/neutral_healingmysticbandainamco.png-9156958e7144f961ac77566fa106ce94.ctex"]
 
 [params]
 

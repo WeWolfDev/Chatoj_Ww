@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3pagwvqy4h1i"
-path="res://.godot/imported/icon_f6_frostfire.png-58f96e04b9f0fa5a797afcf4e961bc80.ctex"
+path="res://.godot/imported/icon_f6_frostfire.png-22eccf567680f2e179932f38e929bb59.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f6_frostfire.png"
-dest_files=["res://.godot/imported/icon_f6_frostfire.png-58f96e04b9f0fa5a797afcf4e961bc80.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f6_frostfire.png"
+dest_files=["res://.godot/imported/icon_f6_frostfire.png-22eccf567680f2e179932f38e929bb59.ctex"]
 
 [params]
 

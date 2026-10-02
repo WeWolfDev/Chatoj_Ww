@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://e4mkh1cq84so"
-path="res://.godot/imported/artifact_f1_ironbanner.png-ab4fe854414c309d03f8419853651f17.ctex"
+path="res://.godot/imported/artifact_f1_ironbanner.png-8cf2aba54367ae12dd77e6807f6b8941.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/artifact_f1_ironbanner.png"
-dest_files=["res://.godot/imported/artifact_f1_ironbanner.png-ab4fe854414c309d03f8419853651f17.ctex"]
+source_file="res://Efectos de impacto/icons/artifact_f1_ironbanner.png"
+dest_files=["res://.godot/imported/artifact_f1_ironbanner.png-8cf2aba54367ae12dd77e6807f6b8941.ctex"]
 
 [params]
 

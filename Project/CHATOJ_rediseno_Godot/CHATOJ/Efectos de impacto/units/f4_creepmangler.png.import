@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://r51bepwen180"
-path="res://.godot/imported/f4_creepmangler.png-43f1a2575e5e85ad97eff59a751b96e8.ctex"
+path="res://.godot/imported/f4_creepmangler.png-4eb1caf70843efb710f759fd37c03123.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f4_creepmangler.png"
-dest_files=["res://.godot/imported/f4_creepmangler.png-43f1a2575e5e85ad97eff59a751b96e8.ctex"]
+source_file="res://Efectos de impacto/units/f4_creepmangler.png"
+dest_files=["res://.godot/imported/f4_creepmangler.png-4eb1caf70843efb710f759fd37c03123.ctex"]
 
 [params]
 

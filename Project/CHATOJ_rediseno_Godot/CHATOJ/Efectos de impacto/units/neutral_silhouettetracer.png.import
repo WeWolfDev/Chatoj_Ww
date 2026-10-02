@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://blkxgssu5uhjp"
-path="res://.godot/imported/neutral_silhouettetracer.png-f0d510d57eafb2adcd593d2c788495d7.ctex"
+path="res://.godot/imported/neutral_silhouettetracer.png-859b29272a3165693c9a257c50f6cacc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_silhouettetracer.png"
-dest_files=["res://.godot/imported/neutral_silhouettetracer.png-f0d510d57eafb2adcd593d2c788495d7.ctex"]
+source_file="res://Efectos de impacto/units/neutral_silhouettetracer.png"
+dest_files=["res://.godot/imported/neutral_silhouettetracer.png-859b29272a3165693c9a257c50f6cacc.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b8hvxhqcbdoi6"
-path="res://.godot/imported/f3_sandhowler.png-c8e4fd90bb242166252180618a17873b.ctex"
+path="res://.godot/imported/f3_sandhowler.png-05eba401e56d1f7d9d13e6f819196795.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f3_sandhowler.png"
-dest_files=["res://.godot/imported/f3_sandhowler.png-c8e4fd90bb242166252180618a17873b.ctex"]
+source_file="res://Efectos de impacto/units/f3_sandhowler.png"
+dest_files=["res://.godot/imported/f3_sandhowler.png-05eba401e56d1f7d9d13e6f819196795.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dc7lyqfcdxoq"
-path="res://.godot/imported/f1_solpontiff.png-b95acf2480a0db501cf44ee00a2fd1c9.ctex"
+path="res://.godot/imported/f1_solpontiff.png-8d1432cc73b5708e8d084836918bc4e2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f1_solpontiff.png"
-dest_files=["res://.godot/imported/f1_solpontiff.png-b95acf2480a0db501cf44ee00a2fd1c9.ctex"]
+source_file="res://Efectos de impacto/units/f1_solpontiff.png"
+dest_files=["res://.godot/imported/f1_solpontiff.png-8d1432cc73b5708e8d084836918bc4e2.ctex"]
 
 [params]
 

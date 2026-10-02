@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://t2qxyw8txan3"
-path="res://.godot/imported/neutral_monster_explodingdemon.png-6d91b39e0bfb072071a5f775f1c7e32b.ctex"
+path="res://.godot/imported/neutral_monster_explodingdemon.png-fccc89bb7e7a21dae27ebcfbcd020799.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_monster_explodingdemon.png"
-dest_files=["res://.godot/imported/neutral_monster_explodingdemon.png-6d91b39e0bfb072071a5f775f1c7e32b.ctex"]
+source_file="res://Efectos de impacto/units/neutral_monster_explodingdemon.png"
+dest_files=["res://.godot/imported/neutral_monster_explodingdemon.png-fccc89bb7e7a21dae27ebcfbcd020799.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dvg2pcdk7bnxd"
-path="res://.godot/imported/f6_doofybear.png-f569c83b805547ea4ef5de6f2f808aac.ctex"
+path="res://.godot/imported/f6_doofybear.png-65f8c675fa9ef38162dde987511d3c30.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f6_doofybear.png"
-dest_files=["res://.godot/imported/f6_doofybear.png-f569c83b805547ea4ef5de6f2f808aac.ctex"]
+source_file="res://Efectos de impacto/units/f6_doofybear.png"
+dest_files=["res://.godot/imported/f6_doofybear.png-65f8c675fa9ef38162dde987511d3c30.ctex"]
 
 [params]
 

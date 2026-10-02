@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bcdfo4qe58gc4"
-path="res://.godot/imported/boss_city.png-9597941636b3b1f8bb3d14a80969c67c.ctex"
+path="res://.godot/imported/boss_city.png-79f0aebbe5341a9f778923318345c18d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/boss_city.png"
-dest_files=["res://.godot/imported/boss_city.png-9597941636b3b1f8bb3d14a80969c67c.ctex"]
+source_file="res://Efectos de impacto/units/boss_city.png"
+dest_files=["res://.godot/imported/boss_city.png-79f0aebbe5341a9f778923318345c18d.ctex"]
 
 [params]
 

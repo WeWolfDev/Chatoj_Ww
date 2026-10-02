@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ct5out2vca0h6"
-path="res://.godot/imported/fx_redlightning.png-2ac2aa18491bacd86878546a1691a285.ctex"
+path="res://.godot/imported/fx_redlightning.png-656d44e1ea754d0e1c37f995b66b3f4e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_redlightning.png"
-dest_files=["res://.godot/imported/fx_redlightning.png-2ac2aa18491bacd86878546a1691a285.ctex"]
+source_file="res://Efectos de impacto/fx/fx_redlightning.png"
+dest_files=["res://.godot/imported/fx_redlightning.png-656d44e1ea754d0e1c37f995b66b3f4e.ctex"]
 
 [params]
 

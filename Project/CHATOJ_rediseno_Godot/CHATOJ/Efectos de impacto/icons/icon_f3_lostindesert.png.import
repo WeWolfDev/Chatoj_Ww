@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b8xcj4mvontso"
-path="res://.godot/imported/icon_f3_lostindesert.png-1fa0f103097f8bbce7cb29f24b96374b.ctex"
+path="res://.godot/imported/icon_f3_lostindesert.png-d5277c02a80b59cba0ed0d88a9234f3b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f3_lostindesert.png"
-dest_files=["res://.godot/imported/icon_f3_lostindesert.png-1fa0f103097f8bbce7cb29f24b96374b.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f3_lostindesert.png"
+dest_files=["res://.godot/imported/icon_f3_lostindesert.png-d5277c02a80b59cba0ed0d88a9234f3b.ctex"]
 
 [params]
 

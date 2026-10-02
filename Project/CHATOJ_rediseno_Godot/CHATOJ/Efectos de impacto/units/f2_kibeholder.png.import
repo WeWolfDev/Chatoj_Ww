@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dywgpqaabn4vu"
-path="res://.godot/imported/f2_kibeholder.png-0126156a12739da5d0841ae51a0be6ad.ctex"
+path="res://.godot/imported/f2_kibeholder.png-fdeb49358a4e921aea73ffa479fc286a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f2_kibeholder.png"
-dest_files=["res://.godot/imported/f2_kibeholder.png-0126156a12739da5d0841ae51a0be6ad.ctex"]
+source_file="res://Efectos de impacto/units/f2_kibeholder.png"
+dest_files=["res://.godot/imported/f2_kibeholder.png-fdeb49358a4e921aea73ffa479fc286a.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cs0bgespuxp88"
-path="res://.godot/imported/boss_crystal.png-7ed1fffbd3f0a768e1ee55d31673143d.ctex"
+path="res://.godot/imported/boss_crystal.png-ab22cc4dcacf55967591729bf3f6dfad.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/boss_crystal.png"
-dest_files=["res://.godot/imported/boss_crystal.png-7ed1fffbd3f0a768e1ee55d31673143d.ctex"]
+source_file="res://Efectos de impacto/units/boss_crystal.png"
+dest_files=["res://.godot/imported/boss_crystal.png-ab22cc4dcacf55967591729bf3f6dfad.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ce58c0qviikxq"
-path="res://.godot/imported/backpack_LVL_01.png-8b2d8beeebfbafc0cbbe325fc388a5d5.ctex"
+path="res://.godot/imported/backpack_LVL_01.png-c1d2b39a5b399c0ed2d52a1f262c1063.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/backpack_LVL_01.png"
-dest_files=["res://.godot/imported/backpack_LVL_01.png-8b2d8beeebfbafc0cbbe325fc388a5d5.ctex"]
+source_file="res://Rpg sprites/backpack_LVL_01.png"
+dest_files=["res://.godot/imported/backpack_LVL_01.png-c1d2b39a5b399c0ed2d52a1f262c1063.ctex"]
 
 [params]
 

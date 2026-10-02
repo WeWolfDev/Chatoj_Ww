@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://chreov7113c5t"
-path="res://.godot/imported/icon_f1_aegisbarrier.png-d18bbee5ffc0020ba0564987e545b81f.ctex"
+path="res://.godot/imported/icon_f1_aegisbarrier.png-ff32a395438b09a2a06c865ce2395291.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f1_aegisbarrier.png"
-dest_files=["res://.godot/imported/icon_f1_aegisbarrier.png-d18bbee5ffc0020ba0564987e545b81f.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f1_aegisbarrier.png"
+dest_files=["res://.godot/imported/icon_f1_aegisbarrier.png-ff32a395438b09a2a06c865ce2395291.ctex"]
 
 [params]
 

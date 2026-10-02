@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://do656u2d11pn7"
-path="res://.godot/imported/artifact_f2_spellfan.png-27b1cadb7ac9d3d038430ac58212c89c.ctex"
+path="res://.godot/imported/artifact_f2_spellfan.png-2821f2f757b38e338add66f1fac9ae1a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/artifact_f2_spellfan.png"
-dest_files=["res://.godot/imported/artifact_f2_spellfan.png-27b1cadb7ac9d3d038430ac58212c89c.ctex"]
+source_file="res://Efectos de impacto/icons/artifact_f2_spellfan.png"
+dest_files=["res://.godot/imported/artifact_f2_spellfan.png-2821f2f757b38e338add66f1fac9ae1a.ctex"]
 
 [params]
 

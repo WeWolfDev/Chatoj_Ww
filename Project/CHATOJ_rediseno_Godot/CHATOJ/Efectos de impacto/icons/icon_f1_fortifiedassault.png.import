@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dg5hao76udxuk"
-path="res://.godot/imported/icon_f1_fortifiedassault.png-898fbc3d323232c00e3e70e7776812b6.ctex"
+path="res://.godot/imported/icon_f1_fortifiedassault.png-2fecc8d25925233d77a41533caf13681.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f1_fortifiedassault.png"
-dest_files=["res://.godot/imported/icon_f1_fortifiedassault.png-898fbc3d323232c00e3e70e7776812b6.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f1_fortifiedassault.png"
+dest_files=["res://.godot/imported/icon_f1_fortifiedassault.png-2fecc8d25925233d77a41533caf13681.ctex"]
 
 [params]
 

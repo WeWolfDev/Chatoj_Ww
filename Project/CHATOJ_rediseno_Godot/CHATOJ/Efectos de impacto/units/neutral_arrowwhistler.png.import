@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b2ap4xf6hmmq1"
-path="res://.godot/imported/neutral_arrowwhistler.png-d89872e315f483c244b2da0044c75b17.ctex"
+path="res://.godot/imported/neutral_arrowwhistler.png-974b160a73f97f9a5b3bfd9e948fd23e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_arrowwhistler.png"
-dest_files=["res://.godot/imported/neutral_arrowwhistler.png-d89872e315f483c244b2da0044c75b17.ctex"]
+source_file="res://Efectos de impacto/units/neutral_arrowwhistler.png"
+dest_files=["res://.godot/imported/neutral_arrowwhistler.png-974b160a73f97f9a5b3bfd9e948fd23e.ctex"]
 
 [params]
 

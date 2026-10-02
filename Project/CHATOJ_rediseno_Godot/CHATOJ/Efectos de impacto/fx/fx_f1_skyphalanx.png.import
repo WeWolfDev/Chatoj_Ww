@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://chd3yuosxtukw"
-path="res://.godot/imported/fx_f1_skyphalanx.png-fdb5e6731be53600a59f9d54f1b81362.ctex"
+path="res://.godot/imported/fx_f1_skyphalanx.png-f9cfbf502d2d9d4e7624bc3080a9fb4d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f1_skyphalanx.png"
-dest_files=["res://.godot/imported/fx_f1_skyphalanx.png-fdb5e6731be53600a59f9d54f1b81362.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f1_skyphalanx.png"
+dest_files=["res://.godot/imported/fx_f1_skyphalanx.png-f9cfbf502d2d9d4e7624bc3080a9fb4d.ctex"]
 
 [params]
 

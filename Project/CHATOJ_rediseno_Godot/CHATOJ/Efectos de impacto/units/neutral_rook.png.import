@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c7kjohbj41epw"
-path="res://.godot/imported/neutral_rook.png-e0b506b44d574c35a2e0c4a669884cde.ctex"
+path="res://.godot/imported/neutral_rook.png-0f657ac87f6425119f1bf45a648669cd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_rook.png"
-dest_files=["res://.godot/imported/neutral_rook.png-e0b506b44d574c35a2e0c4a669884cde.ctex"]
+source_file="res://Efectos de impacto/units/neutral_rook.png"
+dest_files=["res://.godot/imported/neutral_rook.png-0f657ac87f6425119f1bf45a648669cd.ctex"]
 
 [params]
 

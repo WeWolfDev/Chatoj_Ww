@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dqvfb0owb0ehb"
-path="res://.godot/imported/fx_disintegrate.png-8f7b9de1437fcf8dfc7a855b9cdddf69.ctex"
+path="res://.godot/imported/fx_disintegrate.png-061f1f9e6567046d23b8d85db070846a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_disintegrate.png"
-dest_files=["res://.godot/imported/fx_disintegrate.png-8f7b9de1437fcf8dfc7a855b9cdddf69.ctex"]
+source_file="res://Efectos de impacto/fx/fx_disintegrate.png"
+dest_files=["res://.godot/imported/fx_disintegrate.png-061f1f9e6567046d23b8d85db070846a.ctex"]
 
 [params]
 

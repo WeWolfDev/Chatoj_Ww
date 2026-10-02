@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ccicpw524rrp4"
-path="res://.godot/imported/labrys_01.png-5be6961c18d5bb04a0a25b5fe84bf65c.ctex"
+path="res://.godot/imported/labrys_01.png-e471dffcd1bd2241dcbbf9f1c6b9cb99.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/labrys_01.png"
-dest_files=["res://.godot/imported/labrys_01.png-5be6961c18d5bb04a0a25b5fe84bf65c.ctex"]
+source_file="res://Rpg sprites/labrys_01.png"
+dest_files=["res://.godot/imported/labrys_01.png-e471dffcd1bd2241dcbbf9f1c6b9cb99.ctex"]
 
 [params]
 

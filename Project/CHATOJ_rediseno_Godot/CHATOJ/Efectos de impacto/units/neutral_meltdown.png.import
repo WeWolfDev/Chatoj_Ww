@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://nqt1bko6im8j"
-path="res://.godot/imported/neutral_meltdown.png-06d01a18d89aa0215762526022d427ef.ctex"
+path="res://.godot/imported/neutral_meltdown.png-1f95f73c9e6842635e2ff396f8688fd3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_meltdown.png"
-dest_files=["res://.godot/imported/neutral_meltdown.png-06d01a18d89aa0215762526022d427ef.ctex"]
+source_file="res://Efectos de impacto/units/neutral_meltdown.png"
+dest_files=["res://.godot/imported/neutral_meltdown.png-1f95f73c9e6842635e2ff396f8688fd3.ctex"]
 
 [params]
 

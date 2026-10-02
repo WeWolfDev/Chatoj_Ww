@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c5nml185xbc2o"
-path="res://.godot/imported/f2_general_skindogehai.png-a52a1541d0c9a8c0f89748a298e8c826.ctex"
+path="res://.godot/imported/f2_general_skindogehai.png-e8f4c568ee705495d625d9c257e23d3f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f2_general_skindogehai.png"
-dest_files=["res://.godot/imported/f2_general_skindogehai.png-a52a1541d0c9a8c0f89748a298e8c826.ctex"]
+source_file="res://Efectos de impacto/units/f2_general_skindogehai.png"
+dest_files=["res://.godot/imported/f2_general_skindogehai.png-e8f4c568ee705495d625d9c257e23d3f.ctex"]
 
 [params]
 

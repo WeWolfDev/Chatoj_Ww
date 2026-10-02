@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dll8ewjxbwdhr"
-path="res://.godot/imported/neutral_golemice.png-a3ecce8982c8f799ab706d2c3151f7d2.ctex"
+path="res://.godot/imported/neutral_golemice.png-c0cbbca7122ae98fbc738d9f3afb16df.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_golemice.png"
-dest_files=["res://.godot/imported/neutral_golemice.png-a3ecce8982c8f799ab706d2c3151f7d2.ctex"]
+source_file="res://Efectos de impacto/units/neutral_golemice.png"
+dest_files=["res://.godot/imported/neutral_golemice.png-c0cbbca7122ae98fbc738d9f3afb16df.ctex"]
 
 [params]
 

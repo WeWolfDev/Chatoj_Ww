@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bp8nwvkiojndi"
-path="res://.godot/imported/neutral_luxignis.png-362820093b65c32ab7f62ca3ee2e4805.ctex"
+path="res://.godot/imported/neutral_luxignis.png-fdad7fa0265b172e0780c60c825d6623.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_luxignis.png"
-dest_files=["res://.godot/imported/neutral_luxignis.png-362820093b65c32ab7f62ca3ee2e4805.ctex"]
+source_file="res://Efectos de impacto/units/neutral_luxignis.png"
+dest_files=["res://.godot/imported/neutral_luxignis.png-fdad7fa0265b172e0780c60c825d6623.ctex"]
 
 [params]
 

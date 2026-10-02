@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dy0lmtrga8syp"
-path="res://.godot/imported/neutral_artificer.png-90437c6684e08fd81ab6e9853c474d3b.ctex"
+path="res://.godot/imported/neutral_artificer.png-85072ef78fc12796d5cd422b7e57fa07.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_artificer.png"
-dest_files=["res://.godot/imported/neutral_artificer.png-90437c6684e08fd81ab6e9853c474d3b.ctex"]
+source_file="res://Efectos de impacto/units/neutral_artificer.png"
+dest_files=["res://.godot/imported/neutral_artificer.png-85072ef78fc12796d5cd422b7e57fa07.ctex"]
 
 [params]
 

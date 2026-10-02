@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ddsneibe358cf"
-path="res://.godot/imported/fx_sandportal.png-b6fa0c7aa9425dec3fae5e1f1bdbb763.ctex"
+path="res://.godot/imported/fx_sandportal.png-5384512d49534df7b75a7c368497c929.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_sandportal.png"
-dest_files=["res://.godot/imported/fx_sandportal.png-b6fa0c7aa9425dec3fae5e1f1bdbb763.ctex"]
+source_file="res://Efectos de impacto/fx/fx_sandportal.png"
+dest_files=["res://.godot/imported/fx_sandportal.png-5384512d49534df7b75a7c368497c929.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6ykvo7dhd66e"
-path="res://.godot/imported/rope_01.png-ce96f80fe111f1854c20601bb2021e0a.ctex"
+path="res://.godot/imported/rope_01.png-714f9a100d7a3ceaa0e9a81ed990403d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/rope_01.png"
-dest_files=["res://.godot/imported/rope_01.png-ce96f80fe111f1854c20601bb2021e0a.ctex"]
+source_file="res://Rpg sprites/rope_01.png"
+dest_files=["res://.godot/imported/rope_01.png-714f9a100d7a3ceaa0e9a81ed990403d.ctex"]
 
 [params]
 

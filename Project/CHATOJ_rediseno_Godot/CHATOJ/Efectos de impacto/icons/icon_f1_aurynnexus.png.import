@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b7s22uet74hik"
-path="res://.godot/imported/icon_f1_aurynnexus.png-e55f0484e2a17b7d358b0cf52ad0395c.ctex"
+path="res://.godot/imported/icon_f1_aurynnexus.png-9ee5825d66cfd6bb0e9a39f2bb53c022.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f1_aurynnexus.png"
-dest_files=["res://.godot/imported/icon_f1_aurynnexus.png-e55f0484e2a17b7d358b0cf52ad0395c.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f1_aurynnexus.png"
+dest_files=["res://.godot/imported/icon_f1_aurynnexus.png-9ee5825d66cfd6bb0e9a39f2bb53c022.ctex"]
 
 [params]
 

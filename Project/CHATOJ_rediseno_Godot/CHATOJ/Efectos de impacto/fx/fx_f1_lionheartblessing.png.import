@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cliuwqaq37i2"
-path="res://.godot/imported/fx_f1_lionheartblessing.png-b274a5aa98af8e27afddf196cf613b74.ctex"
+path="res://.godot/imported/fx_f1_lionheartblessing.png-58b387fdedcc9ca4a2e9546f07c539d8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f1_lionheartblessing.png"
-dest_files=["res://.godot/imported/fx_f1_lionheartblessing.png-b274a5aa98af8e27afddf196cf613b74.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f1_lionheartblessing.png"
+dest_files=["res://.godot/imported/fx_f1_lionheartblessing.png-58b387fdedcc9ca4a2e9546f07c539d8.ctex"]
 
 [params]
 

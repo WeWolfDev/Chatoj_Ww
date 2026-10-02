@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b8skcmmwlaiao"
-path="res://.godot/imported/fx_f2_twinstrike_part2.png-7160c3441be4d4dab58ea3419f5c3a32.ctex"
+path="res://.godot/imported/fx_f2_twinstrike_part2.png-d1c65e06e73c3eaf1ef2ab7a99dc6011.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f2_twinstrike_part2.png"
-dest_files=["res://.godot/imported/fx_f2_twinstrike_part2.png-7160c3441be4d4dab58ea3419f5c3a32.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f2_twinstrike_part2.png"
+dest_files=["res://.godot/imported/fx_f2_twinstrike_part2.png-d1c65e06e73c3eaf1ef2ab7a99dc6011.ctex"]
 
 [params]
 

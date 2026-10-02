@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bvnjyg42kyd3a"
-path="res://.godot/imported/fx_f2_eightgates_purpleflame.png-8ac8626cb2a4be74a6883353fb8b6b52.ctex"
+path="res://.godot/imported/fx_f2_eightgates_purpleflame.png-8397e241a885dc0494778502a5ad613f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f2_eightgates_purpleflame.png"
-dest_files=["res://.godot/imported/fx_f2_eightgates_purpleflame.png-8ac8626cb2a4be74a6883353fb8b6b52.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f2_eightgates_purpleflame.png"
+dest_files=["res://.godot/imported/fx_f2_eightgates_purpleflame.png-8397e241a885dc0494778502a5ad613f.ctex"]
 
 [params]
 

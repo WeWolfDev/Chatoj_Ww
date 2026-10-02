@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d2r0xcc5iluvg"
-path="res://.godot/imported/icon_f1_invincible.png-a418417706c3667d3ae5bef3c260ea53.ctex"
+path="res://.godot/imported/icon_f1_invincible.png-46f622735882e9b50648d30788754208.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f1_invincible.png"
-dest_files=["res://.godot/imported/icon_f1_invincible.png-a418417706c3667d3ae5bef3c260ea53.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f1_invincible.png"
+dest_files=["res://.godot/imported/icon_f1_invincible.png-46f622735882e9b50648d30788754208.ctex"]
 
 [params]
 

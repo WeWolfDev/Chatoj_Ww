@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cbariej8ohavb"
-path="res://.godot/imported/f1_sunstonetemplar.png-f279525961462cbd493f8509f89406c9.ctex"
+path="res://.godot/imported/f1_sunstonetemplar.png-ebc0a72421a7aec18524ec92c9b019a0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f1_sunstonetemplar.png"
-dest_files=["res://.godot/imported/f1_sunstonetemplar.png-f279525961462cbd493f8509f89406c9.ctex"]
+source_file="res://Efectos de impacto/units/f1_sunstonetemplar.png"
+dest_files=["res://.godot/imported/f1_sunstonetemplar.png-ebc0a72421a7aec18524ec92c9b019a0.ctex"]
 
 [params]
 

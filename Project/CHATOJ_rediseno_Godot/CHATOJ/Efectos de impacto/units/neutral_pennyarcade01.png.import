@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c1qonk65htbyk"
-path="res://.godot/imported/neutral_pennyarcade01.png-db5b617015a40c7d52debb57fac04e2e.ctex"
+path="res://.godot/imported/neutral_pennyarcade01.png-7631326b2083800174f3f6d54538c90c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_pennyarcade01.png"
-dest_files=["res://.godot/imported/neutral_pennyarcade01.png-db5b617015a40c7d52debb57fac04e2e.ctex"]
+source_file="res://Efectos de impacto/units/neutral_pennyarcade01.png"
+dest_files=["res://.godot/imported/neutral_pennyarcade01.png-7631326b2083800174f3f6d54538c90c.ctex"]
 
 [params]
 

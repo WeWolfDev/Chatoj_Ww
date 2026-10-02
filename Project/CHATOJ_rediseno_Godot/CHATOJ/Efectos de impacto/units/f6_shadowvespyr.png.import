@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dhus2f5332icf"
-path="res://.godot/imported/f6_shadowvespyr.png-c2c28df5bcd013c81ee753f4f8c61645.ctex"
+path="res://.godot/imported/f6_shadowvespyr.png-0e23c9478189b20c796e6d43c1e4f49b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f6_shadowvespyr.png"
-dest_files=["res://.godot/imported/f6_shadowvespyr.png-c2c28df5bcd013c81ee753f4f8c61645.ctex"]
+source_file="res://Efectos de impacto/units/f6_shadowvespyr.png"
+dest_files=["res://.godot/imported/f6_shadowvespyr.png-0e23c9478189b20c796e6d43c1e4f49b.ctex"]
 
 [params]
 

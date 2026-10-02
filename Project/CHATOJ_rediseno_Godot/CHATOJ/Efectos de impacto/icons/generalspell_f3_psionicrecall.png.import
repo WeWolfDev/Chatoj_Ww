@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cd660d8iweqgg"
-path="res://.godot/imported/generalspell_f3_psionicrecall.png-657c9ff92ea81c8aced2e3938bc89113.ctex"
+path="res://.godot/imported/generalspell_f3_psionicrecall.png-ac054480af36af11b398270ae95b4714.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/generalspell_f3_psionicrecall.png"
-dest_files=["res://.godot/imported/generalspell_f3_psionicrecall.png-657c9ff92ea81c8aced2e3938bc89113.ctex"]
+source_file="res://Efectos de impacto/icons/generalspell_f3_psionicrecall.png"
+dest_files=["res://.godot/imported/generalspell_f3_psionicrecall.png-ac054480af36af11b398270ae95b4714.ctex"]
 
 [params]
 

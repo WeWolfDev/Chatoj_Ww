@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cqjwppisprjh"
-path="res://.godot/imported/artifact_f2_braceletblidingstrike.png-d338365632bc84be2e371faed0b4a04a.ctex"
+path="res://.godot/imported/artifact_f2_braceletblidingstrike.png-83a625d60f733ca9ce8b69dd183f3e70.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/artifact_f2_braceletblidingstrike.png"
-dest_files=["res://.godot/imported/artifact_f2_braceletblidingstrike.png-d338365632bc84be2e371faed0b4a04a.ctex"]
+source_file="res://Efectos de impacto/icons/artifact_f2_braceletblidingstrike.png"
+dest_files=["res://.godot/imported/artifact_f2_braceletblidingstrike.png-83a625d60f733ca9ce8b69dd183f3e70.ctex"]
 
 [params]
 

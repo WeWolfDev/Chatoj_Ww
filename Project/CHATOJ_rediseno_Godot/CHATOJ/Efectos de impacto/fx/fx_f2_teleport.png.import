@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dhpw4d2g7j6yj"
-path="res://.godot/imported/fx_f2_teleport.png-30801a9bfab2922e9fded05a12144cf0.ctex"
+path="res://.godot/imported/fx_f2_teleport.png-06bbc2071e2f7f49f62e77b3bc80544c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f2_teleport.png"
-dest_files=["res://.godot/imported/fx_f2_teleport.png-30801a9bfab2922e9fded05a12144cf0.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f2_teleport.png"
+dest_files=["res://.godot/imported/fx_f2_teleport.png-06bbc2071e2f7f49f62e77b3bc80544c.ctex"]
 
 [params]
 

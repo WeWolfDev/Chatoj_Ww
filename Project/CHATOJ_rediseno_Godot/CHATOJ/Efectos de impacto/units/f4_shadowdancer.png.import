@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d0hqyqfqd0xki"
-path="res://.godot/imported/f4_shadowdancer.png-b2c5d4fa796b8369ecad230d93498760.ctex"
+path="res://.godot/imported/f4_shadowdancer.png-26b3a94d10b3041a7dd14225dc26d064.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f4_shadowdancer.png"
-dest_files=["res://.godot/imported/f4_shadowdancer.png-b2c5d4fa796b8369ecad230d93498760.ctex"]
+source_file="res://Efectos de impacto/units/f4_shadowdancer.png"
+dest_files=["res://.godot/imported/f4_shadowdancer.png-26b3a94d10b3041a7dd14225dc26d064.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dp5ydvwo7ef2d"
-path="res://.godot/imported/neutral_swordofakrane.png-01271a3898ffdc370f0f99dababf8ebf.ctex"
+path="res://.godot/imported/neutral_swordofakrane.png-9ffaa5d164c84332740dfaae2f4302a5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_swordofakrane.png"
-dest_files=["res://.godot/imported/neutral_swordofakrane.png-01271a3898ffdc370f0f99dababf8ebf.ctex"]
+source_file="res://Efectos de impacto/units/neutral_swordofakrane.png"
+dest_files=["res://.godot/imported/neutral_swordofakrane.png-9ffaa5d164c84332740dfaae2f4302a5.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://djp6d3543gmr8"
-path="res://.godot/imported/icon_f6_wailingoverdrive.png-b7f18c3f6a9015e8c8bb03246d39fcd7.ctex"
+path="res://.godot/imported/icon_f6_wailingoverdrive.png-b8dd9fab3f9e2a392a1c0c6e56245252.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f6_wailingoverdrive.png"
-dest_files=["res://.godot/imported/icon_f6_wailingoverdrive.png-b7f18c3f6a9015e8c8bb03246d39fcd7.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f6_wailingoverdrive.png"
+dest_files=["res://.godot/imported/icon_f6_wailingoverdrive.png-b8dd9fab3f9e2a392a1c0c6e56245252.ctex"]
 
 [params]
 

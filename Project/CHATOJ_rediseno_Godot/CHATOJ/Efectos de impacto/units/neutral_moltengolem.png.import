@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4c4s2a2xcuge"
-path="res://.godot/imported/neutral_moltengolem.png-0d770ca942e8d40aec438905095919de.ctex"
+path="res://.godot/imported/neutral_moltengolem.png-9da1e73b2b83bf4367c4673825054429.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_moltengolem.png"
-dest_files=["res://.godot/imported/neutral_moltengolem.png-0d770ca942e8d40aec438905095919de.ctex"]
+source_file="res://Efectos de impacto/units/neutral_moltengolem.png"
+dest_files=["res://.godot/imported/neutral_moltengolem.png-9da1e73b2b83bf4367c4673825054429.ctex"]
 
 [params]
 

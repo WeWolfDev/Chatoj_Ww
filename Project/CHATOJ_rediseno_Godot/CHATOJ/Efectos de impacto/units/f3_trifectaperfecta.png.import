@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjsqv6t0wd1gc"
-path="res://.godot/imported/f3_trifectaperfecta.png-8f6cc4d37f1efaaed3af0bfec5b0bbf6.ctex"
+path="res://.godot/imported/f3_trifectaperfecta.png-43c3a7c8c2fd22fe9e74dfe811492d6e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f3_trifectaperfecta.png"
-dest_files=["res://.godot/imported/f3_trifectaperfecta.png-8f6cc4d37f1efaaed3af0bfec5b0bbf6.ctex"]
+source_file="res://Efectos de impacto/units/f3_trifectaperfecta.png"
+dest_files=["res://.godot/imported/f3_trifectaperfecta.png-43c3a7c8c2fd22fe9e74dfe811492d6e.ctex"]
 
 [params]
 

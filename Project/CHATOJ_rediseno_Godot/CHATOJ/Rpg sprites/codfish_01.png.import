@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dgxw6v3rcirvo"
-path="res://.godot/imported/codfish_01.png-b997e555355dd16e7d5965bc32e10233.ctex"
+path="res://.godot/imported/codfish_01.png-ae621d2cc6a830fff09f44bf2aebdfbb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/codfish_01.png"
-dest_files=["res://.godot/imported/codfish_01.png-b997e555355dd16e7d5965bc32e10233.ctex"]
+source_file="res://Rpg sprites/codfish_01.png"
+dest_files=["res://.godot/imported/codfish_01.png-ae621d2cc6a830fff09f44bf2aebdfbb.ctex"]
 
 [params]
 

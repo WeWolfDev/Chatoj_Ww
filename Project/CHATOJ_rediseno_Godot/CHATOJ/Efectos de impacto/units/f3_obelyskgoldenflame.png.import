@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d270wjpt8jcm"
-path="res://.godot/imported/f3_obelyskgoldenflame.png-9bb372343c427805eb029ee57d1206d5.ctex"
+path="res://.godot/imported/f3_obelyskgoldenflame.png-86c00e07fe3815d0f415e44874fbe7f8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f3_obelyskgoldenflame.png"
-dest_files=["res://.godot/imported/f3_obelyskgoldenflame.png-9bb372343c427805eb029ee57d1206d5.ctex"]
+source_file="res://Efectos de impacto/units/f3_obelyskgoldenflame.png"
+dest_files=["res://.godot/imported/f3_obelyskgoldenflame.png-86c00e07fe3815d0f415e44874fbe7f8.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://wfsy4xemc3wc"
-path="res://.godot/imported/f4_furosa.png-98a0d9a8521d5f022b146fed06873399.ctex"
+path="res://.godot/imported/f4_furosa.png-3ad8cb2688df52c5bbe9185ae4d55c31.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f4_furosa.png"
-dest_files=["res://.godot/imported/f4_furosa.png-98a0d9a8521d5f022b146fed06873399.ctex"]
+source_file="res://Efectos de impacto/units/f4_furosa.png"
+dest_files=["res://.godot/imported/f4_furosa.png-3ad8cb2688df52c5bbe9185ae4d55c31.ctex"]
 
 [params]
 

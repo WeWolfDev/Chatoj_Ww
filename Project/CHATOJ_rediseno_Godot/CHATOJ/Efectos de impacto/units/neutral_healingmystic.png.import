@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dlkukr6m73n6e"
-path="res://.godot/imported/neutral_healingmystic.png-461c47097ada5a849063b78d09e6f972.ctex"
+path="res://.godot/imported/neutral_healingmystic.png-e05a21e7e1ed90035ca1d81b04bdd06d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_healingmystic.png"
-dest_files=["res://.godot/imported/neutral_healingmystic.png-461c47097ada5a849063b78d09e6f972.ctex"]
+source_file="res://Efectos de impacto/units/neutral_healingmystic.png"
+dest_files=["res://.godot/imported/neutral_healingmystic.png-e05a21e7e1ed90035ca1d81b04bdd06d.ctex"]
 
 [params]
 

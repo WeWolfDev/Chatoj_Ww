@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c7ntvbr8g1pbw"
-path="res://.godot/imported/icon_f2_pandajail.png-663759080362e0cf4df8b1f2b6ad64d8.ctex"
+path="res://.godot/imported/icon_f2_pandajail.png-e187a448a5bd11bce94081fe76b0ce47.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f2_pandajail.png"
-dest_files=["res://.godot/imported/icon_f2_pandajail.png-663759080362e0cf4df8b1f2b6ad64d8.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f2_pandajail.png"
+dest_files=["res://.godot/imported/icon_f2_pandajail.png-e187a448a5bd11bce94081fe76b0ce47.ctex"]
 
 [params]
 

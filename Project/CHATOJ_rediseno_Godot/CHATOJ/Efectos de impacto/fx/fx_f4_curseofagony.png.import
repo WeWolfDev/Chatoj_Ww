@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwydmcl886e6f"
-path="res://.godot/imported/fx_f4_curseofagony.png-d46533e1510ff07ea823a195f128bfa7.ctex"
+path="res://.godot/imported/fx_f4_curseofagony.png-421983565803054ccf308b29d4e2dd6c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f4_curseofagony.png"
-dest_files=["res://.godot/imported/fx_f4_curseofagony.png-d46533e1510ff07ea823a195f128bfa7.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f4_curseofagony.png"
+dest_files=["res://.godot/imported/fx_f4_curseofagony.png-421983565803054ccf308b29d4e2dd6c.ctex"]
 
 [params]
 

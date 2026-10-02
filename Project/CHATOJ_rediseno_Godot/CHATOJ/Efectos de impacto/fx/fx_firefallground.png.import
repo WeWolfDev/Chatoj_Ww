@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bc26ikko6mhic"
-path="res://.godot/imported/fx_firefallground.png-0cd9dda77c7698ca7d0c4d29617b5add.ctex"
+path="res://.godot/imported/fx_firefallground.png-dffdf4ac931104e3eeda49b85a6ba2a6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_firefallground.png"
-dest_files=["res://.godot/imported/fx_firefallground.png-0cd9dda77c7698ca7d0c4d29617b5add.ctex"]
+source_file="res://Efectos de impacto/fx/fx_firefallground.png"
+dest_files=["res://.godot/imported/fx_firefallground.png-dffdf4ac931104e3eeda49b85a6ba2a6.ctex"]
 
 [params]
 

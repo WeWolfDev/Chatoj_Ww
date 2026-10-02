@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d4i1kitlkanvo"
-path="res://.godot/imported/neutral_highhand.png-88a20874e5ed94da850b31e907852e47.ctex"
+path="res://.godot/imported/neutral_highhand.png-1dabf2143e2f98dd50c38030390bf358.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_highhand.png"
-dest_files=["res://.godot/imported/neutral_highhand.png-88a20874e5ed94da850b31e907852e47.ctex"]
+source_file="res://Efectos de impacto/units/neutral_highhand.png"
+dest_files=["res://.godot/imported/neutral_highhand.png-1dabf2143e2f98dd50c38030390bf358.ctex"]
 
 [params]
 

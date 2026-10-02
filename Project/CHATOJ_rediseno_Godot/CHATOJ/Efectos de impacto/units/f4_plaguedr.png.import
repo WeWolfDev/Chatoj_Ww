@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dj18lov4f5vo0"
-path="res://.godot/imported/f4_plaguedr.png-abe5f64bcbc28093459c0221d14a9fc7.ctex"
+path="res://.godot/imported/f4_plaguedr.png-66948d2fb4bd15d9ee4b469732c4883d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f4_plaguedr.png"
-dest_files=["res://.godot/imported/f4_plaguedr.png-abe5f64bcbc28093459c0221d14a9fc7.ctex"]
+source_file="res://Efectos de impacto/units/f4_plaguedr.png"
+dest_files=["res://.godot/imported/f4_plaguedr.png-66948d2fb4bd15d9ee4b469732c4883d.ctex"]
 
 [params]
 

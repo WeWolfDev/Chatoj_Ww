@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://38pt4y2eb2yc"
-path="res://.godot/imported/f5_magma.png-4ad166e1366c1ad0fdfd6008766886c2.ctex"
+path="res://.godot/imported/f5_magma.png-a3a54ebf4539f533e00433780b51f8ed.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f5_magma.png"
-dest_files=["res://.godot/imported/f5_magma.png-4ad166e1366c1ad0fdfd6008766886c2.ctex"]
+source_file="res://Efectos de impacto/units/f5_magma.png"
+dest_files=["res://.godot/imported/f5_magma.png-a3a54ebf4539f533e00433780b51f8ed.ctex"]
 
 [params]
 

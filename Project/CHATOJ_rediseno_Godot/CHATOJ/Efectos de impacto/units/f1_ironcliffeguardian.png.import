@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://osg57xhxmayx"
-path="res://.godot/imported/f1_ironcliffeguardian.png-df7f769b052ce16265d60fb2110daad7.ctex"
+path="res://.godot/imported/f1_ironcliffeguardian.png-6a36fa3dc249747457ba487d230a9959.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f1_ironcliffeguardian.png"
-dest_files=["res://.godot/imported/f1_ironcliffeguardian.png-df7f769b052ce16265d60fb2110daad7.ctex"]
+source_file="res://Efectos de impacto/units/f1_ironcliffeguardian.png"
+dest_files=["res://.godot/imported/f1_ironcliffeguardian.png-6a36fa3dc249747457ba487d230a9959.ctex"]
 
 [params]
 

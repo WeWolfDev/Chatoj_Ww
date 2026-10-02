@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cxbcs6h3rxcma"
-path="res://.godot/imported/stew_beef_01.png-6d76f9402a975cbb02f6ca33e87135ec.ctex"
+path="res://.godot/imported/stew_beef_01.png-170616492bd5cc39fdbc5ce6b2b7bea6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/stew_beef_01.png"
-dest_files=["res://.godot/imported/stew_beef_01.png-6d76f9402a975cbb02f6ca33e87135ec.ctex"]
+source_file="res://Rpg sprites/stew_beef_01.png"
+dest_files=["res://.godot/imported/stew_beef_01.png-170616492bd5cc39fdbc5ce6b2b7bea6.ctex"]
 
 [params]
 

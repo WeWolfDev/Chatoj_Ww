@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dha0g2rq6ffeg"
-path="res://.godot/imported/neutral_owlshadescholar.png-24a1e16507125b1379ededdb94a19bac.ctex"
+path="res://.godot/imported/neutral_owlshadescholar.png-9765dbe7d7c5b155c701aa10c62eea48.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_owlshadescholar.png"
-dest_files=["res://.godot/imported/neutral_owlshadescholar.png-24a1e16507125b1379ededdb94a19bac.ctex"]
+source_file="res://Efectos de impacto/units/neutral_owlshadescholar.png"
+dest_files=["res://.godot/imported/neutral_owlshadescholar.png-9765dbe7d7c5b155c701aa10c62eea48.ctex"]
 
 [params]
 

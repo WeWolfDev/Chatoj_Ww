@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dppl33pjbkg0t"
-path="res://.godot/imported/f2_orizuru.png-8432b032847e3c3cde892c9dc0c24fbf.ctex"
+path="res://.godot/imported/f2_orizuru.png-4537c86f6ac88f07e3ed8b76b2287728.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f2_orizuru.png"
-dest_files=["res://.godot/imported/f2_orizuru.png-8432b032847e3c3cde892c9dc0c24fbf.ctex"]
+source_file="res://Efectos de impacto/units/f2_orizuru.png"
+dest_files=["res://.godot/imported/f2_orizuru.png-4537c86f6ac88f07e3ed8b76b2287728.ctex"]
 
 [params]
 

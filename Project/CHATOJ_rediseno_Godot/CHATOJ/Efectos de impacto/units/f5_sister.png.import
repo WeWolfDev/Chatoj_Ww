@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c10ae85e4d81r"
-path="res://.godot/imported/f5_sister.png-58d0f069a00f0d2ef478d7e9b95882f4.ctex"
+path="res://.godot/imported/f5_sister.png-73edec8c4a74db63238324b9f321ac5b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f5_sister.png"
-dest_files=["res://.godot/imported/f5_sister.png-58d0f069a00f0d2ef478d7e9b95882f4.ctex"]
+source_file="res://Efectos de impacto/units/f5_sister.png"
+dest_files=["res://.godot/imported/f5_sister.png-73edec8c4a74db63238324b9f321ac5b.ctex"]
 
 [params]
 

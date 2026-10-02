@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://blc13brfda2u1"
-path="res://.godot/imported/boss_decepticlechassis.png-fbbd3edbf72bcb1b3f43c28c76d1d8b5.ctex"
+path="res://.godot/imported/boss_decepticlechassis.png-8bc8e1046605c71befcf3c0d4236e34b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/boss_decepticlechassis.png"
-dest_files=["res://.godot/imported/boss_decepticlechassis.png-fbbd3edbf72bcb1b3f43c28c76d1d8b5.ctex"]
+source_file="res://Efectos de impacto/units/boss_decepticlechassis.png"
+dest_files=["res://.godot/imported/boss_decepticlechassis.png-8bc8e1046605c71befcf3c0d4236e34b.ctex"]
 
 [params]
 

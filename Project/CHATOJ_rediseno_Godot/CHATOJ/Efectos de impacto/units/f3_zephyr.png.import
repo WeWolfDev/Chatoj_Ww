@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4y4qgbqql2un"
-path="res://.godot/imported/f3_zephyr.png-54e7615143dde98d35b916a0b9d1af4f.ctex"
+path="res://.godot/imported/f3_zephyr.png-f3a385a072146fd62e64b71c7a0887bf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f3_zephyr.png"
-dest_files=["res://.godot/imported/f3_zephyr.png-54e7615143dde98d35b916a0b9d1af4f.ctex"]
+source_file="res://Efectos de impacto/units/f3_zephyr.png"
+dest_files=["res://.godot/imported/f3_zephyr.png-f3a385a072146fd62e64b71c7a0887bf.ctex"]
 
 [params]
 

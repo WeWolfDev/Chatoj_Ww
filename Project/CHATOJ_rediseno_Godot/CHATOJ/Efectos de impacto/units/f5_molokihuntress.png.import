@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bp7k8ebra7ipw"
-path="res://.godot/imported/f5_molokihuntress.png-851058c1b4aa9640c844afdc16708b1c.ctex"
+path="res://.godot/imported/f5_molokihuntress.png-b7cef7ac68fdfecff42da6160bac35d6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f5_molokihuntress.png"
-dest_files=["res://.godot/imported/f5_molokihuntress.png-851058c1b4aa9640c844afdc16708b1c.ctex"]
+source_file="res://Efectos de impacto/units/f5_molokihuntress.png"
+dest_files=["res://.godot/imported/f5_molokihuntress.png-b7cef7ac68fdfecff42da6160bac35d6.ctex"]
 
 [params]
 

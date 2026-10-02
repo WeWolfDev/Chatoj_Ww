@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b48fu3rdp7eej"
-path="res://.godot/imported/neutral_shuffler.png-7cd41b1a242306c14d2b675dace78339.ctex"
+path="res://.godot/imported/neutral_shuffler.png-d79f3c0fbcfc7f9c3c48a9652bbe3ca5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_shuffler.png"
-dest_files=["res://.godot/imported/neutral_shuffler.png-7cd41b1a242306c14d2b675dace78339.ctex"]
+source_file="res://Efectos de impacto/units/neutral_shuffler.png"
+dest_files=["res://.godot/imported/neutral_shuffler.png-d79f3c0fbcfc7f9c3c48a9652bbe3ca5.ctex"]
 
 [params]
 

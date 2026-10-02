@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4kgq2dpjmao7"
-path="res://.godot/imported/neutral_khymera.png-40ea2b54dac6af0d5bcc5eacf451e878.ctex"
+path="res://.godot/imported/neutral_khymera.png-9e0d35fb733ac12f8cc00de2f0801df2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_khymera.png"
-dest_files=["res://.godot/imported/neutral_khymera.png-40ea2b54dac6af0d5bcc5eacf451e878.ctex"]
+source_file="res://Efectos de impacto/units/neutral_khymera.png"
+dest_files=["res://.godot/imported/neutral_khymera.png-9e0d35fb733ac12f8cc00de2f0801df2.ctex"]
 
 [params]
 

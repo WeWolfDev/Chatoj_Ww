@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgepqesef3c8h"
-path="res://.godot/imported/neutral_gauntletmaster.png-bbd0c0f4629c747e2b94b9a1be0d6df4.ctex"
+path="res://.godot/imported/neutral_gauntletmaster.png-c98405eb37b4e624730d2f5ea0b68cb9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_gauntletmaster.png"
-dest_files=["res://.godot/imported/neutral_gauntletmaster.png-bbd0c0f4629c747e2b94b9a1be0d6df4.ctex"]
+source_file="res://Efectos de impacto/units/neutral_gauntletmaster.png"
+dest_files=["res://.godot/imported/neutral_gauntletmaster.png-c98405eb37b4e624730d2f5ea0b68cb9.ctex"]
 
 [params]
 

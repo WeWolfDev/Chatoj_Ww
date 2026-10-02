@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ejnvwic3q2m5"
-path="res://.godot/imported/neutral_sunsetparagon.png-a8c2f4efa208f327c8d8972f3727ea27.ctex"
+path="res://.godot/imported/neutral_sunsetparagon.png-885578a467e8a38f779230eb3ac1f36c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_sunsetparagon.png"
-dest_files=["res://.godot/imported/neutral_sunsetparagon.png-a8c2f4efa208f327c8d8972f3727ea27.ctex"]
+source_file="res://Efectos de impacto/units/neutral_sunsetparagon.png"
+dest_files=["res://.godot/imported/neutral_sunsetparagon.png-885578a467e8a38f779230eb3ac1f36c.ctex"]
 
 [params]
 

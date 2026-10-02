@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://wgs3l4qebkjm"
-path="res://.godot/imported/f6_fenrirwerewolf.png-708ee1a0ec492024bf39d7d1b84fa7cf.ctex"
+path="res://.godot/imported/f6_fenrirwerewolf.png-5481ab09b8985579977aff50f28ac012.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f6_fenrirwerewolf.png"
-dest_files=["res://.godot/imported/f6_fenrirwerewolf.png-708ee1a0ec492024bf39d7d1b84fa7cf.ctex"]
+source_file="res://Efectos de impacto/units/f6_fenrirwerewolf.png"
+dest_files=["res://.godot/imported/f6_fenrirwerewolf.png-5481ab09b8985579977aff50f28ac012.ctex"]
 
 [params]
 

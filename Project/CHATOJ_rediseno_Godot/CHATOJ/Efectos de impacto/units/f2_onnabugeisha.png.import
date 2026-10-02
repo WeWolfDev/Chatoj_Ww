@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8j3n8yrmwan8"
-path="res://.godot/imported/f2_onnabugeisha.png-c88dc83c53f66ff7ef8abecbd43e05b7.ctex"
+path="res://.godot/imported/f2_onnabugeisha.png-2681d73cefdd5ec9ccf65d2eb3ffa013.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f2_onnabugeisha.png"
-dest_files=["res://.godot/imported/f2_onnabugeisha.png-c88dc83c53f66ff7ef8abecbd43e05b7.ctex"]
+source_file="res://Efectos de impacto/units/f2_onnabugeisha.png"
+dest_files=["res://.godot/imported/f2_onnabugeisha.png-2681d73cefdd5ec9ccf65d2eb3ffa013.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://kn1n5ffslyr7"
-path="res://.godot/imported/skuriken_01.png-affde3844bd42cdeeb6803ccfa09d761.ctex"
+path="res://.godot/imported/skuriken_01.png-0a4c01bc39938b58e2ab3278eaf40b96.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/skuriken_01.png"
-dest_files=["res://.godot/imported/skuriken_01.png-affde3844bd42cdeeb6803ccfa09d761.ctex"]
+source_file="res://Rpg sprites/skuriken_01.png"
+dest_files=["res://.godot/imported/skuriken_01.png-0a4c01bc39938b58e2ab3278eaf40b96.ctex"]
 
 [params]
 

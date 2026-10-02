@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bkopce48hbox1"
-path="res://.godot/imported/neutral_monsterredsynja.png-da6310e754b171eb911ffacc2c60b0bd.ctex"
+path="res://.godot/imported/neutral_monsterredsynja.png-a32a76d31b6efe78b50539f84442c9d7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_monsterredsynja.png"
-dest_files=["res://.godot/imported/neutral_monsterredsynja.png-da6310e754b171eb911ffacc2c60b0bd.ctex"]
+source_file="res://Efectos de impacto/units/neutral_monsterredsynja.png"
+dest_files=["res://.godot/imported/neutral_monsterredsynja.png-a32a76d31b6efe78b50539f84442c9d7.ctex"]
 
 [params]
 

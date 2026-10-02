@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dgoy2dd8v4rbl"
-path="res://.godot/imported/f5_unstableflump.png-1fa62f54d291da29b3a7a8680b3e650d.ctex"
+path="res://.godot/imported/f5_unstableflump.png-750465cd9e57259e80073ca67786e4da.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f5_unstableflump.png"
-dest_files=["res://.godot/imported/f5_unstableflump.png-1fa62f54d291da29b3a7a8680b3e650d.ctex"]
+source_file="res://Efectos de impacto/units/f5_unstableflump.png"
+dest_files=["res://.godot/imported/f5_unstableflump.png-750465cd9e57259e80073ca67786e4da.ctex"]
 
 [params]
 

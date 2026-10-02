@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cyacu4fkybft8"
-path="res://.godot/imported/neutral_wartalon.png-3888d10ba9164f43a2b8b82f7f7d9b07.ctex"
+path="res://.godot/imported/neutral_wartalon.png-bf94006ad381b95168a649d39b6ab157.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_wartalon.png"
-dest_files=["res://.godot/imported/neutral_wartalon.png-3888d10ba9164f43a2b8b82f7f7d9b07.ctex"]
+source_file="res://Efectos de impacto/units/neutral_wartalon.png"
+dest_files=["res://.godot/imported/neutral_wartalon.png-bf94006ad381b95168a649d39b6ab157.ctex"]
 
 [params]
 

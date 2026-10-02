@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cpjfwdb17npok"
-path="res://.godot/imported/generalspell_f4_husk.png-3024be719dc02cefbb0cd04b9df04d05.ctex"
+path="res://.godot/imported/generalspell_f4_husk.png-9dcfc838835d47c6ccab15ddc7d0000b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/generalspell_f4_husk.png"
-dest_files=["res://.godot/imported/generalspell_f4_husk.png-3024be719dc02cefbb0cd04b9df04d05.ctex"]
+source_file="res://Efectos de impacto/icons/generalspell_f4_husk.png"
+dest_files=["res://.godot/imported/generalspell_f4_husk.png-9dcfc838835d47c6ccab15ddc7d0000b.ctex"]
 
 [params]
 

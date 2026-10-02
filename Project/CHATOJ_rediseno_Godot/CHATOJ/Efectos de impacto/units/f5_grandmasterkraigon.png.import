@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c4547gmhdcst2"
-path="res://.godot/imported/f5_grandmasterkraigon.png-391262c78daa4001dc9022cff27b0c16.ctex"
+path="res://.godot/imported/f5_grandmasterkraigon.png-7ec95baa27f2f3613c6c23c98bf5a385.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f5_grandmasterkraigon.png"
-dest_files=["res://.godot/imported/f5_grandmasterkraigon.png-391262c78daa4001dc9022cff27b0c16.ctex"]
+source_file="res://Efectos de impacto/units/f5_grandmasterkraigon.png"
+dest_files=["res://.godot/imported/f5_grandmasterkraigon.png-7ec95baa27f2f3613c6c23c98bf5a385.ctex"]
 
 [params]
 

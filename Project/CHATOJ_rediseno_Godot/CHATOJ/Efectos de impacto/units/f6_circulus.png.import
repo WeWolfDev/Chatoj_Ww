@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c8w6qgppy41aj"
-path="res://.godot/imported/f6_circulus.png-4f73fdcbfb85e039ee98f85da6518ac4.ctex"
+path="res://.godot/imported/f6_circulus.png-3c0d9ea355a79e4c167c6b2822b89476.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f6_circulus.png"
-dest_files=["res://.godot/imported/f6_circulus.png-4f73fdcbfb85e039ee98f85da6518ac4.ctex"]
+source_file="res://Efectos de impacto/units/f6_circulus.png"
+dest_files=["res://.godot/imported/f6_circulus.png-3c0d9ea355a79e4c167c6b2822b89476.ctex"]
 
 [params]
 

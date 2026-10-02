@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfry7oaqbn80h"
-path="res://.godot/imported/f2_kindling.png-4e48e3341cb367b650395b34d89e9a49.ctex"
+path="res://.godot/imported/f2_kindling.png-095294f3c7f46b9a8679aed4379c28d1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f2_kindling.png"
-dest_files=["res://.godot/imported/f2_kindling.png-4e48e3341cb367b650395b34d89e9a49.ctex"]
+source_file="res://Efectos de impacto/units/f2_kindling.png"
+dest_files=["res://.godot/imported/f2_kindling.png-095294f3c7f46b9a8679aed4379c28d1.ctex"]
 
 [params]
 

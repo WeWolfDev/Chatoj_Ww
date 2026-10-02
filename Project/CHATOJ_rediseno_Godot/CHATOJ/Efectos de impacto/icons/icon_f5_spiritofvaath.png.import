@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://q0boopwgxsqf"
-path="res://.godot/imported/icon_f5_spiritofvaath.png-bcb36aff7e9ff9f9af0258b2f98882c5.ctex"
+path="res://.godot/imported/icon_f5_spiritofvaath.png-d8c738efd649fe64943a37bf4103815a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f5_spiritofvaath.png"
-dest_files=["res://.godot/imported/icon_f5_spiritofvaath.png-bcb36aff7e9ff9f9af0258b2f98882c5.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f5_spiritofvaath.png"
+dest_files=["res://.godot/imported/icon_f5_spiritofvaath.png-d8c738efd649fe64943a37bf4103815a.ctex"]
 
 [params]
 

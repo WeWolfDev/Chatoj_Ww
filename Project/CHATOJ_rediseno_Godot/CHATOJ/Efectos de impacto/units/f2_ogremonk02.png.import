@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4dbql7uc1sr"
-path="res://.godot/imported/f2_ogremonk02.png-0829ac4b1e8e20bd547cdf9f09b16145.ctex"
+path="res://.godot/imported/f2_ogremonk02.png-e86a558e787f28f787c40dd800dd9f42.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f2_ogremonk02.png"
-dest_files=["res://.godot/imported/f2_ogremonk02.png-0829ac4b1e8e20bd547cdf9f09b16145.ctex"]
+source_file="res://Efectos de impacto/units/f2_ogremonk02.png"
+dest_files=["res://.godot/imported/f2_ogremonk02.png-e86a558e787f28f787c40dd800dd9f42.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgkhuqh0bdk0t"
-path="res://.godot/imported/fx_f3_blindscorch.png-ba0bda8b4e3a40582db49b756a98d1aa.ctex"
+path="res://.godot/imported/fx_f3_blindscorch.png-66e9117e9c586dfedfc06710ccce20cc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f3_blindscorch.png"
-dest_files=["res://.godot/imported/fx_f3_blindscorch.png-ba0bda8b4e3a40582db49b756a98d1aa.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f3_blindscorch.png"
+dest_files=["res://.godot/imported/fx_f3_blindscorch.png-66e9117e9c586dfedfc06710ccce20cc.ctex"]
 
 [params]
 

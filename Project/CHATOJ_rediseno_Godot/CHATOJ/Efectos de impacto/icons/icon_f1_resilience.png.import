@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://pcpns0n1nrgd"
-path="res://.godot/imported/icon_f1_resilience.png-b06a244bf464587f3b536bd1ce3dcc69.ctex"
+path="res://.godot/imported/icon_f1_resilience.png-29e5e2974d76f1b0021461efe543aa41.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f1_resilience.png"
-dest_files=["res://.godot/imported/icon_f1_resilience.png-b06a244bf464587f3b536bd1ce3dcc69.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f1_resilience.png"
+dest_files=["res://.godot/imported/icon_f1_resilience.png-29e5e2974d76f1b0021461efe543aa41.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxyedpfljqhqh"
-path="res://.godot/imported/icon_f1_chargeintobattle.png-68ea34d59d5dfb8c0c1a696c9e922677.ctex"
+path="res://.godot/imported/icon_f1_chargeintobattle.png-31653c54c2ee20f6cb0bab432b7c670e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f1_chargeintobattle.png"
-dest_files=["res://.godot/imported/icon_f1_chargeintobattle.png-68ea34d59d5dfb8c0c1a696c9e922677.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f1_chargeintobattle.png"
+dest_files=["res://.godot/imported/icon_f1_chargeintobattle.png-31653c54c2ee20f6cb0bab432b7c670e.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bmplvsa0gaequ"
-path="res://.godot/imported/neutral_paddo.png-8d6bec72fced29f5807caeb64b736051.ctex"
+path="res://.godot/imported/neutral_paddo.png-c2a531d489331763368db4bec53ec3f4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_paddo.png"
-dest_files=["res://.godot/imported/neutral_paddo.png-8d6bec72fced29f5807caeb64b736051.ctex"]
+source_file="res://Efectos de impacto/units/neutral_paddo.png"
+dest_files=["res://.godot/imported/neutral_paddo.png-c2a531d489331763368db4bec53ec3f4.ctex"]
 
 [params]
 

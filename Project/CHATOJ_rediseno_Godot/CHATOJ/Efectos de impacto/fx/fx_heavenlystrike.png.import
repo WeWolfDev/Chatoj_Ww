@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgdvpvn62wpt"
-path="res://.godot/imported/fx_heavenlystrike.png-57d866f195e02d894a9e80a005dcad25.ctex"
+path="res://.godot/imported/fx_heavenlystrike.png-c219b1e949d8225240d5507e2db4454d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_heavenlystrike.png"
-dest_files=["res://.godot/imported/fx_heavenlystrike.png-57d866f195e02d894a9e80a005dcad25.ctex"]
+source_file="res://Efectos de impacto/fx/fx_heavenlystrike.png"
+dest_files=["res://.godot/imported/fx_heavenlystrike.png-c219b1e949d8225240d5507e2db4454d.ctex"]
 
 [params]
 

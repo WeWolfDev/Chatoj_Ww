@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dekw07av6q1pj"
-path="res://.godot/imported/f3_dervish.png-b882a63ec2c04ce54d34e6d10a9d97b6.ctex"
+path="res://.godot/imported/f3_dervish.png-60d0fe9557a4005200c16b9ccca179de.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f3_dervish.png"
-dest_files=["res://.godot/imported/f3_dervish.png-b882a63ec2c04ce54d34e6d10a9d97b6.ctex"]
+source_file="res://Efectos de impacto/units/f3_dervish.png"
+dest_files=["res://.godot/imported/f3_dervish.png-60d0fe9557a4005200c16b9ccca179de.ctex"]
 
 [params]
 

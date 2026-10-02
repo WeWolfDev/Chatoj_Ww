@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbbx4aowckuoj"
-path="res://.godot/imported/neutral_unseven.png-1d9ad26929c04dc0b64274f0e86e0d52.ctex"
+path="res://.godot/imported/neutral_unseven.png-bb37e79f78c4480082de8ab9e571d3ff.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_unseven.png"
-dest_files=["res://.godot/imported/neutral_unseven.png-1d9ad26929c04dc0b64274f0e86e0d52.ctex"]
+source_file="res://Efectos de impacto/units/neutral_unseven.png"
+dest_files=["res://.godot/imported/neutral_unseven.png-bb37e79f78c4480082de8ab9e571d3ff.ctex"]
 
 [params]
 

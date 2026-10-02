@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://blj6rkh6haqg8"
-path="res://.godot/imported/neutral_arakiheadhunter.png-d2e5313f5cbb7a37edbf3aa401d3ba55.ctex"
+path="res://.godot/imported/neutral_arakiheadhunter.png-2fd15c6e7dcb0ad7e17b064b91b20f6c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_arakiheadhunter.png"
-dest_files=["res://.godot/imported/neutral_arakiheadhunter.png-d2e5313f5cbb7a37edbf3aa401d3ba55.ctex"]
+source_file="res://Efectos de impacto/units/neutral_arakiheadhunter.png"
+dest_files=["res://.godot/imported/neutral_arakiheadhunter.png-2fd15c6e7dcb0ad7e17b064b91b20f6c.ctex"]
 
 [params]
 

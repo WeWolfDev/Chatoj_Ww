@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1n8faw4t5r8c"
-path="res://.godot/imported/f2_godpalmblacktiger.png-c7b6e1bf07caa09ffc9d0032b95dba55.ctex"
+path="res://.godot/imported/f2_godpalmblacktiger.png-683a14e12a72fcbbbd28933ad7e27bf1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f2_godpalmblacktiger.png"
-dest_files=["res://.godot/imported/f2_godpalmblacktiger.png-c7b6e1bf07caa09ffc9d0032b95dba55.ctex"]
+source_file="res://Efectos de impacto/units/f2_godpalmblacktiger.png"
+dest_files=["res://.godot/imported/f2_godpalmblacktiger.png-683a14e12a72fcbbbd28933ad7e27bf1.ctex"]
 
 [params]
 

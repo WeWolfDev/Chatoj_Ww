@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xyeokn5f4c2o"
-path="res://.godot/imported/icon_f3_circleofdessication.png-fef58275304b7fb8e603dbc0f190b4e4.ctex"
+path="res://.godot/imported/icon_f3_circleofdessication.png-c84489baab9807a34be76c9d05b56182.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f3_circleofdessication.png"
-dest_files=["res://.godot/imported/icon_f3_circleofdessication.png-fef58275304b7fb8e603dbc0f190b4e4.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f3_circleofdessication.png"
+dest_files=["res://.godot/imported/icon_f3_circleofdessication.png-c84489baab9807a34be76c9d05b56182.ctex"]
 
 [params]
 

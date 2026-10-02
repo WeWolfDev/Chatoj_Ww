@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cv2ra5x58xcmg"
-path="res://.godot/imported/neutral_grimes.png-be8e0451616ccb3880f1863507c0a47e.ctex"
+path="res://.godot/imported/neutral_grimes.png-d54e0afd7f54dd55103b3ce43eb2cf34.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_grimes.png"
-dest_files=["res://.godot/imported/neutral_grimes.png-be8e0451616ccb3880f1863507c0a47e.ctex"]
+source_file="res://Efectos de impacto/units/neutral_grimes.png"
+dest_files=["res://.godot/imported/neutral_grimes.png-d54e0afd7f54dd55103b3ce43eb2cf34.ctex"]
 
 [params]
 

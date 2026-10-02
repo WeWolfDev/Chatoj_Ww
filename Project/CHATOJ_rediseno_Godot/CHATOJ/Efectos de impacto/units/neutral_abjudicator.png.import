@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cyn0nmxobai7d"
-path="res://.godot/imported/neutral_abjudicator.png-e8ae74ea7a953896a1d3aca298c28a1e.ctex"
+path="res://.godot/imported/neutral_abjudicator.png-95f72dcea46284121f7182fb0e3a1662.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_abjudicator.png"
-dest_files=["res://.godot/imported/neutral_abjudicator.png-e8ae74ea7a953896a1d3aca298c28a1e.ctex"]
+source_file="res://Efectos de impacto/units/neutral_abjudicator.png"
+dest_files=["res://.godot/imported/neutral_abjudicator.png-95f72dcea46284121f7182fb0e3a1662.ctex"]
 
 [params]
 

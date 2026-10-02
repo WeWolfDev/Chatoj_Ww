@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cqqrisc3c4lb6"
-path="res://.godot/imported/f1_silvermanevanguard.png-715d82212877c22b29b436fced114887.ctex"
+path="res://.godot/imported/f1_silvermanevanguard.png-512170ee405f6b3b4b5460bbcc803597.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f1_silvermanevanguard.png"
-dest_files=["res://.godot/imported/f1_silvermanevanguard.png-715d82212877c22b29b436fced114887.ctex"]
+source_file="res://Efectos de impacto/units/f1_silvermanevanguard.png"
+dest_files=["res://.godot/imported/f1_silvermanevanguard.png-512170ee405f6b3b4b5460bbcc803597.ctex"]
 
 [params]
 

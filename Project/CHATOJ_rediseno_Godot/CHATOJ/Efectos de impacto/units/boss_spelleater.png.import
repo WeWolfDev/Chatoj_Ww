@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bii3n6o451anc"
-path="res://.godot/imported/boss_spelleater.png-66a32219931853dc23eb5ce46922baca.ctex"
+path="res://.godot/imported/boss_spelleater.png-dc9e754ba985b2de510b30aca8f2badc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/boss_spelleater.png"
-dest_files=["res://.godot/imported/boss_spelleater.png-66a32219931853dc23eb5ce46922baca.ctex"]
+source_file="res://Efectos de impacto/units/boss_spelleater.png"
+dest_files=["res://.godot/imported/boss_spelleater.png-dc9e754ba985b2de510b30aca8f2badc.ctex"]
 
 [params]
 

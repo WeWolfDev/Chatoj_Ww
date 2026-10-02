@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://coayatwav2md8"
-path="res://.godot/imported/f6_fx_winterswake.png-09942aeab8be39697fed5e43f572d4a8.ctex"
+path="res://.godot/imported/f6_fx_winterswake.png-b528e5b22dfb52366b970ef3bc24754d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/f6_fx_winterswake.png"
-dest_files=["res://.godot/imported/f6_fx_winterswake.png-09942aeab8be39697fed5e43f572d4a8.ctex"]
+source_file="res://Efectos de impacto/fx/f6_fx_winterswake.png"
+dest_files=["res://.godot/imported/f6_fx_winterswake.png-b528e5b22dfb52366b970ef3bc24754d.ctex"]
 
 [params]
 

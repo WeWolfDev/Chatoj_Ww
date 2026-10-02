@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://n6cgb5v1kwwv"
-path="res://.godot/imported/f4_underworldbrute.png-916bb1c711beb9882ef24f5fbf8432ea.ctex"
+path="res://.godot/imported/f4_underworldbrute.png-d110db0f9eed302665f492dc7a122aad.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f4_underworldbrute.png"
-dest_files=["res://.godot/imported/f4_underworldbrute.png-916bb1c711beb9882ef24f5fbf8432ea.ctex"]
+source_file="res://Efectos de impacto/units/f4_underworldbrute.png"
+dest_files=["res://.godot/imported/f4_underworldbrute.png-d110db0f9eed302665f492dc7a122aad.ctex"]
 
 [params]
 

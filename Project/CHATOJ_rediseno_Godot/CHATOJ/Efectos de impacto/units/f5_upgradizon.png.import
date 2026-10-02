@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4sudlvud00gn"
-path="res://.godot/imported/f5_upgradizon.png-5edeb23077b62ab3e4dc8020d47c1e14.ctex"
+path="res://.godot/imported/f5_upgradizon.png-6530390807e753ad4b4ce7577fdd9518.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f5_upgradizon.png"
-dest_files=["res://.godot/imported/f5_upgradizon.png-5edeb23077b62ab3e4dc8020d47c1e14.ctex"]
+source_file="res://Efectos de impacto/units/f5_upgradizon.png"
+dest_files=["res://.godot/imported/f5_upgradizon.png-6530390807e753ad4b4ce7577fdd9518.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bvraluqui48w0"
-path="res://.godot/imported/neutral_monsterputridmindflayer.png-001efba7cb537b83d914479515901d7a.ctex"
+path="res://.godot/imported/neutral_monsterputridmindflayer.png-541a742bf3a6135dc2cc896ac15abb12.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_monsterputridmindflayer.png"
-dest_files=["res://.godot/imported/neutral_monsterputridmindflayer.png-001efba7cb537b83d914479515901d7a.ctex"]
+source_file="res://Efectos de impacto/units/neutral_monsterputridmindflayer.png"
+dest_files=["res://.godot/imported/neutral_monsterputridmindflayer.png-541a742bf3a6135dc2cc896ac15abb12.ctex"]
 
 [params]
 

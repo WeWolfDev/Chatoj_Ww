@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://da7mfe8nvm0xe"
-path="res://.godot/imported/neutral_thegreatprotector.png-78d065cb0d3b318fb8897eb8de4f0c04.ctex"
+path="res://.godot/imported/neutral_thegreatprotector.png-2594aa8505e9253cc486dc26fda25716.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_thegreatprotector.png"
-dest_files=["res://.godot/imported/neutral_thegreatprotector.png-78d065cb0d3b318fb8897eb8de4f0c04.ctex"]
+source_file="res://Efectos de impacto/units/neutral_thegreatprotector.png"
+dest_files=["res://.godot/imported/neutral_thegreatprotector.png-2594aa8505e9253cc486dc26fda25716.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4bvqxvq48332"
-path="res://.godot/imported/onion_yellow_01.png-55a6087ac9601f0b4fab1505c26477b2.ctex"
+path="res://.godot/imported/onion_yellow_01.png-35ce1cf9d2e779d4dd4f07b576ccefee.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/onion_yellow_01.png"
-dest_files=["res://.godot/imported/onion_yellow_01.png-55a6087ac9601f0b4fab1505c26477b2.ctex"]
+source_file="res://Rpg sprites/onion_yellow_01.png"
+dest_files=["res://.godot/imported/onion_yellow_01.png-35ce1cf9d2e779d4dd4f07b576ccefee.ctex"]
 
 [params]
 

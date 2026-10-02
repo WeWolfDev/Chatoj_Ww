@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dqqgwftv136fs"
-path="res://.godot/imported/artifact_f1_bigshield.png-ac29be43f09e9f9de0e39ebf5480cbb1.ctex"
+path="res://.godot/imported/artifact_f1_bigshield.png-e103bc73407e1ebbbd03d23800ca9b81.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/artifact_f1_bigshield.png"
-dest_files=["res://.godot/imported/artifact_f1_bigshield.png-ac29be43f09e9f9de0e39ebf5480cbb1.ctex"]
+source_file="res://Efectos de impacto/icons/artifact_f1_bigshield.png"
+dest_files=["res://.godot/imported/artifact_f1_bigshield.png-e103bc73407e1ebbbd03d23800ca9b81.ctex"]
 
 [params]
 

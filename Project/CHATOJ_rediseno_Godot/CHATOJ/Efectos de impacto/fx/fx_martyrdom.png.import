@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://iviy45y84ru8"
-path="res://.godot/imported/fx_martyrdom.png-a74b1e13ba7289bdec56b42ad1067173.ctex"
+path="res://.godot/imported/fx_martyrdom.png-30330b079e6421d45e39aacd1ed6d1ca.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_martyrdom.png"
-dest_files=["res://.godot/imported/fx_martyrdom.png-a74b1e13ba7289bdec56b42ad1067173.ctex"]
+source_file="res://Efectos de impacto/fx/fx_martyrdom.png"
+dest_files=["res://.godot/imported/fx_martyrdom.png-30330b079e6421d45e39aacd1ed6d1ca.ctex"]
 
 [params]
 

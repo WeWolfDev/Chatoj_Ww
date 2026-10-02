@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cylece5qd82r0"
-path="res://.godot/imported/neutral_chakkram.png-6be5ca0a48177568e9874cdb38071491.ctex"
+path="res://.godot/imported/neutral_chakkram.png-30197ea35087968bb40425d7d8897d7e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_chakkram.png"
-dest_files=["res://.godot/imported/neutral_chakkram.png-6be5ca0a48177568e9874cdb38071491.ctex"]
+source_file="res://Efectos de impacto/units/neutral_chakkram.png"
+dest_files=["res://.godot/imported/neutral_chakkram.png-30197ea35087968bb40425d7d8897d7e.ctex"]
 
 [params]
 

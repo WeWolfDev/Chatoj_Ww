@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgpeje3cgjlur"
-path="res://.godot/imported/neutral_veteranflamewing.png-4456f269786e9d2f1af468bec893a224.ctex"
+path="res://.godot/imported/neutral_veteranflamewing.png-3106bbfed80083fccb11a3b1db7a055a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_veteranflamewing.png"
-dest_files=["res://.godot/imported/neutral_veteranflamewing.png-4456f269786e9d2f1af468bec893a224.ctex"]
+source_file="res://Efectos de impacto/units/neutral_veteranflamewing.png"
+dest_files=["res://.godot/imported/neutral_veteranflamewing.png-3106bbfed80083fccb11a3b1db7a055a.ctex"]
 
 [params]
 

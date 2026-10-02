@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cstnify7wfy4s"
-path="res://.godot/imported/blueberries_01.png-40942b56b80e26d601641ee01d651cf1.ctex"
+path="res://.godot/imported/blueberries_01.png-0ab6b6804bc392f0547f2e7be7f1cfd3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/blueberries_01.png"
-dest_files=["res://.godot/imported/blueberries_01.png-40942b56b80e26d601641ee01d651cf1.ctex"]
+source_file="res://Rpg sprites/blueberries_01.png"
+dest_files=["res://.godot/imported/blueberries_01.png-0ab6b6804bc392f0547f2e7be7f1cfd3.ctex"]
 
 [params]
 

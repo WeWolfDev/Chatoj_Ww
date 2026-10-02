@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cku02iihfhch4"
-path="res://.godot/imported/f4_engulfingshadow.png-478893ba62a29bba7ff0c4da8557f321.ctex"
+path="res://.godot/imported/f4_engulfingshadow.png-9a4ea05702ad5ed7a8ef511aafbbf646.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f4_engulfingshadow.png"
-dest_files=["res://.godot/imported/f4_engulfingshadow.png-478893ba62a29bba7ff0c4da8557f321.ctex"]
+source_file="res://Efectos de impacto/units/f4_engulfingshadow.png"
+dest_files=["res://.godot/imported/f4_engulfingshadow.png-9a4ea05702ad5ed7a8ef511aafbbf646.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cny5ln1q2j2v3"
-path="res://.godot/imported/fx_bouldersphere.png-a5ed3b4b041e36e681817affafdb80d4.ctex"
+path="res://.godot/imported/fx_bouldersphere.png-3f9130274d8833fc6b8f1f2ece9f06ab.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_bouldersphere.png"
-dest_files=["res://.godot/imported/fx_bouldersphere.png-a5ed3b4b041e36e681817affafdb80d4.ctex"]
+source_file="res://Efectos de impacto/fx/fx_bouldersphere.png"
+dest_files=["res://.godot/imported/fx_bouldersphere.png-3f9130274d8833fc6b8f1f2ece9f06ab.ctex"]
 
 [params]
 

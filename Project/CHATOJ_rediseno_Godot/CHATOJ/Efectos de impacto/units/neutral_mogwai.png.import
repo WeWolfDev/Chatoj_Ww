@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://qcyqnoxbb2je"
-path="res://.godot/imported/neutral_mogwai.png-b30c158f9a8bc2dc23d971d3700c057b.ctex"
+path="res://.godot/imported/neutral_mogwai.png-31533d8acda2be72d25c54a7295d0515.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_mogwai.png"
-dest_files=["res://.godot/imported/neutral_mogwai.png-b30c158f9a8bc2dc23d971d3700c057b.ctex"]
+source_file="res://Efectos de impacto/units/neutral_mogwai.png"
+dest_files=["res://.godot/imported/neutral_mogwai.png-31533d8acda2be72d25c54a7295d0515.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c0efhryypoyhh"
-path="res://.godot/imported/icon_f4_shadowstalk.png-c8a2d4c72ab84506da7a9f2ce42a63b1.ctex"
+path="res://.godot/imported/icon_f4_shadowstalk.png-5a1f655b700204e5cefa46f2dcd004fc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f4_shadowstalk.png"
-dest_files=["res://.godot/imported/icon_f4_shadowstalk.png-c8a2d4c72ab84506da7a9f2ce42a63b1.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f4_shadowstalk.png"
+dest_files=["res://.godot/imported/icon_f4_shadowstalk.png-5a1f655b700204e5cefa46f2dcd004fc.ctex"]
 
 [params]
 

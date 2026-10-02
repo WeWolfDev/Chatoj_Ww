@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://s5mytxmdf6f7"
-path="res://.godot/imported/f1_slo.png-955ace361a3fb582ce7890c3bae7413f.ctex"
+path="res://.godot/imported/f1_slo.png-0dfa3943709314d663d7dc8d163554b6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f1_slo.png"
-dest_files=["res://.godot/imported/f1_slo.png-955ace361a3fb582ce7890c3bae7413f.ctex"]
+source_file="res://Efectos de impacto/units/f1_slo.png"
+dest_files=["res://.godot/imported/f1_slo.png-0dfa3943709314d663d7dc8d163554b6.ctex"]
 
 [params]
 

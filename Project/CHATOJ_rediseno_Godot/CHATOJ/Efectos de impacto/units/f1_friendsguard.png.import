@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4f12ihroguuv"
-path="res://.godot/imported/f1_friendsguard.png-7fd560e2ef5fbb1aadbe918e12e80471.ctex"
+path="res://.godot/imported/f1_friendsguard.png-d2a035c240eef1e529db94b3b8adbc21.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f1_friendsguard.png"
-dest_files=["res://.godot/imported/f1_friendsguard.png-7fd560e2ef5fbb1aadbe918e12e80471.ctex"]
+source_file="res://Efectos de impacto/units/f1_friendsguard.png"
+dest_files=["res://.godot/imported/f1_friendsguard.png-d2a035c240eef1e529db94b3b8adbc21.ctex"]
 
 [params]
 

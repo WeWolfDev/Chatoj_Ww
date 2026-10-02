@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ca5xe3euh83ix"
-path="res://.godot/imported/icon_f5_naturesconfluence.png-f59bfb536f2ca743d05e8b1c2da28703.ctex"
+path="res://.godot/imported/icon_f5_naturesconfluence.png-fb413bb013e129bee9513d2d98d934db.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f5_naturesconfluence.png"
-dest_files=["res://.godot/imported/icon_f5_naturesconfluence.png-f59bfb536f2ca743d05e8b1c2da28703.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f5_naturesconfluence.png"
+dest_files=["res://.godot/imported/icon_f5_naturesconfluence.png-fb413bb013e129bee9513d2d98d934db.ctex"]
 
 [params]
 

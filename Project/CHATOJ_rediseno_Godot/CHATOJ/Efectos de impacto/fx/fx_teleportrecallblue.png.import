@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbw6mbakjefxu"
-path="res://.godot/imported/fx_teleportrecallblue.png-1e9fe9e5e59726ab978a835b6e67d4df.ctex"
+path="res://.godot/imported/fx_teleportrecallblue.png-533ead826df6f2dd5792b9d25e923da5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_teleportrecallblue.png"
-dest_files=["res://.godot/imported/fx_teleportrecallblue.png-1e9fe9e5e59726ab978a835b6e67d4df.ctex"]
+source_file="res://Efectos de impacto/fx/fx_teleportrecallblue.png"
+dest_files=["res://.godot/imported/fx_teleportrecallblue.png-533ead826df6f2dd5792b9d25e923da5.ctex"]
 
 [params]
 

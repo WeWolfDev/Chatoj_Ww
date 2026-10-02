@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdmvudriul2qv"
-path="res://.godot/imported/fx_teleportpurpleorb.png-debd5159b215100b5c70ce23cd0f0d7e.ctex"
+path="res://.godot/imported/fx_teleportpurpleorb.png-f637af48c41cf441e25efe1a1eed1c58.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_teleportpurpleorb.png"
-dest_files=["res://.godot/imported/fx_teleportpurpleorb.png-debd5159b215100b5c70ce23cd0f0d7e.ctex"]
+source_file="res://Efectos de impacto/fx/fx_teleportpurpleorb.png"
+dest_files=["res://.godot/imported/fx_teleportpurpleorb.png-f637af48c41cf441e25efe1a1eed1c58.ctex"]
 
 [params]
 

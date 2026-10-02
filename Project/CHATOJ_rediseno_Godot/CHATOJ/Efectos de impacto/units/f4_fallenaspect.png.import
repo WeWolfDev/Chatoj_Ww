@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnkdsf56qggb7"
-path="res://.godot/imported/f4_fallenaspect.png-c41f422887088c592f16cc6701769f8f.ctex"
+path="res://.godot/imported/f4_fallenaspect.png-8a756fa99711675b86b0c82fae2fc032.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f4_fallenaspect.png"
-dest_files=["res://.godot/imported/f4_fallenaspect.png-c41f422887088c592f16cc6701769f8f.ctex"]
+source_file="res://Efectos de impacto/units/f4_fallenaspect.png"
+dest_files=["res://.godot/imported/f4_fallenaspect.png-8a756fa99711675b86b0c82fae2fc032.ctex"]
 
 [params]
 

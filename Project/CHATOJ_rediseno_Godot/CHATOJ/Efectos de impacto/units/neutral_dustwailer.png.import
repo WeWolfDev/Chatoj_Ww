@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cw2ebbegyvmgp"
-path="res://.godot/imported/neutral_dustwailer.png-2643257c6ab979186d745c9ab6c4e2b8.ctex"
+path="res://.godot/imported/neutral_dustwailer.png-8211952b5d9f16179d4bef6925d2457c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_dustwailer.png"
-dest_files=["res://.godot/imported/neutral_dustwailer.png-2643257c6ab979186d745c9ab6c4e2b8.ctex"]
+source_file="res://Efectos de impacto/units/neutral_dustwailer.png"
+dest_files=["res://.godot/imported/neutral_dustwailer.png-8211952b5d9f16179d4bef6925d2457c.ctex"]
 
 [params]
 

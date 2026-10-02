@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ciedihx56keda"
-path="res://.godot/imported/fx_radial_bluenoise.png-a55512d608a8ba5560f4691d83fe2f63.ctex"
+path="res://.godot/imported/fx_radial_bluenoise.png-dc6cc7c7c1227286b25eb73a22d96842.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_radial_bluenoise.png"
-dest_files=["res://.godot/imported/fx_radial_bluenoise.png-a55512d608a8ba5560f4691d83fe2f63.ctex"]
+source_file="res://Efectos de impacto/fx/fx_radial_bluenoise.png"
+dest_files=["res://.godot/imported/fx_radial_bluenoise.png-dc6cc7c7c1227286b25eb73a22d96842.ctex"]
 
 [params]
 

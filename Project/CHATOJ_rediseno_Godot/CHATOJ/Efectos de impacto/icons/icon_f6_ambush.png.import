@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6jgsipkbq5hn"
-path="res://.godot/imported/icon_f6_ambush.png-7d245a212edf3d9b7e4c3552dc06d87f.ctex"
+path="res://.godot/imported/icon_f6_ambush.png-4fdea14db498d61b16969a1032cbd0ad.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f6_ambush.png"
-dest_files=["res://.godot/imported/icon_f6_ambush.png-7d245a212edf3d9b7e4c3552dc06d87f.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f6_ambush.png"
+dest_files=["res://.godot/imported/icon_f6_ambush.png-4fdea14db498d61b16969a1032cbd0ad.ctex"]
 
 [params]
 

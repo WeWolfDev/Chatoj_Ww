@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b1mc6ay25l5ri"
-path="res://.godot/imported/fx_f6_spiritofthewild.png-a399dfb0d3f466f4b4edb83b29725d48.ctex"
+path="res://.godot/imported/fx_f6_spiritofthewild.png-1cef35e14f809b88f51f9e9917fe1ea5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f6_spiritofthewild.png"
-dest_files=["res://.godot/imported/fx_f6_spiritofthewild.png-a399dfb0d3f466f4b4edb83b29725d48.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f6_spiritofthewild.png"
+dest_files=["res://.godot/imported/fx_f6_spiritofthewild.png-1cef35e14f809b88f51f9e9917fe1ea5.ctex"]
 
 [params]
 

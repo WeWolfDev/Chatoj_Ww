@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bkfuonok33e5b"
-path="res://.godot/imported/neutral_gambler.png-c31fe94cc24686e967c98b308f25292a.ctex"
+path="res://.godot/imported/neutral_gambler.png-26cb3b0e97b47b4b8e2030bbaf58e499.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_gambler.png"
-dest_files=["res://.godot/imported/neutral_gambler.png-c31fe94cc24686e967c98b308f25292a.ctex"]
+source_file="res://Efectos de impacto/units/neutral_gambler.png"
+dest_files=["res://.godot/imported/neutral_gambler.png-26cb3b0e97b47b4b8e2030bbaf58e499.ctex"]
 
 [params]
 

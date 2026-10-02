@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6xw4kdelirx0"
-path="res://.godot/imported/boss_treatdrake.png-7b6f1800ceb5552c8a6760f16e0dbd6f.ctex"
+path="res://.godot/imported/boss_treatdrake.png-4592d8831ea88f1d514d122f42211836.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/boss_treatdrake.png"
-dest_files=["res://.godot/imported/boss_treatdrake.png-7b6f1800ceb5552c8a6760f16e0dbd6f.ctex"]
+source_file="res://Efectos de impacto/units/boss_treatdrake.png"
+dest_files=["res://.godot/imported/boss_treatdrake.png-4592d8831ea88f1d514d122f42211836.ctex"]
 
 [params]
 

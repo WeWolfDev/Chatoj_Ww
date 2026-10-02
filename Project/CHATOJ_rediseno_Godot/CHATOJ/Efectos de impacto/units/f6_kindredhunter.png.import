@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6w68n4r87d8e"
-path="res://.godot/imported/f6_kindredhunter.png-228a195a445728f336b0f4bb369cbaba.ctex"
+path="res://.godot/imported/f6_kindredhunter.png-9f773569d14b7d27fa3b91b46293d84a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f6_kindredhunter.png"
-dest_files=["res://.godot/imported/f6_kindredhunter.png-228a195a445728f336b0f4bb369cbaba.ctex"]
+source_file="res://Efectos de impacto/units/f6_kindredhunter.png"
+dest_files=["res://.godot/imported/f6_kindredhunter.png-9f773569d14b7d27fa3b91b46293d84a.ctex"]
 
 [params]
 

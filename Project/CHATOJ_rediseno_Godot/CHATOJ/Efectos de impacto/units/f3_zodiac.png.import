@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0kmagq3c447h"
-path="res://.godot/imported/f3_zodiac.png-df136ff4a2bed9ba5eb8a344df9026d4.ctex"
+path="res://.godot/imported/f3_zodiac.png-d4c7c00d8b064251cc4535683a314a94.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f3_zodiac.png"
-dest_files=["res://.godot/imported/f3_zodiac.png-df136ff4a2bed9ba5eb8a344df9026d4.ctex"]
+source_file="res://Efectos de impacto/units/f3_zodiac.png"
+dest_files=["res://.godot/imported/f3_zodiac.png-d4c7c00d8b064251cc4535683a314a94.ctex"]
 
 [params]
 

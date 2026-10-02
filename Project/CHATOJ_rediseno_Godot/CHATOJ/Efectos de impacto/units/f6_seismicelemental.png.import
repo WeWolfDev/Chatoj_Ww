@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://w2stl3bf68qh"
-path="res://.godot/imported/f6_seismicelemental.png-ce3319e118a42b9ea4b5a8e43ebdcf25.ctex"
+path="res://.godot/imported/f6_seismicelemental.png-3d45b6b6c975741dd7ffeae3f70d01d2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f6_seismicelemental.png"
-dest_files=["res://.godot/imported/f6_seismicelemental.png-ce3319e118a42b9ea4b5a8e43ebdcf25.ctex"]
+source_file="res://Efectos de impacto/units/f6_seismicelemental.png"
+dest_files=["res://.godot/imported/f6_seismicelemental.png-3d45b6b6c975741dd7ffeae3f70d01d2.ctex"]
 
 [params]
 

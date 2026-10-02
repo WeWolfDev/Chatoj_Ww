@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6yokamdo1rar"
-path="res://.godot/imported/neutral_sunsteeldefender.png-9bc2130b21e60ddf61c36e351e50cbb1.ctex"
+path="res://.godot/imported/neutral_sunsteeldefender.png-e8b52e42e1dcf4019dcd190450098495.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_sunsteeldefender.png"
-dest_files=["res://.godot/imported/neutral_sunsteeldefender.png-9bc2130b21e60ddf61c36e351e50cbb1.ctex"]
+source_file="res://Efectos de impacto/units/neutral_sunsteeldefender.png"
+dest_files=["res://.godot/imported/neutral_sunsteeldefender.png-e8b52e42e1dcf4019dcd190450098495.ctex"]
 
 [params]
 

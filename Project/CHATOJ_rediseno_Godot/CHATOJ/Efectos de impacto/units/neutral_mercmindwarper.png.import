@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c4hvb2bwodctw"
-path="res://.godot/imported/neutral_mercmindwarper.png-ed060055ff78960bbc5704acfe1b6c64.ctex"
+path="res://.godot/imported/neutral_mercmindwarper.png-7b447294d39b191796fdf04db2a77af6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_mercmindwarper.png"
-dest_files=["res://.godot/imported/neutral_mercmindwarper.png-ed060055ff78960bbc5704acfe1b6c64.ctex"]
+source_file="res://Efectos de impacto/units/neutral_mercmindwarper.png"
+dest_files=["res://.godot/imported/neutral_mercmindwarper.png-7b447294d39b191796fdf04db2a77af6.ctex"]
 
 [params]
 

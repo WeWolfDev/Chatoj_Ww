@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bj0v0notdvspj"
-path="res://.godot/imported/boss_christmas_coal.png-ab14743868941341454c6e8b8f5434d3.ctex"
+path="res://.godot/imported/boss_christmas_coal.png-c80bb1f8e94cce5f01222ccf7c75c857.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/boss_christmas_coal.png"
-dest_files=["res://.godot/imported/boss_christmas_coal.png-ab14743868941341454c6e8b8f5434d3.ctex"]
+source_file="res://Efectos de impacto/icons/boss_christmas_coal.png"
+dest_files=["res://.godot/imported/boss_christmas_coal.png-c80bb1f8e94cce5f01222ccf7c75c857.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d2ydxbq2jm21t"
-path="res://.godot/imported/f1_sunwisp.png-f3567ed28f17f2cb40489b839c41b96f.ctex"
+path="res://.godot/imported/f1_sunwisp.png-680691e763454ac611d111def4f97e98.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f1_sunwisp.png"
-dest_files=["res://.godot/imported/f1_sunwisp.png-f3567ed28f17f2cb40489b839c41b96f.ctex"]
+source_file="res://Efectos de impacto/units/f1_sunwisp.png"
+dest_files=["res://.godot/imported/f1_sunwisp.png-680691e763454ac611d111def4f97e98.ctex"]
 
 [params]
 

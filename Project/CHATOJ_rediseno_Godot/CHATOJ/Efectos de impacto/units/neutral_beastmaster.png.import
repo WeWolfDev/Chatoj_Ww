@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b1quqmrmyxiby"
-path="res://.godot/imported/neutral_beastmaster.png-e542b36f57df8cf32d8082df648fa3ce.ctex"
+path="res://.godot/imported/neutral_beastmaster.png-250082d270fad0d989aaa44a4d9c8697.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_beastmaster.png"
-dest_files=["res://.godot/imported/neutral_beastmaster.png-e542b36f57df8cf32d8082df648fa3ce.ctex"]
+source_file="res://Efectos de impacto/units/neutral_beastmaster.png"
+dest_files=["res://.godot/imported/neutral_beastmaster.png-250082d270fad0d989aaa44a4d9c8697.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c0nwshk5lek6r"
-path="res://.godot/imported/artifact_f5_eternalheart.png-9a2719fccd9e6d7b4c9821788668208d.ctex"
+path="res://.godot/imported/artifact_f5_eternalheart.png-aaad760240309082209f71e55423ef2f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/artifact_f5_eternalheart.png"
-dest_files=["res://.godot/imported/artifact_f5_eternalheart.png-9a2719fccd9e6d7b4c9821788668208d.ctex"]
+source_file="res://Efectos de impacto/icons/artifact_f5_eternalheart.png"
+dest_files=["res://.godot/imported/artifact_f5_eternalheart.png-aaad760240309082209f71e55423ef2f.ctex"]
 
 [params]
 

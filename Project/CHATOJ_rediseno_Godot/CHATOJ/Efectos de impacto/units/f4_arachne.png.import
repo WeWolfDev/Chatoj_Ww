@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ps6ofwa1ynqd"
-path="res://.godot/imported/f4_arachne.png-99302866c029883e6f558b41695d1af6.ctex"
+path="res://.godot/imported/f4_arachne.png-9bb02432d4ca34f67ea1638a58a2e951.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f4_arachne.png"
-dest_files=["res://.godot/imported/f4_arachne.png-99302866c029883e6f558b41695d1af6.ctex"]
+source_file="res://Efectos de impacto/units/f4_arachne.png"
+dest_files=["res://.godot/imported/f4_arachne.png-9bb02432d4ca34f67ea1638a58a2e951.ctex"]
 
 [params]
 

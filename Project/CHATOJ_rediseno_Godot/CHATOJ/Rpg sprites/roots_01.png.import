@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnn3drs6xnm5j"
-path="res://.godot/imported/roots_01.png-e1b546890a807396aa5fd278f80a02af.ctex"
+path="res://.godot/imported/roots_01.png-c90de3974983840e63832d73f13c0191.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/roots_01.png"
-dest_files=["res://.godot/imported/roots_01.png-e1b546890a807396aa5fd278f80a02af.ctex"]
+source_file="res://Rpg sprites/roots_01.png"
+dest_files=["res://.godot/imported/roots_01.png-c90de3974983840e63832d73f13c0191.ctex"]
 
 [params]
 

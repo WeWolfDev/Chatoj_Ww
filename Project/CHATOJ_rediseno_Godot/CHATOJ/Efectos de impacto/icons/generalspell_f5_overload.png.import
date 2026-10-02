@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c0s63uq3x0b0b"
-path="res://.godot/imported/generalspell_f5_overload.png-c8a16a0fe9114d0f4cfd84451b668995.ctex"
+path="res://.godot/imported/generalspell_f5_overload.png-c851a92ea82e340d841e06f8b886863c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/generalspell_f5_overload.png"
-dest_files=["res://.godot/imported/generalspell_f5_overload.png-c8a16a0fe9114d0f4cfd84451b668995.ctex"]
+source_file="res://Efectos de impacto/icons/generalspell_f5_overload.png"
+dest_files=["res://.godot/imported/generalspell_f5_overload.png-c851a92ea82e340d841e06f8b886863c.ctex"]
 
 [params]
 

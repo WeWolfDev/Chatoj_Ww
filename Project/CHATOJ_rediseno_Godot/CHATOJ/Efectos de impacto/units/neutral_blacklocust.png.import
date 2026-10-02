@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cei86pp31oj87"
-path="res://.godot/imported/neutral_blacklocust.png-a3fb6904ad5f1ec0bd820c0229d0b543.ctex"
+path="res://.godot/imported/neutral_blacklocust.png-95a4fca17789319200316339b6ca36f6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_blacklocust.png"
-dest_files=["res://.godot/imported/neutral_blacklocust.png-a3fb6904ad5f1ec0bd820c0229d0b543.ctex"]
+source_file="res://Efectos de impacto/units/neutral_blacklocust.png"
+dest_files=["res://.godot/imported/neutral_blacklocust.png-95a4fca17789319200316339b6ca36f6.ctex"]
 
 [params]
 

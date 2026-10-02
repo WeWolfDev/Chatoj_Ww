@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ms8bhw8gufjx"
-path="res://.godot/imported/fx_f3_boneswarm.png-22a23cfed987e336f88633804e7167d6.ctex"
+path="res://.godot/imported/fx_f3_boneswarm.png-eb09af3d0dcb18dbee079e2416bdc9d3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f3_boneswarm.png"
-dest_files=["res://.godot/imported/fx_f3_boneswarm.png-22a23cfed987e336f88633804e7167d6.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f3_boneswarm.png"
+dest_files=["res://.godot/imported/fx_f3_boneswarm.png-eb09af3d0dcb18dbee079e2416bdc9d3.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cac3ewdd0n4a1"
-path="res://.godot/imported/boss_shinkagezendo copy.png-3d3f6fa0af29d0b924955187941e2e57.ctex"
+path="res://.godot/imported/boss_shinkagezendo copy.png-8a7598c2e37e51939240c4c37dde40c0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/boss_shinkagezendo copy.png"
-dest_files=["res://.godot/imported/boss_shinkagezendo copy.png-3d3f6fa0af29d0b924955187941e2e57.ctex"]
+source_file="res://Efectos de impacto/units/boss_shinkagezendo copy.png"
+dest_files=["res://.godot/imported/boss_shinkagezendo copy.png-8a7598c2e37e51939240c4c37dde40c0.ctex"]
 
 [params]
 

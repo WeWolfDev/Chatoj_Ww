@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://br1a6plpa2b8m"
-path="res://.godot/imported/egg_chicken_01.png-0f6b741f0a7c565aa04a51112b39a1a7.ctex"
+path="res://.godot/imported/egg_chicken_01.png-3dd5cc46c52844a6002ab948ba9ab549.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/egg_chicken_01.png"
-dest_files=["res://.godot/imported/egg_chicken_01.png-0f6b741f0a7c565aa04a51112b39a1a7.ctex"]
+source_file="res://Rpg sprites/egg_chicken_01.png"
+dest_files=["res://.godot/imported/egg_chicken_01.png-3dd5cc46c52844a6002ab948ba9ab549.ctex"]
 
 [params]
 

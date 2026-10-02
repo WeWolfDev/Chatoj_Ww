@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://brdxtue3vyogb"
-path="res://.godot/imported/neutral_metaltooth.png-0ef875c63b5f970bc063888dfde9ed64.ctex"
+path="res://.godot/imported/neutral_metaltooth.png-59a0393b1f23abfae5b4dd02d8b945da.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_metaltooth.png"
-dest_files=["res://.godot/imported/neutral_metaltooth.png-0ef875c63b5f970bc063888dfde9ed64.ctex"]
+source_file="res://Efectos de impacto/units/neutral_metaltooth.png"
+dest_files=["res://.godot/imported/neutral_metaltooth.png-59a0393b1f23abfae5b4dd02d8b945da.ctex"]
 
 [params]
 

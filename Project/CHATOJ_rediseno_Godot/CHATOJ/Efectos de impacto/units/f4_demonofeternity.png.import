@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bolu8hnvj75x1"
-path="res://.godot/imported/f4_demonofeternity.png-9825445c6505dc61186f56c673a14149.ctex"
+path="res://.godot/imported/f4_demonofeternity.png-6a3077c061de87f2e668874eea71f7bb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f4_demonofeternity.png"
-dest_files=["res://.godot/imported/f4_demonofeternity.png-9825445c6505dc61186f56c673a14149.ctex"]
+source_file="res://Efectos de impacto/units/f4_demonofeternity.png"
+dest_files=["res://.godot/imported/f4_demonofeternity.png-6a3077c061de87f2e668874eea71f7bb.ctex"]
 
 [params]
 

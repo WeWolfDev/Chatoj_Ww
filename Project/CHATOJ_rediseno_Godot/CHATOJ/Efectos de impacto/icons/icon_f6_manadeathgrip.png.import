@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cbostbhn5hxpu"
-path="res://.godot/imported/icon_f6_manadeathgrip.png-25c8d81018ee1b370623be6de9f8cac0.ctex"
+path="res://.godot/imported/icon_f6_manadeathgrip.png-7cbe091e56174476ffbd6b668347b344.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f6_manadeathgrip.png"
-dest_files=["res://.godot/imported/icon_f6_manadeathgrip.png-25c8d81018ee1b370623be6de9f8cac0.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f6_manadeathgrip.png"
+dest_files=["res://.godot/imported/icon_f6_manadeathgrip.png-7cbe091e56174476ffbd6b668347b344.ctex"]
 
 [params]
 

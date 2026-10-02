@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d30hcvmt2551f"
-path="res://.godot/imported/fx_damagedecal@2x.png-6c73a21b7212e0d0de7c8172ae96ca61.ctex"
+path="res://.godot/imported/fx_damagedecal@2x.png-bc61e73b1c78ed7e8382b0b577d03ca0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_damagedecal@2x.png"
-dest_files=["res://.godot/imported/fx_damagedecal@2x.png-6c73a21b7212e0d0de7c8172ae96ca61.ctex"]
+source_file="res://Efectos de impacto/fx/fx_damagedecal@2x.png"
+dest_files=["res://.godot/imported/fx_damagedecal@2x.png-bc61e73b1c78ed7e8382b0b577d03ca0.ctex"]
 
 [params]
 

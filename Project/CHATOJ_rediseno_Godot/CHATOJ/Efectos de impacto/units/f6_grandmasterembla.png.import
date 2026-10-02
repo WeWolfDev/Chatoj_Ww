@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dh0670uwhdp06"
-path="res://.godot/imported/f6_grandmasterembla.png-8a2e7e89b51f8b63689b23a1267a478f.ctex"
+path="res://.godot/imported/f6_grandmasterembla.png-787a8192c7400aa38fba85f9e86035f4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f6_grandmasterembla.png"
-dest_files=["res://.godot/imported/f6_grandmasterembla.png-8a2e7e89b51f8b63689b23a1267a478f.ctex"]
+source_file="res://Efectos de impacto/units/f6_grandmasterembla.png"
+dest_files=["res://.godot/imported/f6_grandmasterembla.png-787a8192c7400aa38fba85f9e86035f4.ctex"]
 
 [params]
 

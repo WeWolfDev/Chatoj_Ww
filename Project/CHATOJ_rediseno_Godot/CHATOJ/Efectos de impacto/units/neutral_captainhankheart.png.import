@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://wp47i7yyyis5"
-path="res://.godot/imported/neutral_captainhankheart.png-bac1712d34c259cc7be8f2f131f5bc93.ctex"
+path="res://.godot/imported/neutral_captainhankheart.png-9e22b59829df8be65630deb932020605.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_captainhankheart.png"
-dest_files=["res://.godot/imported/neutral_captainhankheart.png-bac1712d34c259cc7be8f2f131f5bc93.ctex"]
+source_file="res://Efectos de impacto/units/neutral_captainhankheart.png"
+dest_files=["res://.godot/imported/neutral_captainhankheart.png-9e22b59829df8be65630deb932020605.ctex"]
 
 [params]
 

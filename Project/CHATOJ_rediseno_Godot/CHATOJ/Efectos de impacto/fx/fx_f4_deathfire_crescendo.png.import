@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d1yva5j15tyg4"
-path="res://.godot/imported/fx_f4_deathfire_crescendo.png-1d84ad000272c2231a77a6c98892d601.ctex"
+path="res://.godot/imported/fx_f4_deathfire_crescendo.png-7cd47aad9c26a4d6d4c9a3d19a6966f9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f4_deathfire_crescendo.png"
-dest_files=["res://.godot/imported/fx_f4_deathfire_crescendo.png-1d84ad000272c2231a77a6c98892d601.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f4_deathfire_crescendo.png"
+dest_files=["res://.godot/imported/fx_f4_deathfire_crescendo.png-7cd47aad9c26a4d6d4c9a3d19a6966f9.ctex"]
 
 [params]
 

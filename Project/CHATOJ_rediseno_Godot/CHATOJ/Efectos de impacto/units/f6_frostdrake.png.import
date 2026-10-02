@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwn2mtnaio7vt"
-path="res://.godot/imported/f6_frostdrake.png-16cc8589e5b5d3afd30137bb7d2c44df.ctex"
+path="res://.godot/imported/f6_frostdrake.png-3c20d75c599765b73cf3a26346dca98e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f6_frostdrake.png"
-dest_files=["res://.godot/imported/f6_frostdrake.png-16cc8589e5b5d3afd30137bb7d2c44df.ctex"]
+source_file="res://Efectos de impacto/units/f6_frostdrake.png"
+dest_files=["res://.godot/imported/f6_frostdrake.png-3c20d75c599765b73cf3a26346dca98e.ctex"]
 
 [params]
 

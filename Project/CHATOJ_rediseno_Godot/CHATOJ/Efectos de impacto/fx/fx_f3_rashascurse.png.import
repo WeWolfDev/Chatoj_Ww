@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://djr4dlvv33x7r"
-path="res://.godot/imported/fx_f3_rashascurse.png-37b2d0349d8c91c8025e9b54afed7f79.ctex"
+path="res://.godot/imported/fx_f3_rashascurse.png-543f0f78f5c7fc57427026fbb7851ff1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f3_rashascurse.png"
-dest_files=["res://.godot/imported/fx_f3_rashascurse.png-37b2d0349d8c91c8025e9b54afed7f79.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f3_rashascurse.png"
+dest_files=["res://.godot/imported/fx_f3_rashascurse.png-543f0f78f5c7fc57427026fbb7851ff1.ctex"]
 
 [params]
 

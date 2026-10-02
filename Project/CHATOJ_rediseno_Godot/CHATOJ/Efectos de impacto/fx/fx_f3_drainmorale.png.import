@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://eebcuted1rvx"
-path="res://.godot/imported/fx_f3_drainmorale.png-bb79cc86c9a7968833af4e2898e342a3.ctex"
+path="res://.godot/imported/fx_f3_drainmorale.png-68ff573f9afffe55374d654f2fe31c0f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f3_drainmorale.png"
-dest_files=["res://.godot/imported/fx_f3_drainmorale.png-bb79cc86c9a7968833af4e2898e342a3.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f3_drainmorale.png"
+dest_files=["res://.godot/imported/fx_f3_drainmorale.png-68ff573f9afffe55374d654f2fe31c0f.ctex"]
 
 [params]
 

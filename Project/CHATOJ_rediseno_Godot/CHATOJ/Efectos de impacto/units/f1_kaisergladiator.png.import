@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://gcrrny8vxkoh"
-path="res://.godot/imported/f1_kaisergladiator.png-416ec99e1d34be1561698ac260167a66.ctex"
+path="res://.godot/imported/f1_kaisergladiator.png-686e3421e745e0137306296cc45390eb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f1_kaisergladiator.png"
-dest_files=["res://.godot/imported/f1_kaisergladiator.png-416ec99e1d34be1561698ac260167a66.ctex"]
+source_file="res://Efectos de impacto/units/f1_kaisergladiator.png"
+dest_files=["res://.godot/imported/f1_kaisergladiator.png-686e3421e745e0137306296cc45390eb.ctex"]
 
 [params]
 

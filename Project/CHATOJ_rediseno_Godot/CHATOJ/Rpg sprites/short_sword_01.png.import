@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cdoc60whdsl0n"
-path="res://.godot/imported/short_sword_01.png-6b1067dc6d38cd1d48cb109fcd18ee06.ctex"
+path="res://.godot/imported/short_sword_01.png-41acaf70d869abdd983c9b6e8d14d955.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/short_sword_01.png"
-dest_files=["res://.godot/imported/short_sword_01.png-6b1067dc6d38cd1d48cb109fcd18ee06.ctex"]
+source_file="res://Rpg sprites/short_sword_01.png"
+dest_files=["res://.godot/imported/short_sword_01.png-41acaf70d869abdd983c9b6e8d14d955.ctex"]
 
 [params]
 

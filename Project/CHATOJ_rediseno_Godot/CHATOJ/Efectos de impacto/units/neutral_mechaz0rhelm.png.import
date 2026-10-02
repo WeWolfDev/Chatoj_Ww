@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bi7q0jogf30hu"
-path="res://.godot/imported/neutral_mechaz0rhelm.png-238fb48bd8b6c7f22f9a52aa6ed08e8c.ctex"
+path="res://.godot/imported/neutral_mechaz0rhelm.png-7514b9c0c9d29765fdb80bbe387e5271.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_mechaz0rhelm.png"
-dest_files=["res://.godot/imported/neutral_mechaz0rhelm.png-238fb48bd8b6c7f22f9a52aa6ed08e8c.ctex"]
+source_file="res://Efectos de impacto/units/neutral_mechaz0rhelm.png"
+dest_files=["res://.godot/imported/neutral_mechaz0rhelm.png-7514b9c0c9d29765fdb80bbe387e5271.ctex"]
 
 [params]
 

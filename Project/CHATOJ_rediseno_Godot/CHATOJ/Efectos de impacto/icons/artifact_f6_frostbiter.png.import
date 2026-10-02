@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bbo7s6ts5esyl"
-path="res://.godot/imported/artifact_f6_frostbiter.png-f2dba5fa00d2a7d647f427e9229152f1.ctex"
+path="res://.godot/imported/artifact_f6_frostbiter.png-7b4c6ee32ef3653dff4c35f7e46beeb9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/artifact_f6_frostbiter.png"
-dest_files=["res://.godot/imported/artifact_f6_frostbiter.png-f2dba5fa00d2a7d647f427e9229152f1.ctex"]
+source_file="res://Efectos de impacto/icons/artifact_f6_frostbiter.png"
+dest_files=["res://.godot/imported/artifact_f6_frostbiter.png-7b4c6ee32ef3653dff4c35f7e46beeb9.ctex"]
 
 [params]
 

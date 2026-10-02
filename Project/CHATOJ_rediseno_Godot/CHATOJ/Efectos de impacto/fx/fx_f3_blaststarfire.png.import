@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bwkb5ykyp1g7x"
-path="res://.godot/imported/fx_f3_blaststarfire.png-309ae63beb857d6d05f36ebe20908768.ctex"
+path="res://.godot/imported/fx_f3_blaststarfire.png-452d0d08e3c447f6db8f6f5b02647e67.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f3_blaststarfire.png"
-dest_files=["res://.godot/imported/fx_f3_blaststarfire.png-309ae63beb857d6d05f36ebe20908768.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f3_blaststarfire.png"
+dest_files=["res://.godot/imported/fx_f3_blaststarfire.png-452d0d08e3c447f6db8f6f5b02647e67.ctex"]
 
 [params]
 

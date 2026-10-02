@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://do0p1ruv8bop1"
-path="res://.godot/imported/neutral_tribalmelee3.png-2a1399ec13487ba1b23a1e3a340c3b12.ctex"
+path="res://.godot/imported/neutral_tribalmelee3.png-f5d0ada17789c2dbf3dc4d5b7485c262.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_tribalmelee3.png"
-dest_files=["res://.godot/imported/neutral_tribalmelee3.png-2a1399ec13487ba1b23a1e3a340c3b12.ctex"]
+source_file="res://Efectos de impacto/units/neutral_tribalmelee3.png"
+dest_files=["res://.godot/imported/neutral_tribalmelee3.png-f5d0ada17789c2dbf3dc4d5b7485c262.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cg226x4otledj"
-path="res://.godot/imported/f2_songhaisentinel.png-33ef7f3b7cf67e94d8dd1762d02e20ad.ctex"
+path="res://.godot/imported/f2_songhaisentinel.png-dacef9f1656cd47a1f957332fbfc954f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f2_songhaisentinel.png"
-dest_files=["res://.godot/imported/f2_songhaisentinel.png-33ef7f3b7cf67e94d8dd1762d02e20ad.ctex"]
+source_file="res://Efectos de impacto/units/f2_songhaisentinel.png"
+dest_files=["res://.godot/imported/f2_songhaisentinel.png-dacef9f1656cd47a1f957332fbfc954f.ctex"]
 
 [params]
 

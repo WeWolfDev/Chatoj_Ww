@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjtf8mtr6ae1p"
-path="res://.godot/imported/fx_f4_doom.png-f0d059dba2b13f770fc1de98d58085e1.ctex"
+path="res://.godot/imported/fx_f4_doom.png-112b97a54e469620d126351824b0ce33.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f4_doom.png"
-dest_files=["res://.godot/imported/fx_f4_doom.png-f0d059dba2b13f770fc1de98d58085e1.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f4_doom.png"
+dest_files=["res://.godot/imported/fx_f4_doom.png-112b97a54e469620d126351824b0ce33.ctex"]
 
 [params]
 

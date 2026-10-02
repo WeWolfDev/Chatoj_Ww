@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dam4c2hxo46kp"
-path="res://.godot/imported/neutral_pandoraminionfly.png-2dca43eeb342b5b2fd2189f20e432a8e.ctex"
+path="res://.godot/imported/neutral_pandoraminionfly.png-a53c2f8f23c1ea992dc26e63395f5e66.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_pandoraminionfly.png"
-dest_files=["res://.godot/imported/neutral_pandoraminionfly.png-2dca43eeb342b5b2fd2189f20e432a8e.ctex"]
+source_file="res://Efectos de impacto/units/neutral_pandoraminionfly.png"
+dest_files=["res://.godot/imported/neutral_pandoraminionfly.png-a53c2f8f23c1ea992dc26e63395f5e66.ctex"]
 
 [params]
 

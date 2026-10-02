@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bghsp5iitkfxn"
-path="res://.godot/imported/icon_f2_spellsword_light.png-e38348fd7250a9cfbda4947bc46b8be7.ctex"
+path="res://.godot/imported/icon_f2_spellsword_light.png-0cb282bc15f6e3a4ba48be6a8036275c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f2_spellsword_light.png"
-dest_files=["res://.godot/imported/icon_f2_spellsword_light.png-e38348fd7250a9cfbda4947bc46b8be7.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f2_spellsword_light.png"
+dest_files=["res://.godot/imported/icon_f2_spellsword_light.png-0cb282bc15f6e3a4ba48be6a8036275c.ctex"]
 
 [params]
 

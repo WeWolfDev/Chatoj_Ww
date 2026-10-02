@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnhyyrrk1nv72"
-path="res://.godot/imported/naginata_01.png-e56fa3b49905232e28a0347d54a72f75.ctex"
+path="res://.godot/imported/naginata_01.png-814a7a3090d3be42fbd0df0eb84af786.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/naginata_01.png"
-dest_files=["res://.godot/imported/naginata_01.png-e56fa3b49905232e28a0347d54a72f75.ctex"]
+source_file="res://Rpg sprites/naginata_01.png"
+dest_files=["res://.godot/imported/naginata_01.png-814a7a3090d3be42fbd0df0eb84af786.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbo652ms4x7g4"
-path="res://.godot/imported/f5_pteryx.png-f89610501063b586b9c8ccea3a8503fc.ctex"
+path="res://.godot/imported/f5_pteryx.png-5f041bc8a530b5d7c19f5c197305f522.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f5_pteryx.png"
-dest_files=["res://.godot/imported/f5_pteryx.png-f89610501063b586b9c8ccea3a8503fc.ctex"]
+source_file="res://Efectos de impacto/units/f5_pteryx.png"
+dest_files=["res://.godot/imported/f5_pteryx.png-5f041bc8a530b5d7c19f5c197305f522.ctex"]
 
 [params]
 

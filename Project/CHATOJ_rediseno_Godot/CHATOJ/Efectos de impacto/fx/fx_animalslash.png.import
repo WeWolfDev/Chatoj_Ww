@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6jsbvie6hv4l"
-path="res://.godot/imported/fx_animalslash.png-318aebbb7d40e766be1c3cc9d51048d8.ctex"
+path="res://.godot/imported/fx_animalslash.png-7485374834054c4560cba5abba69528b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_animalslash.png"
-dest_files=["res://.godot/imported/fx_animalslash.png-318aebbb7d40e766be1c3cc9d51048d8.ctex"]
+source_file="res://Efectos de impacto/fx/fx_animalslash.png"
+dest_files=["res://.godot/imported/fx_animalslash.png-7485374834054c4560cba5abba69528b.ctex"]
 
 [params]
 

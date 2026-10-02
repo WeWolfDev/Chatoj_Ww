@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://clu0yj547h4et"
-path="res://.godot/imported/boss_invader.png-bbba3ed8570b5b8bc74d570e43d6d167.ctex"
+path="res://.godot/imported/boss_invader.png-b807ac9f42248a33c75e46791571d18b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/boss_invader.png"
-dest_files=["res://.godot/imported/boss_invader.png-bbba3ed8570b5b8bc74d570e43d6d167.ctex"]
+source_file="res://Efectos de impacto/units/boss_invader.png"
+dest_files=["res://.godot/imported/boss_invader.png-b807ac9f42248a33c75e46791571d18b.ctex"]
 
 [params]
 

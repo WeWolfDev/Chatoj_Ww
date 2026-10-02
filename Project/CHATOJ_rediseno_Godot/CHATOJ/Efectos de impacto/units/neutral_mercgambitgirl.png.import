@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c6f7fgyq6hv8"
-path="res://.godot/imported/neutral_mercgambitgirl.png-ad841767c39c0aa8790ee584bb0846fc.ctex"
+path="res://.godot/imported/neutral_mercgambitgirl.png-fdcea2f47153cc03d3373e99cc9bd308.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_mercgambitgirl.png"
-dest_files=["res://.godot/imported/neutral_mercgambitgirl.png-ad841767c39c0aa8790ee584bb0846fc.ctex"]
+source_file="res://Efectos de impacto/units/neutral_mercgambitgirl.png"
+dest_files=["res://.godot/imported/neutral_mercgambitgirl.png-fdcea2f47153cc03d3373e99cc9bd308.ctex"]
 
 [params]
 

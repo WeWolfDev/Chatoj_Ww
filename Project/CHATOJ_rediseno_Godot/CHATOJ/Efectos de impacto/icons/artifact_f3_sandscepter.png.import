@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://2to04nq1ueac"
-path="res://.godot/imported/artifact_f3_sandscepter.png-376465bfa2da001131d59f176984f588.ctex"
+path="res://.godot/imported/artifact_f3_sandscepter.png-59dc5a6c1dd42d846c190b39f83ec27d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/artifact_f3_sandscepter.png"
-dest_files=["res://.godot/imported/artifact_f3_sandscepter.png-376465bfa2da001131d59f176984f588.ctex"]
+source_file="res://Efectos de impacto/icons/artifact_f3_sandscepter.png"
+dest_files=["res://.godot/imported/artifact_f3_sandscepter.png-59dc5a6c1dd42d846c190b39f83ec27d.ctex"]
 
 [params]
 

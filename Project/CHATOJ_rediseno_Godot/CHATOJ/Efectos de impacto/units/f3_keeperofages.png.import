@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d2q677wgjhfyj"
-path="res://.godot/imported/f3_keeperofages.png-d4148bca4ff6132b761870e4cce99f8c.ctex"
+path="res://.godot/imported/f3_keeperofages.png-889d744689f50b5bb7b5e30ef7528b39.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f3_keeperofages.png"
-dest_files=["res://.godot/imported/f3_keeperofages.png-d4148bca4ff6132b761870e4cce99f8c.ctex"]
+source_file="res://Efectos de impacto/units/f3_keeperofages.png"
+dest_files=["res://.godot/imported/f3_keeperofages.png-889d744689f50b5bb7b5e30ef7528b39.ctex"]
 
 [params]
 

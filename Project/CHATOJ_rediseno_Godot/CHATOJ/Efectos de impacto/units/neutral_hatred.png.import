@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bhjdagsh00vvs"
-path="res://.godot/imported/neutral_hatred.png-dfe2f7c495556907ce5986632d66011b.ctex"
+path="res://.godot/imported/neutral_hatred.png-f38f073adbca046548e0b1abc7349385.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_hatred.png"
-dest_files=["res://.godot/imported/neutral_hatred.png-dfe2f7c495556907ce5986632d66011b.ctex"]
+source_file="res://Efectos de impacto/units/neutral_hatred.png"
+dest_files=["res://.godot/imported/neutral_hatred.png-f38f073adbca046548e0b1abc7349385.ctex"]
 
 [params]
 

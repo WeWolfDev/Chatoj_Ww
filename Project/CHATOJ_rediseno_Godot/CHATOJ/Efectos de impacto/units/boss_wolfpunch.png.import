@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cqa7ffd1olkj7"
-path="res://.godot/imported/boss_wolfpunch.png-ef2e6b134f87b6119cb093e5ff7cd188.ctex"
+path="res://.godot/imported/boss_wolfpunch.png-1ad58322b7447483ed4fca4ca0728f05.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/boss_wolfpunch.png"
-dest_files=["res://.godot/imported/boss_wolfpunch.png-ef2e6b134f87b6119cb093e5ff7cd188.ctex"]
+source_file="res://Efectos de impacto/units/boss_wolfpunch.png"
+dest_files=["res://.godot/imported/boss_wolfpunch.png-1ad58322b7447483ed4fca4ca0728f05.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bcm34keqwnc25"
-path="res://.godot/imported/artifact_f5_morinkhur.png-e41b9f6179da65f706e54b06d12baf67.ctex"
+path="res://.godot/imported/artifact_f5_morinkhur.png-15b4db0e300114945a0f53050e757b34.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/artifact_f5_morinkhur.png"
-dest_files=["res://.godot/imported/artifact_f5_morinkhur.png-e41b9f6179da65f706e54b06d12baf67.ctex"]
+source_file="res://Efectos de impacto/icons/artifact_f5_morinkhur.png"
+dest_files=["res://.godot/imported/artifact_f5_morinkhur.png-15b4db0e300114945a0f53050e757b34.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxg6gorrvn34h"
-path="res://.godot/imported/artifact_boss_frostarmor.png-f6a663de77c4ac2a827730e64f3037f6.ctex"
+path="res://.godot/imported/artifact_boss_frostarmor.png-9707c07ff68ccba5a910110e30bef080.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/artifact_boss_frostarmor.png"
-dest_files=["res://.godot/imported/artifact_boss_frostarmor.png-f6a663de77c4ac2a827730e64f3037f6.ctex"]
+source_file="res://Efectos de impacto/icons/artifact_boss_frostarmor.png"
+dest_files=["res://.godot/imported/artifact_boss_frostarmor.png-9707c07ff68ccba5a910110e30bef080.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cmroc4u5d6nby"
-path="res://.godot/imported/f6_treant.png-ac7740108c395e08ef9a6e957318cfbd.ctex"
+path="res://.godot/imported/f6_treant.png-5a89e380c4f238dc24038e4b000fbec6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f6_treant.png"
-dest_files=["res://.godot/imported/f6_treant.png-ac7740108c395e08ef9a6e957318cfbd.ctex"]
+source_file="res://Efectos de impacto/units/f6_treant.png"
+dest_files=["res://.godot/imported/f6_treant.png-5a89e380c4f238dc24038e4b000fbec6.ctex"]
 
 [params]
 

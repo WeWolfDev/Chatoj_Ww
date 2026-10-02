@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://yy67nqipkavm"
-path="res://.godot/imported/f2_panddo.png-19592cdda53f86b7a05db56393f2b9af.ctex"
+path="res://.godot/imported/f2_panddo.png-d29cce27ed0faa78c26b8df7bd69e0f7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f2_panddo.png"
-dest_files=["res://.godot/imported/f2_panddo.png-19592cdda53f86b7a05db56393f2b9af.ctex"]
+source_file="res://Efectos de impacto/units/f2_panddo.png"
+dest_files=["res://.godot/imported/f2_panddo.png-d29cce27ed0faa78c26b8df7bd69e0f7.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c16lnttja488r"
-path="res://.godot/imported/f6_waterelemental.png-8234fc7b349fe2e62c6f49db65a3baaf.ctex"
+path="res://.godot/imported/f6_waterelemental.png-324c922bc6ca4900f8dc6ab66501ae32.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f6_waterelemental.png"
-dest_files=["res://.godot/imported/f6_waterelemental.png-8234fc7b349fe2e62c6f49db65a3baaf.ctex"]
+source_file="res://Efectos de impacto/units/f6_waterelemental.png"
+dest_files=["res://.godot/imported/f6_waterelemental.png-324c922bc6ca4900f8dc6ab66501ae32.ctex"]
 
 [params]
 

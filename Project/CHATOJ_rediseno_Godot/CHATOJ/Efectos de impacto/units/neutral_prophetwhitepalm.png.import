@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bik42mgb4s0rl"
-path="res://.godot/imported/neutral_prophetwhitepalm.png-e6281e521d3e758559b657d6cee21cb5.ctex"
+path="res://.godot/imported/neutral_prophetwhitepalm.png-2bdc21efbd4da4f3775957a06030d3a5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_prophetwhitepalm.png"
-dest_files=["res://.godot/imported/neutral_prophetwhitepalm.png-e6281e521d3e758559b657d6cee21cb5.ctex"]
+source_file="res://Efectos de impacto/units/neutral_prophetwhitepalm.png"
+dest_files=["res://.godot/imported/neutral_prophetwhitepalm.png-2bdc21efbd4da4f3775957a06030d3a5.ctex"]
 
 [params]
 

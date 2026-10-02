@@ -82,6 +82,12 @@ var knockback_velocity = Vector2.ZERO
 # =========================
 # ATAQUES ESPECIALES (todos telegrafiados)
 # =========================
+#
+# GUÍA PARA AJUSTAR LAS ZONAS (el jugador camina a ~400 px/s, corre a ~500
+# y su dash recorre ~150 px). Regla práctica: el jugador debe poder salir
+# de una zona en menos de la mitad del aviso.
+#   - Golpe en área: lo que tiene que recorrer = slam_reach - keep_gap
+#   - Embestida: lo que tiene que recorrer de lado = charge_width / 2 + radio del jugador
 
 var attack_interval = 3.0  # segundos entre ataques especiales
 var attack_timer = 3.0
@@ -93,11 +99,13 @@ var recover_time = 1.0  # pausa después de atacar (ventana para golpearlo)
 
 var charge_windup = 0.9
 var charge_speed = 600.0
-var charge_duration = 0.4
-var charge_hit_margin = 40.0  # alcance del golpe medido desde el borde del cuerpo
-var charge_hit_radius = 35.0  # se recalcula en _ready
-var charge_width = 60.0  # ancho de la franja de aviso; se recalcula en _ready
+var charge_duration = 0.55  # recorrido total = charge_speed * charge_duration
 var charge_damage = 25
+
+var charge_width_ratio = 1.2  # ancho de la franja = body_radius * este valor
+var charge_width = 60.0  # se recalcula en _ready
+var charge_hit_margin = 30.0  # cuánto se extiende el golpe por delante del borde del cuerpo
+var charge_max_distance = 700.0  # si estás más lejos que esto, no embiste
 
 var charge_direction = Vector2.ZERO
 var charge_has_hit = false
@@ -106,7 +114,7 @@ var charge_has_hit = false
 # --- Golpe en área ---
 
 var slam_windup = 1.0
-var slam_reach = 90.0  # cuánto se extiende el golpe más allá del borde del cuerpo
+var slam_reach = 60.0  # cuánto se extiende el golpe más allá del borde del cuerpo
 var slam_radius = 120.0  # se recalcula en _ready
 var slam_damage = 20
 
@@ -149,8 +157,7 @@ func _ready():
 
 	keep_distance = body_radius + keep_gap
 	slam_radius = body_radius + slam_reach
-	charge_hit_radius = body_radius + charge_hit_margin
-	charge_width = body_radius * 2.0
+	charge_width = body_radius * charge_width_ratio
 	bat_spawn_min_radius = body_radius + bat_spawn_gap_min
 	bat_spawn_max_radius = body_radius + bat_spawn_gap_max
 
@@ -402,9 +409,16 @@ func start_special_attack(distance):
 		options.append(State.WINDUP_SLAM)
 
 
-	# La embestida solo tiene sentido si hay algo de distancia
-	if distance >= body_radius + 120.0:
+	# Embestida: se puede elegir a casi cualquier distancia. Antes se exigía
+	# estar lejos, pero el jefe siempre se pega al jugador (keep_distance),
+	# así que esa condición casi nunca se cumplía y la embestida no salía.
+	if distance <= charge_max_distance:
+
 		options.append(State.WINDUP_CHARGE)
+
+		# Más probable si el jugador está a cierta distancia
+		if distance >= body_radius + 120.0:
+			options.append(State.WINDUP_CHARGE)
 
 
 	# Invocar solo si hay escena asignada y no hay demasiados murciélagos vivos
@@ -422,6 +436,8 @@ func start_special_attack(distance):
 
 
 	var chosen = options.pick_random()
+
+	print("Camazots eligió: ", State.keys()[chosen])
 
 	velocity = Vector2.ZERO
 
@@ -444,7 +460,7 @@ func start_special_attack(distance):
 		State.WINDUP_CHARGE:
 
 			# La dirección se fija AL EMPEZAR el aviso: el jugador
-			# ve la línea roja y puede esquivarla
+			# ve la franja roja y puede esquivarla
 			charge_direction = (
 				target.global_position - global_position
 			).normalized()
@@ -479,6 +495,11 @@ func process_windup_charge(delta):
 
 		AudioManager.play_2d(SFX_CHARGE, global_position, -3.0)
 
+		# Durante la embestida el jefe atraviesa el cuerpo del jugador:
+		# así el daño depende SOLO de la franja roja y no de un choque físico
+		# (antes el cuerpo del jugador frenaba al jefe antes de llegar)
+		add_collision_exception_with(target)
+
 		state = State.CHARGING
 		state_timer = charge_duration
 		charge_has_hit = false
@@ -498,23 +519,41 @@ func process_charging(delta):
 
 
 	# Solo puede golpear una vez por embestida
-	if not charge_has_hit:
+	if not charge_has_hit and is_target_in_charge_path():
 
-		var distance = global_position.distance_to(target.global_position)
+		charge_has_hit = true
 
-		if distance <= charge_hit_radius:
+		target.take_damage(charge_damage)
 
-			charge_has_hit = true
-
-			target.take_damage(charge_damage)
-
-			print("Camazots embistió al jugador")
+		print("Camazots embistió al jugador")
 
 
 	state_timer -= delta
 
 	if state_timer <= 0.0:
 		enter_recover()
+
+
+# Zona de daño de la embestida: un rectángulo que va delante del jefe
+# y tiene EL MISMO ancho que la franja roja del aviso
+func is_target_in_charge_path():
+
+	var to_target = target.global_position - global_position
+
+	var forward = to_target.dot(charge_direction)
+	var lateral = abs(to_target.cross(charge_direction))
+
+	return (
+		forward > -body_radius
+		and forward < body_radius + charge_hit_margin
+		and lateral <= charge_width * 0.5
+	)
+
+
+# Largo total de la zona peligrosa de la embestida (para dibujar el aviso)
+func get_charge_reach():
+
+	return charge_speed * charge_duration + body_radius + charge_hit_margin
 
 
 # =========================
@@ -566,6 +605,10 @@ func process_windup_summon(delta):
 # =========================
 
 func enter_recover():
+
+	# Si venía de embestir, vuelve a ser sólido para el jugador
+	if target != null and is_instance_valid(target):
+		remove_collision_exception_with(target)
 
 	state = State.RECOVER
 	state_timer = recover_time
@@ -638,10 +681,21 @@ func spawn_bats():
 
 func _draw():
 
+	# Compensa la escala del nodo: si Camazots (o su raíz) está escalado,
+	# lo que se dibuja se agrandaría otra vez y la zona roja se vería mucho
+	# más grande que la zona real de daño
+	var safe_scale = Vector2(
+		max(abs(global_scale.x), 0.001),
+		max(abs(global_scale.y), 0.001)
+	)
+
+	draw_set_transform(Vector2.ZERO, 0.0, Vector2.ONE / safe_scale)
+
+
 	if state == State.WINDUP_CHARGE:
 
-		# Franja roja que muestra por dónde va a embestir
-		var end_point = charge_direction * charge_speed * charge_duration
+		# Franja roja: es exactamente la zona donde la embestida hace daño
+		var end_point = charge_direction * get_charge_reach()
 
 		draw_line(
 			Vector2.ZERO,

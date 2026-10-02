@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://svx7n0iu644j"
-path="res://.godot/imported/f2_paperdropper.png-5bcabe84a724f89262115976729a6483.ctex"
+path="res://.godot/imported/f2_paperdropper.png-5ab800c2ebccbbee6e5258f28bafb8f6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f2_paperdropper.png"
-dest_files=["res://.godot/imported/f2_paperdropper.png-5bcabe84a724f89262115976729a6483.ctex"]
+source_file="res://Efectos de impacto/units/f2_paperdropper.png"
+dest_files=["res://.godot/imported/f2_paperdropper.png-5ab800c2ebccbbee6e5258f28bafb8f6.ctex"]
 
 [params]
 

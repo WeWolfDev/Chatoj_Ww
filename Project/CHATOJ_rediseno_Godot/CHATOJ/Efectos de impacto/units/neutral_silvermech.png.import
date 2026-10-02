@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://csocqrnuekesg"
-path="res://.godot/imported/neutral_silvermech.png-06c9c80aff73225ec3b810c85b2e3309.ctex"
+path="res://.godot/imported/neutral_silvermech.png-9076c6008f783694c28ee02a72bd5f38.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_silvermech.png"
-dest_files=["res://.godot/imported/neutral_silvermech.png-06c9c80aff73225ec3b810c85b2e3309.ctex"]
+source_file="res://Efectos de impacto/units/neutral_silvermech.png"
+dest_files=["res://.godot/imported/neutral_silvermech.png-9076c6008f783694c28ee02a72bd5f38.ctex"]
 
 [params]
 

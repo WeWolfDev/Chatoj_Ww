@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://watp43o8jlq1"
-path="res://.godot/imported/neutral_mercsworndefender.png-28217818b2799f64baf48c450af56a3b.ctex"
+path="res://.godot/imported/neutral_mercsworndefender.png-4f1a814fe7afa595bf3c2956a4752b3d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_mercsworndefender.png"
-dest_files=["res://.godot/imported/neutral_mercsworndefender.png-28217818b2799f64baf48c450af56a3b.ctex"]
+source_file="res://Efectos de impacto/units/neutral_mercsworndefender.png"
+dest_files=["res://.godot/imported/neutral_mercsworndefender.png-4f1a814fe7afa595bf3c2956a4752b3d.ctex"]
 
 [params]
 

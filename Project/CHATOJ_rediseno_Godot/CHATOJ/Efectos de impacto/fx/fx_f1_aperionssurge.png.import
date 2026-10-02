@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cfm1lj6xqnqxq"
-path="res://.godot/imported/fx_f1_aperionssurge.png-e02fdc4dc7c09703116579b95ba865a2.ctex"
+path="res://.godot/imported/fx_f1_aperionssurge.png-aa2d1c3b8199a97ead8f4fec6e2d0785.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f1_aperionssurge.png"
-dest_files=["res://.godot/imported/fx_f1_aperionssurge.png-e02fdc4dc7c09703116579b95ba865a2.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f1_aperionssurge.png"
+dest_files=["res://.godot/imported/fx_f1_aperionssurge.png-aa2d1c3b8199a97ead8f4fec6e2d0785.ctex"]
 
 [params]
 

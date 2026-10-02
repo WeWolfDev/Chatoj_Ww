@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d2t3nrula2ntc"
-path="res://.godot/imported/f3_ciphyronmk2.png-ce3b58f84ab8f3242ad23ac5ce91327e.ctex"
+path="res://.godot/imported/f3_ciphyronmk2.png-031c32bf62b58c00eb6bd20dc33d3a74.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f3_ciphyronmk2.png"
-dest_files=["res://.godot/imported/f3_ciphyronmk2.png-ce3b58f84ab8f3242ad23ac5ce91327e.ctex"]
+source_file="res://Efectos de impacto/units/f3_ciphyronmk2.png"
+dest_files=["res://.godot/imported/f3_ciphyronmk2.png-031c32bf62b58c00eb6bd20dc33d3a74.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ivu40fns2826"
-path="res://.godot/imported/artifact_f6_winterblade.png-2f1ccb06b758546808e144b8a80ed88e.ctex"
+path="res://.godot/imported/artifact_f6_winterblade.png-1382125a6261c958f86d1d911c981b2d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/artifact_f6_winterblade.png"
-dest_files=["res://.godot/imported/artifact_f6_winterblade.png-2f1ccb06b758546808e144b8a80ed88e.ctex"]
+source_file="res://Efectos de impacto/icons/artifact_f6_winterblade.png"
+dest_files=["res://.godot/imported/artifact_f6_winterblade.png-1382125a6261c958f86d1d911c981b2d.ctex"]
 
 [params]
 

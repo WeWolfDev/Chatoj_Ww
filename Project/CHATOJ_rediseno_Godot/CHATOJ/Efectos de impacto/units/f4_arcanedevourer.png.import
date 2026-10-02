@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dd273fgx3lgbm"
-path="res://.godot/imported/f4_arcanedevourer.png-4a93b99d788fc8e19dd4de2e99e7eaac.ctex"
+path="res://.godot/imported/f4_arcanedevourer.png-ae2161cd7b87ed354b05d50b447fd73a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f4_arcanedevourer.png"
-dest_files=["res://.godot/imported/f4_arcanedevourer.png-4a93b99d788fc8e19dd4de2e99e7eaac.ctex"]
+source_file="res://Efectos de impacto/units/f4_arcanedevourer.png"
+dest_files=["res://.godot/imported/f4_arcanedevourer.png-ae2161cd7b87ed354b05d50b447fd73a.ctex"]
 
 [params]
 

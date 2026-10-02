@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dcia3skpaqcy0"
-path="res://.godot/imported/neutral_wingsofparadise.png-2cda8e04e9371c4e4db85d4e050b0d09.ctex"
+path="res://.godot/imported/neutral_wingsofparadise.png-43e8537a3bf45259f7341e19a439f511.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_wingsofparadise.png"
-dest_files=["res://.godot/imported/neutral_wingsofparadise.png-2cda8e04e9371c4e4db85d4e050b0d09.ctex"]
+source_file="res://Efectos de impacto/units/neutral_wingsofparadise.png"
+dest_files=["res://.godot/imported/neutral_wingsofparadise.png-43e8537a3bf45259f7341e19a439f511.ctex"]
 
 [params]
 

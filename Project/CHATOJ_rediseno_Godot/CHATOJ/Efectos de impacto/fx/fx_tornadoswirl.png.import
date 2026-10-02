@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cunirlre3anmo"
-path="res://.godot/imported/fx_tornadoswirl.png-2d4aab7e6d807aa156de07077498ff88.ctex"
+path="res://.godot/imported/fx_tornadoswirl.png-15cffe1e274966a7a7a5c54b6a9641ee.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_tornadoswirl.png"
-dest_files=["res://.godot/imported/fx_tornadoswirl.png-2d4aab7e6d807aa156de07077498ff88.ctex"]
+source_file="res://Efectos de impacto/fx/fx_tornadoswirl.png"
+dest_files=["res://.godot/imported/fx_tornadoswirl.png-15cffe1e274966a7a7a5c54b6a9641ee.ctex"]
 
 [params]
 

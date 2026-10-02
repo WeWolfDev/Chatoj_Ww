@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://boxbnbo01acfq"
-path="res://.godot/imported/icon_f3_sandtrap.png-d40dd00681899b0be6733587d73a5096.ctex"
+path="res://.godot/imported/icon_f3_sandtrap.png-3b6c61b4aa3db38b11f10d184b646e5c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f3_sandtrap.png"
-dest_files=["res://.godot/imported/icon_f3_sandtrap.png-d40dd00681899b0be6733587d73a5096.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f3_sandtrap.png"
+dest_files=["res://.godot/imported/icon_f3_sandtrap.png-3b6c61b4aa3db38b11f10d184b646e5c.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://drfix12bs5x83"
-path="res://.godot/imported/neutral_golemrunesand.png-94cf2856a6c53d26aa106c669605a351.ctex"
+path="res://.godot/imported/neutral_golemrunesand.png-238cd5cda3ff3e12273658384d6c61d8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_golemrunesand.png"
-dest_files=["res://.godot/imported/neutral_golemrunesand.png-94cf2856a6c53d26aa106c669605a351.ctex"]
+source_file="res://Efectos de impacto/units/neutral_golemrunesand.png"
+dest_files=["res://.godot/imported/neutral_golemrunesand.png-238cd5cda3ff3e12273658384d6c61d8.ctex"]
 
 [params]
 

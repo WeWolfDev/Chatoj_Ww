@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bbga8k2s24wy1"
-path="res://.godot/imported/long_sword_01.png-d6c94d2f5635c7441f1a4ba3ef096430.ctex"
+path="res://.godot/imported/long_sword_01.png-462513e809515a08745a622ff1cc789b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/long_sword_01.png"
-dest_files=["res://.godot/imported/long_sword_01.png-d6c94d2f5635c7441f1a4ba3ef096430.ctex"]
+source_file="res://Rpg sprites/long_sword_01.png"
+dest_files=["res://.godot/imported/long_sword_01.png-462513e809515a08745a622ff1cc789b.ctex"]
 
 [params]
 

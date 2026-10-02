@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dqrmar4gbkanb"
-path="res://.godot/imported/fx_f3_dominatewill.png-757a57fddc6a35c0c5562a598adfe70a.ctex"
+path="res://.godot/imported/fx_f3_dominatewill.png-7217a289a22d48ec41ca16b4f2017a81.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f3_dominatewill.png"
-dest_files=["res://.godot/imported/fx_f3_dominatewill.png-757a57fddc6a35c0c5562a598adfe70a.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f3_dominatewill.png"
+dest_files=["res://.godot/imported/fx_f3_dominatewill.png-7217a289a22d48ec41ca16b4f2017a81.ctex"]
 
 [params]
 

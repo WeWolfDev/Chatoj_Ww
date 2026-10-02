@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://o3pmtm5qdjew"
-path="res://.godot/imported/neutral_monsteronyxscorpion.png-02f78038e644023174f59d471bdbb1ca.ctex"
+path="res://.godot/imported/neutral_monsteronyxscorpion.png-80dc5d5a4c7795289ce20235f89ff16e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_monsteronyxscorpion.png"
-dest_files=["res://.godot/imported/neutral_monsteronyxscorpion.png-02f78038e644023174f59d471bdbb1ca.ctex"]
+source_file="res://Efectos de impacto/units/neutral_monsteronyxscorpion.png"
+dest_files=["res://.godot/imported/neutral_monsteronyxscorpion.png-80dc5d5a4c7795289ce20235f89ff16e.ctex"]
 
 [params]
 

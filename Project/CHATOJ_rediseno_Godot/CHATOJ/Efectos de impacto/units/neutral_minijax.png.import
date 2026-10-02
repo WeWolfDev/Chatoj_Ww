@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://crbb06l0d68aq"
-path="res://.godot/imported/neutral_minijax.png-d3932aee368448de85e580529ef9ef10.ctex"
+path="res://.godot/imported/neutral_minijax.png-a2465aaf643b523a0b047859d3928063.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_minijax.png"
-dest_files=["res://.godot/imported/neutral_minijax.png-d3932aee368448de85e580529ef9ef10.ctex"]
+source_file="res://Efectos de impacto/units/neutral_minijax.png"
+dest_files=["res://.godot/imported/neutral_minijax.png-a2465aaf643b523a0b047859d3928063.ctex"]
 
 [params]
 

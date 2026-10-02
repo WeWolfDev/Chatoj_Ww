@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://nm8k17niyuet"
-path="res://.godot/imported/icon_f2_bombard.png-ed8acc7a226815341f02cf28c1ddcb25.ctex"
+path="res://.godot/imported/icon_f2_bombard.png-1f95755597d440a165a908e88af3d385.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f2_bombard.png"
-dest_files=["res://.godot/imported/icon_f2_bombard.png-ed8acc7a226815341f02cf28c1ddcb25.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f2_bombard.png"
+dest_files=["res://.godot/imported/icon_f2_bombard.png-1f95755597d440a165a908e88af3d385.ctex"]
 
 [params]
 

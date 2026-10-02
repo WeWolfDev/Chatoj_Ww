@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b43qu544n35v6"
-path="res://.godot/imported/f4_miniminion.png-48090062160fae567e99c5fcbb081e5d.ctex"
+path="res://.godot/imported/f4_miniminion.png-73b8c51e8a7ed4b9e295d9d902a75a68.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f4_miniminion.png"
-dest_files=["res://.godot/imported/f4_miniminion.png-48090062160fae567e99c5fcbb081e5d.ctex"]
+source_file="res://Efectos de impacto/units/f4_miniminion.png"
+dest_files=["res://.godot/imported/f4_miniminion.png-73b8c51e8a7ed4b9e295d9d902a75a68.ctex"]
 
 [params]
 

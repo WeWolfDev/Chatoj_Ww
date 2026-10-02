@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwvotwymyjk3c"
-path="res://.godot/imported/icon_f6_frostburn.png-0aeebc659ea71a30bbde1da3366b2720.ctex"
+path="res://.godot/imported/icon_f6_frostburn.png-45cdf0905fb353318343bb5ee622576b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f6_frostburn.png"
-dest_files=["res://.godot/imported/icon_f6_frostburn.png-0aeebc659ea71a30bbde1da3366b2720.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f6_frostburn.png"
+dest_files=["res://.godot/imported/icon_f6_frostburn.png-45cdf0905fb353318343bb5ee622576b.ctex"]
 
 [params]
 

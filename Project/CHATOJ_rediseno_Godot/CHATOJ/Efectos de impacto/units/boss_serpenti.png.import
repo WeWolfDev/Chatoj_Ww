@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c7lknylhp2iu6"
-path="res://.godot/imported/boss_serpenti.png-19d71768adc55a5b063547d56d582711.ctex"
+path="res://.godot/imported/boss_serpenti.png-154da4454b6b3e2500eec1c36d9f06e2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/boss_serpenti.png"
-dest_files=["res://.godot/imported/boss_serpenti.png-19d71768adc55a5b063547d56d582711.ctex"]
+source_file="res://Efectos de impacto/units/boss_serpenti.png"
+dest_files=["res://.godot/imported/boss_serpenti.png-154da4454b6b3e2500eec1c36d9f06e2.ctex"]
 
 [params]
 

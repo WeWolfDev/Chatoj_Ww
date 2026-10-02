@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://x5wi1ldigpie"
-path="res://.godot/imported/f1_radiantdragoon.png-d8942a7123a39b54b88045c3273c3e77.ctex"
+path="res://.godot/imported/f1_radiantdragoon.png-897c5b70e4dcc4350e036f4fc889b2b9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f1_radiantdragoon.png"
-dest_files=["res://.godot/imported/f1_radiantdragoon.png-d8942a7123a39b54b88045c3273c3e77.ctex"]
+source_file="res://Efectos de impacto/units/f1_radiantdragoon.png"
+dest_files=["res://.godot/imported/f1_radiantdragoon.png-897c5b70e4dcc4350e036f4fc889b2b9.ctex"]
 
 [params]
 

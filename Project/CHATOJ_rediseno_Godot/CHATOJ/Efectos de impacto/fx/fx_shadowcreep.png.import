@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d161k5ka4ejew"
-path="res://.godot/imported/fx_shadowcreep.png-0655de8a1b0155b4f1d1e9c347c41be8.ctex"
+path="res://.godot/imported/fx_shadowcreep.png-9ad7880778225ead0e5de30b1fa32c65.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_shadowcreep.png"
-dest_files=["res://.godot/imported/fx_shadowcreep.png-0655de8a1b0155b4f1d1e9c347c41be8.ctex"]
+source_file="res://Efectos de impacto/fx/fx_shadowcreep.png"
+dest_files=["res://.godot/imported/fx_shadowcreep.png-9ad7880778225ead0e5de30b1fa32c65.ctex"]
 
 [params]
 

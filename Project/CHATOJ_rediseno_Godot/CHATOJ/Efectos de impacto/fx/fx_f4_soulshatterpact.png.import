@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://clblogfnehlyu"
-path="res://.godot/imported/fx_f4_soulshatterpact.png-e0f7207ba94829b9ed9ef083d571c812.ctex"
+path="res://.godot/imported/fx_f4_soulshatterpact.png-8a3cb6e2ee664b8867e5b2c7dbaf0ee7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f4_soulshatterpact.png"
-dest_files=["res://.godot/imported/fx_f4_soulshatterpact.png-e0f7207ba94829b9ed9ef083d571c812.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f4_soulshatterpact.png"
+dest_files=["res://.godot/imported/fx_f4_soulshatterpact.png-8a3cb6e2ee664b8867e5b2c7dbaf0ee7.ctex"]
 
 [params]
 

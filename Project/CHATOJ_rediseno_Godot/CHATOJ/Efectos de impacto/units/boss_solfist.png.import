@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwkyx7injhvip"
-path="res://.godot/imported/boss_solfist.png-9199512b0d2ea8bedb4c1b06dd000bd8.ctex"
+path="res://.godot/imported/boss_solfist.png-dcc3314f6e558f28adbc19f458ee364f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/boss_solfist.png"
-dest_files=["res://.godot/imported/boss_solfist.png-9199512b0d2ea8bedb4c1b06dd000bd8.ctex"]
+source_file="res://Efectos de impacto/units/boss_solfist.png"
+dest_files=["res://.godot/imported/boss_solfist.png-dcc3314f6e558f28adbc19f458ee364f.ctex"]
 
 [params]
 

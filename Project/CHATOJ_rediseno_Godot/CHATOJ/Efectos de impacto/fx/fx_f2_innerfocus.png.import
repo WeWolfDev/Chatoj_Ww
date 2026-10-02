@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cv1775edu5xrw"
-path="res://.godot/imported/fx_f2_innerfocus.png-370fa17ea1b1c5030341c1639c9f3dea.ctex"
+path="res://.godot/imported/fx_f2_innerfocus.png-4f5e5b1bcac8b5112da285b8f0c1e67a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f2_innerfocus.png"
-dest_files=["res://.godot/imported/fx_f2_innerfocus.png-370fa17ea1b1c5030341c1639c9f3dea.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f2_innerfocus.png"
+dest_files=["res://.godot/imported/fx_f2_innerfocus.png-4f5e5b1bcac8b5112da285b8f0c1e67a.ctex"]
 
 [params]
 

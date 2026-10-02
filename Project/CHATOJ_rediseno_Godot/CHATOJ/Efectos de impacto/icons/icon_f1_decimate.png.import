@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://drs6ifyeibju7"
-path="res://.godot/imported/icon_f1_decimate.png-ab89f74f626905ea658941de7016b0a8.ctex"
+path="res://.godot/imported/icon_f1_decimate.png-a6c52dbd3032f885737f883e2a0314c7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f1_decimate.png"
-dest_files=["res://.godot/imported/icon_f1_decimate.png-ab89f74f626905ea658941de7016b0a8.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f1_decimate.png"
+dest_files=["res://.godot/imported/icon_f1_decimate.png-a6c52dbd3032f885737f883e2a0314c7.ctex"]
 
 [params]
 

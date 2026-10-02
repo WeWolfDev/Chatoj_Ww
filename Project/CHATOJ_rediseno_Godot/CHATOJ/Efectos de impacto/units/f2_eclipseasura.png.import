@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d4h2dysq5d8wr"
-path="res://.godot/imported/f2_eclipseasura.png-471fd734ed046290969dce4409ab5f25.ctex"
+path="res://.godot/imported/f2_eclipseasura.png-ff8690b497e3a4635ef79304114196c3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f2_eclipseasura.png"
-dest_files=["res://.godot/imported/f2_eclipseasura.png-471fd734ed046290969dce4409ab5f25.ctex"]
+source_file="res://Efectos de impacto/units/f2_eclipseasura.png"
+dest_files=["res://.godot/imported/f2_eclipseasura.png-ff8690b497e3a4635ef79304114196c3.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cj0e1plciuk13"
-path="res://.godot/imported/artifact_f2_markgorehorn.png-0f7d940d856dc01fd0eb72b2428f7ed4.ctex"
+path="res://.godot/imported/artifact_f2_markgorehorn.png-dbda8a06475baf7569abdef0bd9f6fb5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/artifact_f2_markgorehorn.png"
-dest_files=["res://.godot/imported/artifact_f2_markgorehorn.png-0f7d940d856dc01fd0eb72b2428f7ed4.ctex"]
+source_file="res://Efectos de impacto/icons/artifact_f2_markgorehorn.png"
+dest_files=["res://.godot/imported/artifact_f2_markgorehorn.png-dbda8a06475baf7569abdef0bd9f6fb5.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://whwbrt2wrmve"
-path="res://.godot/imported/fx_f1_bbs_afterglow.png-82cb267f1a1cf86e510cd352e8debdf6.ctex"
+path="res://.godot/imported/fx_f1_bbs_afterglow.png-d4958fe27de532993e332b4901436cb5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f1_bbs_afterglow.png"
-dest_files=["res://.godot/imported/fx_f1_bbs_afterglow.png-82cb267f1a1cf86e510cd352e8debdf6.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f1_bbs_afterglow.png"
+dest_files=["res://.godot/imported/fx_f1_bbs_afterglow.png-d4958fe27de532993e332b4901436cb5.ctex"]
 
 [params]
 

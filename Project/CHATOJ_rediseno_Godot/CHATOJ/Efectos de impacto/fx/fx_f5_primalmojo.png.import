@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bca4sfkuc66mm"
-path="res://.godot/imported/fx_f5_primalmojo.png-6cba6af5c5584db662e1b75d80c71660.ctex"
+path="res://.godot/imported/fx_f5_primalmojo.png-16338ba4ce640e65f3cff24da5cf90e9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f5_primalmojo.png"
-dest_files=["res://.godot/imported/fx_f5_primalmojo.png-6cba6af5c5584db662e1b75d80c71660.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f5_primalmojo.png"
+dest_files=["res://.godot/imported/fx_f5_primalmojo.png-16338ba4ce640e65f3cff24da5cf90e9.ctex"]
 
 [params]
 

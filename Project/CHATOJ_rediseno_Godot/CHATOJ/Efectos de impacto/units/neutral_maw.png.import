@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0knah3kq30mn"
-path="res://.godot/imported/neutral_maw.png-289df2a04c363428e39a1a71d7426f50.ctex"
+path="res://.godot/imported/neutral_maw.png-c800e8df4715eecfaf79d7f08c6cc926.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_maw.png"
-dest_files=["res://.godot/imported/neutral_maw.png-289df2a04c363428e39a1a71d7426f50.ctex"]
+source_file="res://Efectos de impacto/units/neutral_maw.png"
+dest_files=["res://.godot/imported/neutral_maw.png-c800e8df4715eecfaf79d7f08c6cc926.ctex"]
 
 [params]
 

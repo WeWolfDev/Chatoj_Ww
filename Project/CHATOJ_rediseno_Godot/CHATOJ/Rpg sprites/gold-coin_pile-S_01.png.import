@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bglbetjclt7o2"
-path="res://.godot/imported/gold-coin_pile-S_01.png-c5419729bc6adbc737972d5832096902.ctex"
+path="res://.godot/imported/gold-coin_pile-S_01.png-ebcbe2184925321a92e6c20a303b6831.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/gold-coin_pile-S_01.png"
-dest_files=["res://.godot/imported/gold-coin_pile-S_01.png-c5419729bc6adbc737972d5832096902.ctex"]
+source_file="res://Rpg sprites/gold-coin_pile-S_01.png"
+dest_files=["res://.godot/imported/gold-coin_pile-S_01.png-ebcbe2184925321a92e6c20a303b6831.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnvm7y780en16"
-path="res://.godot/imported/fx_f5_fractalreplication.png-ecf807ace9802e6fac0b307dd1b3da6f.ctex"
+path="res://.godot/imported/fx_f5_fractalreplication.png-5fbdeee12a4f053bc16e869084b20921.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f5_fractalreplication.png"
-dest_files=["res://.godot/imported/fx_f5_fractalreplication.png-ecf807ace9802e6fac0b307dd1b3da6f.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f5_fractalreplication.png"
+dest_files=["res://.godot/imported/fx_f5_fractalreplication.png-5fbdeee12a4f053bc16e869084b20921.ctex"]
 
 [params]
 

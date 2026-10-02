@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwk41y4evbgph"
-path="res://.godot/imported/f1_grandmasterzir.png-d52ae6f91cfa560f07036f1b43595c11.ctex"
+path="res://.godot/imported/f1_grandmasterzir.png-8641e23f8e071dcba4305257b7f5f81b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f1_grandmasterzir.png"
-dest_files=["res://.godot/imported/f1_grandmasterzir.png-d52ae6f91cfa560f07036f1b43595c11.ctex"]
+source_file="res://Efectos de impacto/units/f1_grandmasterzir.png"
+dest_files=["res://.godot/imported/f1_grandmasterzir.png-8641e23f8e071dcba4305257b7f5f81b.ctex"]
 
 [params]
 

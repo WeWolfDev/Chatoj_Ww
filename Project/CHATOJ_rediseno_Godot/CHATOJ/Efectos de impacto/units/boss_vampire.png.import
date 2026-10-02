@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3gdejheqkc6n"
-path="res://.godot/imported/boss_vampire.png-0eb5c6958089bc611b4ca741a7eb1411.ctex"
+path="res://.godot/imported/boss_vampire.png-4fc541bb36f35dbc2e6f8c49b27b8cef.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/boss_vampire.png"
-dest_files=["res://.godot/imported/boss_vampire.png-0eb5c6958089bc611b4ca741a7eb1411.ctex"]
+source_file="res://Efectos de impacto/units/boss_vampire.png"
+dest_files=["res://.godot/imported/boss_vampire.png-4fc541bb36f35dbc2e6f8c49b27b8cef.ctex"]
 
 [params]
 

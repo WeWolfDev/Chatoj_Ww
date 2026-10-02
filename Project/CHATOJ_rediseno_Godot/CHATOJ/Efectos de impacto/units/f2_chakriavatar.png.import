@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ix4nqi4asnfd"
-path="res://.godot/imported/f2_chakriavatar.png-a1180990f4009a7000e2d0a2ef3936fb.ctex"
+path="res://.godot/imported/f2_chakriavatar.png-59990c9a4362b66bb86997d468641385.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f2_chakriavatar.png"
-dest_files=["res://.godot/imported/f2_chakriavatar.png-a1180990f4009a7000e2d0a2ef3936fb.ctex"]
+source_file="res://Efectos de impacto/units/f2_chakriavatar.png"
+dest_files=["res://.godot/imported/f2_chakriavatar.png-59990c9a4362b66bb86997d468641385.ctex"]
 
 [params]
 

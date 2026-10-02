@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bqvib0lof6aga"
-path="res://.godot/imported/neutral_keeperofthevale.png-092e8248dd47da13fd52ba823ee99eaf.ctex"
+path="res://.godot/imported/neutral_keeperofthevale.png-8cf3753e7816c3e93a56abaa68cb3973.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_keeperofthevale.png"
-dest_files=["res://.godot/imported/neutral_keeperofthevale.png-092e8248dd47da13fd52ba823ee99eaf.ctex"]
+source_file="res://Efectos de impacto/units/neutral_keeperofthevale.png"
+dest_files=["res://.godot/imported/neutral_keeperofthevale.png-8cf3753e7816c3e93a56abaa68cb3973.ctex"]
 
 [params]
 

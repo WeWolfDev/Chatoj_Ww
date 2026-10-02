@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://s4i08q52wn0"
-path="res://.godot/imported/f5_armada.png-ee740df235e1b425f38cd858c595fdef.ctex"
+path="res://.godot/imported/f5_armada.png-2585ad34f4aa5250386ccd567944922d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f5_armada.png"
-dest_files=["res://.godot/imported/f5_armada.png-ee740df235e1b425f38cd858c595fdef.ctex"]
+source_file="res://Efectos de impacto/units/f5_armada.png"
+dest_files=["res://.godot/imported/f5_armada.png-2585ad34f4aa5250386ccd567944922d.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cbkyg1hgy3vxc"
-path="res://.godot/imported/neutral_sol.png-fcf816db0bdd20612b346a675c8caf7f.ctex"
+path="res://.godot/imported/neutral_sol.png-4a1f8bc33892eb7ef0e3a97652e579c2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_sol.png"
-dest_files=["res://.godot/imported/neutral_sol.png-fcf816db0bdd20612b346a675c8caf7f.ctex"]
+source_file="res://Efectos de impacto/units/neutral_sol.png"
+dest_files=["res://.godot/imported/neutral_sol.png-4a1f8bc33892eb7ef0e3a97652e579c2.ctex"]
 
 [params]
 

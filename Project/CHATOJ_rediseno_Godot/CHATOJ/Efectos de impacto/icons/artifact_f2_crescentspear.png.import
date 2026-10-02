@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://fiqwg20b87qu"
-path="res://.godot/imported/artifact_f2_crescentspear.png-1cd41979e16cb7820d95b6e8eba8d9fa.ctex"
+path="res://.godot/imported/artifact_f2_crescentspear.png-dc6e2170ef1bc60e19a06adece1448f2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/artifact_f2_crescentspear.png"
-dest_files=["res://.godot/imported/artifact_f2_crescentspear.png-1cd41979e16cb7820d95b6e8eba8d9fa.ctex"]
+source_file="res://Efectos de impacto/icons/artifact_f2_crescentspear.png"
+dest_files=["res://.godot/imported/artifact_f2_crescentspear.png-dc6e2170ef1bc60e19a06adece1448f2.ctex"]
 
 [params]
 

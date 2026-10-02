@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ieijo2hi3ixg"
-path="res://.godot/imported/boss_oriasidol.png-09ac56a235a3f8e87a236a0e82bf47fb.ctex"
+path="res://.godot/imported/boss_oriasidol.png-03fbd96e62ce39f5655b68762827445a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/boss_oriasidol.png"
-dest_files=["res://.godot/imported/boss_oriasidol.png-09ac56a235a3f8e87a236a0e82bf47fb.ctex"]
+source_file="res://Efectos de impacto/units/boss_oriasidol.png"
+dest_files=["res://.godot/imported/boss_oriasidol.png-03fbd96e62ce39f5655b68762827445a.ctex"]
 
 [params]
 

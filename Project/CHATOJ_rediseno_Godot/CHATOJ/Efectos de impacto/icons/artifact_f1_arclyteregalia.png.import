@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cp42xsxn4q815"
-path="res://.godot/imported/artifact_f1_arclyteregalia.png-7abe8c42641e1c63ccb1d7eb599131f1.ctex"
+path="res://.godot/imported/artifact_f1_arclyteregalia.png-87845c83431acee2f5d738f5ff426d32.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/artifact_f1_arclyteregalia.png"
-dest_files=["res://.godot/imported/artifact_f1_arclyteregalia.png-7abe8c42641e1c63ccb1d7eb599131f1.ctex"]
+source_file="res://Efectos de impacto/icons/artifact_f1_arclyteregalia.png"
+dest_files=["res://.godot/imported/artifact_f1_arclyteregalia.png-87845c83431acee2f5d738f5ff426d32.ctex"]
 
 [params]
 

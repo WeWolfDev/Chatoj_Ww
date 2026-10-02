@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://buvqfs6t0sed2"
-path="res://.godot/imported/f5_valknu.png-20f5323820b5193f186add850010726a.ctex"
+path="res://.godot/imported/f5_valknu.png-c3f09adfaae071aaec477397dc393a89.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f5_valknu.png"
-dest_files=["res://.godot/imported/f5_valknu.png-20f5323820b5193f186add850010726a.ctex"]
+source_file="res://Efectos de impacto/units/f5_valknu.png"
+dest_files=["res://.godot/imported/f5_valknu.png-c3f09adfaae071aaec477397dc393a89.ctex"]
 
 [params]
 

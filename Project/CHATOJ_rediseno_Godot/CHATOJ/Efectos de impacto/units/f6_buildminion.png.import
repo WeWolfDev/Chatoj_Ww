@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b36m2d4jwoi5m"
-path="res://.godot/imported/f6_buildminion.png-d69ad343cb92d7867dc4c80aafe12519.ctex"
+path="res://.godot/imported/f6_buildminion.png-8018fd55f8a3c75bc45a5dfb82041e4a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f6_buildminion.png"
-dest_files=["res://.godot/imported/f6_buildminion.png-d69ad343cb92d7867dc4c80aafe12519.ctex"]
+source_file="res://Efectos de impacto/units/f6_buildminion.png"
+dest_files=["res://.godot/imported/f6_buildminion.png-8018fd55f8a3c75bc45a5dfb82041e4a.ctex"]
 
 [params]
 

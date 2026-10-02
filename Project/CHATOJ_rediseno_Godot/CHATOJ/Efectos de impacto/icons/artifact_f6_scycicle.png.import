@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://kcmmnkpk6xm6"
-path="res://.godot/imported/artifact_f6_scycicle.png-54defd90940404b657fc0242fb34b220.ctex"
+path="res://.godot/imported/artifact_f6_scycicle.png-7ed693278605e62df003bade3afd5f42.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/artifact_f6_scycicle.png"
-dest_files=["res://.godot/imported/artifact_f6_scycicle.png-54defd90940404b657fc0242fb34b220.ctex"]
+source_file="res://Efectos de impacto/icons/artifact_f6_scycicle.png"
+dest_files=["res://.godot/imported/artifact_f6_scycicle.png-7ed693278605e62df003bade3afd5f42.ctex"]
 
 [params]
 

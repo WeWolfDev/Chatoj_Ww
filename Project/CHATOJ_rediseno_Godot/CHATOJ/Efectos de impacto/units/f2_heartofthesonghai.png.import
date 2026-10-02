@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4ncrn62qm4qd"
-path="res://.godot/imported/f2_heartofthesonghai.png-1d255c2117c366970fe581dc32a9a8c6.ctex"
+path="res://.godot/imported/f2_heartofthesonghai.png-0c6b9be834ed458cd3e5ad3c5a5cdc73.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f2_heartofthesonghai.png"
-dest_files=["res://.godot/imported/f2_heartofthesonghai.png-1d255c2117c366970fe581dc32a9a8c6.ctex"]
+source_file="res://Efectos de impacto/units/f2_heartofthesonghai.png"
+dest_files=["res://.godot/imported/f2_heartofthesonghai.png-0c6b9be834ed458cd3e5ad3c5a5cdc73.ctex"]
 
 [params]
 

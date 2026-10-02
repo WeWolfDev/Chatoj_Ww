@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cr84dgfh1hwjv"
-path="res://.godot/imported/f5_flumposaur.png-c2aad92d7260a47e905f37e177341249.ctex"
+path="res://.godot/imported/f5_flumposaur.png-99e26b9a3da5dc7d701bf5db82c38c5b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f5_flumposaur.png"
-dest_files=["res://.godot/imported/f5_flumposaur.png-c2aad92d7260a47e905f37e177341249.ctex"]
+source_file="res://Efectos de impacto/units/f5_flumposaur.png"
+dest_files=["res://.godot/imported/f5_flumposaur.png-99e26b9a3da5dc7d701bf5db82c38c5b.ctex"]
 
 [params]
 

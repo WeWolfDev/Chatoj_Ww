@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bjxvstv5cyo72"
-path="res://.godot/imported/fx_blood_explosion.png-9d707c1cae6644439e58b1393fe91058.ctex"
+path="res://.godot/imported/fx_blood_explosion.png-5276eb9ca9c74244016aeca821b685a1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_blood_explosion.png"
-dest_files=["res://.godot/imported/fx_blood_explosion.png-9d707c1cae6644439e58b1393fe91058.ctex"]
+source_file="res://Efectos de impacto/fx/fx_blood_explosion.png"
+dest_files=["res://.godot/imported/fx_blood_explosion.png-5276eb9ca9c74244016aeca821b685a1.ctex"]
 
 [params]
 

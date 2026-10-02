@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cxklk1lscs3or"
-path="res://.godot/imported/fx_f4_bbs_shadowspawn.png-246b98d95a931b584da2cb116f559f65.ctex"
+path="res://.godot/imported/fx_f4_bbs_shadowspawn.png-868c28e9458377d8422665db75044b8e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f4_bbs_shadowspawn.png"
-dest_files=["res://.godot/imported/fx_f4_bbs_shadowspawn.png-246b98d95a931b584da2cb116f559f65.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f4_bbs_shadowspawn.png"
+dest_files=["res://.godot/imported/fx_f4_bbs_shadowspawn.png-868c28e9458377d8422665db75044b8e.ctex"]
 
 [params]
 

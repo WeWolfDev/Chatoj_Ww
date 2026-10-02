@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cc162m1pce1uu"
-path="res://.godot/imported/potato_red_01.png-bb2b303592c73ee4a2c93dbd01b8cb61.ctex"
+path="res://.godot/imported/potato_red_01.png-b8ece65ab42290efccdd2a448ee4a7f4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/potato_red_01.png"
-dest_files=["res://.godot/imported/potato_red_01.png-bb2b303592c73ee4a2c93dbd01b8cb61.ctex"]
+source_file="res://Rpg sprites/potato_red_01.png"
+dest_files=["res://.godot/imported/potato_red_01.png-b8ece65ab42290efccdd2a448ee4a7f4.ctex"]
 
 [params]
 

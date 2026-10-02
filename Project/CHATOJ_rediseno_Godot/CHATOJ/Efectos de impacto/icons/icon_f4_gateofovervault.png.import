@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b5hipt3po2pad"
-path="res://.godot/imported/icon_f4_gateofovervault.png-98e69c8e08039a53b2b988ecc333fddf.ctex"
+path="res://.godot/imported/icon_f4_gateofovervault.png-72648596e631fb774f0ba4c2e12f9119.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f4_gateofovervault.png"
-dest_files=["res://.godot/imported/icon_f4_gateofovervault.png-98e69c8e08039a53b2b988ecc333fddf.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f4_gateofovervault.png"
+dest_files=["res://.godot/imported/icon_f4_gateofovervault.png-72648596e631fb774f0ba4c2e12f9119.ctex"]
 
 [params]
 

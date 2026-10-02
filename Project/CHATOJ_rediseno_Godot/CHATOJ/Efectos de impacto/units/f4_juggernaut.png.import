@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bj5psgrfi00s8"
-path="res://.godot/imported/f4_juggernaut.png-3551b7c0385e3f5da701ca6f967137d3.ctex"
+path="res://.godot/imported/f4_juggernaut.png-a8ea2f44d3ef79cf55185f0cc6f5032f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f4_juggernaut.png"
-dest_files=["res://.godot/imported/f4_juggernaut.png-3551b7c0385e3f5da701ca6f967137d3.ctex"]
+source_file="res://Efectos de impacto/units/f4_juggernaut.png"
+dest_files=["res://.godot/imported/f4_juggernaut.png-a8ea2f44d3ef79cf55185f0cc6f5032f.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xmlx62yt8mp3"
-path="res://.godot/imported/neutral_primusshieldmaster.png-777d2ec4bf220840478c10962073bf78.ctex"
+path="res://.godot/imported/neutral_primusshieldmaster.png-d04e2a396ff623e129f527e4bdf193ea.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_primusshieldmaster.png"
-dest_files=["res://.godot/imported/neutral_primusshieldmaster.png-777d2ec4bf220840478c10962073bf78.ctex"]
+source_file="res://Efectos de impacto/units/neutral_primusshieldmaster.png"
+dest_files=["res://.godot/imported/neutral_primusshieldmaster.png-d04e2a396ff623e129f527e4bdf193ea.ctex"]
 
 [params]
 

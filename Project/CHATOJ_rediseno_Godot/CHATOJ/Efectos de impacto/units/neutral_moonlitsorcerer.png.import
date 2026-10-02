@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4j3psem1nxa2"
-path="res://.godot/imported/neutral_moonlitsorcerer.png-72f2fdad16342f068846b0f86d8173e9.ctex"
+path="res://.godot/imported/neutral_moonlitsorcerer.png-6e282beb073dd0a328d20cc2b754c7f9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_moonlitsorcerer.png"
-dest_files=["res://.godot/imported/neutral_moonlitsorcerer.png-72f2fdad16342f068846b0f86d8173e9.ctex"]
+source_file="res://Efectos de impacto/units/neutral_moonlitsorcerer.png"
+dest_files=["res://.godot/imported/neutral_moonlitsorcerer.png-6e282beb073dd0a328d20cc2b754c7f9.ctex"]
 
 [params]
 

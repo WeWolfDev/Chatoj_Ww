@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xg00qb1uoxu0"
-path="res://.godot/imported/neutral_grablackhole.png-a02132d7cfe3b9cb9aa23167cbd2bb9f.ctex"
+path="res://.godot/imported/neutral_grablackhole.png-332b9593d81083959d6b2064bbae0de8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_grablackhole.png"
-dest_files=["res://.godot/imported/neutral_grablackhole.png-a02132d7cfe3b9cb9aa23167cbd2bb9f.ctex"]
+source_file="res://Efectos de impacto/units/neutral_grablackhole.png"
+dest_files=["res://.godot/imported/neutral_grablackhole.png-332b9593d81083959d6b2064bbae0de8.ctex"]
 
 [params]
 

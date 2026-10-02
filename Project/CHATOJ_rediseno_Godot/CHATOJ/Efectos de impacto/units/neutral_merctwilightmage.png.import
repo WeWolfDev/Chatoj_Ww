@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ctfvqf77srw15"
-path="res://.godot/imported/neutral_merctwilightmage.png-55bede99503a996b7130812a081107e0.ctex"
+path="res://.godot/imported/neutral_merctwilightmage.png-e983994aafa81389929af94b01ad466b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_merctwilightmage.png"
-dest_files=["res://.godot/imported/neutral_merctwilightmage.png-55bede99503a996b7130812a081107e0.ctex"]
+source_file="res://Efectos de impacto/units/neutral_merctwilightmage.png"
+dest_files=["res://.godot/imported/neutral_merctwilightmage.png-e983994aafa81389929af94b01ad466b.ctex"]
 
 [params]
 

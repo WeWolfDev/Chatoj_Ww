@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c7r53j8xx6kkf"
-path="res://.godot/imported/neutral_pandoraminioncelerity.png-655feb393f3e218e3302d7817a115a7a.ctex"
+path="res://.godot/imported/neutral_pandoraminioncelerity.png-1ca0b1e8975584268e048ecd14274ccb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_pandoraminioncelerity.png"
-dest_files=["res://.godot/imported/neutral_pandoraminioncelerity.png-655feb393f3e218e3302d7817a115a7a.ctex"]
+source_file="res://Efectos de impacto/units/neutral_pandoraminioncelerity.png"
+dest_files=["res://.godot/imported/neutral_pandoraminioncelerity.png-1ca0b1e8975584268e048ecd14274ccb.ctex"]
 
 [params]
 

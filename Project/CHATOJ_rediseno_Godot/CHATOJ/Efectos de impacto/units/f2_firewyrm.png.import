@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://pmj1yr5ktp2g"
-path="res://.godot/imported/f2_firewyrm.png-83aa0ab59d6bf438b4d7e1db4bf5bc99.ctex"
+path="res://.godot/imported/f2_firewyrm.png-d14cacd091a8df61f3962f8f40e59853.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f2_firewyrm.png"
-dest_files=["res://.godot/imported/f2_firewyrm.png-83aa0ab59d6bf438b4d7e1db4bf5bc99.ctex"]
+source_file="res://Efectos de impacto/units/f2_firewyrm.png"
+dest_files=["res://.godot/imported/f2_firewyrm.png-d14cacd091a8df61f3962f8f40e59853.ctex"]
 
 [params]
 

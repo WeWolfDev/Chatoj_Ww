@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://canw5reqnlvv7"
-path="res://.godot/imported/neutral_bonereaper.png-e14601c1459ebbd5ecaf1c6a46ec59b9.ctex"
+path="res://.godot/imported/neutral_bonereaper.png-ea716b7e0728378b5d4a248918d18992.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_bonereaper.png"
-dest_files=["res://.godot/imported/neutral_bonereaper.png-e14601c1459ebbd5ecaf1c6a46ec59b9.ctex"]
+source_file="res://Efectos de impacto/units/neutral_bonereaper.png"
+dest_files=["res://.godot/imported/neutral_bonereaper.png-ea716b7e0728378b5d4a248918d18992.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dl76an8tuolfl"
-path="res://.godot/imported/wheat_grains_01.png-3c4e70b1457cdda6003559bb454ac3e1.ctex"
+path="res://.godot/imported/wheat_grains_01.png-7832276f3b6baa6a18730b5de1e2f890.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/wheat_grains_01.png"
-dest_files=["res://.godot/imported/wheat_grains_01.png-3c4e70b1457cdda6003559bb454ac3e1.ctex"]
+source_file="res://Rpg sprites/wheat_grains_01.png"
+dest_files=["res://.godot/imported/wheat_grains_01.png-7832276f3b6baa6a18730b5de1e2f890.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6uoipmaj7npt"
-path="res://.godot/imported/neutral_jaxtruesight.png-a49eaab284eefe63b853f7559ae907ba.ctex"
+path="res://.godot/imported/neutral_jaxtruesight.png-730fa264ff1bfdd1735fb4442272be48.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_jaxtruesight.png"
-dest_files=["res://.godot/imported/neutral_jaxtruesight.png-a49eaab284eefe63b853f7559ae907ba.ctex"]
+source_file="res://Efectos de impacto/units/neutral_jaxtruesight.png"
+dest_files=["res://.godot/imported/neutral_jaxtruesight.png-730fa264ff1bfdd1735fb4442272be48.ctex"]
 
 [params]
 

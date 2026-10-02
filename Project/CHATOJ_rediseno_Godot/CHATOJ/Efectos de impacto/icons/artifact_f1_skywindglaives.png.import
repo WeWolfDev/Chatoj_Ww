@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://5c5qyctieb8t"
-path="res://.godot/imported/artifact_f1_skywindglaives.png-b6f5ef8a7e567bf1a733d27f3e65c1b5.ctex"
+path="res://.godot/imported/artifact_f1_skywindglaives.png-5f5cdd789f166588079f9edfcd3ae6d3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/artifact_f1_skywindglaives.png"
-dest_files=["res://.godot/imported/artifact_f1_skywindglaives.png-b6f5ef8a7e567bf1a733d27f3e65c1b5.ctex"]
+source_file="res://Efectos de impacto/icons/artifact_f1_skywindglaives.png"
+dest_files=["res://.godot/imported/artifact_f1_skywindglaives.png-5f5cdd789f166588079f9edfcd3ae6d3.ctex"]
 
 [params]
 

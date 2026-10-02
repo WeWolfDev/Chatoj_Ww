@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cdef1mm083613"
-path="res://.godot/imported/f3_allomancer.png-ed4c118e565120ab2eb6c158a5d11b98.ctex"
+path="res://.godot/imported/f3_allomancer.png-0414ef46de14d00a05173880037f29de.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f3_allomancer.png"
-dest_files=["res://.godot/imported/f3_allomancer.png-ed4c118e565120ab2eb6c158a5d11b98.ctex"]
+source_file="res://Efectos de impacto/units/f3_allomancer.png"
+dest_files=["res://.godot/imported/f3_allomancer.png-0414ef46de14d00a05173880037f29de.ctex"]
 
 [params]
 

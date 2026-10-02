@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cx68t78wafalb"
-path="res://.godot/imported/f2_caster.png-9b226c4b166772510f13f44dea1822b5.ctex"
+path="res://.godot/imported/f2_caster.png-2359e949baac3815cb78e41526c8bcf5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f2_caster.png"
-dest_files=["res://.godot/imported/f2_caster.png-9b226c4b166772510f13f44dea1822b5.ctex"]
+source_file="res://Efectos de impacto/units/f2_caster.png"
+dest_files=["res://.godot/imported/f2_caster.png-2359e949baac3815cb78e41526c8bcf5.ctex"]
 
 [params]
 

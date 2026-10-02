@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://04qd4rkjnoni"
-path="res://.godot/imported/f3_windgiver.png-3f19ec19e04c12fa1e800c905f702b2e.ctex"
+path="res://.godot/imported/f3_windgiver.png-5deb11f5d077d8a6286ac5c8734d7201.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f3_windgiver.png"
-dest_files=["res://.godot/imported/f3_windgiver.png-3f19ec19e04c12fa1e800c905f702b2e.ctex"]
+source_file="res://Efectos de impacto/units/f3_windgiver.png"
+dest_files=["res://.godot/imported/f3_windgiver.png-5deb11f5d077d8a6286ac5c8734d7201.ctex"]
 
 [params]
 

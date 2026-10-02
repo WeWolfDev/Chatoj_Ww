@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://btdtd2kwgvbm4"
-path="res://.godot/imported/f1_auroralioness.png-47080a0d2e21aa5cc91271b14b1a3e40.ctex"
+path="res://.godot/imported/f1_auroralioness.png-427332637e599b731f3a6db087ec74a7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f1_auroralioness.png"
-dest_files=["res://.godot/imported/f1_auroralioness.png-47080a0d2e21aa5cc91271b14b1a3e40.ctex"]
+source_file="res://Efectos de impacto/units/f1_auroralioness.png"
+dest_files=["res://.godot/imported/f1_auroralioness.png-427332637e599b731f3a6db087ec74a7.ctex"]
 
 [params]
 

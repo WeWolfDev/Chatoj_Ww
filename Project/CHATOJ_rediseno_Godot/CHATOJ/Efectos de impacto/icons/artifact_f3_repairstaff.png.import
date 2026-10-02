@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://nisohqix2h8x"
-path="res://.godot/imported/artifact_f3_repairstaff.png-565bd6b7f2a71ea53a7d8694180754cf.ctex"
+path="res://.godot/imported/artifact_f3_repairstaff.png-a2da46a3f934bcf14be84aace0d630a7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/artifact_f3_repairstaff.png"
-dest_files=["res://.godot/imported/artifact_f3_repairstaff.png-565bd6b7f2a71ea53a7d8694180754cf.ctex"]
+source_file="res://Efectos de impacto/icons/artifact_f3_repairstaff.png"
+dest_files=["res://.godot/imported/artifact_f3_repairstaff.png-a2da46a3f934bcf14be84aace0d630a7.ctex"]
 
 [params]
 

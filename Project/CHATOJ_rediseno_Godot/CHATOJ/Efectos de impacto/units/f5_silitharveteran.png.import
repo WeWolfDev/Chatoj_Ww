@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bwjaunxi3iqcj"
-path="res://.godot/imported/f5_silitharveteran.png-ed3b34376ec1f40c0d69720ac7ee7b81.ctex"
+path="res://.godot/imported/f5_silitharveteran.png-9e775f7d9f9aabfff8839fbd472476aa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f5_silitharveteran.png"
-dest_files=["res://.godot/imported/f5_silitharveteran.png-ed3b34376ec1f40c0d69720ac7ee7b81.ctex"]
+source_file="res://Efectos de impacto/units/f5_silitharveteran.png"
+dest_files=["res://.godot/imported/f5_silitharveteran.png-9e775f7d9f9aabfff8839fbd472476aa.ctex"]
 
 [params]
 

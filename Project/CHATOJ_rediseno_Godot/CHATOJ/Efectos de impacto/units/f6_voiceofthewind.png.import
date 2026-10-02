@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bohk1l4i1nyp"
-path="res://.godot/imported/f6_voiceofthewind.png-274743abf437bfea060fa1116cdc4999.ctex"
+path="res://.godot/imported/f6_voiceofthewind.png-4f74cba99f4effa8aa9d99cccd5b70be.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f6_voiceofthewind.png"
-dest_files=["res://.godot/imported/f6_voiceofthewind.png-274743abf437bfea060fa1116cdc4999.ctex"]
+source_file="res://Efectos de impacto/units/f6_voiceofthewind.png"
+dest_files=["res://.godot/imported/f6_voiceofthewind.png-4f74cba99f4effa8aa9d99cccd5b70be.ctex"]
 
 [params]
 

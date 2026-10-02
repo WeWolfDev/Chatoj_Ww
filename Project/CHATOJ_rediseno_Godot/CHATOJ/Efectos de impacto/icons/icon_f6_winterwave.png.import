@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c6b7m75n2griq"
-path="res://.godot/imported/icon_f6_winterwave.png-ecef899949916b92f86255bc48704718.ctex"
+path="res://.godot/imported/icon_f6_winterwave.png-3ed58ab5a6463d60a342b3ad4537960d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f6_winterwave.png"
-dest_files=["res://.godot/imported/icon_f6_winterwave.png-ecef899949916b92f86255bc48704718.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f6_winterwave.png"
+dest_files=["res://.godot/imported/icon_f6_winterwave.png-3ed58ab5a6463d60a342b3ad4537960d.ctex"]
 
 [params]
 

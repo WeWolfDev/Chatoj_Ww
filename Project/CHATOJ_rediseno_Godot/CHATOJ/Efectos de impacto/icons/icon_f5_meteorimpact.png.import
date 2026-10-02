@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://v5jbv1xqjtga"
-path="res://.godot/imported/icon_f5_meteorimpact.png-2436751a593c189786c30449a3804c0e.ctex"
+path="res://.godot/imported/icon_f5_meteorimpact.png-25ad5312b763f366c208f2844b819c6b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f5_meteorimpact.png"
-dest_files=["res://.godot/imported/icon_f5_meteorimpact.png-2436751a593c189786c30449a3804c0e.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f5_meteorimpact.png"
+dest_files=["res://.godot/imported/icon_f5_meteorimpact.png-25ad5312b763f366c208f2844b819c6b.ctex"]
 
 [params]
 

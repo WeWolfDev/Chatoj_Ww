@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dskluvaxaiijg"
-path="res://.godot/imported/fx_swirl.png-f8adc7fdf7e26c4c4bcd8f985c6d126f.ctex"
+path="res://.godot/imported/fx_swirl.png-093dc265016c058f2e12021af4115582.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_swirl.png"
-dest_files=["res://.godot/imported/fx_swirl.png-f8adc7fdf7e26c4c4bcd8f985c6d126f.ctex"]
+source_file="res://Efectos de impacto/fx/fx_swirl.png"
+dest_files=["res://.godot/imported/fx_swirl.png-093dc265016c058f2e12021af4115582.ctex"]
 
 [params]
 

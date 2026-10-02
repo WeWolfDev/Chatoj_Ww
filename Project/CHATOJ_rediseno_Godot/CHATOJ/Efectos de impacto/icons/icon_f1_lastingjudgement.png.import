@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bb2j2c4iyxcqh"
-path="res://.godot/imported/icon_f1_lastingjudgement.png-95da6637138e2b1db8f641c1b10686a0.ctex"
+path="res://.godot/imported/icon_f1_lastingjudgement.png-c6379eed2db144453d7769453170714c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f1_lastingjudgement.png"
-dest_files=["res://.godot/imported/icon_f1_lastingjudgement.png-95da6637138e2b1db8f641c1b10686a0.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f1_lastingjudgement.png"
+dest_files=["res://.godot/imported/icon_f1_lastingjudgement.png-c6379eed2db144453d7769453170714c.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cnh22jv6jrnvi"
-path="res://.godot/imported/f3_duskweaver.png-b03c039c2465fb217dce59a4b49a9a98.ctex"
+path="res://.godot/imported/f3_duskweaver.png-be899e91e563515626568e4458a48f1d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f3_duskweaver.png"
-dest_files=["res://.godot/imported/f3_duskweaver.png-b03c039c2465fb217dce59a4b49a9a98.ctex"]
+source_file="res://Efectos de impacto/units/f3_duskweaver.png"
+dest_files=["res://.godot/imported/f3_duskweaver.png-be899e91e563515626568e4458a48f1d.ctex"]
 
 [params]
 

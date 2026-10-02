@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c2skhxbu8wlbh"
-path="res://.godot/imported/neutral_quartermastergauj.png-78f93a397f713ca2e5eda9b935502349.ctex"
+path="res://.godot/imported/neutral_quartermastergauj.png-0be49b8141fbd24f8fce01e4639d91b2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_quartermastergauj.png"
-dest_files=["res://.godot/imported/neutral_quartermastergauj.png-78f93a397f713ca2e5eda9b935502349.ctex"]
+source_file="res://Efectos de impacto/units/neutral_quartermastergauj.png"
+dest_files=["res://.godot/imported/neutral_quartermastergauj.png-0be49b8141fbd24f8fce01e4639d91b2.ctex"]
 
 [params]
 

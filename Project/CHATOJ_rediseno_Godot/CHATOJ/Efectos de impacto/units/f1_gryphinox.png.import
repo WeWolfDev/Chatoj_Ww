@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://j5gf88k1plqb"
-path="res://.godot/imported/f1_gryphinox.png-c91de8062149c2762e72e9aebb7a11bf.ctex"
+path="res://.godot/imported/f1_gryphinox.png-261d6fd256932f7aa40f3b68251c2880.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f1_gryphinox.png"
-dest_files=["res://.godot/imported/f1_gryphinox.png-c91de8062149c2762e72e9aebb7a11bf.ctex"]
+source_file="res://Efectos de impacto/units/f1_gryphinox.png"
+dest_files=["res://.godot/imported/f1_gryphinox.png-261d6fd256932f7aa40f3b68251c2880.ctex"]
 
 [params]
 

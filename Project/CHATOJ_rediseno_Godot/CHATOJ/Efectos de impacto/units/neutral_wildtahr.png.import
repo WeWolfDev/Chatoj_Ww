@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ud6rd13flf60"
-path="res://.godot/imported/neutral_wildtahr.png-529ddc61d41f2a7704bbfeecd3163547.ctex"
+path="res://.godot/imported/neutral_wildtahr.png-4b7ef78aaff399c070621ef4a789e2ae.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_wildtahr.png"
-dest_files=["res://.godot/imported/neutral_wildtahr.png-529ddc61d41f2a7704bbfeecd3163547.ctex"]
+source_file="res://Efectos de impacto/units/neutral_wildtahr.png"
+dest_files=["res://.godot/imported/neutral_wildtahr.png-4b7ef78aaff399c070621ef4a789e2ae.ctex"]
 
 [params]
 

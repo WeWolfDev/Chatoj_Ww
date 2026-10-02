@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkwo3d5ind3ij"
-path="res://.godot/imported/icon_f6_conceilingshroud.png-0500e1a55e1c2727c967b18a62d13888.ctex"
+path="res://.godot/imported/icon_f6_conceilingshroud.png-0443792fee034717591848eac5438fac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f6_conceilingshroud.png"
-dest_files=["res://.godot/imported/icon_f6_conceilingshroud.png-0500e1a55e1c2727c967b18a62d13888.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f6_conceilingshroud.png"
+dest_files=["res://.godot/imported/icon_f6_conceilingshroud.png-0443792fee034717591848eac5438fac.ctex"]
 
 [params]
 

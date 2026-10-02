@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cu04t2mhliisp"
-path="res://.godot/imported/f4_crawler.png-9f95df1fb62f7f2c0d8c7dd9a6769e65.ctex"
+path="res://.godot/imported/f4_crawler.png-1a7cba6a571325348ce65a0eb62b6262.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f4_crawler.png"
-dest_files=["res://.godot/imported/f4_crawler.png-9f95df1fb62f7f2c0d8c7dd9a6769e65.ctex"]
+source_file="res://Efectos de impacto/units/f4_crawler.png"
+dest_files=["res://.godot/imported/f4_crawler.png-1a7cba6a571325348ce65a0eb62b6262.ctex"]
 
 [params]
 

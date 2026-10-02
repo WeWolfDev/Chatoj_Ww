@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bexbg1ws464s"
-path="res://.godot/imported/neutral_ubo.png-c17ed62e9dda06aa299627f10ce3d599.ctex"
+path="res://.godot/imported/neutral_ubo.png-9f6741c6f133707ff28c75ee7205addf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_ubo.png"
-dest_files=["res://.godot/imported/neutral_ubo.png-c17ed62e9dda06aa299627f10ce3d599.ctex"]
+source_file="res://Efectos de impacto/units/neutral_ubo.png"
+dest_files=["res://.godot/imported/neutral_ubo.png-9f6741c6f133707ff28c75ee7205addf.ctex"]
 
 [params]
 

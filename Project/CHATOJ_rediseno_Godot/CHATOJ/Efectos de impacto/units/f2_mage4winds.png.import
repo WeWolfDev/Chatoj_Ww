@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ckte2xnhiiyci"
-path="res://.godot/imported/f2_mage4winds.png-4284e66afb8eae1b3ed98fd0bbc8c529.ctex"
+path="res://.godot/imported/f2_mage4winds.png-7a9b31cb83f9a2508f3e2a945180e155.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f2_mage4winds.png"
-dest_files=["res://.godot/imported/f2_mage4winds.png-4284e66afb8eae1b3ed98fd0bbc8c529.ctex"]
+source_file="res://Efectos de impacto/units/f2_mage4winds.png"
+dest_files=["res://.godot/imported/f2_mage4winds.png-7a9b31cb83f9a2508f3e2a945180e155.ctex"]
 
 [params]
 

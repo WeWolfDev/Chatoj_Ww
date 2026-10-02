@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://kqhyedx2tgaw"
-path="res://.godot/imported/icon_f5_dinoultimatum.png-fbd0762f39c1ece92c2932c982a3d769.ctex"
+path="res://.godot/imported/icon_f5_dinoultimatum.png-fd521643578fecfcddb4da4876c99a9a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f5_dinoultimatum.png"
-dest_files=["res://.godot/imported/icon_f5_dinoultimatum.png-fbd0762f39c1ece92c2932c982a3d769.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f5_dinoultimatum.png"
+dest_files=["res://.godot/imported/icon_f5_dinoultimatum.png-fd521643578fecfcddb4da4876c99a9a.ctex"]
 
 [params]
 

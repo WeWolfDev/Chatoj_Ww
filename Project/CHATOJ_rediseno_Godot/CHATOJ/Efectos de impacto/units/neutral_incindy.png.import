@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://vnx1cnwjx01a"
-path="res://.godot/imported/neutral_incindy.png-4aaaf5eb85060f70c87cd80c7e15e492.ctex"
+path="res://.godot/imported/neutral_incindy.png-339fc1ae1c95852b4f763d31790a30e0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_incindy.png"
-dest_files=["res://.godot/imported/neutral_incindy.png-4aaaf5eb85060f70c87cd80c7e15e492.ctex"]
+source_file="res://Efectos de impacto/units/neutral_incindy.png"
+dest_files=["res://.godot/imported/neutral_incindy.png-339fc1ae1c95852b4f763d31790a30e0.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3k8k1vhwq5rg"
-path="res://.godot/imported/f3_glassmirage.png-ebf2b2dba5e95d34d41e997cf8bd32b1.ctex"
+path="res://.godot/imported/f3_glassmirage.png-ce8060764f3b7578b0cdb4e818b6193f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f3_glassmirage.png"
-dest_files=["res://.godot/imported/f3_glassmirage.png-ebf2b2dba5e95d34d41e997cf8bd32b1.ctex"]
+source_file="res://Efectos de impacto/units/f3_glassmirage.png"
+dest_files=["res://.godot/imported/f3_glassmirage.png-ce8060764f3b7578b0cdb4e818b6193f.ctex"]
 
 [params]
 

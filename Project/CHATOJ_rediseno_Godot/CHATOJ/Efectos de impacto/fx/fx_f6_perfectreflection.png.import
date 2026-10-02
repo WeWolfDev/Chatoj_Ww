@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b58k3guintei2"
-path="res://.godot/imported/fx_f6_perfectreflection.png-f6b29a770bcf2dfae7cfc08a5450ca86.ctex"
+path="res://.godot/imported/fx_f6_perfectreflection.png-2cad48113282e9d86b3632171c59d0b2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f6_perfectreflection.png"
-dest_files=["res://.godot/imported/fx_f6_perfectreflection.png-f6b29a770bcf2dfae7cfc08a5450ca86.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f6_perfectreflection.png"
+dest_files=["res://.godot/imported/fx_f6_perfectreflection.png-2cad48113282e9d86b3632171c59d0b2.ctex"]
 
 [params]
 

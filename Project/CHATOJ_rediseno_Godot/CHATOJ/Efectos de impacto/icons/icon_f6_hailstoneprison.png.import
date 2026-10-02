@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b1wp18agwqimi"
-path="res://.godot/imported/icon_f6_hailstoneprison.png-d40a26a655e2e4257854ee5c04e6f474.ctex"
+path="res://.godot/imported/icon_f6_hailstoneprison.png-6feec516fe9edebe69a9f340ff90c49c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f6_hailstoneprison.png"
-dest_files=["res://.godot/imported/icon_f6_hailstoneprison.png-d40a26a655e2e4257854ee5c04e6f474.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f6_hailstoneprison.png"
+dest_files=["res://.godot/imported/icon_f6_hailstoneprison.png-6feec516fe9edebe69a9f340ff90c49c.ctex"]
 
 [params]
 

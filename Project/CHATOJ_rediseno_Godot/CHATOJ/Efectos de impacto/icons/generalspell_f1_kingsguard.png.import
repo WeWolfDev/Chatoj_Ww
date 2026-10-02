@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xgyfmtovi5fx"
-path="res://.godot/imported/generalspell_f1_kingsguard.png-08d6f1984151afefa3df7ee6d04129e9.ctex"
+path="res://.godot/imported/generalspell_f1_kingsguard.png-f4a4190496da040c0b963d02a05ea740.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/generalspell_f1_kingsguard.png"
-dest_files=["res://.godot/imported/generalspell_f1_kingsguard.png-08d6f1984151afefa3df7ee6d04129e9.ctex"]
+source_file="res://Efectos de impacto/icons/generalspell_f1_kingsguard.png"
+dest_files=["res://.godot/imported/generalspell_f1_kingsguard.png-f4a4190496da040c0b963d02a05ea740.ctex"]
 
 [params]
 

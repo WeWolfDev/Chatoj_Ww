@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdua5u7o1ojfk"
-path="res://.godot/imported/neutral_mechaz0rcannon.png-fe30ed5cfc73b5f94f6139a5540ec863.ctex"
+path="res://.godot/imported/neutral_mechaz0rcannon.png-17ce04ad41548dc62f989b69df3c0db2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_mechaz0rcannon.png"
-dest_files=["res://.godot/imported/neutral_mechaz0rcannon.png-fe30ed5cfc73b5f94f6139a5540ec863.ctex"]
+source_file="res://Efectos de impacto/units/neutral_mechaz0rcannon.png"
+dest_files=["res://.godot/imported/neutral_mechaz0rcannon.png-17ce04ad41548dc62f989b69df3c0db2.ctex"]
 
 [params]
 

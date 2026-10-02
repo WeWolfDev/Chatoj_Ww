@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dtfsmj3vob5e8"
-path="res://.godot/imported/f3_zirixfestive.png-23563e3ee37b6173ac69e37f64f7cbad.ctex"
+path="res://.godot/imported/f3_zirixfestive.png-d463033bd473733f34c9f82c0981aab8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f3_zirixfestive.png"
-dest_files=["res://.godot/imported/f3_zirixfestive.png-23563e3ee37b6173ac69e37f64f7cbad.ctex"]
+source_file="res://Efectos de impacto/units/f3_zirixfestive.png"
+dest_files=["res://.godot/imported/f3_zirixfestive.png-d463033bd473733f34c9f82c0981aab8.ctex"]
 
 [params]
 

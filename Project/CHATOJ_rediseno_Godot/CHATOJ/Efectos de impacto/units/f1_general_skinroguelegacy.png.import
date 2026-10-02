@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c0vg4c4lrlvxa"
-path="res://.godot/imported/f1_general_skinroguelegacy.png-8f5ece58b8f430e8319b0938b43780ec.ctex"
+path="res://.godot/imported/f1_general_skinroguelegacy.png-1dbcc0212743e234b4007a9beb4940dd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f1_general_skinroguelegacy.png"
-dest_files=["res://.godot/imported/f1_general_skinroguelegacy.png-8f5ece58b8f430e8319b0938b43780ec.ctex"]
+source_file="res://Efectos de impacto/units/f1_general_skinroguelegacy.png"
+dest_files=["res://.godot/imported/f1_general_skinroguelegacy.png-1dbcc0212743e234b4007a9beb4940dd.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bv5wcldpc6jgy"
-path="res://.godot/imported/icon_f5_flamingstampede.png-b93824588f94de59032f506e30dbfdaf.ctex"
+path="res://.godot/imported/icon_f5_flamingstampede.png-afdb87766a149c2c78cc88bbd2ca7955.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f5_flamingstampede.png"
-dest_files=["res://.godot/imported/icon_f5_flamingstampede.png-b93824588f94de59032f506e30dbfdaf.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f5_flamingstampede.png"
+dest_files=["res://.godot/imported/icon_f5_flamingstampede.png-afdb87766a149c2c78cc88bbd2ca7955.ctex"]
 
 [params]
 

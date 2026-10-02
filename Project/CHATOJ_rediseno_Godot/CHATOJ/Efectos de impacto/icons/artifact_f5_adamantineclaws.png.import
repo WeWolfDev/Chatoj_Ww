@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cvdeaywg4l6n6"
-path="res://.godot/imported/artifact_f5_adamantineclaws.png-bf78cd939091c8778ee03ca12bd4ca0b.ctex"
+path="res://.godot/imported/artifact_f5_adamantineclaws.png-61bf94d0919897d387de8bdb274bc4c7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/artifact_f5_adamantineclaws.png"
-dest_files=["res://.godot/imported/artifact_f5_adamantineclaws.png-bf78cd939091c8778ee03ca12bd4ca0b.ctex"]
+source_file="res://Efectos de impacto/icons/artifact_f5_adamantineclaws.png"
+dest_files=["res://.godot/imported/artifact_f5_adamantineclaws.png-61bf94d0919897d387de8bdb274bc4c7.ctex"]
 
 [params]
 

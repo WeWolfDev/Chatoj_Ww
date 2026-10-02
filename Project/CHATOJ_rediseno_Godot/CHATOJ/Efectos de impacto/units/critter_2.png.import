@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bt8xj21k5s25p"
-path="res://.godot/imported/critter_2.png-562566ccc0db18c50c2e711ef4f3dc9c.ctex"
+path="res://.godot/imported/critter_2.png-c5f157f3bd4a56c90bd3dd8105aaabec.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/critter_2.png"
-dest_files=["res://.godot/imported/critter_2.png-562566ccc0db18c50c2e711ef4f3dc9c.ctex"]
+source_file="res://Efectos de impacto/units/critter_2.png"
+dest_files=["res://.godot/imported/critter_2.png-c5f157f3bd4a56c90bd3dd8105aaabec.ctex"]
 
 [params]
 

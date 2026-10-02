@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cigrtsev1rkec"
-path="res://.godot/imported/f2_katara.png-dc84a7820c4aed0efc3fbaab0d397826.ctex"
+path="res://.godot/imported/f2_katara.png-ec199c0c95773838ba18ee0f0be755f2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f2_katara.png"
-dest_files=["res://.godot/imported/f2_katara.png-dc84a7820c4aed0efc3fbaab0d397826.ctex"]
+source_file="res://Efectos de impacto/units/f2_katara.png"
+dest_files=["res://.godot/imported/f2_katara.png-ec199c0c95773838ba18ee0f0be755f2.ctex"]
 
 [params]
 

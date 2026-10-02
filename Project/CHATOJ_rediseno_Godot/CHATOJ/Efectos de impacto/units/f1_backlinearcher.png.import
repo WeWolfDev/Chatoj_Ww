@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://wpb5sdsr2lwe"
-path="res://.godot/imported/f1_backlinearcher.png-33705ec6289d2a189f9377541ae96c1b.ctex"
+path="res://.godot/imported/f1_backlinearcher.png-1667f925da5cbb18b6b44da8590665a8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f1_backlinearcher.png"
-dest_files=["res://.godot/imported/f1_backlinearcher.png-33705ec6289d2a189f9377541ae96c1b.ctex"]
+source_file="res://Efectos de impacto/units/f1_backlinearcher.png"
+dest_files=["res://.godot/imported/f1_backlinearcher.png-1667f925da5cbb18b6b44da8590665a8.ctex"]
 
 [params]
 

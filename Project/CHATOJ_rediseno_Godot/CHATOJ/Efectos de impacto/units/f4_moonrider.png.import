@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dntcqlyukgx0r"
-path="res://.godot/imported/f4_moonrider.png-b10dca54eb06fbc2ec7779bf25e96f8f.ctex"
+path="res://.godot/imported/f4_moonrider.png-5e23133294a1c42e5f153ac5568647c3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f4_moonrider.png"
-dest_files=["res://.godot/imported/f4_moonrider.png-b10dca54eb06fbc2ec7779bf25e96f8f.ctex"]
+source_file="res://Efectos de impacto/units/f4_moonrider.png"
+dest_files=["res://.godot/imported/f4_moonrider.png-5e23133294a1c42e5f153ac5568647c3.ctex"]
 
 [params]
 

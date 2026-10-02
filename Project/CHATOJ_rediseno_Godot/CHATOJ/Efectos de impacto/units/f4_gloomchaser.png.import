@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnfs4flkhhw55"
-path="res://.godot/imported/f4_gloomchaser.png-e4fbcf8af41775162a5d702c72c81e42.ctex"
+path="res://.godot/imported/f4_gloomchaser.png-a69d06cd4adde556f09d31fcd928b68e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f4_gloomchaser.png"
-dest_files=["res://.godot/imported/f4_gloomchaser.png-e4fbcf8af41775162a5d702c72c81e42.ctex"]
+source_file="res://Efectos de impacto/units/f4_gloomchaser.png"
+dest_files=["res://.godot/imported/f4_gloomchaser.png-a69d06cd4adde556f09d31fcd928b68e.ctex"]
 
 [params]
 

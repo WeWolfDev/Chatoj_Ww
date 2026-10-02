@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://beaapqj07eudr"
-path="res://.godot/imported/f6_snowwyvern.png-b795f0d15ea3c41f5702b87b3e7e9791.ctex"
+path="res://.godot/imported/f6_snowwyvern.png-6034127d3a3a8b49f2fb6aba4f257063.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f6_snowwyvern.png"
-dest_files=["res://.godot/imported/f6_snowwyvern.png-b795f0d15ea3c41f5702b87b3e7e9791.ctex"]
+source_file="res://Efectos de impacto/units/f6_snowwyvern.png"
+dest_files=["res://.godot/imported/f6_snowwyvern.png-6034127d3a3a8b49f2fb6aba4f257063.ctex"]
 
 [params]
 

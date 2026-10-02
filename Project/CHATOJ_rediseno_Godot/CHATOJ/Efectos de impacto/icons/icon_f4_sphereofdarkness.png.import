@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cgact8jeimqjd"
-path="res://.godot/imported/icon_f4_sphereofdarkness.png-57388316832cabe626c5f2e8defa9eb4.ctex"
+path="res://.godot/imported/icon_f4_sphereofdarkness.png-850ea3dd0a861555fdfaafb6cc58e078.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f4_sphereofdarkness.png"
-dest_files=["res://.godot/imported/icon_f4_sphereofdarkness.png-57388316832cabe626c5f2e8defa9eb4.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f4_sphereofdarkness.png"
+dest_files=["res://.godot/imported/icon_f4_sphereofdarkness.png-850ea3dd0a861555fdfaafb6cc58e078.ctex"]
 
 [params]
 

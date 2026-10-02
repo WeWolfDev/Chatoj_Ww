@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjl2a02b8242p"
-path="res://.godot/imported/boss_paragon.png-18fa1e342101850e999f0bfa2cf56649.ctex"
+path="res://.godot/imported/boss_paragon.png-a9703684dd1177a5e497b64095591e06.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/boss_paragon.png"
-dest_files=["res://.godot/imported/boss_paragon.png-18fa1e342101850e999f0bfa2cf56649.ctex"]
+source_file="res://Efectos de impacto/units/boss_paragon.png"
+dest_files=["res://.godot/imported/boss_paragon.png-a9703684dd1177a5e497b64095591e06.ctex"]
 
 [params]
 

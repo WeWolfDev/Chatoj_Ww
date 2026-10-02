@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bgce33fd2fjf5"
-path="res://.godot/imported/icon_f3_aurorastear.png-2564ba250033515d899f339353206abc.ctex"
+path="res://.godot/imported/icon_f3_aurorastear.png-f90a6dc547b7b87ed4bf4561e08a5d4e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f3_aurorastear.png"
-dest_files=["res://.godot/imported/icon_f3_aurorastear.png-2564ba250033515d899f339353206abc.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f3_aurorastear.png"
+dest_files=["res://.godot/imported/icon_f3_aurorastear.png-f90a6dc547b7b87ed4bf4561e08a5d4e.ctex"]
 
 [params]
 

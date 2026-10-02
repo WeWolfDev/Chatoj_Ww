@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxubupevum5tn"
-path="res://.godot/imported/fx_f1_circlelife.png-8778261e0f6ca0ffc63189ff5f094010.ctex"
+path="res://.godot/imported/fx_f1_circlelife.png-35a564281d89f4f78a69bccbf752ec03.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f1_circlelife.png"
-dest_files=["res://.godot/imported/fx_f1_circlelife.png-8778261e0f6ca0ffc63189ff5f094010.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f1_circlelife.png"
+dest_files=["res://.godot/imported/fx_f1_circlelife.png-35a564281d89f4f78a69bccbf752ec03.ctex"]
 
 [params]
 

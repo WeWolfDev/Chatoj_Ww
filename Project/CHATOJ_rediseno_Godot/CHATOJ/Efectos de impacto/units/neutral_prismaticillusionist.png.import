@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3bgv5af6537q"
-path="res://.godot/imported/neutral_prismaticillusionist.png-a7446dc220863f19f3f16e405bded3cf.ctex"
+path="res://.godot/imported/neutral_prismaticillusionist.png-a5660d720d8eb97ac288a21796daefd7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_prismaticillusionist.png"
-dest_files=["res://.godot/imported/neutral_prismaticillusionist.png-a7446dc220863f19f3f16e405bded3cf.ctex"]
+source_file="res://Efectos de impacto/units/neutral_prismaticillusionist.png"
+dest_files=["res://.godot/imported/neutral_prismaticillusionist.png-a5660d720d8eb97ac288a21796daefd7.ctex"]
 
 [params]
 

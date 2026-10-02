@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dpw5sep07omte"
-path="res://.godot/imported/f6_gravitywell.png-e0e0389e87538b6d10516c21648576d1.ctex"
+path="res://.godot/imported/f6_gravitywell.png-036577c89c7170c3953c1f0abe7b6100.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f6_gravitywell.png"
-dest_files=["res://.godot/imported/f6_gravitywell.png-e0e0389e87538b6d10516c21648576d1.ctex"]
+source_file="res://Efectos de impacto/units/f6_gravitywell.png"
+dest_files=["res://.godot/imported/f6_gravitywell.png-036577c89c7170c3953c1f0abe7b6100.ctex"]
 
 [params]
 

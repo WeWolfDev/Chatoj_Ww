@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://thfsp621ihq3"
-path="res://.godot/imported/icon_f1_holyimmolation.png-6af79e6890dfc6bfd88005bb95b3c9b1.ctex"
+path="res://.godot/imported/icon_f1_holyimmolation.png-bae9fa42b4b80ab9c30a5a6c798ef851.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f1_holyimmolation.png"
-dest_files=["res://.godot/imported/icon_f1_holyimmolation.png-6af79e6890dfc6bfd88005bb95b3c9b1.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f1_holyimmolation.png"
+dest_files=["res://.godot/imported/icon_f1_holyimmolation.png-bae9fa42b4b80ab9c30a5a6c798ef851.ctex"]
 
 [params]
 

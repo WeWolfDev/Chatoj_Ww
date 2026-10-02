@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c56mkk17tiwwx"
-path="res://.godot/imported/neutral_saberspinemk2.png-c1eed59ccaddbda2da037aec3c629590.ctex"
+path="res://.godot/imported/neutral_saberspinemk2.png-2eb5d715ac8d922446d290c1cec99ec6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_saberspinemk2.png"
-dest_files=["res://.godot/imported/neutral_saberspinemk2.png-c1eed59ccaddbda2da037aec3c629590.ctex"]
+source_file="res://Efectos de impacto/units/neutral_saberspinemk2.png"
+dest_files=["res://.godot/imported/neutral_saberspinemk2.png-2eb5d715ac8d922446d290c1cec99ec6.ctex"]
 
 [params]
 

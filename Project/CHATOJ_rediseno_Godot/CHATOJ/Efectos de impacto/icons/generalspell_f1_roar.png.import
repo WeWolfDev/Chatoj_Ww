@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdajbt2h2lkm"
-path="res://.godot/imported/generalspell_f1_roar.png-01cd1733ba439ab9fa5921034972b355.ctex"
+path="res://.godot/imported/generalspell_f1_roar.png-3d48c69323fa8d7191d7be9288912f66.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/generalspell_f1_roar.png"
-dest_files=["res://.godot/imported/generalspell_f1_roar.png-01cd1733ba439ab9fa5921034972b355.ctex"]
+source_file="res://Efectos de impacto/icons/generalspell_f1_roar.png"
+dest_files=["res://.godot/imported/generalspell_f1_roar.png-3d48c69323fa8d7191d7be9288912f66.ctex"]
 
 [params]
 

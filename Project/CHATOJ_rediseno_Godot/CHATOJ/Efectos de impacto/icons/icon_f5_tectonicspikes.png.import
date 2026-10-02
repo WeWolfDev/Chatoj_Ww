@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bjq5a7yy0r24j"
-path="res://.godot/imported/icon_f5_tectonicspikes.png-67f9fb11c49b37114ff954d5d59523d6.ctex"
+path="res://.godot/imported/icon_f5_tectonicspikes.png-bbc4b2e8d9b24e87baf2cda089d262d5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f5_tectonicspikes.png"
-dest_files=["res://.godot/imported/icon_f5_tectonicspikes.png-67f9fb11c49b37114ff954d5d59523d6.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f5_tectonicspikes.png"
+dest_files=["res://.godot/imported/icon_f5_tectonicspikes.png-bbc4b2e8d9b24e87baf2cda089d262d5.ctex"]
 
 [params]
 

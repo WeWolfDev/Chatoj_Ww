@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://btgptanegluvt"
-path="res://.godot/imported/f4_abomination.png-bfcefe59558bcb902f6b491c27f0bf52.ctex"
+path="res://.godot/imported/f4_abomination.png-daca0fdbeeb71776ac51b5f8a8c5124c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f4_abomination.png"
-dest_files=["res://.godot/imported/f4_abomination.png-bfcefe59558bcb902f6b491c27f0bf52.ctex"]
+source_file="res://Efectos de impacto/units/f4_abomination.png"
+dest_files=["res://.godot/imported/f4_abomination.png-daca0fdbeeb71776ac51b5f8a8c5124c.ctex"]
 
 [params]
 

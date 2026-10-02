@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bmfrxuelxy0f4"
-path="res://.godot/imported/neutral_soboro.png-97c98f502a4efc526ebbbfd0c0db5ce5.ctex"
+path="res://.godot/imported/neutral_soboro.png-e2c652095d0eb4e37c6182b9783cef96.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_soboro.png"
-dest_files=["res://.godot/imported/neutral_soboro.png-97c98f502a4efc526ebbbfd0c0db5ce5.ctex"]
+source_file="res://Efectos de impacto/units/neutral_soboro.png"
+dest_files=["res://.godot/imported/neutral_soboro.png-e2c652095d0eb4e37c6182b9783cef96.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://behxpmg6kw5bm"
-path="res://.godot/imported/f3_palacetrinketeer.png-87442644c41db58ff424bcd67a6c4a2e.ctex"
+path="res://.godot/imported/f3_palacetrinketeer.png-a77b039f9da7f1748cf6be951913d0e8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f3_palacetrinketeer.png"
-dest_files=["res://.godot/imported/f3_palacetrinketeer.png-87442644c41db58ff424bcd67a6c4a2e.ctex"]
+source_file="res://Efectos de impacto/units/f3_palacetrinketeer.png"
+dest_files=["res://.godot/imported/f3_palacetrinketeer.png-a77b039f9da7f1748cf6be951913d0e8.ctex"]
 
 [params]
 

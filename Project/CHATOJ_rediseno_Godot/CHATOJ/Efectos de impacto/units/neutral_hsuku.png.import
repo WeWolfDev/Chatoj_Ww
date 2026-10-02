@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://rhyqaao78440"
-path="res://.godot/imported/neutral_hsuku.png-e0c78da2d1a6089c85821d3395271591.ctex"
+path="res://.godot/imported/neutral_hsuku.png-1f8b9058495909fd01760efa33cbe2ff.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_hsuku.png"
-dest_files=["res://.godot/imported/neutral_hsuku.png-e0c78da2d1a6089c85821d3395271591.ctex"]
+source_file="res://Efectos de impacto/units/neutral_hsuku.png"
+dest_files=["res://.godot/imported/neutral_hsuku.png-1f8b9058495909fd01760efa33cbe2ff.ctex"]
 
 [params]
 

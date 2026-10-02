@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bvalo1aic4wmr"
-path="res://.godot/imported/fx_summonmythron.png-30333a905c3e6d030e2c3a1c1c135ea0.ctex"
+path="res://.godot/imported/fx_summonmythron.png-8804009fdf7dd44decfcb1c5808fe5ed.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_summonmythron.png"
-dest_files=["res://.godot/imported/fx_summonmythron.png-30333a905c3e6d030e2c3a1c1c135ea0.ctex"]
+source_file="res://Efectos de impacto/fx/fx_summonmythron.png"
+dest_files=["res://.godot/imported/fx_summonmythron.png-8804009fdf7dd44decfcb1c5808fe5ed.ctex"]
 
 [params]
 

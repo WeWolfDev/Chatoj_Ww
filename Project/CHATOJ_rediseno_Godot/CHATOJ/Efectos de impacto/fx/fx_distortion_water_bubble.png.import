@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c1au3w3awaiqx"
-path="res://.godot/imported/fx_distortion_water_bubble.png-c0aeee57672fd59bb3f36cc289f2e80e.ctex"
+path="res://.godot/imported/fx_distortion_water_bubble.png-22f5b3c4f674d664f8c91c220f7e1145.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_distortion_water_bubble.png"
-dest_files=["res://.godot/imported/fx_distortion_water_bubble.png-c0aeee57672fd59bb3f36cc289f2e80e.ctex"]
+source_file="res://Efectos de impacto/fx/fx_distortion_water_bubble.png"
+dest_files=["res://.godot/imported/fx_distortion_water_bubble.png-22f5b3c4f674d664f8c91c220f7e1145.ctex"]
 
 [params]
 

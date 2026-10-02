@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ckakfy7mwrpm8"
-path="res://.godot/imported/f6_explodingwall.png-0823c65051cc4b95a7325a1b448b24e5.ctex"
+path="res://.godot/imported/f6_explodingwall.png-5a587b36570d72435a82fc096305ebef.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f6_explodingwall.png"
-dest_files=["res://.godot/imported/f6_explodingwall.png-0823c65051cc4b95a7325a1b448b24e5.ctex"]
+source_file="res://Efectos de impacto/units/f6_explodingwall.png"
+dest_files=["res://.godot/imported/f6_explodingwall.png-5a587b36570d72435a82fc096305ebef.ctex"]
 
 [params]
 

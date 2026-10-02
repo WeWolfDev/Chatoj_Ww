@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://n0wc0kpil3k8"
-path="res://.godot/imported/f5_ragebinder.png-77fce67cda6fb2202a697bf1eea4f8ae.ctex"
+path="res://.godot/imported/f5_ragebinder.png-f7a210d09e931e911408af06145e0a55.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f5_ragebinder.png"
-dest_files=["res://.godot/imported/f5_ragebinder.png-77fce67cda6fb2202a697bf1eea4f8ae.ctex"]
+source_file="res://Efectos de impacto/units/f5_ragebinder.png"
+dest_files=["res://.godot/imported/f5_ragebinder.png-f7a210d09e931e911408af06145e0a55.ctex"]
 
 [params]
 

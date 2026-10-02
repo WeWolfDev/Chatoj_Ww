@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://gqf3wvrpcvek"
-path="res://.godot/imported/icon_f2_firestormofagony.png-7235e6e9de9cec752e0a3375c3302214.ctex"
+path="res://.godot/imported/icon_f2_firestormofagony.png-ba454a9a5ac1ed563259ee03d8384ab0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f2_firestormofagony.png"
-dest_files=["res://.godot/imported/icon_f2_firestormofagony.png-7235e6e9de9cec752e0a3375c3302214.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f2_firestormofagony.png"
+dest_files=["res://.godot/imported/icon_f2_firestormofagony.png-ba454a9a5ac1ed563259ee03d8384ab0.ctex"]
 
 [params]
 

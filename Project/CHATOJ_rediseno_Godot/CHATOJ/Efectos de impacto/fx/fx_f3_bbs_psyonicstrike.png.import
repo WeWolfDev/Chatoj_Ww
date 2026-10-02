@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ceeevdc1pcq6p"
-path="res://.godot/imported/fx_f3_bbs_psyonicstrike.png-e4e10df9a7e72e3802c8d890b1b6a63e.ctex"
+path="res://.godot/imported/fx_f3_bbs_psyonicstrike.png-037024437727f167bf8bffc5085f1e5a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f3_bbs_psyonicstrike.png"
-dest_files=["res://.godot/imported/fx_f3_bbs_psyonicstrike.png-e4e10df9a7e72e3802c8d890b1b6a63e.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f3_bbs_psyonicstrike.png"
+dest_files=["res://.godot/imported/fx_f3_bbs_psyonicstrike.png-037024437727f167bf8bffc5085f1e5a.ctex"]
 
 [params]
 

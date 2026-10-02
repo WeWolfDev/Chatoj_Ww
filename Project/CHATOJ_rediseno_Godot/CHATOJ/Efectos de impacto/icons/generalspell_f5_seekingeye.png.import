@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dtdtmnab7f6g7"
-path="res://.godot/imported/generalspell_f5_seekingeye.png-cbc4c787259964543796da2476e2c831.ctex"
+path="res://.godot/imported/generalspell_f5_seekingeye.png-0a57db1bbe4aa687f0cb81002fdd2190.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/generalspell_f5_seekingeye.png"
-dest_files=["res://.godot/imported/generalspell_f5_seekingeye.png-cbc4c787259964543796da2476e2c831.ctex"]
+source_file="res://Efectos de impacto/icons/generalspell_f5_seekingeye.png"
+dest_files=["res://.godot/imported/generalspell_f5_seekingeye.png-0a57db1bbe4aa687f0cb81002fdd2190.ctex"]
 
 [params]
 

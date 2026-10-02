@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xpq82e4ib0aw"
-path="res://.godot/imported/fx_f3_bbs_ironshroud.png-d540ce323a23a5f4913364447a0f24d6.ctex"
+path="res://.godot/imported/fx_f3_bbs_ironshroud.png-73ba6873e1bdab38c2d8339a90b10caa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f3_bbs_ironshroud.png"
-dest_files=["res://.godot/imported/fx_f3_bbs_ironshroud.png-d540ce323a23a5f4913364447a0f24d6.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f3_bbs_ironshroud.png"
+dest_files=["res://.godot/imported/fx_f3_bbs_ironshroud.png-73ba6873e1bdab38c2d8339a90b10caa.ctex"]
 
 [params]
 

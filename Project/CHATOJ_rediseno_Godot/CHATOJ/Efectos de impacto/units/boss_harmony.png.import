@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bhsgfryx2x0w5"
-path="res://.godot/imported/boss_harmony.png-12f0e6bcfd15a88d3254609b77e8be11.ctex"
+path="res://.godot/imported/boss_harmony.png-a05dc67ca86002596e4c4bc225e17ab5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/boss_harmony.png"
-dest_files=["res://.godot/imported/boss_harmony.png-12f0e6bcfd15a88d3254609b77e8be11.ctex"]
+source_file="res://Efectos de impacto/units/boss_harmony.png"
+dest_files=["res://.godot/imported/boss_harmony.png-a05dc67ca86002596e4c4bc225e17ab5.ctex"]
 
 [params]
 

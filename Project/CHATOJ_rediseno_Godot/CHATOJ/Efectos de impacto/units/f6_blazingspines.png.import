@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://beng1irmujxlb"
-path="res://.godot/imported/f6_blazingspines.png-546b0e0a782cda1681372da7fad5100d.ctex"
+path="res://.godot/imported/f6_blazingspines.png-2e3f97376d01c299c107ab2c6bd14308.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f6_blazingspines.png"
-dest_files=["res://.godot/imported/f6_blazingspines.png-546b0e0a782cda1681372da7fad5100d.ctex"]
+source_file="res://Efectos de impacto/units/f6_blazingspines.png"
+dest_files=["res://.godot/imported/f6_blazingspines.png-2e3f97376d01c299c107ab2c6bd14308.ctex"]
 
 [params]
 

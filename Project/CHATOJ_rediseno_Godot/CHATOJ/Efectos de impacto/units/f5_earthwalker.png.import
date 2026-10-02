@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://brxebghx6o1ot"
-path="res://.godot/imported/f5_earthwalker.png-48534c06227cc7c94700bbcb65ead772.ctex"
+path="res://.godot/imported/f5_earthwalker.png-2a32ce2962cfe34a67e1f7d09b54240e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f5_earthwalker.png"
-dest_files=["res://.godot/imported/f5_earthwalker.png-48534c06227cc7c94700bbcb65ead772.ctex"]
+source_file="res://Efectos de impacto/units/f5_earthwalker.png"
+dest_files=["res://.godot/imported/f5_earthwalker.png-2a32ce2962cfe34a67e1f7d09b54240e.ctex"]
 
 [params]
 

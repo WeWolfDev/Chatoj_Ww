@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d1qssiq21ytjg"
-path="res://.godot/imported/icon_f6_polarity.png-569cf8217db42a2b5ccb47fdfdbee14d.ctex"
+path="res://.godot/imported/icon_f6_polarity.png-b8d84d2d2f3a361f6a67800b84919423.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f6_polarity.png"
-dest_files=["res://.godot/imported/icon_f6_polarity.png-569cf8217db42a2b5ccb47fdfdbee14d.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f6_polarity.png"
+dest_files=["res://.godot/imported/icon_f6_polarity.png-b8d84d2d2f3a361f6a67800b84919423.ctex"]
 
 [params]
 

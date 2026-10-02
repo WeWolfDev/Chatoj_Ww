@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cqfw5oswtdpkj"
-path="res://.godot/imported/neutral_mirrormancer.png-b2a7bae42073eae887ed2630d861939d.ctex"
+path="res://.godot/imported/neutral_mirrormancer.png-693833e3c697995e5f5a0a5cd3617b44.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_mirrormancer.png"
-dest_files=["res://.godot/imported/neutral_mirrormancer.png-b2a7bae42073eae887ed2630d861939d.ctex"]
+source_file="res://Efectos de impacto/units/neutral_mirrormancer.png"
+dest_files=["res://.godot/imported/neutral_mirrormancer.png-693833e3c697995e5f5a0a5cd3617b44.ctex"]
 
 [params]
 

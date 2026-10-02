@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwvdvbgyyq50w"
-path="res://.godot/imported/fx_explosionblueelectrical.png-2db542c20a0a54b6e57345ee9954b2d3.ctex"
+path="res://.godot/imported/fx_explosionblueelectrical.png-50f2a096c43de8ad54a21d0ccbee14e7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_explosionblueelectrical.png"
-dest_files=["res://.godot/imported/fx_explosionblueelectrical.png-2db542c20a0a54b6e57345ee9954b2d3.ctex"]
+source_file="res://Efectos de impacto/fx/fx_explosionblueelectrical.png"
+dest_files=["res://.godot/imported/fx_explosionblueelectrical.png-50f2a096c43de8ad54a21d0ccbee14e7.ctex"]
 
 [params]
 

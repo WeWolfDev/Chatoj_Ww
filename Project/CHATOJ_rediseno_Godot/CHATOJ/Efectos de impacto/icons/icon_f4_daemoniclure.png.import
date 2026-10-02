@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwigea6b5408q"
-path="res://.godot/imported/icon_f4_daemoniclure.png-b245e62a8c4dfa852b3cdf7d9faa7b88.ctex"
+path="res://.godot/imported/icon_f4_daemoniclure.png-43f53f6c51c38e2cd954c9e5e414a30e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f4_daemoniclure.png"
-dest_files=["res://.godot/imported/icon_f4_daemoniclure.png-b245e62a8c4dfa852b3cdf7d9faa7b88.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f4_daemoniclure.png"
+dest_files=["res://.godot/imported/icon_f4_daemoniclure.png-43f53f6c51c38e2cd954c9e5e414a30e.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dog0ntahgurh8"
-path="res://.godot/imported/icon_f6_snowstorm.png-57886e062d8cae7caec22da5bab112ea.ctex"
+path="res://.godot/imported/icon_f6_snowstorm.png-f3af980adc8c3f2f0a80c5d6c91f16ef.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f6_snowstorm.png"
-dest_files=["res://.godot/imported/icon_f6_snowstorm.png-57886e062d8cae7caec22da5bab112ea.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f6_snowstorm.png"
+dest_files=["res://.godot/imported/icon_f6_snowstorm.png-f3af980adc8c3f2f0a80c5d6c91f16ef.ctex"]
 
 [params]
 

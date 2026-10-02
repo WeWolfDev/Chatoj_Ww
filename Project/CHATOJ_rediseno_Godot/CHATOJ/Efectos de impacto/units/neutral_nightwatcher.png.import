@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://casoj3rwutl85"
-path="res://.godot/imported/neutral_nightwatcher.png-9fa9a8d7afb7203473dae6a1b531121b.ctex"
+path="res://.godot/imported/neutral_nightwatcher.png-64a220f9095a913123ea690364b5dee7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_nightwatcher.png"
-dest_files=["res://.godot/imported/neutral_nightwatcher.png-9fa9a8d7afb7203473dae6a1b531121b.ctex"]
+source_file="res://Efectos de impacto/units/neutral_nightwatcher.png"
+dest_files=["res://.godot/imported/neutral_nightwatcher.png-64a220f9095a913123ea690364b5dee7.ctex"]
 
 [params]
 

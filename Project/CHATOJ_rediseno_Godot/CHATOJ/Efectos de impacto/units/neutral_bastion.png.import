@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4m0ttt2ln05r"
-path="res://.godot/imported/neutral_bastion.png-7a97aead5060144ff490021626de7e19.ctex"
+path="res://.godot/imported/neutral_bastion.png-5be3ce0a6355bc9d31a0958e9fac677e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_bastion.png"
-dest_files=["res://.godot/imported/neutral_bastion.png-7a97aead5060144ff490021626de7e19.ctex"]
+source_file="res://Efectos de impacto/units/neutral_bastion.png"
+dest_files=["res://.godot/imported/neutral_bastion.png-5be3ce0a6355bc9d31a0958e9fac677e.ctex"]
 
 [params]
 

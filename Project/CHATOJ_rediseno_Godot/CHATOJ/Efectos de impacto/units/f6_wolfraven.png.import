@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkhdgfawbtncj"
-path="res://.godot/imported/f6_wolfraven.png-56bd8b5c15e14c0404df271759e99be0.ctex"
+path="res://.godot/imported/f6_wolfraven.png-3a97117ad591d7ef70807e967754b1fb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f6_wolfraven.png"
-dest_files=["res://.godot/imported/f6_wolfraven.png-56bd8b5c15e14c0404df271759e99be0.ctex"]
+source_file="res://Efectos de impacto/units/f6_wolfraven.png"
+dest_files=["res://.godot/imported/f6_wolfraven.png-3a97117ad591d7ef70807e967754b1fb.ctex"]
 
 [params]
 

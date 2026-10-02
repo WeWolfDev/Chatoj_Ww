@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfq2y2w5s4l8h"
-path="res://.godot/imported/f5_firebreather.png-eb23de4cd5b80c3e57c311e56ff585e2.ctex"
+path="res://.godot/imported/f5_firebreather.png-302ee708be54da3b6cc9e46b686a0fea.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f5_firebreather.png"
-dest_files=["res://.godot/imported/f5_firebreather.png-eb23de4cd5b80c3e57c311e56ff585e2.ctex"]
+source_file="res://Efectos de impacto/units/f5_firebreather.png"
+dest_files=["res://.godot/imported/f5_firebreather.png-302ee708be54da3b6cc9e46b686a0fea.ctex"]
 
 [params]
 

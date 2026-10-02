@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dvbpraybofo4u"
-path="res://.godot/imported/neutral_letigress.png-6044ebcc17c44188319933b1fe3d27be.ctex"
+path="res://.godot/imported/neutral_letigress.png-1b6b6ecca8ac77e2fe2defae1579fcf2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_letigress.png"
-dest_files=["res://.godot/imported/neutral_letigress.png-6044ebcc17c44188319933b1fe3d27be.ctex"]
+source_file="res://Efectos de impacto/units/neutral_letigress.png"
+dest_files=["res://.godot/imported/neutral_letigress.png-1b6b6ecca8ac77e2fe2defae1579fcf2.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bvu4n8pnvlqj3"
-path="res://.godot/imported/boss_kron.png-482edd0a39e6dad5620b90cf5978467c.ctex"
+path="res://.godot/imported/boss_kron.png-cef646129ac48fbaf413dcdc2871600a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/boss_kron.png"
-dest_files=["res://.godot/imported/boss_kron.png-482edd0a39e6dad5620b90cf5978467c.ctex"]
+source_file="res://Efectos de impacto/units/boss_kron.png"
+dest_files=["res://.godot/imported/boss_kron.png-cef646129ac48fbaf413dcdc2871600a.ctex"]
 
 [params]
 

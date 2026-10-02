@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dgc1eow313gfg"
-path="res://.godot/imported/icon_f4_darkseed.png-8f8ddc99f3d0c08dea89b72aec5b6d18.ctex"
+path="res://.godot/imported/icon_f4_darkseed.png-384353d20138b968ddfd0f69b44ca84f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f4_darkseed.png"
-dest_files=["res://.godot/imported/icon_f4_darkseed.png-8f8ddc99f3d0c08dea89b72aec5b6d18.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f4_darkseed.png"
+dest_files=["res://.godot/imported/icon_f4_darkseed.png-384353d20138b968ddfd0f69b44ca84f.ctex"]
 
 [params]
 

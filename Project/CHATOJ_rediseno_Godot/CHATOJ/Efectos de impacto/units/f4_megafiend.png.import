@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6di5fbj6n3tl"
-path="res://.godot/imported/f4_megafiend.png-161ae7bde3da9a7cdc5f51321e50fdb6.ctex"
+path="res://.godot/imported/f4_megafiend.png-06c6207a33d0bd69abb74d941332c55f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f4_megafiend.png"
-dest_files=["res://.godot/imported/f4_megafiend.png-161ae7bde3da9a7cdc5f51321e50fdb6.ctex"]
+source_file="res://Efectos de impacto/units/f4_megafiend.png"
+dest_files=["res://.godot/imported/f4_megafiend.png-06c6207a33d0bd69abb74d941332c55f.ctex"]
 
 [params]
 

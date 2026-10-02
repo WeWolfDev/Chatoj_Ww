@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://6urguxd3kuqm"
-path="res://.godot/imported/fx_f2_onyxbearseal.png-2f6f9dc08e89026864e04a26687186b1.ctex"
+path="res://.godot/imported/fx_f2_onyxbearseal.png-db28df0c762a95076242d9ccb244be75.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f2_onyxbearseal.png"
-dest_files=["res://.godot/imported/fx_f2_onyxbearseal.png-2f6f9dc08e89026864e04a26687186b1.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f2_onyxbearseal.png"
+dest_files=["res://.godot/imported/fx_f2_onyxbearseal.png-db28df0c762a95076242d9ccb244be75.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cv1xuywmjwduj"
-path="res://.godot/imported/f5_dreadnaught.png-7a0204b3d56ef9e7c5a16eccf519a0b7.ctex"
+path="res://.godot/imported/f5_dreadnaught.png-832b0d5cbf73849e3755ab689d3c6ac0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f5_dreadnaught.png"
-dest_files=["res://.godot/imported/f5_dreadnaught.png-7a0204b3d56ef9e7c5a16eccf519a0b7.ctex"]
+source_file="res://Efectos de impacto/units/f5_dreadnaught.png"
+dest_files=["res://.godot/imported/f5_dreadnaught.png-832b0d5cbf73849e3755ab689d3c6ac0.ctex"]
 
 [params]
 

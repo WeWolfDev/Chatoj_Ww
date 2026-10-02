@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://5c38u18eexb4"
-path="res://.godot/imported/fx_f1_inmolation.png-875a974a6c3f7bd8eed8ce576129ee37.ctex"
+path="res://.godot/imported/fx_f1_inmolation.png-75bf3ac84549cca809c54867fcf96195.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f1_inmolation.png"
-dest_files=["res://.godot/imported/fx_f1_inmolation.png-875a974a6c3f7bd8eed8ce576129ee37.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f1_inmolation.png"
+dest_files=["res://.godot/imported/fx_f1_inmolation.png-75bf3ac84549cca809c54867fcf96195.ctex"]
 
 [params]
 

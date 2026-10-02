@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://clycte0uk6hbv"
-path="res://.godot/imported/icon_f2_crimsoncoil.png-670937b86d24c73777cd990131c23e10.ctex"
+path="res://.godot/imported/icon_f2_crimsoncoil.png-6f38315ae071edb12064e11f608a5473.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f2_crimsoncoil.png"
-dest_files=["res://.godot/imported/icon_f2_crimsoncoil.png-670937b86d24c73777cd990131c23e10.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f2_crimsoncoil.png"
+dest_files=["res://.godot/imported/icon_f2_crimsoncoil.png-6f38315ae071edb12064e11f608a5473.ctex"]
 
 [params]
 

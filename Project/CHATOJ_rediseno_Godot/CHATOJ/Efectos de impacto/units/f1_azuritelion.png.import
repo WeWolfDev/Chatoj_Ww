@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b5yi1tkk7jnju"
-path="res://.godot/imported/f1_azuritelion.png-5aef7cc6ce838a5a584c43a7417403cc.ctex"
+path="res://.godot/imported/f1_azuritelion.png-e2fc41dc008d4f3b8aea0d0de279d74d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f1_azuritelion.png"
-dest_files=["res://.godot/imported/f1_azuritelion.png-5aef7cc6ce838a5a584c43a7417403cc.ctex"]
+source_file="res://Efectos de impacto/units/f1_azuritelion.png"
+dest_files=["res://.godot/imported/f1_azuritelion.png-e2fc41dc008d4f3b8aea0d0de279d74d.ctex"]
 
 [params]
 

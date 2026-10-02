@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://mvsah6vh04mj"
-path="res://.godot/imported/f4_pitstrider.png-342ce63ecfce0446c2ad9001524b5835.ctex"
+path="res://.godot/imported/f4_pitstrider.png-573037dac03ddf021d4f998ad97729fd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f4_pitstrider.png"
-dest_files=["res://.godot/imported/f4_pitstrider.png-342ce63ecfce0446c2ad9001524b5835.ctex"]
+source_file="res://Efectos de impacto/units/f4_pitstrider.png"
+dest_files=["res://.godot/imported/f4_pitstrider.png-573037dac03ddf021d4f998ad97729fd.ctex"]
 
 [params]
 

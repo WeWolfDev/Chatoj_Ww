@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bv3d81b641gqi"
-path="res://.godot/imported/fx_f2_bbs_arcaneheart.png-44398cb09353c19516c1542bb9876515.ctex"
+path="res://.godot/imported/fx_f2_bbs_arcaneheart.png-c319b1cceb3750d67274b0eefbc8bf7a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_f2_bbs_arcaneheart.png"
-dest_files=["res://.godot/imported/fx_f2_bbs_arcaneheart.png-44398cb09353c19516c1542bb9876515.ctex"]
+source_file="res://Efectos de impacto/fx/fx_f2_bbs_arcaneheart.png"
+dest_files=["res://.godot/imported/fx_f2_bbs_arcaneheart.png-c319b1cceb3750d67274b0eefbc8bf7a.ctex"]
 
 [params]
 

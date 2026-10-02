@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwee7oa0oohku"
-path="res://.godot/imported/neutral_boulderhurler.png-00912035995c0b3840060894f8c6f564.ctex"
+path="res://.godot/imported/neutral_boulderhurler.png-0c7b0695887c94e080f29aefef20edbd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_boulderhurler.png"
-dest_files=["res://.godot/imported/neutral_boulderhurler.png-00912035995c0b3840060894f8c6f564.ctex"]
+source_file="res://Efectos de impacto/units/neutral_boulderhurler.png"
+dest_files=["res://.godot/imported/neutral_boulderhurler.png-0c7b0695887c94e080f29aefef20edbd.ctex"]
 
 [params]
 

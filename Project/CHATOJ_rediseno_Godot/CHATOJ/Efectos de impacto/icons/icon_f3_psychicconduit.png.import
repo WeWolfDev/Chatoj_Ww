@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bi41kow6lmdsy"
-path="res://.godot/imported/icon_f3_psychicconduit.png-20889b749ab7c39e3aa4ccdfe800a641.ctex"
+path="res://.godot/imported/icon_f3_psychicconduit.png-31f0f57518f8013ad40e0498af1fce65.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_f3_psychicconduit.png"
-dest_files=["res://.godot/imported/icon_f3_psychicconduit.png-20889b749ab7c39e3aa4ccdfe800a641.ctex"]
+source_file="res://Efectos de impacto/icons/icon_f3_psychicconduit.png"
+dest_files=["res://.godot/imported/icon_f3_psychicconduit.png-31f0f57518f8013ad40e0498af1fce65.ctex"]
 
 [params]
 

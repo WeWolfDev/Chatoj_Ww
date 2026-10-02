@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://hfm70353j3r6"
-path="res://.godot/imported/icon_neutral_trinitybreath.png-8ce0f38cb9515c6fb881894f02523407.ctex"
+path="res://.godot/imported/icon_neutral_trinitybreath.png-ae959e3d849c00ec510debecfe37d8ef.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/icon_neutral_trinitybreath.png"
-dest_files=["res://.godot/imported/icon_neutral_trinitybreath.png-8ce0f38cb9515c6fb881894f02523407.ctex"]
+source_file="res://Efectos de impacto/icons/icon_neutral_trinitybreath.png"
+dest_files=["res://.godot/imported/icon_neutral_trinitybreath.png-ae959e3d849c00ec510debecfe37d8ef.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://hkc3th1tb7cw"
-path="res://.godot/imported/neutral_gnasher.png-b53cd19adc33860f7781adb483c5f228.ctex"
+path="res://.godot/imported/neutral_gnasher.png-2b9e67b496ee1c8957c70f54ece9a251.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_gnasher.png"
-dest_files=["res://.godot/imported/neutral_gnasher.png-b53cd19adc33860f7781adb483c5f228.ctex"]
+source_file="res://Efectos de impacto/units/neutral_gnasher.png"
+dest_files=["res://.godot/imported/neutral_gnasher.png-2b9e67b496ee1c8957c70f54ece9a251.ctex"]
 
 [params]
 

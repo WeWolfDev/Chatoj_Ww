@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmtb1143xfkrm"
-path="res://.godot/imported/f6_minitreant.png-78674b0f859e1aaadcca382999197e9c.ctex"
+path="res://.godot/imported/f6_minitreant.png-c84fcc0a0bd10dbdbb48e4148a4218ca.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f6_minitreant.png"
-dest_files=["res://.godot/imported/f6_minitreant.png-78674b0f859e1aaadcca382999197e9c.ctex"]
+source_file="res://Efectos de impacto/units/f6_minitreant.png"
+dest_files=["res://.godot/imported/f6_minitreant.png-c84fcc0a0bd10dbdbb48e4148a4218ca.ctex"]
 
 [params]
 

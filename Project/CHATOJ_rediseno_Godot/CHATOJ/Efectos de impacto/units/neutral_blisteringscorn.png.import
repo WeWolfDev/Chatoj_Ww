@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bjaf6p7b2objo"
-path="res://.godot/imported/neutral_blisteringscorn.png-bce12b5f835ac81a5616c80a6538c77f.ctex"
+path="res://.godot/imported/neutral_blisteringscorn.png-08c664214549fbe385a2836df3001e26.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_blisteringscorn.png"
-dest_files=["res://.godot/imported/neutral_blisteringscorn.png-bce12b5f835ac81a5616c80a6538c77f.ctex"]
+source_file="res://Efectos de impacto/units/neutral_blisteringscorn.png"
+dest_files=["res://.godot/imported/neutral_blisteringscorn.png-08c664214549fbe385a2836df3001e26.ctex"]
 
 [params]
 

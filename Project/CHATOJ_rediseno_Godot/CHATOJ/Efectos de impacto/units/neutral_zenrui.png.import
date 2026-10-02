@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://k4r1yi1cljfo"
-path="res://.godot/imported/neutral_zenrui.png-f106089807956ad4d29a1527e2c6a236.ctex"
+path="res://.godot/imported/neutral_zenrui.png-5ccbe7068cdb860f9fce0df3244d5636.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_zenrui.png"
-dest_files=["res://.godot/imported/neutral_zenrui.png-f106089807956ad4d29a1527e2c6a236.ctex"]
+source_file="res://Efectos de impacto/units/neutral_zenrui.png"
+dest_files=["res://.godot/imported/neutral_zenrui.png-5ccbe7068cdb860f9fce0df3244d5636.ctex"]
 
 [params]
 

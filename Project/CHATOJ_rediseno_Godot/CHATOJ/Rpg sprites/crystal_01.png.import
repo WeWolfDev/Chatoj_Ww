@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cnsfhp6dg72et"
-path="res://.godot/imported/crystal_01.png-7d6357870eb22ab0508aa6f4825bda99.ctex"
+path="res://.godot/imported/crystal_01.png-52e3fe0126d2c9e7f116032d487b3565.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/crystal_01.png"
-dest_files=["res://.godot/imported/crystal_01.png-7d6357870eb22ab0508aa6f4825bda99.ctex"]
+source_file="res://Rpg sprites/crystal_01.png"
+dest_files=["res://.godot/imported/crystal_01.png-52e3fe0126d2c9e7f116032d487b3565.ctex"]
 
 [params]
 

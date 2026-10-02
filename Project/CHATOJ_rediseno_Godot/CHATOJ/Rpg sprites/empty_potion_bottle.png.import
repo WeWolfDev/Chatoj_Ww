@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://de0grqwu1tkhv"
-path="res://.godot/imported/empty_potion_bottle.png-eda78be7e5a955bb273ae1ed54330e54.ctex"
+path="res://.godot/imported/empty_potion_bottle.png-3d9218081d5279a266f50ab95cf41424.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tiles/empty_potion_bottle.png"
-dest_files=["res://.godot/imported/empty_potion_bottle.png-eda78be7e5a955bb273ae1ed54330e54.ctex"]
+source_file="res://Rpg sprites/empty_potion_bottle.png"
+dest_files=["res://.godot/imported/empty_potion_bottle.png-3d9218081d5279a266f50ab95cf41424.ctex"]
 
 [params]
 

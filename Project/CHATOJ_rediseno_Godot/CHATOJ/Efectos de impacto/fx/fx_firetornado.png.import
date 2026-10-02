@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b1ir2a6tk0sv"
-path="res://.godot/imported/fx_firetornado.png-1a3b0181480342428a215c182775978d.ctex"
+path="res://.godot/imported/fx_firetornado.png-7da85bfee9c93c8bf9876b5d5bc2a10e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/fx/fx_firetornado.png"
-dest_files=["res://.godot/imported/fx_firetornado.png-1a3b0181480342428a215c182775978d.ctex"]
+source_file="res://Efectos de impacto/fx/fx_firetornado.png"
+dest_files=["res://.godot/imported/fx_firetornado.png-7da85bfee9c93c8bf9876b5d5bc2a10e.ctex"]
 
 [params]
 

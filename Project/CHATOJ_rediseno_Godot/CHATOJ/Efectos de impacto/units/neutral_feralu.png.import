@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bqwngtsx7h4wl"
-path="res://.godot/imported/neutral_feralu.png-38ac42b22c746e1593d61741aa8813be.ctex"
+path="res://.godot/imported/neutral_feralu.png-0b34be6e9fba23b2507abb89a4084ebd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_feralu.png"
-dest_files=["res://.godot/imported/neutral_feralu.png-38ac42b22c746e1593d61741aa8813be.ctex"]
+source_file="res://Efectos de impacto/units/neutral_feralu.png"
+dest_files=["res://.godot/imported/neutral_feralu.png-0b34be6e9fba23b2507abb89a4084ebd.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://btagxsec6p2vo"
-path="res://.godot/imported/f2_deathphantom.png-37fb21c804bb6469feda46eabb68eec4.ctex"
+path="res://.godot/imported/f2_deathphantom.png-ff35de9a14b9936d666d7b129c102dda.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/f2_deathphantom.png"
-dest_files=["res://.godot/imported/f2_deathphantom.png-37fb21c804bb6469feda46eabb68eec4.ctex"]
+source_file="res://Efectos de impacto/units/f2_deathphantom.png"
+dest_files=["res://.godot/imported/f2_deathphantom.png-ff35de9a14b9936d666d7b129c102dda.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://x4jlteylbsai"
-path="res://.godot/imported/artifact_f3_wildfireankh.png-b5458cbc9eb4a09d8a6a29b52e58e14e.ctex"
+path="res://.godot/imported/artifact_f3_wildfireankh.png-9c378820c86a1b3592b8a3fc5ffccc9b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/icons/artifact_f3_wildfireankh.png"
-dest_files=["res://.godot/imported/artifact_f3_wildfireankh.png-b5458cbc9eb4a09d8a6a29b52e58e14e.ctex"]
+source_file="res://Efectos de impacto/icons/artifact_f3_wildfireankh.png"
+dest_files=["res://.godot/imported/artifact_f3_wildfireankh.png-9c378820c86a1b3592b8a3fc5ffccc9b.ctex"]
 
 [params]
 

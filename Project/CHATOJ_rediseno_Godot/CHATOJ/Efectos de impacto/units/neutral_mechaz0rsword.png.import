@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bx1cjimpa7jsm"
-path="res://.godot/imported/neutral_mechaz0rsword.png-cb0832eed22906014e11080f69882d7b.ctex"
+path="res://.godot/imported/neutral_mechaz0rsword.png-daa9b2db4fd77e1d98c10c94f1b77f7c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://spritesheets/units/neutral_mechaz0rsword.png"
-dest_files=["res://.godot/imported/neutral_mechaz0rsword.png-cb0832eed22906014e11080f69882d7b.ctex"]
+source_file="res://Efectos de impacto/units/neutral_mechaz0rsword.png"
+dest_files=["res://.godot/imported/neutral_mechaz0rsword.png-daa9b2db4fd77e1d98c10c94f1b77f7c.ctex"]
 
 [params]
 

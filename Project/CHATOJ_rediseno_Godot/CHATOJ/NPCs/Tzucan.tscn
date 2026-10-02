@@ -1,21 +1,35 @@
 [gd_scene format=3 uid="uid://dn4m1461jr3cr"]
 
 [ext_resource type="Script" uid="uid://dbiwerxueeaqq" path="res://tzucan.gd" id="1_2mbk1"]
-[ext_resource type="Texture2D" uid="uid://fs7wy3jgo64o" path="res://icon.svg" id="2_s73f1"]
+[ext_resource type="Texture2D" uid="uid://3qet3cbc1tne" path="res://assets/Animaciones/animacion_tzucan/image (1) (1).png" id="2_3sf2n"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_krwa1"]
-atlas = ExtResource("2_s73f1")
-region = Rect2(32, 32, 32, 32)
+[sub_resource type="AtlasTexture" id="AtlasTexture_1esgv"]
+atlas = ExtResource("2_3sf2n")
+region = Rect2(0, 0, 256, 255)
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_v1p6p"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_vlusl"]
+atlas = ExtResource("2_3sf2n")
+region = Rect2(256, 0, 256, 255)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xbs3t"]
+atlas = ExtResource("2_3sf2n")
+region = Rect2(512, 0, 256, 255)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wadv3"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_krwa1")
+"texture": SubResource("AtlasTexture_1esgv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vlusl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xbs3t")
 }],
 "loop": 1,
 "name": &"idle",
-"speed": 5.0
+"speed": 2.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_v1p6p"]
@@ -25,9 +39,10 @@ size = Vector2(118.5, 112)
 script = ExtResource("1_2mbk1")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1830179093]
-scale = Vector2(3.53125, 3.53125)
-sprite_frames = SubResource("SpriteFrames_v1p6p")
+scale = Vector2(1.447978, 1.447978)
+sprite_frames = SubResource("SpriteFrames_wadv3")
 animation = &"idle"
+frame_progress = 0.661836
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=432537623]
 position = Vector2(-1.75, 1)

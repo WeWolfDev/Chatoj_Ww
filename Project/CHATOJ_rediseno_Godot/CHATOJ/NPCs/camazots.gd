@@ -345,6 +345,11 @@ func set_target(body):
 
 	target = body
 
+	# El jefe atraviesa el cuerpo del jugador (igual que hace player.gd con
+	# los enemigos). Así el daño de la embestida depende SOLO de la franja
+	# roja y el cuerpo del jugador no frena al jefe.
+	add_collision_exception_with(body)
+
 	AudioManager.play_music(MUSIC_BOSS, -9.0)
 
 	# Asegura que el Hurtbox "vea" el AttackArea del jugador,
@@ -495,11 +500,6 @@ func process_windup_charge(delta):
 
 		AudioManager.play_2d(SFX_CHARGE, global_position, -3.0)
 
-		# Durante la embestida el jefe atraviesa el cuerpo del jugador:
-		# así el daño depende SOLO de la franja roja y no de un choque físico
-		# (antes el cuerpo del jugador frenaba al jefe antes de llegar)
-		add_collision_exception_with(target)
-
 		state = State.CHARGING
 		state_timer = charge_duration
 		charge_has_hit = false
@@ -605,10 +605,6 @@ func process_windup_summon(delta):
 # =========================
 
 func enter_recover():
-
-	# Si venía de embestir, vuelve a ser sólido para el jugador
-	if target != null and is_instance_valid(target):
-		remove_collision_exception_with(target)
 
 	state = State.RECOVER
 	state_timer = recover_time

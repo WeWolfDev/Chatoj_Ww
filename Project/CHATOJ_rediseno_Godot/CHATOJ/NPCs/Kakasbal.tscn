@@ -848,31 +848,30 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_v0iea"]
-size = Vector2(89, 43)
+size = Vector2(40, 50)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_82v0y"]
-size = Vector2(81.25, 46)
+size = Vector2(53, 55)
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_v1p6p"]
-radius = 243.0
+radius = 96.00521
 
 [node name="NPC" type="CharacterBody2D" unique_id=272724457]
 texture_filter = 1
+scale = Vector2(3, 3)
 collision_layer = 2
 motion_mode = 1
 script = ExtResource("1_0os47")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2002133221]
 texture_filter = 1
-position = Vector2(0, -38.4)
-scale = Vector2(1.4285715, 1.4285715)
 sprite_frames = SubResource("SpriteFrames_vw6ut")
 animation = &"charge_back"
 autoplay = "idle_down"
 script = ExtResource("6_12jrx")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2041622108]
-position = Vector2(-3.5, 25.5)
+position = Vector2(-1, 1)
 shape = SubResource("RectangleShape2D_v0iea")
 
 [node name="Hurtbox" type="Area2D" parent="." unique_id=2107688576]
@@ -880,7 +879,6 @@ collision_layer = 0
 collision_mask = 8
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Hurtbox" unique_id=689621327]
-scale = Vector2(2, 2)
 shape = SubResource("RectangleShape2D_82v0y")
 
 [node name="DetectionArea" type="Area2D" parent="." unique_id=1275441828]

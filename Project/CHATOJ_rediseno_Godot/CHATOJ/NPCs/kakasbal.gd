@@ -88,6 +88,14 @@ var knockback_velocity = Vector2.ZERO
 # =========================
 # ATAQUES ESPECIALES (todos telegrafiados)
 # =========================
+#
+# GUÍA PARA AJUSTAR LAS ZONAS
+# El jugador camina a 250 px/s (312 corriendo) y su dash recorre ~150 px.
+# Se asume ~0.3 s de reacción. Regla: el jugador debe poder salir de la zona
+# andando antes de que termine el aviso:
+#   - Conos (rasguño / coletazo): (alcance - keep_gap) <= 250 * (aviso - 0.3)
+#   - Embestida: (ancho / 2 + radio del jugador ~25) <= 250 * (charge_lock_time - 0.3)
+# Revisa también la fase 2, donde los avisos se acortan.
 
 var attack_interval = 2.5  # segundos entre ataques especiales
 var attack_timer = 2.5
@@ -102,16 +110,16 @@ var scratch_windup = 0.6  # aviso del primer zarpazo
 var scratch_followup_windup = 0.35  # aviso de los zarpazos siguientes (combo)
 var scratch_hits = 2  # zarpazos seguidos
 var scratch_damage = 15
-var scratch_reach = 70.0  # alcance medido desde el borde del cuerpo
-var scratch_arc = 100.0  # ancho del zarpazo en grados
+var scratch_reach = 55.0  # alcance medido desde el borde del cuerpo
+var scratch_arc = 90.0  # ancho del zarpazo en grados
 
 
 # --- Coletazo (barrido amplio y largo) ---
 
-var tail_windup = 0.9
+var tail_windup = 1.0
 var tail_damage = 25
-var tail_reach = 130.0  # alcance medido desde el borde del cuerpo
-var tail_arc = 170.0  # ancho del barrido en grados
+var tail_reach = 100.0  # alcance medido desde el borde del cuerpo
+var tail_arc = 150.0  # ancho del barrido en grados
 
 
 # --- Embestida avanzada ---
@@ -121,16 +129,22 @@ var tail_arc = 170.0  # ancho del barrido en grados
 #  4. Al enfurecerse encadena dos embestidas
 
 var charge_windup = 1.2  # aviso completo
-var charge_lock_time = 0.4  # en los últimos segundos del aviso, la dirección queda fija
+var charge_lock_time = 0.7  # en los últimos segundos del aviso, la dirección queda fija
 var charge_rewindup = 0.7  # aviso de la segunda embestida (encadenada)
 var charge_start_speed = 250.0
 var charge_speed = 800.0  # velocidad máxima
 var charge_accel_time = 0.4  # tiempo en llegar a la velocidad máxima
 var charge_duration = 0.8
 var charge_damage = 35
-var charge_hit_margin = 40.0  # alcance del golpe medido desde el borde del cuerpo
-var charge_hit_radius = 35.0  # se recalcula en _ready
-var charge_width = 60.0  # ancho de la franja de aviso; se recalcula en _ready
+var charge_hit_margin = 30.0  # cuánto se extiende el golpe por delante del borde del cuerpo
+
+var charge_width_ratio = 1.0  # ancho de la franja = body_radius * este valor...
+var charge_width_max = 140.0  # ...pero nunca más ancha que esto (para que se pueda esquivar)
+var charge_width = 60.0  # se recalcula en _ready
+
+var charge_min_distance = 0.0  # distancia mínima (desde el borde) para poder embestir
+var charge_max_distance = 900.0  # si estás más lejos que esto, no embiste
+
 var charge_count = 1  # embestidas seguidas (2 en fase 2)
 var wall_stun_time = 2.0  # aturdimiento si choca con una pared
 
@@ -167,8 +181,7 @@ func _ready():
 	body_radius = calculate_body_radius()
 
 	keep_distance = body_radius + keep_gap
-	charge_hit_radius = body_radius + charge_hit_margin
-	charge_width = body_radius * 2.0
+	charge_width = min(body_radius * charge_width_ratio, charge_width_max)
 
 	if health_bar:
 		health_bar.min_value = 0
@@ -354,6 +367,11 @@ func set_target(body):
 
 	target = body
 
+	# El jefe atraviesa el cuerpo del jugador (igual que hace player.gd con
+	# los enemigos). Así el daño de la embestida depende SOLO de la franja
+	# roja y el cuerpo del jugador no frena al jefe.
+	add_collision_exception_with(body)
+
 	AudioManager.play_music(MUSIC_BOSS, -9.0)
 
 	# Asegura que el Hurtbox "vea" el AttackArea del jugador,
@@ -413,7 +431,7 @@ func start_special_attack(distance):
 
 
 	# Cerca: rasguño (más probable) y coletazo
-	if distance <= body_radius + scratch_reach + 50.0:
+	if distance <= body_radius + scratch_reach + 30.0:
 
 		options.append(State.WINDUP_SCRATCH)
 		options.append(State.WINDUP_SCRATCH)
@@ -422,10 +440,18 @@ func start_special_attack(distance):
 		options.append(State.WINDUP_TAIL)
 
 
-	# Lejos: embestida (más probable mientras más lejos estés)
-	if distance >= body_radius + 100.0:
+	# Embestida: más probable mientras más lejos estés. Con charge_min_distance
+	# en 0 también puede salir de cerca (el jefe siempre se pega al jugador,
+	# así que exigir lejanía hacía que casi nunca saliera).
+	if (
+		distance >= body_radius + charge_min_distance
+		and distance <= charge_max_distance
+	):
 
 		options.append(State.WINDUP_CHARGE)
+
+		if distance >= body_radius + 100.0:
+			options.append(State.WINDUP_CHARGE)
 
 		if distance >= body_radius + 250.0:
 			options.append(State.WINDUP_CHARGE)
@@ -449,6 +475,8 @@ func start_special_attack(distance):
 	var chosen = options.pick_random()
 
 	last_attack = chosen
+
+	print("Kakasbal eligió: ", State.keys()[chosen])
 
 	velocity = Vector2.ZERO
 
@@ -654,17 +682,13 @@ func process_charging(delta):
 
 
 	# Solo puede golpear una vez por embestida
-	if not charge_has_hit:
+	if not charge_has_hit and is_target_in_charge_path():
 
-		var distance = global_position.distance_to(target.global_position)
+		charge_has_hit = true
 
-		if distance <= charge_hit_radius:
+		target.take_damage(charge_damage)
 
-			charge_has_hit = true
-
-			target.take_damage(charge_damage)
-
-			print("Kakasbal embistió al jugador")
+		print("Kakasbal embistió al jugador")
 
 
 	# Choque con una pared u obstáculo: queda aturdido
@@ -710,6 +734,22 @@ func hit_obstacle():
 			return true
 
 	return false
+
+
+# Zona de daño de la embestida: un rectángulo que va delante del jefe
+# y tiene EL MISMO ancho que la franja roja del aviso
+func is_target_in_charge_path():
+
+	var to_target = target.global_position - global_position
+
+	var forward = to_target.dot(charge_direction)
+	var lateral = abs(to_target.cross(charge_direction))
+
+	return (
+		forward > -body_radius
+		and forward < body_radius + charge_hit_margin
+		and lateral <= charge_width * 0.5
+	)
 
 
 # =========================
@@ -761,7 +801,7 @@ func is_target_in_cone(direction, reach, arc_degrees):
 
 func get_charge_distance():
 
-	# Distancia aproximada que recorre en una embestida (para dibujar el aviso)
+	# Distancia aproximada que recorre en una embestida
 	var accel_time = min(charge_accel_time, charge_duration)
 
 	var accel_distance = (charge_start_speed + charge_speed) * 0.5 * accel_time
@@ -771,11 +811,28 @@ func get_charge_distance():
 	return accel_distance + cruise_distance
 
 
+# Largo total de la zona peligrosa de la embestida (para dibujar el aviso)
+func get_charge_reach():
+
+	return get_charge_distance() + body_radius + charge_hit_margin
+
+
 # =========================
 # AVISOS VISUALES (telegrafía de ataques)
 # =========================
 
 func _draw():
+
+	# Compensa la escala del nodo: si Kakasbal (o su raíz) está escalado,
+	# lo que se dibuja se agrandaría otra vez y las zonas rojas se verían
+	# mucho más grandes que la zona real de daño
+	var safe_scale = Vector2(
+		max(abs(global_scale.x), 0.001),
+		max(abs(global_scale.y), 0.001)
+	)
+
+	draw_set_transform(Vector2.ZERO, 0.0, Vector2.ONE / safe_scale)
+
 
 	var progress = 0.0
 
@@ -807,7 +864,8 @@ func _draw():
 
 		State.WINDUP_CHARGE:
 
-			# Amarilla mientras te sigue, roja cuando ya fijó la dirección
+			# Amarilla mientras te sigue, roja cuando ya fijó la dirección.
+			# La franja roja es exactamente la zona donde la embestida hace daño.
 			var line_color = Color(1, 0.8, 0.1, 0.3)
 
 			if charge_locked:
@@ -815,7 +873,7 @@ func _draw():
 
 			draw_line(
 				Vector2.ZERO,
-				charge_direction * get_charge_distance(),
+				charge_direction * get_charge_reach(),
 				line_color,
 				charge_width
 			)

@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://b7djk61epgoxx"]
 
 [ext_resource type="Script" uid="uid://b2jkobmx71k11" path="res://NPCs/wayobs.gd" id="1_kivx8"]
-[ext_resource type="PackedScene" path="res://NPCs/Wayobs_shadow.tscn" id="2_p2c0p"]
+[ext_resource type="PackedScene" uid="uid://dngo3ipkpp33" path="res://NPCs/Wayobs_shadow.tscn" id="2_p2c0p"]
 [ext_resource type="Texture2D" uid="uid://dlogmvkbg37tn" path="res://assets/Animaciones/wayob/wayob.png" id="3_wadv3"]
 [ext_resource type="Script" uid="uid://05abiuljrq5g" path="res://Scripts/sprite_motion.gd" id="7_g6v3f"]
 
@@ -411,7 +411,7 @@ size = Vector2(64, 66)
 size = Vector2(42.5, 20)
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_v1p6p"]
-radius = 408.09924
+radius = 151.25145
 
 [node name="Wayob" type="CharacterBody2D" unique_id=272724457]
 collision_layer = 2
@@ -420,15 +420,13 @@ illusion_scene = ExtResource("2_p2c0p")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2002133221]
 texture_filter = 2
-position = Vector2(0, -21.6)
 scale = Vector2(0.8035714, 0.8035714)
 sprite_frames = SubResource("SpriteFrames_dxsva")
-animation = &"dash_up"
+animation = &"dash_down"
 autoplay = "idle_down"
 script = ExtResource("7_g6v3f")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2041622108]
-position = Vector2(29, 26)
 shape = SubResource("RectangleShape2D_v0iea")
 
 [node name="Hurtbox" type="Area2D" parent="." unique_id=2107688576]
@@ -443,5 +441,4 @@ shape = SubResource("RectangleShape2D_82v0y")
 collision_layer = 0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionArea" unique_id=964657278]
-position = Vector2(29, 26)
 shape = SubResource("CircleShape2D_v1p6p")

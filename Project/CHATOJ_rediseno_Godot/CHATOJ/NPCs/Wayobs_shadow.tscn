@@ -397,15 +397,13 @@ script = ExtResource("1_uhail")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2002133221]
 texture_filter = 2
-position = Vector2(0, -21.6)
 scale = Vector2(0.8035714, 0.8035714)
 sprite_frames = SubResource("SpriteFrames_yp4ia")
-animation = &"dash_up"
+animation = &"idle_up"
 autoplay = "idle_down"
 script = ExtResource("6_q1oqp")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2041622108]
-position = Vector2(29, 26)
 shape = SubResource("RectangleShape2D_v0iea")
 
 [node name="Hurtbox" type="Area2D" parent="." unique_id=2107688576]
@@ -420,5 +418,4 @@ shape = SubResource("RectangleShape2D_82v0y")
 collision_layer = 0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionArea" unique_id=964657278]
-position = Vector2(29, 26)
 shape = SubResource("CircleShape2D_v1p6p")

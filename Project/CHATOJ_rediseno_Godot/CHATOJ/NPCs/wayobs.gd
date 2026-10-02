@@ -326,7 +326,7 @@ func try_summon_illusions():
 
 
 		if illusion.has_method("setup"):
-			illusion.setup(target)
+			illusion.setup(target, self)
 		else:
 			print("ADVERTENCIA: la escena de ilusión no tiene función setup() — revisa que su script sea ilusion_clon.gd")
 

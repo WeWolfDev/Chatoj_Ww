@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://cwroijqqjhhct"]
+
+[ext_resource type="Script" path="res://scripts/interactables/checkpoint.gd" id="1_u7ooa"]
+[ext_resource type="Texture2D" path="res://assets/graphics/Rediseno/prop_1.png" id="2_art"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_82v0y"]
+size = Vector2(70, 70)
+
+[node name="Checkpoint" type="Area2D" unique_id=1567582986]
+collision_layer = 0
+script = ExtResource("1_u7ooa")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1285816750]
+texture = ExtResource("2_art")
+position = Vector2(0, -22)
+scale = Vector2(0.22, 0.22)
+modulate = Color(0.7, 1, 1, 1)
+
+[node name="Label" type="Label" parent="."]
+offset_left = -45.0
+offset_top = -80.0
+theme_override_colors/font_color = Color(0.90, 0.84, 0.63, 1)
+theme_override_font_sizes/font_size = 12
+text = "SANTUARIO"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1420363491]
+shape = SubResource("RectangleShape2D_82v0y")
+
+[node name="RespawnPoint" type="Marker2D" parent="." unique_id=32351170]

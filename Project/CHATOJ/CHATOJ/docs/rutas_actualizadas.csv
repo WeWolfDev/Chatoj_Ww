@@ -1,0 +1,302 @@
+﻿Ruta original,Ruta nueva
+CheckpointDialogo/Check_Dialogo.tscn,scenes/interactables/checkpoint_dialogue.tscn
+CheckpointDialogo/check_dialogo.gd,scripts/interactables/checkpoint_dialogue.gd
+CheckpointDialogo/check_dialogo.gd.uid,scripts/interactables/checkpoint_dialogue.gd.uid
+Mapa2doCombate.tscn,scenes/maps/segundo_combate.tscn
+NPCs/Camazots.tscn,scenes/enemies/camazots.tscn
+NPCs/Kakasbal.tscn,scenes/enemies/kakasbal.tscn
+NPCs/Soldado.tscn,scenes/enemies/soldado.tscn
+NPCs/Tzucan.tscn,scenes/enemies/tzucan.tscn
+NPCs/Wayobs.tscn,scenes/enemies/wayobs.tscn
+NPCs/Wayobs_shadow.tscn,scenes/enemies/wayobs_shadow.tscn
+NPCs/camazots.gd,scripts/enemies/camazots.gd
+NPCs/camazots.gd.uid,scripts/enemies/camazots.gd.uid
+NPCs/kakasbal.gd,scripts/enemies/kakasbal.gd
+NPCs/kakasbal.gd.uid,scripts/enemies/kakasbal.gd.uid
+NPCs/murcielago.tscn,scenes/enemies/murcielago.tscn
+NPCs/soldado.gd,scripts/enemies/soldado.gd
+NPCs/soldado.gd.uid,scripts/enemies/soldado.gd.uid
+NPCs/wayobs.gd,scripts/enemies/wayobs.gd
+NPCs/wayobs.gd.uid,scripts/enemies/wayobs.gd.uid
+NPCs/wayobs_shadow.gd,scripts/enemies/wayobs_shadow.gd
+NPCs/wayobs_shadow.gd.uid,scripts/enemies/wayobs_shadow.gd.uid
+Props/Pots/Sprites/pot_01.png,assets/graphics/library/Props/Pots/Sprites/pot_01.png
+Props/Pots/Sprites/pot_01.png.import,assets/graphics/library/Props/Pots/Sprites/pot_01.png.import
+Props/Rocks/Sprites/rock_12.png,assets/graphics/library/Props/Rocks/Sprites/rock_12.png
+Props/Rocks/Sprites/rock_12.png.import,assets/graphics/library/Props/Rocks/Sprites/rock_12.png.import
+Props/Torches/Sprites/Torch_01.png,assets/graphics/library/Props/Torches/Sprites/Torch_01.png
+Props/Torches/Sprites/Torch_01.png.import,assets/graphics/library/Props/Torches/Sprites/Torch_01.png.import
+Scenes/Armas/DaggerProjectile.tscn,scenes/weapons/dagger_projectile.tscn
+Scenes/Cinematicas/Intro.tscn,scenes/cinematics/intro.tscn
+Scenes/MainMenu.tscn,scenes/ui/main_menu.tscn
+Scenes/checkpoint.tscn,scenes/interactables/checkpoint.tscn
+Scenes/main_menu.gd,scripts/ui/main_menu.gd
+Scenes/main_menu.gd.uid,scripts/ui/main_menu.gd.uid
+Scenes/mapaPrueba.tscn,scenes/maps/selva_jade.tscn
+Scenes/npc1.tscn,scenes/enemies/guardian.tscn
+Scenes/npc_1.gd,scripts/enemies/guardian.gd
+Scenes/npc_1.gd.uid,scripts/enemies/guardian.gd.uid
+Scenes/player.gd,scripts/player/player.gd
+Scenes/player.gd.uid,scripts/player/player.gd.uid
+Scenes/player.tscn,scenes/player/player.tscn
+Scripts/audio_manager.gd,scripts/autoload/audio_manager.gd
+Scripts/audio_manager.gd.uid,scripts/autoload/audio_manager.gd.uid
+Scripts/game_state.gd,scripts/autoload/game_state.gd
+Scripts/game_state.gd.uid,scripts/autoload/game_state.gd.uid
+Scripts/sprite_motion.gd,scripts/world/sprite_motion.gd
+Scripts/sprite_motion.gd.uid,scripts/world/sprite_motion.gd.uid
+Scripts/world_atmosphere.gd,scripts/world/world_atmosphere.gd
+Scripts/world_atmosphere.gd.uid,scripts/world/world_atmosphere.gd.uid
+Tilesets/SuperRetroWorld_Farming_Autotile.png,assets/graphics/library/Tilesets/SuperRetroWorld_Farming_Autotile.png
+Tilesets/SuperRetroWorld_Farming_Autotile.png.import,assets/graphics/library/Tilesets/SuperRetroWorld_Farming_Autotile.png.import
+Tilesets/SuperRetroWorld_Farming_Autotile_Anim.png,assets/graphics/library/Tilesets/SuperRetroWorld_Farming_Autotile_Anim.png
+Tilesets/SuperRetroWorld_Farming_Autotile_Anim.png.import,assets/graphics/library/Tilesets/SuperRetroWorld_Farming_Autotile_Anim.png.import
+Tilesets/SuperRetroWorld_Farming_Tileset.png,assets/graphics/library/Tilesets/SuperRetroWorld_Farming_Tileset.webp
+Tilesets/SuperRetroWorld_Farming_Tileset.png.import,assets/graphics/library/Tilesets/SuperRetroWorld_Farming_Tileset.webp.import
+Tilesets/Super_Retro_Tilesets.tres,resources/tilesets/Super_Retro_Tilesets.tres
+Trees/Tree_2.png,assets/graphics/library/Trees/Tree_2.png
+Trees/Tree_2.png.import,assets/graphics/library/Trees/Tree_2.png.import
+Trees/Tree_3.png,assets/graphics/library/Trees/Tree_3.png
+Trees/Tree_3.png.import,assets/graphics/library/Trees/Tree_3.png.import
+area_2d.gd,scripts/weapons/dagger_projectile.gd
+area_2d.gd.uid,scripts/weapons/dagger_projectile.gd.uid
+assets/Animaciones/DagaDesaparecer.png,assets/graphics/Animaciones/DagaDesaparecer.webp
+assets/Animaciones/DagaDesaparecer.png.import,assets/graphics/Animaciones/DagaDesaparecer.webp.import
+assets/Animaciones/Player/playeranim.png,assets/graphics/Animaciones/Player/playeranim.webp
+assets/Animaciones/Player/playeranim.png.import,assets/graphics/Animaciones/Player/playeranim.webp.import
+assets/Animaciones/animacion_tzucan/image (1) (1).png,assets/graphics/Animaciones/animacion_tzucan/image (1) (1).png
+assets/Animaciones/animacion_tzucan/image (1) (1).png.import,assets/graphics/Animaciones/animacion_tzucan/image (1) (1).png.import
+assets/Animaciones/aztec_jade_consumable_hud_frame.png,assets/graphics/Animaciones/aztec_jade_consumable_hud_frame.webp
+assets/Animaciones/aztec_jade_consumable_hud_frame.png.import,assets/graphics/Animaciones/aztec_jade_consumable_hud_frame.webp.import
+assets/Animaciones/camazots/camazoats.png,assets/graphics/Animaciones/camazots/camazoats.png
+assets/Animaciones/camazots/camazoats.png.import,assets/graphics/Animaciones/camazots/camazoats.png.import
+assets/Animaciones/camazots/murcielagos peques.png,assets/graphics/Animaciones/camazots/murcielagos peques.png
+assets/Animaciones/camazots/murcielagos peques.png.import,assets/graphics/Animaciones/camazots/murcielagos peques.png.import
+assets/Animaciones/español/Español corregido (1).png,assets/graphics/Animaciones/español/Español corregido (1).webp
+assets/Animaciones/español/Español corregido (1).png.import,assets/graphics/Animaciones/español/Español corregido (1).webp.import
+assets/Animaciones/español/espanish attack.png,assets/graphics/Animaciones/español/espanish attack.png
+assets/Animaciones/español/espanish attack.png.import,assets/graphics/Animaciones/español/espanish attack.png.import
+assets/Animaciones/kakasbal bien/kakasbal fin (1).png,assets/graphics/Animaciones/kakasbal bien/kakasbal fin (1).webp
+assets/Animaciones/kakasbal bien/kakasbal fin (1).png.import,assets/graphics/Animaciones/kakasbal bien/kakasbal fin (1).webp.import
+assets/Animaciones/kin/character-spritesheet (1).png,assets/graphics/Animaciones/kin/character-spritesheet (1).webp
+assets/Animaciones/kin/character-spritesheet (1).png.import,assets/graphics/Animaciones/kin/character-spritesheet (1).webp.import
+assets/Animaciones/lanzas buenas.png,assets/graphics/Animaciones/lanzas buenas.webp
+assets/Animaciones/lanzas buenas.png.import,assets/graphics/Animaciones/lanzas buenas.webp.import
+assets/Animaciones/mayan_jade_healing_salve_jar.png,assets/graphics/Animaciones/mayan_jade_healing_salve_jar.webp
+assets/Animaciones/mayan_jade_healing_salve_jar.png.import,assets/graphics/Animaciones/mayan_jade_healing_salve_jar.webp.import
+assets/Animaciones/mesoamerican_jade_dagger_sprite.png,assets/graphics/Animaciones/mesoamerican_jade_dagger_sprite.webp
+assets/Animaciones/mesoamerican_jade_dagger_sprite.png.import,assets/graphics/Animaciones/mesoamerican_jade_dagger_sprite.webp.import
+assets/Animaciones/wayob cerdo/wayob cerdo.png,assets/graphics/Animaciones/wayob cerdo/wayob cerdo.webp
+assets/Animaciones/wayob cerdo/wayob cerdo.png.import,assets/graphics/Animaciones/wayob cerdo/wayob cerdo.webp.import
+assets/Animaciones/wayob/wayob.png,assets/graphics/Animaciones/wayob/wayob.webp
+assets/Animaciones/wayob/wayob.png.import,assets/graphics/Animaciones/wayob/wayob.webp.import
+assets/Audio/Generated/Ambience/jungle_ambience_loop.wav,assets/audio/Ambience/jungle_ambience_loop.ogg
+assets/Audio/Generated/Music/boss_theme_loop.wav,assets/audio/Music/boss_theme_loop.ogg
+assets/Audio/Generated/Music/exploration_theme_loop.wav,assets/audio/Music/exploration_theme_loop.ogg
+assets/Audio/Generated/Music/main_menu_theme_loop.wav,assets/audio/Music/main_menu_theme_loop.ogg
+assets/Audio/Generated/SFX/Bosses/Camazots/camazots_charge.wav,assets/audio/SFX/Bosses/Camazots/camazots_charge.wav
+assets/Audio/Generated/SFX/Bosses/Camazots/camazots_charge.wav.import,assets/audio/SFX/Bosses/Camazots/camazots_charge.wav.import
+assets/Audio/Generated/SFX/Bosses/Camazots/camazots_charge_windup.wav,assets/audio/SFX/Bosses/Camazots/camazots_charge_windup.wav
+assets/Audio/Generated/SFX/Bosses/Camazots/camazots_charge_windup.wav.import,assets/audio/SFX/Bosses/Camazots/camazots_charge_windup.wav.import
+assets/Audio/Generated/SFX/Bosses/Camazots/camazots_death.wav,assets/audio/SFX/Bosses/Camazots/camazots_death.wav
+assets/Audio/Generated/SFX/Bosses/Camazots/camazots_death.wav.import,assets/audio/SFX/Bosses/Camazots/camazots_death.wav.import
+assets/Audio/Generated/SFX/Bosses/Camazots/camazots_enrage.wav,assets/audio/SFX/Bosses/Camazots/camazots_enrage.wav
+assets/Audio/Generated/SFX/Bosses/Camazots/camazots_enrage.wav.import,assets/audio/SFX/Bosses/Camazots/camazots_enrage.wav.import
+assets/Audio/Generated/SFX/Bosses/Camazots/camazots_hurt.wav,assets/audio/SFX/Bosses/Camazots/camazots_hurt.wav
+assets/Audio/Generated/SFX/Bosses/Camazots/camazots_hurt.wav.import,assets/audio/SFX/Bosses/Camazots/camazots_hurt.wav.import
+assets/Audio/Generated/SFX/Bosses/Camazots/camazots_slam_impact.wav,assets/audio/SFX/Bosses/Camazots/camazots_slam_impact.wav
+assets/Audio/Generated/SFX/Bosses/Camazots/camazots_slam_impact.wav.import,assets/audio/SFX/Bosses/Camazots/camazots_slam_impact.wav.import
+assets/Audio/Generated/SFX/Bosses/Camazots/camazots_slam_windup.wav,assets/audio/SFX/Bosses/Camazots/camazots_slam_windup.wav
+assets/Audio/Generated/SFX/Bosses/Camazots/camazots_slam_windup.wav.import,assets/audio/SFX/Bosses/Camazots/camazots_slam_windup.wav.import
+assets/Audio/Generated/SFX/Bosses/Camazots/camazots_summon.wav,assets/audio/SFX/Bosses/Camazots/camazots_summon.wav
+assets/Audio/Generated/SFX/Bosses/Camazots/camazots_summon.wav.import,assets/audio/SFX/Bosses/Camazots/camazots_summon.wav.import
+assets/Audio/Generated/SFX/Bosses/Kakasbal/kakasbal_charge.wav,assets/audio/SFX/Bosses/Kakasbal/kakasbal_charge.wav
+assets/Audio/Generated/SFX/Bosses/Kakasbal/kakasbal_charge.wav.import,assets/audio/SFX/Bosses/Kakasbal/kakasbal_charge.wav.import
+assets/Audio/Generated/SFX/Bosses/Kakasbal/kakasbal_charge_lock.wav,assets/audio/SFX/Bosses/Kakasbal/kakasbal_charge_lock.wav
+assets/Audio/Generated/SFX/Bosses/Kakasbal/kakasbal_charge_lock.wav.import,assets/audio/SFX/Bosses/Kakasbal/kakasbal_charge_lock.wav.import
+assets/Audio/Generated/SFX/Bosses/Kakasbal/kakasbal_charge_windup.wav,assets/audio/SFX/Bosses/Kakasbal/kakasbal_charge_windup.wav
+assets/Audio/Generated/SFX/Bosses/Kakasbal/kakasbal_charge_windup.wav.import,assets/audio/SFX/Bosses/Kakasbal/kakasbal_charge_windup.wav.import
+assets/Audio/Generated/SFX/Bosses/Kakasbal/kakasbal_death.wav,assets/audio/SFX/Bosses/Kakasbal/kakasbal_death.wav
+assets/Audio/Generated/SFX/Bosses/Kakasbal/kakasbal_death.wav.import,assets/audio/SFX/Bosses/Kakasbal/kakasbal_death.wav.import
+assets/Audio/Generated/SFX/Bosses/Kakasbal/kakasbal_enrage.wav,assets/audio/SFX/Bosses/Kakasbal/kakasbal_enrage.wav
+assets/Audio/Generated/SFX/Bosses/Kakasbal/kakasbal_enrage.wav.import,assets/audio/SFX/Bosses/Kakasbal/kakasbal_enrage.wav.import
+assets/Audio/Generated/SFX/Bosses/Kakasbal/kakasbal_hurt.wav,assets/audio/SFX/Bosses/Kakasbal/kakasbal_hurt.wav
+assets/Audio/Generated/SFX/Bosses/Kakasbal/kakasbal_hurt.wav.import,assets/audio/SFX/Bosses/Kakasbal/kakasbal_hurt.wav.import
+assets/Audio/Generated/SFX/Bosses/Kakasbal/kakasbal_scratch.wav,assets/audio/SFX/Bosses/Kakasbal/kakasbal_scratch.wav
+assets/Audio/Generated/SFX/Bosses/Kakasbal/kakasbal_scratch.wav.import,assets/audio/SFX/Bosses/Kakasbal/kakasbal_scratch.wav.import
+assets/Audio/Generated/SFX/Bosses/Kakasbal/kakasbal_scratch_windup.wav,assets/audio/SFX/Bosses/Kakasbal/kakasbal_scratch_windup.wav
+assets/Audio/Generated/SFX/Bosses/Kakasbal/kakasbal_scratch_windup.wav.import,assets/audio/SFX/Bosses/Kakasbal/kakasbal_scratch_windup.wav.import
+assets/Audio/Generated/SFX/Bosses/Kakasbal/kakasbal_tail_sweep.wav,assets/audio/SFX/Bosses/Kakasbal/kakasbal_tail_sweep.wav
+assets/Audio/Generated/SFX/Bosses/Kakasbal/kakasbal_tail_sweep.wav.import,assets/audio/SFX/Bosses/Kakasbal/kakasbal_tail_sweep.wav.import
+assets/Audio/Generated/SFX/Bosses/Kakasbal/kakasbal_tail_windup.wav,assets/audio/SFX/Bosses/Kakasbal/kakasbal_tail_windup.wav
+assets/Audio/Generated/SFX/Bosses/Kakasbal/kakasbal_tail_windup.wav.import,assets/audio/SFX/Bosses/Kakasbal/kakasbal_tail_windup.wav.import
+assets/Audio/Generated/SFX/Bosses/Kakasbal/kakasbal_wall_crash.wav,assets/audio/SFX/Bosses/Kakasbal/kakasbal_wall_crash.wav
+assets/Audio/Generated/SFX/Bosses/Kakasbal/kakasbal_wall_crash.wav.import,assets/audio/SFX/Bosses/Kakasbal/kakasbal_wall_crash.wav.import
+assets/Audio/Generated/SFX/Enemies/Bat/bat_bite.wav,assets/audio/SFX/Enemies/Bat/bat_bite.wav
+assets/Audio/Generated/SFX/Enemies/Bat/bat_bite.wav.import,assets/audio/SFX/Enemies/Bat/bat_bite.wav.import
+assets/Audio/Generated/SFX/Enemies/Bat/bat_death.wav,assets/audio/SFX/Enemies/Bat/bat_death.wav
+assets/Audio/Generated/SFX/Enemies/Bat/bat_death.wav.import,assets/audio/SFX/Enemies/Bat/bat_death.wav.import
+assets/Audio/Generated/SFX/Enemies/Bat/bat_flap_loop.wav,assets/audio/SFX/Enemies/Bat/bat_flap_loop.wav
+assets/Audio/Generated/SFX/Enemies/Bat/bat_flap_loop.wav.import,assets/audio/SFX/Enemies/Bat/bat_flap_loop.wav.import
+assets/Audio/Generated/SFX/Enemies/Bat/bat_hurt.wav,assets/audio/SFX/Enemies/Bat/bat_hurt.wav
+assets/Audio/Generated/SFX/Enemies/Bat/bat_hurt.wav.import,assets/audio/SFX/Enemies/Bat/bat_hurt.wav.import
+assets/Audio/Generated/SFX/Enemies/Soldier/soldier_attack.wav,assets/audio/SFX/Enemies/Soldier/soldier_attack.wav
+assets/Audio/Generated/SFX/Enemies/Soldier/soldier_attack.wav.import,assets/audio/SFX/Enemies/Soldier/soldier_attack.wav.import
+assets/Audio/Generated/SFX/Enemies/Soldier/soldier_death.wav,assets/audio/SFX/Enemies/Soldier/soldier_death.wav
+assets/Audio/Generated/SFX/Enemies/Soldier/soldier_death.wav.import,assets/audio/SFX/Enemies/Soldier/soldier_death.wav.import
+assets/Audio/Generated/SFX/Enemies/Soldier/soldier_detect.wav,assets/audio/SFX/Enemies/Soldier/soldier_detect.wav
+assets/Audio/Generated/SFX/Enemies/Soldier/soldier_detect.wav.import,assets/audio/SFX/Enemies/Soldier/soldier_detect.wav.import
+assets/Audio/Generated/SFX/Enemies/Soldier/soldier_hurt.wav,assets/audio/SFX/Enemies/Soldier/soldier_hurt.wav
+assets/Audio/Generated/SFX/Enemies/Soldier/soldier_hurt.wav.import,assets/audio/SFX/Enemies/Soldier/soldier_hurt.wav.import
+assets/Audio/Generated/SFX/Enemies/Wayob/wayob_attack.wav,assets/audio/SFX/Enemies/Wayob/wayob_attack.wav
+assets/Audio/Generated/SFX/Enemies/Wayob/wayob_attack.wav.import,assets/audio/SFX/Enemies/Wayob/wayob_attack.wav.import
+assets/Audio/Generated/SFX/Enemies/Wayob/wayob_death.wav,assets/audio/SFX/Enemies/Wayob/wayob_death.wav
+assets/Audio/Generated/SFX/Enemies/Wayob/wayob_death.wav.import,assets/audio/SFX/Enemies/Wayob/wayob_death.wav.import
+assets/Audio/Generated/SFX/Enemies/Wayob/wayob_hurt.wav,assets/audio/SFX/Enemies/Wayob/wayob_hurt.wav
+assets/Audio/Generated/SFX/Enemies/Wayob/wayob_hurt.wav.import,assets/audio/SFX/Enemies/Wayob/wayob_hurt.wav.import
+assets/Audio/Generated/SFX/Enemies/Wayob/wayob_shadow_vanish.wav,assets/audio/SFX/Enemies/Wayob/wayob_shadow_vanish.wav
+assets/Audio/Generated/SFX/Enemies/Wayob/wayob_shadow_vanish.wav.import,assets/audio/SFX/Enemies/Wayob/wayob_shadow_vanish.wav.import
+assets/Audio/Generated/SFX/Enemies/Wayob/wayob_summon.wav,assets/audio/SFX/Enemies/Wayob/wayob_summon.wav
+assets/Audio/Generated/SFX/Enemies/Wayob/wayob_summon.wav.import,assets/audio/SFX/Enemies/Wayob/wayob_summon.wav.import
+assets/Audio/Generated/SFX/Enemies/Wayob/wayob_swap.wav,assets/audio/SFX/Enemies/Wayob/wayob_swap.wav
+assets/Audio/Generated/SFX/Enemies/Wayob/wayob_swap.wav.import,assets/audio/SFX/Enemies/Wayob/wayob_swap.wav.import
+assets/Audio/Generated/SFX/Player/dagger-woosh.wav,assets/audio/SFX/Player/dagger-woosh.wav
+assets/Audio/Generated/SFX/Player/dagger-woosh.wav.import,assets/audio/SFX/Player/dagger-woosh.wav.import
+assets/Audio/Generated/SFX/Player/player_bleed_tick.wav,assets/audio/SFX/Player/player_bleed_tick.wav
+assets/Audio/Generated/SFX/Player/player_bleed_tick.wav.import,assets/audio/SFX/Player/player_bleed_tick.wav.import
+assets/Audio/Generated/SFX/Player/player_dagger_disappear.wav,assets/audio/SFX/Player/player_dagger_disappear.wav
+assets/Audio/Generated/SFX/Player/player_dagger_disappear.wav.import,assets/audio/SFX/Player/player_dagger_disappear.wav.import
+assets/Audio/Generated/SFX/Player/player_dagger_hit.wav,assets/audio/SFX/Player/player_dagger_hit.wav
+assets/Audio/Generated/SFX/Player/player_dagger_hit.wav.import,assets/audio/SFX/Player/player_dagger_hit.wav.import
+assets/Audio/Generated/SFX/Player/player_dash.wav,assets/audio/SFX/Player/player_dash.wav
+assets/Audio/Generated/SFX/Player/player_dash.wav.import,assets/audio/SFX/Player/player_dash.wav.import
+assets/Audio/Generated/SFX/Player/player_death.wav,assets/audio/SFX/Player/player_death.wav
+assets/Audio/Generated/SFX/Player/player_death.wav.import,assets/audio/SFX/Player/player_death.wav.import
+assets/Audio/Generated/SFX/Player/player_heal_complete.wav,assets/audio/SFX/Player/player_heal_complete.wav
+assets/Audio/Generated/SFX/Player/player_heal_complete.wav.import,assets/audio/SFX/Player/player_heal_complete.wav.import
+assets/Audio/Generated/SFX/Player/player_heal_start.wav,assets/audio/SFX/Player/player_heal_start.wav
+assets/Audio/Generated/SFX/Player/player_heal_start.wav.import,assets/audio/SFX/Player/player_heal_start.wav.import
+assets/Audio/Generated/SFX/Player/player_hurt.wav,assets/audio/SFX/Player/player_hurt.wav
+assets/Audio/Generated/SFX/Player/player_hurt.wav.import,assets/audio/SFX/Player/player_hurt.wav.import
+assets/Audio/Generated/SFX/Player/player_perfect_block.wav,assets/audio/SFX/Player/player_perfect_block.wav
+assets/Audio/Generated/SFX/Player/player_perfect_block.wav.import,assets/audio/SFX/Player/player_perfect_block.wav.import
+assets/Audio/Generated/SFX/Player/player_shield_block.wav,assets/audio/SFX/Player/player_shield_block.wav
+assets/Audio/Generated/SFX/Player/player_shield_block.wav.import,assets/audio/SFX/Player/player_shield_block.wav.import
+assets/Audio/Generated/SFX/Player/player_shield_raise.wav,assets/audio/SFX/Player/player_shield_raise.wav
+assets/Audio/Generated/SFX/Player/player_shield_raise.wav.import,assets/audio/SFX/Player/player_shield_raise.wav.import
+assets/Audio/Generated/SFX/Player/player_step_stone_1.wav,assets/audio/SFX/Player/player_step_stone_1.wav
+assets/Audio/Generated/SFX/Player/player_step_stone_1.wav.import,assets/audio/SFX/Player/player_step_stone_1.wav.import
+assets/Audio/Generated/SFX/Player/player_step_stone_2.wav,assets/audio/SFX/Player/player_step_stone_2.wav
+assets/Audio/Generated/SFX/Player/player_step_stone_2.wav.import,assets/audio/SFX/Player/player_step_stone_2.wav.import
+assets/Audio/Generated/SFX/Player/player_sword_hit.wav,assets/audio/SFX/Player/player_sword_hit.wav
+assets/Audio/Generated/SFX/Player/player_sword_hit.wav.import,assets/audio/SFX/Player/player_sword_hit.wav.import
+assets/Audio/Generated/SFX/Player/player_sword_swing.wav,assets/audio/SFX/Player/player_sword_swing.wav
+assets/Audio/Generated/SFX/Player/player_sword_swing.wav.import,assets/audio/SFX/Player/player_sword_swing.wav.import
+assets/Audio/Generated/SFX/UI/checkpoint_activate.wav,assets/audio/SFX/UI/checkpoint_activate.wav
+assets/Audio/Generated/SFX/UI/checkpoint_activate.wav.import,assets/audio/SFX/UI/checkpoint_activate.wav.import
+assets/Audio/Generated/SFX/UI/death_screen_reveal.wav,assets/audio/SFX/UI/death_screen_reveal.wav
+assets/Audio/Generated/SFX/UI/death_screen_reveal.wav.import,assets/audio/SFX/UI/death_screen_reveal.wav.import
+assets/Audio/Generated/SFX/UI/game_start_stinger.wav,assets/audio/SFX/UI/game_start_stinger.wav
+assets/Audio/Generated/SFX/UI/game_start_stinger.wav.import,assets/audio/SFX/UI/game_start_stinger.wav.import
+assets/Audio/Generated/SFX/UI/respawn.wav,assets/audio/SFX/UI/respawn.wav
+assets/Audio/Generated/SFX/UI/respawn.wav.import,assets/audio/SFX/UI/respawn.wav.import
+assets/Audio/Generated/SFX/UI/ui_click.wav,assets/audio/SFX/UI/ui_click.wav
+assets/Audio/Generated/SFX/UI/ui_click.wav.import,assets/audio/SFX/UI/ui_click.wav.import
+assets/Audio/Generated/SFX/UI/ui_hover.wav,assets/audio/SFX/UI/ui_hover.wav
+assets/Audio/Generated/SFX/UI/ui_hover.wav.import,assets/audio/SFX/UI/ui_hover.wav.import
+assets/Audio/Music/Musica de fondo.wav,assets/audio/Music/Musica de fondo.ogg
+assets/DeathScreen/Checkpoint.png,assets/graphics/DeathScreen/Checkpoint.webp
+assets/DeathScreen/Checkpoint.png.import,assets/graphics/DeathScreen/Checkpoint.webp.import
+assets/DeathScreen/Death.png,assets/graphics/DeathScreen/Death.webp
+assets/DeathScreen/Death.png.import,assets/graphics/DeathScreen/Death.webp.import
+assets/DeathScreen/DeathMenu.png,assets/graphics/DeathScreen/DeathMenu.webp
+assets/DeathScreen/DeathMenu.png.import,assets/graphics/DeathScreen/DeathMenu.webp.import
+assets/Fondos/Choza.jpeg,assets/graphics/Fondos/Choza.jpeg
+assets/Fondos/Choza.jpeg.import,assets/graphics/Fondos/Choza.jpeg.import
+assets/Fondos/Dialogo.png,assets/graphics/Fondos/Dialogo.png
+assets/Fondos/Dialogo.png.import,assets/graphics/Fondos/Dialogo.png.import
+assets/HealthBar/dark_stone_maya_hud_bar.png.png,assets/graphics/HealthBar/dark_stone_maya_hud_bar.png.webp
+assets/HealthBar/dark_stone_maya_hud_bar.png.png.import,assets/graphics/HealthBar/dark_stone_maya_hud_bar.png.webp.import
+assets/HealthBar/mayan_jade_pixel_health_bar.png.png,assets/graphics/HealthBar/mayan_jade_pixel_health_bar.png.webp
+assets/HealthBar/mayan_jade_pixel_health_bar.png.png.import,assets/graphics/HealthBar/mayan_jade_pixel_health_bar.png.webp.import
+assets/HealthBar/mayan_jade_stone_hud_frame.png.png,assets/graphics/HealthBar/mayan_jade_stone_hud_frame.png.webp
+assets/HealthBar/mayan_jade_stone_hud_frame.png.png.import,assets/graphics/HealthBar/mayan_jade_stone_hud_frame.png.webp.import
+assets/MainMenu/MenuBackground.png,assets/graphics/MainMenu/MenuBackground.webp
+assets/MainMenu/MenuBackground.png.import,assets/graphics/MainMenu/MenuBackground.webp.import
+assets/MainMenu/PlayButton.png,assets/graphics/MainMenu/PlayButton.webp
+assets/MainMenu/PlayButton.png.import,assets/graphics/MainMenu/PlayButton.webp.import
+assets/MainMenu/QuitButton.png,assets/graphics/MainMenu/QuitButton.webp
+assets/MainMenu/QuitButton.png.import,assets/graphics/MainMenu/QuitButton.webp.import
+assets/MainMenu/Title.png,assets/graphics/MainMenu/Title.webp
+assets/MainMenu/Title.png.import,assets/graphics/MainMenu/Title.webp.import
+assets/PartesDelMapa/Mapa4.tscn,scenes/maps/mapa4.tscn
+assets/PartesDelMapa/aldea.tscn,scenes/maps/aldea.tscn
+assets/PartesDelMapa/camino.tscn,scenes/maps/camino.tscn
+assets/PartesDelMapa/cenote.tscn,scenes/maps/cenote.tscn
+assets/PartesDelMapa/mapa3.tscn,scenes/maps/mapa3.tscn
+assets/PartesDelMapa/mapa_completo.tscn,scenes/maps/mapa_completo.tscn
+assets/PartesDelMapa/parte_kakasbal.tscn,scenes/maps/parte_kakasbal.tscn
+assets/Rediseno/Final.tres,assets/graphics/Rediseno/Final.tres
+assets/Rediseno/SelvaMaya.tres,assets/graphics/Rediseno/SelvaMaya.tres
+assets/Rediseno/TX Plant.png,assets/graphics/Rediseno/TX Plant.png
+assets/Rediseno/TX Plant.png.import,assets/graphics/Rediseno/TX Plant.png.import
+assets/Rediseno/TX Shadow Plant.png,assets/graphics/Rediseno/TX Shadow Plant.png
+assets/Rediseno/TX Shadow Plant.png.import,assets/graphics/Rediseno/TX Shadow Plant.png.import
+assets/Rediseno/TX Tileset Grass.png,assets/graphics/Rediseno/TX Tileset Grass.png
+assets/Rediseno/TX Tileset Grass.png.import,assets/graphics/Rediseno/TX Tileset Grass.png.import
+assets/Rediseno/TX Tileset Stone Ground.png,assets/graphics/Rediseno/TX Tileset Stone Ground.png
+assets/Rediseno/TX Tileset Stone Ground.png.import,assets/graphics/Rediseno/TX Tileset Stone Ground.png.import
+assets/Rediseno/TX Tileset Wall.png,assets/graphics/Rediseno/TX Tileset Wall.png
+assets/Rediseno/TX Tileset Wall.png.import,assets/graphics/Rediseno/TX Tileset Wall.png.import
+assets/Rediseno/actor_1_0.png,assets/graphics/Rediseno/actor_1_0.png
+assets/Rediseno/actor_1_0.png.import,assets/graphics/Rediseno/actor_1_0.png.import
+assets/Rediseno/actor_1_1.png,assets/graphics/Rediseno/actor_1_1.png
+assets/Rediseno/actor_1_1.png.import,assets/graphics/Rediseno/actor_1_1.png.import
+assets/Rediseno/actor_1_2.png,assets/graphics/Rediseno/actor_1_2.png
+assets/Rediseno/actor_1_2.png.import,assets/graphics/Rediseno/actor_1_2.png.import
+assets/Rediseno/actor_1_3.png,assets/graphics/Rediseno/actor_1_3.png
+assets/Rediseno/actor_1_3.png.import,assets/graphics/Rediseno/actor_1_3.png.import
+assets/Rediseno/jungle-ruins_v3-2.png,assets/graphics/Rediseno/jungle-ruins_v3-2.png
+assets/Rediseno/jungle-ruins_v3-2.png.import,assets/graphics/Rediseno/jungle-ruins_v3-2.png.import
+assets/Rediseno/personaje_0.tres,assets/graphics/Rediseno/personaje_0.tres
+assets/Rediseno/prop_0.png,assets/graphics/Rediseno/prop_0.png
+assets/Rediseno/prop_0.png.import,assets/graphics/Rediseno/prop_0.png.import
+assets/Rediseno/prop_1.png,assets/graphics/Rediseno/prop_1.png
+assets/Rediseno/prop_1.png.import,assets/graphics/Rediseno/prop_1.png.import
+assets/Rediseno/prop_2.png,assets/graphics/Rediseno/prop_2.webp
+assets/Rediseno/prop_2.png.import,assets/graphics/Rediseno/prop_2.webp.import
+assets/Rediseno/prop_3.png,assets/graphics/Rediseno/prop_3.png
+assets/Rediseno/prop_3.png.import,assets/graphics/Rediseno/prop_3.png.import
+assets/Rediseno/prop_4.png,assets/graphics/Rediseno/prop_4.png
+assets/Rediseno/prop_4.png.import,assets/graphics/Rediseno/prop_4.png.import
+assets/Rediseno/prop_5.png,assets/graphics/Rediseno/prop_5.webp
+assets/Rediseno/prop_5.png.import,assets/graphics/Rediseno/prop_5.webp.import
+assets/Rediseno/prop_6.png,assets/graphics/Rediseno/prop_6.webp
+assets/Rediseno/prop_6.png.import,assets/graphics/Rediseno/prop_6.webp.import
+assets/Rediseno/prop_7.png,assets/graphics/Rediseno/prop_7.png
+assets/Rediseno/prop_7.png.import,assets/graphics/Rediseno/prop_7.png.import
+assets/Rediseno/selva_tileset.png,assets/graphics/Rediseno/selva_tileset.png
+assets/Rediseno/selva_tileset.png.import,assets/graphics/Rediseno/selva_tileset.png.import
+assets/TileSets/Cenote/CenoteTileSet.tres,assets/graphics/TileSets/Cenote/CenoteTileSet.tres
+assets/TileSets/Cenote/CenoteTileSetAgua.tres,assets/graphics/TileSets/Cenote/CenoteTileSetAgua.tres
+assets/TileSets/Cenote/DecoracionCenote.tres,assets/graphics/TileSets/Cenote/DecoracionCenote.tres
+assets/TileSets/Cenote/Piedras.tres,assets/graphics/TileSets/Cenote/Piedras.tres
+assets/TileSets/Cenote/atlas_decoracion_768x576.png,assets/graphics/TileSets/Cenote/atlas_decoracion_768x576.webp
+assets/TileSets/Cenote/atlas_decoracion_768x576.png.import,assets/graphics/TileSets/Cenote/atlas_decoracion_768x576.webp.import
+assets/TileSets/Cenote/atlas_modular_64.png,assets/graphics/TileSets/Cenote/atlas_modular_64.webp
+assets/TileSets/Cenote/atlas_modular_64.png.import,assets/graphics/TileSets/Cenote/atlas_modular_64.webp.import
+assets/TileSets/Cenote/cenote_64x64_detallado.png,assets/graphics/TileSets/Cenote/cenote_64x64_detallado.webp
+assets/TileSets/Cenote/cenote_64x64_detallado.png.import,assets/graphics/TileSets/Cenote/cenote_64x64_detallado.webp.import
+assets/TileSets/Cenote/cenote_suelo_25x25.png,assets/graphics/TileSets/Cenote/cenote_suelo_25x25.webp
+assets/TileSets/Cenote/cenote_suelo_25x25.png.import,assets/graphics/TileSets/Cenote/cenote_suelo_25x25.webp.import
+assets/TileSets/Mapa_kakasbal/Colección de Arbustos Isométricos en Pixel Art (1) (1).png,assets/graphics/TileSets/Mapa_kakasbal/Colección de Arbustos Isométricos en Pixel Art (1) (1).png
+assets/TileSets/Mapa_kakasbal/Colección de Arbustos Isométricos en Pixel Art (1) (1).png.import,assets/graphics/TileSets/Mapa_kakasbal/Colección de Arbustos Isométricos en Pixel Art (1) (1).png.import
+checkpoint.gd,scripts/interactables/checkpoint.gd
+checkpoint.gd.uid,scripts/interactables/checkpoint.gd.uid
+icon.svg,icon.svg
+icon.svg.import,icon.svg.import
+murcielago.gd,scripts/enemies/murcielago.gd
+murcielago.gd.uid,scripts/enemies/murcielago.gd.uid
+project.godot,project.godot
+tzucan.gd,scripts/enemies/tzucan.gd
+tzucan.gd.uid,scripts/enemies/tzucan.gd.uid

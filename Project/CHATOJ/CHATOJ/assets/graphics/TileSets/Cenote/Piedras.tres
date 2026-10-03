@@ -1,0 +1,14 @@
+[gd_resource type="TileSet" format=3 uid="uid://cgl2sivv6remy"]
+
+[ext_resource type="Texture2D" path="res://assets/graphics/TileSets/Cenote/atlas_modular_64.webp" id="1_jtusy"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qe8oy"]
+texture = ExtResource("1_jtusy")
+margins = Vector2i(0, 6)
+texture_region_size = Vector2i(64, 64)
+5:1/0 = 0
+4:1/0 = 0
+
+[resource]
+tile_size = Vector2i(64, 64)
+sources/0 = SubResource("TileSetAtlasSource_qe8oy")

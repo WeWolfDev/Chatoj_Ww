@@ -1,0 +1,154 @@
+[gd_scene format=3 uid="uid://dtxcdoutbo2x6"]
+
+[ext_resource type="Texture2D" path="res://assets/graphics/Animaciones/Player/playeranim.webp" id="1_8bf0s"]
+[ext_resource type="Texture2D" path="res://assets/graphics/Fondos/Choza.jpeg" id="3_2iyq6"]
+[ext_resource type="Texture2D" path="res://assets/graphics/Fondos/Dialogo.png" id="4_1hpyg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5oqhp"]
+atlas = ExtResource("1_8bf0s")
+region = Rect2(0, 1536, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2iyq6"]
+atlas = ExtResource("1_8bf0s")
+region = Rect2(64, 1536, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6jwlc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5oqhp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2iyq6")
+}],
+"loop": 1,
+"name": &"Idle",
+"speed": 2.0
+}]
+
+[sub_resource type="GDScript" id="GDScript_smuf4"]
+
+[sub_resource type="Animation" id="Animation_bqbm6"]
+resource_name = "Introducion"
+length = 10.0
+step = 1.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(),
+"transitions": PackedFloat32Array(),
+"update": 0,
+"values": []
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D2/Intro:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 4.9, 5, 10),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 1.0, 0.0, 0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Sprite2D2/Intro2:visible_ratio")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 5.2, 10),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, 1.0]
+}
+
+[sub_resource type="Animation" id="Animation_5oqhp"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D2/Intro:visible_ratio")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [1.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D2/Intro2:visible_ratio")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [1.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_smuf4"]
+_data = {
+&"Introduccion": SubResource("Animation_bqbm6"),
+&"RESET": SubResource("Animation_5oqhp")
+}
+
+[node name="Intro" type="Node2D" unique_id=1042881769]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=885007574]
+zoom = Vector2(4, 4)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=311625780]
+position = Vector2(-109, 36)
+scale = Vector2(1.625, 1.625)
+sprite_frames = SubResource("SpriteFrames_6jwlc")
+animation = &"Idle"
+autoplay = "Idle"
+frame_progress = 0.0811737
+script = SubResource("GDScript_smuf4")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1401986679]
+z_index = -1
+position = Vector2(9.536743e-07, -12.000002)
+scale = Vector2(0.21264644, 0.21264644)
+texture = ExtResource("3_2iyq6")
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=656370852]
+position = Vector2(35, 50.999992)
+scale = Vector2(0.2992953, 0.18597561)
+texture = ExtResource("4_1hpyg")
+
+[node name="Intro" type="Label" parent="Sprite2D2" unique_id=187874354]
+offset_left = -320.0
+offset_top = -100.0
+offset_right = 280.0
+offset_bottom = 100.0
+theme_override_colors/font_color = Color(0, 0, 0, 0.9529412)
+theme_override_font_sizes/font_size = 22
+text = "Holi, no se que escribir pero aqui empieza la historia yeiiii"
+autowrap_mode = 2
+justification_flags = 161
+
+[node name="Intro2" type="Label" parent="Sprite2D2" unique_id=472780104]
+offset_left = -320.0
+offset_top = -100.0
+offset_right = 280.0
+offset_bottom = 100.0
+theme_override_colors/font_color = Color(0, 0, 0, 0.9529412)
+theme_override_font_sizes/font_size = 22
+text = "Aquí pongo otras cositas pero de nuevo no se que escribir ajaja espero pronto tener algo"
+autowrap_mode = 2
+justification_flags = 161
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1764227944]
+libraries/ = SubResource("AnimationLibrary_smuf4")
+autoplay = &"Introduccion"

@@ -1,12 +1,23 @@
 [gd_scene format=3 uid="uid://ip6x3fed8fsi"]
 
+[ext_resource type="PackedScene" uid="uid://v74njklih0qu" path="res://Scenes/player.tscn" id="1_8vxvj"]
 [ext_resource type="PackedScene" uid="uid://cyv4uyxwl8nvq" path="res://assets/PartesDelMapa/aldea.tscn" id="1_nk1lh"]
 [ext_resource type="PackedScene" uid="uid://dl6hm4xvxnj7t" path="res://assets/PartesDelMapa/Mapa4.tscn" id="2_e65x3"]
 [ext_resource type="PackedScene" uid="uid://ctyfd0q8ayvgw" path="res://assets/PartesDelMapa/parte_kakasbal.tscn" id="3_8vxvj"]
 [ext_resource type="PackedScene" uid="uid://b0rdcm5b615ym" path="res://assets/PartesDelMapa/cenote.tscn" id="4_ym73h"]
 [ext_resource type="PackedScene" uid="uid://dtjuleuqybd84" path="res://assets/PartesDelMapa/mapa3.tscn" id="5_640kk"]
+[ext_resource type="PackedScene" uid="uid://dlspa8fii6mfu" path="res://assets/PartesDelMapa/camino.tscn" id="6_e65x3"]
+[ext_resource type="PackedScene" uid="uid://bn4plnjvfqm78" path="res://NPCs/Camazots.tscn" id="8_c13de"]
+[ext_resource type="PackedScene" uid="uid://b017in420of56" path="res://NPCs/Kakasbal.tscn" id="9_akaf2"]
+[ext_resource type="PackedScene" uid="uid://cqe1kbxacw42w" path="res://NPCs/Soldado.tscn" id="10_xfcwg"]
+[ext_resource type="PackedScene" uid="uid://dn4m1461jr3cr" path="res://NPCs/Tzucan.tscn" id="11_fctww"]
+[ext_resource type="PackedScene" uid="uid://b7djk61epgoxx" path="res://NPCs/Wayobs.tscn" id="12_12er1"]
 
 [node name="Mapa_Completo" type="Node2D" unique_id=545718896]
+
+[node name="Player" parent="." unique_id=272724457 instance=ExtResource("1_8vxvj")]
+z_index = 1
+position = Vector2(792, -682)
 
 [node name="Aldea" parent="." unique_id=650366203 instance=ExtResource("1_nk1lh")]
 
@@ -21,3 +32,21 @@ position = Vector2(3200, -3200)
 
 [node name="Mapa3" parent="." unique_id=495019321 instance=ExtResource("5_640kk")]
 position = Vector2(3200, 0)
+
+[node name="Camino" parent="." unique_id=1341966233 instance=ExtResource("6_e65x3")]
+position = Vector2(1600, 0)
+
+[node name="Camazots" parent="." unique_id=1276200658 instance=ExtResource("8_c13de")]
+position = Vector2(3999, 775)
+
+[node name="NPC" parent="." unique_id=1640558695 instance=ExtResource("9_akaf2")]
+position = Vector2(3990, -710)
+
+[node name="NPC2" parent="." unique_id=1918911699 instance=ExtResource("10_xfcwg")]
+position = Vector2(2421, -722)
+
+[node name="Tzucan" parent="." unique_id=775520832 instance=ExtResource("11_fctww")]
+position = Vector2(3567, -2830)
+
+[node name="Wayob" parent="." unique_id=278209716 instance=ExtResource("12_12er1")]
+position = Vector2(2395, 780)

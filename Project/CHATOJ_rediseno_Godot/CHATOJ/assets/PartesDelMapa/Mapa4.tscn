@@ -9,7 +9,6 @@
 [ext_resource type="Texture2D" uid="uid://djvw26teafkjl" path="res://assets/Rediseno/prop_6.png" id="6_6h2kc"]
 [ext_resource type="Texture2D" uid="uid://dwl7wo0y04ss" path="res://assets/Rediseno/prop_1.png" id="7_ivac2"]
 [ext_resource type="Texture2D" uid="uid://cj2d2wqpyodyi" path="res://Trees/Tree_2.png" id="8_i4u80"]
-[ext_resource type="PackedScene" uid="uid://v74njklih0qu" path="res://Scenes/player.tscn" id="10_igh6j"]
 
 [node name="Mapa4" type="Node2D" unique_id=387994732]
 oversampling_with_scale = 1
@@ -354,6 +353,3 @@ texture = ExtResource("8_i4u80")
 position = Vector2(504.00006, 384.00003)
 scale = Vector2(1.5624994, 1.5642856)
 texture = ExtResource("8_i4u80")
-
-[node name="Player" parent="." unique_id=272724457 instance=ExtResource("10_igh6j")]
-position = Vector2(688, 872)

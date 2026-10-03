@@ -367,7 +367,7 @@ func _on_play_button_pressed():
 	AudioManager.play_sfx(SFX_GAME_START, -5.0)
 
 	get_tree().change_scene_to_file(
-		"res://Scenes/mapaPrueba.tscn"
+		"res://assets/PartesDelMapa/mapa_completo.tscn"
 	)
 
 

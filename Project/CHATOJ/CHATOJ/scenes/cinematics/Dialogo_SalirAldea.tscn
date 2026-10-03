@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://dhd1ds657k3se"]
+
+[ext_resource type="Script" uid="uid://bxll8suk4gjrc" path="res://scenes/cinematics/Script_SalirAldea.gd" id="1_cg6t4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t413j"]
+size = Vector2(200, 321)
+
+[node name="CheckDialogo" type="Area2D" unique_id=1655572546]
+script = ExtResource("1_cg6t4")
+segunda_frase = ""
+duracion_primera = 17.0
+tiempo_escritura = 7.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=360150261]
+position = Vector2(100, -162.5)
+shape = SubResource("RectangleShape2D_t413j")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1828073502]
+layer = 100
+
+[node name="Dialogo" type="Control" parent="CanvasLayer" unique_id=318768300]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="CanvasLayer/Dialogo" unique_id=1195782728]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+offset_left = 66.0
+offset_top = 20.0
+offset_right = -59.0
+offset_bottom = 150.0
+grow_horizontal = 2
+
+[node name="Texto" type="RichTextLabel" parent="CanvasLayer/Dialogo/Panel" unique_id=1617262515]
+layout_mode = 0
+offset_left = 17.0
+offset_top = 17.0
+offset_right = 1125.0
+offset_bottom = 117.0
+theme_override_font_sizes/normal_font_size = 20

@@ -25,6 +25,7 @@
 [ext_resource type="Script" uid="uid://dyxwlv2l2sf7l" path="res://scenes/cinematics/Script_Camazots.gd" id="22_cj0ic"]
 [ext_resource type="PackedScene" uid="uid://cb31c0xjcwb81" path="res://scenes/cinematics/Dialogo_Wayob.tscn" id="23_ejvxy"]
 [ext_resource type="Script" uid="uid://5gs8504g6bx1" path="res://scenes/cinematics/Script_Wayob.gd" id="24_v6865"]
+[ext_resource type="AudioStream" uid="uid://b2m1frth714wg" path="res://assets/audio/SFX/Bosses/Camazots/Komiku - It&#039;s time for adventure vol 2 - 07 Frozen Jungle.mp3" id="24_vpbvx"]
 [ext_resource type="PackedScene" uid="uid://sgjg36o1v4qa" path="res://scenes/cinematics/Dialogo_Tzucan.tscn" id="25_uh4js"]
 [ext_resource type="Script" uid="uid://dnl71tqlq1tsw" path="res://scenes/cinematics/Script_Tzukan.gd" id="26_uh4js"]
 [ext_resource type="PackedScene" uid="uid://cwroijqqjhhct" path="res://scenes/interactables/checkpoint.tscn" id="28_st0bk"]
@@ -35,7 +36,7 @@ texture_filter = 1
 [node name="Player" parent="." unique_id=272724457 instance=ExtResource("1_8vxvj")]
 z_index = 1
 texture_filter = 1
-position = Vector2(827.3616, -685.602)
+position = Vector2(823.52527, -694.1258)
 
 [node name="Aldea" parent="." unique_id=650366203 instance=ExtResource("1_nk1lh")]
 texture_filter = 1
@@ -115,6 +116,10 @@ position = Vector2(3638, 1113)
 script = ExtResource("22_cj0ic")
 primera_frase = "Un batir de alas sacude el aire de la cueva y apaga la luz de su entrada por un instante, mientras Camazotz, un murciélago gigantesco de garras curvas y colmillos descubiertos, desciende desde la bóveda hacia Kin, quien levanta el escudo y comprende por qué nadie en su aldea se atreve a cruzar estas cavernas después del ocaso."
 segunda_frase = ""
+duracion_sonido = 22.0
+
+[node name="SonidoCinematica" type="AudioStreamPlayer" parent="D_Camazots" unique_id=1477467400]
+stream = ExtResource("24_vpbvx")
 
 [node name="D_Wayob" parent="." unique_id=488825795 instance=ExtResource("23_ejvxy")]
 position = Vector2(2237, 941)
@@ -124,8 +129,7 @@ segunda_frase = "Una presencia que acecha los caminos al caer la noche y que aho
 duracion_primera = 15.0
 
 [node name="D_Tzukán" parent="." unique_id=387193136 instance=ExtResource("25_uh4js")]
-position = Vector2(3261, -2479)
-scale = Vector2(2, 2)
+position = Vector2(3421, -2617)
 script = ExtResource("26_uh4js")
 primera_frase = "Tsukán: Detén tus pasos, hijo de la milpa, pues soy el Tsukán, la serpiente que custodia este cenote, y si vienes a buscar refugio podrás descansar junto a sus aguas y regresar a ellas cuando el camino te venza, siempre que guardes tu arma y respetes la vida que aquí habita."
 segunda_frase = "Kin: Guardaré mi arma, guardián, porque salí de mi aldea soñando con volver convertido en guerrero, pero la selva me ha mostrado cuánto me falta por aprender, y si me permites descansar junto a estas aguas, recuperaré mis fuerzas y continuaré mi camino con respeto por este lugar."

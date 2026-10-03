@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b2m1frth714wg"
+path="res://.godot/imported/Komiku - It&#039;s time for adventure vol 2 - 07 Frozen Jungle.mp3-91c32c9f71455a8ff35b93fa667800dc.mp3str"
+
+[deps]
+
+source_file="res://assets/audio/SFX/Bosses/Camazots/Komiku - It&#039;s time for adventure vol 2 - 07 Frozen Jungle.mp3"
+dest_files=["res://.godot/imported/Komiku - It&#039;s time for adventure vol 2 - 07 Frozen Jungle.mp3-91c32c9f71455a8ff35b93fa667800dc.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

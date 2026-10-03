@@ -56,9 +56,8 @@ consulta el [manual de instalación y ejecución](docs/manual-instalacion.pdf).
 | Lanzar una daga al enemigo cercano | E |
 | Usar curación | R |
 
-El menú principal permite iniciar o cerrar el juego. Durante la partida, el
-botón de menú regresa al menú principal. No hay una función de pausa mediante
-Escape en el flujo actual.
+El menú principal permite iniciar o cerrar el juego. Durante la partida,
+Escape o el botón de menú regresan al menú principal.
 
 ## Estructura del proyecto
 
@@ -97,6 +96,7 @@ ni a una partida de principio a fin.
 
 - [Manual de instalación y ejecución (PDF)](docs/manual-instalacion.pdf)
 - [Documento oficial de entrega (PDF)](docs/entrega-oficial.pdf)
+- [Guion para el video de presentación](docs/guion-video.md)
 - Enlaces de repositorio, ejecutable y video incluidos en el documento oficial.
 
 Los datos personales del equipo y los enlaces al ejecutable y al video deben

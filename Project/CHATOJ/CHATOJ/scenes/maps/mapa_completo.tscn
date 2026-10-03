@@ -16,6 +16,7 @@
 [ext_resource type="TileSet" uid="uid://c5qumoegl8nci" path="res://assets/graphics/Rediseno/SelvaMaya.tres" id="14_kdoi4"]
 [ext_resource type="PackedScene" uid="uid://cs08tdig0muj3" path="res://scenes/cinematics/Dialogo_Intro.tscn" id="15_sc5wa"]
 [ext_resource type="PackedScene" uid="uid://dhd1ds657k3se" path="res://scenes/cinematics/Dialogo_SalirAldea.tscn" id="16_f1yh5"]
+[ext_resource type="AudioStream" uid="uid://mi386708bn5x" path="res://assets/audio/SFX/Bosses/Kakasbal/mixkit-big-wild-cat-slow-moan-90.wav" id="16_hxx3d"]
 [ext_resource type="PackedScene" uid="uid://x4mk41my7xy2" path="res://scenes/cinematics/Dialogo_Kakasbal.tscn" id="17_ogrvf"]
 [ext_resource type="Script" uid="uid://b670abgl5q5i8" path="res://scenes/cinematics/Script_Kakasbal.gd" id="18_baddq"]
 [ext_resource type="PackedScene" uid="uid://b3ux4h5kdk50v" path="res://scenes/cinematics/Dialogo_Español.tscn" id="19_0ljho"]
@@ -26,6 +27,7 @@
 [ext_resource type="Script" uid="uid://5gs8504g6bx1" path="res://scenes/cinematics/Script_Wayob.gd" id="24_v6865"]
 [ext_resource type="PackedScene" uid="uid://sgjg36o1v4qa" path="res://scenes/cinematics/Dialogo_Tzucan.tscn" id="25_uh4js"]
 [ext_resource type="Script" uid="uid://dnl71tqlq1tsw" path="res://scenes/cinematics/Script_Tzukan.gd" id="26_uh4js"]
+[ext_resource type="PackedScene" uid="uid://cwroijqqjhhct" path="res://scenes/interactables/checkpoint.tscn" id="28_st0bk"]
 
 [node name="Mapa_Completo" type="Node2D" unique_id=545718896]
 texture_filter = 1
@@ -33,7 +35,7 @@ texture_filter = 1
 [node name="Player" parent="." unique_id=272724457 instance=ExtResource("1_8vxvj")]
 z_index = 1
 texture_filter = 1
-position = Vector2(806.374, -668.25104)
+position = Vector2(827.3616, -685.602)
 
 [node name="Aldea" parent="." unique_id=650366203 instance=ExtResource("1_nk1lh")]
 texture_filter = 1
@@ -99,6 +101,9 @@ script = ExtResource("18_baddq")
 primera_frase = "El hedor anuncia su llegada antes de que Kin pueda verlo, y cuando el Kakasbal sale de la espesura, sus miembros desiguales y las distintas partes que componen su cuerpo revelan una criatura que parece hecha de otras bestias, cuyo avance retorcido obliga al joven a retroceder mientras busca un punto donde su pedernal pueda herirla."
 segunda_frase = ""
 
+[node name="SonidoCinematica" type="AudioStreamPlayer" parent="D_Kakasbal" unique_id=797677136]
+stream = ExtResource("16_hxx3d")
+
 [node name="D_Español" parent="." unique_id=1286154663 instance=ExtResource("19_0ljho")]
 position = Vector2(2292, -588)
 script = ExtResource("20_i3l7u")
@@ -119,7 +124,16 @@ segunda_frase = "Una presencia que acecha los caminos al caer la noche y que aho
 duracion_primera = 15.0
 
 [node name="D_Tzukán" parent="." unique_id=387193136 instance=ExtResource("25_uh4js")]
-position = Vector2(3415, -2649)
+position = Vector2(3261, -2479)
+scale = Vector2(2, 2)
 script = ExtResource("26_uh4js")
 primera_frase = "Tsukán: Detén tus pasos, hijo de la milpa, pues soy el Tsukán, la serpiente que custodia este cenote, y si vienes a buscar refugio podrás descansar junto a sus aguas y regresar a ellas cuando el camino te venza, siempre que guardes tu arma y respetes la vida que aquí habita."
 segunda_frase = "Kin: Guardaré mi arma, guardián, porque salí de mi aldea soñando con volver convertido en guerrero, pero la selva me ha mostrado cuánto me falta por aprender, y si me permites descansar junto a estas aguas, recuperaré mis fuerzas y continuaré mi camino con respeto por este lugar."
+
+[node name="Checkpoint" parent="." unique_id=1567582986 instance=ExtResource("28_st0bk")]
+position = Vector2(3160, 784)
+scale = Vector2(3, 3)
+
+[node name="Checkpoint2" parent="." unique_id=2101721778 instance=ExtResource("28_st0bk")]
+position = Vector2(3998.2021, 3.6627197)
+scale = Vector2(9, 9)

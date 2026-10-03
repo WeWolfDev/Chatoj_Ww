@@ -1,6 +1,6 @@
 [gd_resource type="TileSet" format=3 uid="uid://beua1egnqvxnh"]
 
-[ext_resource type="Texture2D" path="res://assets/graphics/TileSets/Cenote/cenote_suelo_25x25.webp" id="4_tq3bx"]
+[ext_resource type="Texture2D" uid="uid://dl6pigutslvh2" path="res://assets/graphics/TileSets/Cenote/cenote_suelo_25x25.webp" id="4_tq3bx"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qsa7q"]
 texture = ExtResource("4_tq3bx")

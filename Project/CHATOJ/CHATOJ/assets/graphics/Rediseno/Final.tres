@@ -1,9 +1,9 @@
 [gd_resource type="TileSet" format=3 uid="uid://diex3r42vujdb"]
 
-[ext_resource type="Texture2D" path="res://assets/graphics/Rediseno/TX Tileset Grass.png" id="1_lkfat"]
-[ext_resource type="Texture2D" path="res://assets/graphics/Rediseno/TX Tileset Wall.png" id="2_bbkn4"]
-[ext_resource type="Texture2D" path="res://assets/graphics/Rediseno/TX Plant.png" id="3_xihqi"]
-[ext_resource type="Texture2D" path="res://assets/graphics/Rediseno/TX Shadow Plant.png" id="4_te8sh"]
+[ext_resource type="Texture2D" uid="uid://wosmweoghbj" path="res://assets/graphics/Rediseno/TX Tileset Grass.png" id="1_lkfat"]
+[ext_resource type="Texture2D" uid="uid://cp7li7ol3vmua" path="res://assets/graphics/Rediseno/TX Tileset Wall.png" id="2_bbkn4"]
+[ext_resource type="Texture2D" uid="uid://bio0j7o5k0tih" path="res://assets/graphics/Rediseno/TX Plant.png" id="3_xihqi"]
+[ext_resource type="Texture2D" uid="uid://dm28thot4yxlu" path="res://assets/graphics/Rediseno/TX Shadow Plant.png" id="4_te8sh"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xihqi"]
 texture = ExtResource("1_lkfat")

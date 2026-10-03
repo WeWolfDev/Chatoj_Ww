@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://dn4m1461jr3cr"]
 
-[ext_resource type="Script" path="res://scripts/enemies/tzucan.gd" id="1_2mbk1"]
-[ext_resource type="Texture2D" path="res://assets/graphics/Animaciones/animacion_tzucan/image (1) (1).png" id="2_3sf2n"]
+[ext_resource type="Script" uid="uid://dbiwerxueeaqq" path="res://scripts/enemies/tzucan.gd" id="1_2mbk1"]
+[ext_resource type="Texture2D" uid="uid://3qet3cbc1tne" path="res://assets/graphics/Animaciones/animacion_tzucan/image (1) (1).png" id="2_3sf2n"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1esgv"]
 atlas = ExtResource("2_3sf2n")
@@ -39,6 +39,7 @@ size = Vector2(118.5, 112)
 script = ExtResource("1_2mbk1")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1830179093]
+texture_filter = 1
 scale = Vector2(1.447978, 1.447978)
 sprite_frames = SubResource("SpriteFrames_wadv3")
 animation = &"idle"

@@ -1,22 +1,22 @@
 [gd_scene format=3 uid="uid://v74njklih0qu"]
 
-[ext_resource type="Script" path="res://scripts/player/player.gd" id="1_f1ek2"]
-[ext_resource type="SpriteFrames" path="res://assets/graphics/Rediseno/personaje_0.tres" id="3_h4iuc"]
-[ext_resource type="Script" path="res://scripts/world/sprite_motion.gd" id="7_wpjfl"]
-[ext_resource type="Texture2D" path="res://assets/graphics/Animaciones/lanzas buenas.webp" id="14_h4iuc"]
-[ext_resource type="Texture2D" path="res://assets/graphics/HealthBar/dark_stone_maya_hud_bar.png.webp" id="15_fs7ks"]
-[ext_resource type="Texture2D" path="res://assets/graphics/Animaciones/kin/character-spritesheet (1).webp" id="15_h4iuc"]
-[ext_resource type="Texture2D" path="res://assets/graphics/HealthBar/mayan_jade_stone_hud_frame.png.webp" id="16_l6n3p"]
-[ext_resource type="Texture2D" path="res://assets/graphics/HealthBar/mayan_jade_pixel_health_bar.png.webp" id="17_olqyp"]
-[ext_resource type="Texture2D" path="res://assets/graphics/Animaciones/aztec_jade_consumable_hud_frame.webp" id="20_2ijsl"]
-[ext_resource type="Texture2D" path="res://assets/graphics/Animaciones/mesoamerican_jade_dagger_sprite.webp" id="21_p1odr"]
-[ext_resource type="Texture2D" path="res://assets/graphics/Animaciones/mayan_jade_healing_salve_jar.webp" id="22_0gysh"]
-[ext_resource type="Texture2D" path="res://assets/graphics/DeathScreen/Checkpoint.webp" id="23_vfarp"]
-[ext_resource type="Texture2D" path="res://assets/graphics/DeathScreen/DeathMenu.webp" id="24_y6uwr"]
-[ext_resource type="Texture2D" path="res://assets/graphics/DeathScreen/Death.webp" id="25_83xs0"]
+[ext_resource type="Script" uid="uid://7khnwrn8atg3" path="res://scripts/player/player.gd" id="1_f1ek2"]
+[ext_resource type="SpriteFrames" uid="uid://bhrn6qq2puot7" path="res://assets/graphics/Rediseno/personaje_0.tres" id="3_h4iuc"]
+[ext_resource type="Script" uid="uid://05abiuljrq5g" path="res://scripts/world/sprite_motion.gd" id="7_wpjfl"]
+[ext_resource type="Texture2D" uid="uid://cq2bhc0ywee2r" path="res://assets/graphics/Animaciones/lanzas buenas.webp" id="14_h4iuc"]
+[ext_resource type="Texture2D" uid="uid://dyby6w1i3n0c5" path="res://assets/graphics/HealthBar/dark_stone_maya_hud_bar.png.webp" id="15_fs7ks"]
+[ext_resource type="Texture2D" uid="uid://dbrtb501bk6jo" path="res://assets/graphics/Animaciones/kin/character-spritesheet (1).webp" id="15_h4iuc"]
+[ext_resource type="Texture2D" uid="uid://mutnfeecrnaw" path="res://assets/graphics/HealthBar/mayan_jade_stone_hud_frame.png.webp" id="16_l6n3p"]
+[ext_resource type="Texture2D" uid="uid://cy2t12c6jpten" path="res://assets/graphics/HealthBar/mayan_jade_pixel_health_bar.png.webp" id="17_olqyp"]
+[ext_resource type="Texture2D" uid="uid://bstdgg6rccvd2" path="res://assets/graphics/Animaciones/aztec_jade_consumable_hud_frame.webp" id="20_2ijsl"]
+[ext_resource type="Texture2D" uid="uid://djgqvk8a8pu8j" path="res://assets/graphics/Animaciones/mesoamerican_jade_dagger_sprite.webp" id="21_p1odr"]
+[ext_resource type="Texture2D" uid="uid://d02p1x5m13i0n" path="res://assets/graphics/Animaciones/mayan_jade_healing_salve_jar.webp" id="22_0gysh"]
+[ext_resource type="Texture2D" uid="uid://d1vksxtw6hr1p" path="res://assets/graphics/DeathScreen/Checkpoint.webp" id="23_vfarp"]
+[ext_resource type="Texture2D" uid="uid://bg7wei2wr4qjv" path="res://assets/graphics/DeathScreen/DeathMenu.webp" id="24_y6uwr"]
+[ext_resource type="Texture2D" uid="uid://cp6bsrkg7tqgd" path="res://assets/graphics/DeathScreen/Death.webp" id="25_83xs0"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_v0iea"]
-size = Vector2(67, 72)
+size = Vector2(31.5, 63)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_82v0y"]
 size = Vector2(51, 27.5)
@@ -278,7 +278,8 @@ animations = [{
 script = ExtResource("1_f1ek2")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2002133221]
-texture_filter = 2
+texture_filter = 1
+position = Vector2(0, -5)
 scale = Vector2(1.2, 1.2)
 sprite_frames = ExtResource("3_h4iuc")
 animation = &"heal_right"
@@ -286,7 +287,7 @@ autoplay = "idle_down"
 script = ExtResource("7_wpjfl")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2041622108]
-position = Vector2(-1.5, 3)
+position = Vector2(-3.75, -0.5)
 shape = SubResource("RectangleShape2D_v0iea")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=2142554519]
@@ -308,7 +309,7 @@ value = 100.0
 texture_under = ExtResource("15_fs7ks")
 texture_over = ExtResource("16_l6n3p")
 texture_progress = ExtResource("17_olqyp")
-texture_progress_offset = Vector2(0, 30)
+texture_progress_offset = Vector2(0, 33)
 
 [node name="ConsumablesHUD" type="Control" parent="HUD" unique_id=1213156992]
 layout_mode = 3
@@ -418,6 +419,7 @@ sprite_frames = SubResource("SpriteFrames_82v0y")
 animation = &"attack_down"
 
 [node name="ShieldSprite" type="AnimatedSprite2D" parent="." unique_id=794997582]
+position = Vector2(0, -5)
 scale = Vector2(1.2, 1.2)
 sprite_frames = SubResource("SpriteFrames_fd4e3")
 animation = &"shield"

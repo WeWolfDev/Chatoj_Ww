@@ -1,7 +1,7 @@
 [gd_resource type="TileSet" format=3 uid="uid://buyj57wti877h"]
 
-[ext_resource type="Texture2D" path="res://assets/graphics/TileSets/Cenote/atlas_decoracion_768x576.webp" id="1_p6wt7"]
-[ext_resource type="Texture2D" path="res://assets/graphics/TileSets/Cenote/atlas_modular_64.webp" id="2_xnrjq"]
+[ext_resource type="Texture2D" uid="uid://cf46x6t7ris8j" path="res://assets/graphics/TileSets/Cenote/atlas_decoracion_768x576.webp" id="1_p6wt7"]
+[ext_resource type="Texture2D" uid="uid://5hqnhsp25c5a" path="res://assets/graphics/TileSets/Cenote/atlas_modular_64.webp" id="2_xnrjq"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bbkx1"]
 texture = ExtResource("1_p6wt7")

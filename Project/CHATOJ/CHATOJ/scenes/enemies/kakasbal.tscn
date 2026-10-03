@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://b017in420of56"]
 
-[ext_resource type="Script" path="res://scripts/enemies/kakasbal.gd" id="1_0os47"]
-[ext_resource type="Texture2D" path="res://assets/graphics/Animaciones/kakasbal bien/kakasbal fin (1).webp" id="2_mcacj"]
-[ext_resource type="Script" path="res://scripts/world/sprite_motion.gd" id="6_12jrx"]
+[ext_resource type="Script" uid="uid://3ixhjh0gqxh4" path="res://scripts/enemies/kakasbal.gd" id="1_0os47"]
+[ext_resource type="Texture2D" uid="uid://cp5o7ribp7fo0" path="res://assets/graphics/Animaciones/kakasbal bien/kakasbal fin (1).webp" id="2_mcacj"]
+[ext_resource type="Script" uid="uid://05abiuljrq5g" path="res://scripts/world/sprite_motion.gd" id="6_12jrx"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mcacj"]
 atlas = ExtResource("2_mcacj")
@@ -866,7 +866,7 @@ script = ExtResource("1_0os47")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2002133221]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_vw6ut")
-animation = &"charge_back"
+animation = &"dash_down"
 autoplay = "idle_down"
 script = ExtResource("6_12jrx")
 

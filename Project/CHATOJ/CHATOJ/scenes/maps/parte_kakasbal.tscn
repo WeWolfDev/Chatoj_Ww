@@ -1,13 +1,13 @@
 [gd_scene format=4 uid="uid://ctyfd0q8ayvgw"]
 
-[ext_resource type="TileSet" path="res://assets/graphics/Rediseno/SelvaMaya.tres" id="1_1iht0"]
-[ext_resource type="Texture2D" path="res://assets/graphics/TileSets/Mapa_kakasbal/Colección de Arbustos Isométricos en Pixel Art (1) (1).png" id="2_fqckk"]
-[ext_resource type="Texture2D" path="res://assets/graphics/Rediseno/jungle-ruins_v3-2.png" id="3_4qntk"]
-[ext_resource type="Texture2D" path="res://assets/graphics/Rediseno/prop_0.png" id="4_kpalm"]
-[ext_resource type="Texture2D" path="res://assets/graphics/Rediseno/prop_1.png" id="5_kstel"]
-[ext_resource type="Texture2D" path="res://assets/graphics/Rediseno/prop_3.png" id="6_ktorc"]
-[ext_resource type="Texture2D" path="res://assets/graphics/Rediseno/prop_7.png" id="7_kredp"]
-[ext_resource type="Texture2D" path="res://assets/graphics/library/Trees/Tree_2.png" id="8_ktree"]
+[ext_resource type="TileSet" uid="uid://c5qumoegl8nci" path="res://assets/graphics/Rediseno/SelvaMaya.tres" id="1_1iht0"]
+[ext_resource type="Texture2D" uid="uid://cx5ildd3l38a4" path="res://assets/graphics/TileSets/Mapa_kakasbal/Colección de Arbustos Isométricos en Pixel Art (1) (1).png" id="2_fqckk"]
+[ext_resource type="Texture2D" uid="uid://crtnjvn76e02g" path="res://assets/graphics/Rediseno/jungle-ruins_v3-2.png" id="3_4qntk"]
+[ext_resource type="Texture2D" uid="uid://crdy3yssvcfx5" path="res://assets/graphics/Rediseno/prop_0.png" id="4_kpalm"]
+[ext_resource type="Texture2D" uid="uid://dwl7wo0y04ss" path="res://assets/graphics/Rediseno/prop_1.png" id="5_kstel"]
+[ext_resource type="Texture2D" uid="uid://d04y32ox30au2" path="res://assets/graphics/Rediseno/prop_3.png" id="6_ktorc"]
+[ext_resource type="Texture2D" uid="uid://bn1l0dwt07lgh" path="res://assets/graphics/Rediseno/prop_7.png" id="7_kredp"]
+[ext_resource type="Texture2D" uid="uid://cj2d2wqpyodyi" path="res://assets/graphics/library/Trees/Tree_2.png" id="8_ktree"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1iht0"]
 texture = ExtResource("2_fqckk")
@@ -2298,6 +2298,9 @@ texture = ExtResource("3_4qntk")
 sources/0 = SubResource("TileSetAtlasSource_1iht0")
 sources/1 = SubResource("TileSetAtlasSource_buqcg")
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_am3o3"]
+size = Vector2(39.62317, 78.47998)
+
 [node name="Node2D" type="Node2D" unique_id=1432102986]
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1557245218]
@@ -2493,3 +2496,78 @@ texture = ExtResource("7_kredp")
 position = Vector2(544, -104)
 scale = Vector2(0.18527512, 0.22411004)
 texture = ExtResource("7_kredp")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1968566354]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1692827183]
+position = Vector2(657, -289)
+shape = SubResource("RectangleShape2D_am3o3")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="StaticBody2D" unique_id=620741851]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D/StaticBody2D2" unique_id=323426544]
+position = Vector2(657, -289)
+shape = SubResource("RectangleShape2D_am3o3")
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="." unique_id=1404114998]
+position = Vector2(949.6384, -277.32715)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D3" unique_id=433061202]
+position = Vector2(-340.2616, -276.91284)
+shape = SubResource("RectangleShape2D_am3o3")
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="." unique_id=1221231033]
+position = Vector2(1899.2769, -554.6543)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D4" unique_id=959965864]
+position = Vector2(-906.27686, 7.654297)
+shape = SubResource("RectangleShape2D_am3o3")
+
+[node name="StaticBody2D5" type="StaticBody2D" parent="." unique_id=698924372]
+position = Vector2(3798.5537, -1109.3086)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D5" unique_id=1359140224]
+position = Vector2(-2801.8862, 170.677)
+shape = SubResource("RectangleShape2D_am3o3")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="." unique_id=1315872001]
+position = Vector2(949.6384, -277.32715)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2" unique_id=1250758756]
+position = Vector2(-4.6384277, -9.672852)
+shape = SubResource("RectangleShape2D_am3o3")
+
+[node name="StaticBody2D6" type="StaticBody2D" parent="." unique_id=1922180185]
+position = Vector2(7597.1074, -2218.6172)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D6" unique_id=1918248933]
+position = Vector2(-6986.1074, 1285.6172)
+shape = SubResource("RectangleShape2D_am3o3")
+
+[node name="StaticBody2D7" type="StaticBody2D" parent="." unique_id=214815458]
+position = Vector2(11395.661, -3327.9258)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D7" unique_id=72204744]
+position = Vector2(-10738.473, 2077.9258)
+shape = SubResource("RectangleShape2D_am3o3")
+
+[node name="StaticBody2D8" type="StaticBody2D" parent="." unique_id=1669352533]
+position = Vector2(22791.322, -6655.8516)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D8" unique_id=1247892749]
+position = Vector2(-21847.322, 5410.8516)
+shape = SubResource("RectangleShape2D_am3o3")
+
+[node name="StaticBody2D9" type="StaticBody2D" parent="." unique_id=1589731451]
+position = Vector2(45582.645, -13311.703)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D9" unique_id=526993141]
+position = Vector2(-44941.645, 11775.703)
+shape = SubResource("RectangleShape2D_am3o3")
+
+[node name="StaticBody2D10" type="StaticBody2D" parent="." unique_id=2057175991]
+position = Vector2(91165.29, -26623.406)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D10" unique_id=1910120471]
+position = Vector2(-90211.29, 25089.406)
+shape = SubResource("RectangleShape2D_am3o3")

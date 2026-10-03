@@ -1,8 +1,8 @@
-[gd_scene format=3 uid="uid://dtxcdoutbo2x6"]
+[gd_scene format=3 uid="uid://ccbskuas25nkt"]
 
-[ext_resource type="Texture2D" path="res://assets/graphics/Animaciones/Player/playeranim.webp" id="1_8bf0s"]
-[ext_resource type="Texture2D" path="res://assets/graphics/Fondos/Choza.jpeg" id="3_2iyq6"]
-[ext_resource type="Texture2D" path="res://assets/graphics/Fondos/Dialogo.png" id="4_1hpyg"]
+[ext_resource type="Texture2D" uid="uid://drvrg4i221ksj" path="res://assets/graphics/Animaciones/Player/playeranim.webp" id="1_8bf0s"]
+[ext_resource type="Texture2D" uid="uid://yh3sssqfdhtk" path="res://assets/graphics/Fondos/Choza.jpeg" id="3_2iyq6"]
+[ext_resource type="Texture2D" uid="uid://boly1o4njshe0" path="res://assets/graphics/Fondos/Dialogo.png" id="4_1hpyg"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5oqhp"]
 atlas = ExtResource("1_8bf0s")

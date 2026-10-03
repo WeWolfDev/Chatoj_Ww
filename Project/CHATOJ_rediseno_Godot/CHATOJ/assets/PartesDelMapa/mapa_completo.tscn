@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://ip6x3fed8fsi"]
+
+[ext_resource type="PackedScene" uid="uid://cyv4uyxwl8nvq" path="res://assets/PartesDelMapa/aldea.tscn" id="1_nk1lh"]
+[ext_resource type="PackedScene" uid="uid://dl6hm4xvxnj7t" path="res://assets/PartesDelMapa/Mapa4.tscn" id="2_e65x3"]
+[ext_resource type="PackedScene" uid="uid://ctyfd0q8ayvgw" path="res://assets/PartesDelMapa/parte_kakasbal.tscn" id="3_8vxvj"]
+[ext_resource type="PackedScene" uid="uid://b0rdcm5b615ym" path="res://assets/PartesDelMapa/cenote.tscn" id="4_ym73h"]
+[ext_resource type="PackedScene" uid="uid://dtjuleuqybd84" path="res://assets/PartesDelMapa/mapa3.tscn" id="5_640kk"]
+
+[node name="Mapa_Completo" type="Node2D" unique_id=545718896]
+
+[node name="Aldea" parent="." unique_id=650366203 instance=ExtResource("1_nk1lh")]
+
+[node name="Mapa4" parent="." unique_id=387994732 instance=ExtResource("2_e65x3")]
+position = Vector2(1600, 0)
+
+[node name="Node2D" parent="." unique_id=1432102986 instance=ExtResource("3_8vxvj")]
+position = Vector2(3200, 0)
+
+[node name="Cenote" parent="." unique_id=145944475 instance=ExtResource("4_ym73h")]
+position = Vector2(3200, -3200)
+
+[node name="Mapa3" parent="." unique_id=495019321 instance=ExtResource("5_640kk")]
+position = Vector2(3200, 0)

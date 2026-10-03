@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Manual de instalación y ejecución — CH'ATOJ</title>
+  <style>
+    @page { size: A4; margin: 19mm 18mm 20mm; }
+    * { box-sizing: border-box; }
+    body { color: #20251f; font: 10.5pt/1.48 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+    h1, h2, h3 { color: #174d3a; line-height: 1.2; }
+    h1 { font-size: 28pt; margin: 0 0 8mm; }
+    h2 { font-size: 17pt; margin: 0 0 5mm; border-bottom: 1px solid #a9c6b6; padding-bottom: 2mm; }
+    h3 { font-size: 12pt; margin: 5mm 0 2mm; }
+    p { margin: 0 0 3mm; }
+    ul, ol { margin: 2mm 0 4mm; padding-left: 7mm; }
+    li { margin: 1.3mm 0; }
+    code { font: 9pt Menlo, Consolas, monospace; overflow-wrap: anywhere; }
+    pre { background: #f1f5f2; border-left: 3px solid #31805e; padding: 4mm; white-space: pre-wrap; overflow-wrap: anywhere; }
+    table { width: 100%; border-collapse: collapse; margin: 3mm 0 5mm; }
+    th, td { text-align: left; vertical-align: top; padding: 2mm; border: 1px solid #d4dfd8; }
+    th { color: #174d3a; background: #edf4ef; }
+    .cover { min-height: 245mm; display: flex; flex-direction: column; justify-content: center; }
+    .eyebrow { color: #47725f; text-transform: uppercase; letter-spacing: 1.5pt; font-size: 9pt; }
+    .subtitle { color: #56645c; font-size: 15pt; }
+    .note { border: 1px solid #d4dfd8; background: #f7f9f7; padding: 3mm 4mm; }
+    .page { page-break-before: always; }
+    .small { color: #58635d; font-size: 9pt; }
+    a { color: #155b42; }
+  </style>
+</head>
+<body>
+  <section class="cover">
+    <div class="eyebrow">Concurso de Prototipos de Videojuego Maya 2026</div>
+    <h1>CH'ATOJ</h1>
+    <p class="subtitle">Manual de instalación y ejecución</p>
+    <p>Versión del proyecto: prototipo documentado con Godot 4.7.2.</p>
+    <p class="small">Documento de apoyo para instalar, ejecutar y verificar el proyecto desde el repositorio.</p>
+  </section>
+
+  <section class="page">
+    <h2>1. Requisitos del sistema</h2>
+    <table>
+      <tr><th>Elemento</th><th>Requisito o recomendación</th></tr>
+      <tr><td>Sistema operativo</td><td>Windows, macOS o Linux de 64 bits. Se requiere un sistema compatible con Godot 4.7.2.</td></tr>
+      <tr><td>Motor</td><td>Godot Engine 4.7.2 Standard. El motor no está incluido en el repositorio. No instalar la edición .NET para este proyecto GDScript.</td></tr>
+      <tr><td>Dependencias</td><td>No requiere complementos externos ni paquetes adicionales. Godot importa los recursos incluidos al abrir el proyecto.</td></tr>
+      <tr><td>Gráficos</td><td>Controlador compatible con OpenGL 3.3 / GL Compatibility.</td></tr>
+      <tr><td>Resolución</td><td>1280 × 720 recomendada.</td></tr>
+      <tr><td>Hardware de referencia</td><td>CPU de 2 núcleos, 4 GB de RAM y 500 MB de espacio libre como referencia básica; se recomiendan 8 GB de RAM. No se han medido FPS ni validado estos mínimos en distintos equipos.</td></tr>
+    </table>
+    <p class="note"><strong>Nota sobre el hardware:</strong> son valores orientativos para abrir el editor y ejecutar el prototipo, no resultados de una certificación de rendimiento. El proyecto ocupa alrededor de 30 MB descomprimido según el informe de verificación; Godot genera una caché adicional al importar recursos.</p>
+
+    <h2 style="margin-top:10mm">2. Descarga e instalación</h2>
+    <ol>
+      <li>Descarga o clona el repositorio público: <a href="https://github.com/WeWolfDev/Chatoj_Ww">github.com/WeWolfDev/Chatoj_Ww</a>.</li>
+      <li>Instala Godot Engine 4.7.2 Standard desde el sitio oficial de Godot. En Windows, descomprime el paquete; en macOS o Linux, sigue las instrucciones de instalación de esa plataforma.</li>
+      <li>Abre Godot y, en el gestor de proyectos, pulsa <strong>Importar</strong> (o <strong>Import</strong>).</li>
+      <li>Selecciona el archivo <code>Project/CHATOJ/CHATOJ/project.godot</code> dentro de la carpeta descargada y confirma la importación.</li>
+      <li>Abre el proyecto y espera a que finalice la importación inicial de recursos. La carpeta <code>.godot/</code> se genera automáticamente y no debe compartirse como parte de la entrega.</li>
+    </ol>
+    <p>El archivo que se importa es <code>project.godot</code>; no importes la carpeta del repositorio completa como si fuera un proyecto Godot.</p>
+  </section>
+
+  <section class="page">
+    <h2>3. Ejecución y navegación</h2>
+    <h3>Desde el editor</h3>
+    <ol>
+      <li>Abre el proyecto importado en Godot.</li>
+      <li>Pulsa <strong>F5</strong> o el botón Ejecutar proyecto. El juego abre el menú principal.</li>
+      <li>Selecciona <strong>Jugar</strong> para iniciar el mapa principal.</li>
+      <li>Para cerrar el juego, selecciona <strong>Salir</strong> en el menú, o cierra la ventana.</li>
+    </ol>
+
+    <h3>Desde una terminal</h3>
+    <p>Desde la raíz del repositorio, con el ejecutable de Godot disponible en el PATH:</p>
+    <pre>godot --path Project/CHATOJ/CHATOJ</pre>
+    <p>En macOS/Linux se puede indicar la ruta absoluta del ejecutable de Godot si no está en el PATH. En Windows, reemplaza <code>godot</code> por el nombre o ruta del ejecutable instalado, por ejemplo <code>Godot_v4.7.2-stable_win64.exe</code>.</p>
+
+    <h3>Controles</h3>
+    <table>
+      <tr><th>Acción</th><th>Control</th><th>Detalle</th></tr>
+      <tr><td>Movimiento</td><td>W, A, S, D</td><td>Desplazamiento en cuatro direcciones.</td></tr>
+      <tr><td>Correr</td><td>Shift</td><td>Mantener mientras se mueve.</td></tr>
+      <tr><td>Esquivar</td><td>Espacio</td><td>Ejecuta un dash con enfriamiento.</td></tr>
+      <tr><td>Espada</td><td>Clic izquierdo</td><td>Ataque cuerpo a cuerpo.</td></tr>
+      <tr><td>Escudo</td><td>Mantener clic derecho</td><td>Activa la defensa mientras se mantiene; tiene enfriamiento.</td></tr>
+      <tr><td>Daga</td><td>E</td><td>Apunta automáticamente al enemigo vivo más cercano dentro de 450 píxeles. No consume carga si no hay objetivo válido.</td></tr>
+      <tr><td>Curación</td><td>R</td><td>Usa un consumible disponible.</td></tr>
+    </table>
+    <p>El mapa principal se abre desde el menú. El botón de menú durante la partida regresa al menú principal. No se incluye una acción de pausa asignada a Escape. El mapa alternativo <code>scenes/maps/selva_jade.tscn</code> puede ejecutarse desde el editor con F6.</p>
+  </section>
+
+  <section class="page">
+    <h2>4. Compilación, exportación y pruebas</h2>
+    <h3>Ejecución de pruebas de regresión</h3>
+    <p>Importa primero el proyecto para que Godot genere su caché. Desde la raíz del repositorio, ejecuta:</p>
+    <pre>godot --headless --path Project/CHATOJ/CHATOJ \
+  --script res://tests/regression.gd</pre>
+    <p>En Windows, sustituye la primera palabra por la ruta al ejecutable. El informe <code>Project/CHATOJ/CHATOJ/docs/VERIFICACION.md</code> registra 75 comprobaciones aprobadas y 0 fallos en la ejecución documentada; no cubre una partida completa ni pruebas de balance de todos los jefes.</p>
+
+    <h3>Exportar un ejecutable</h3>
+    <p>El repositorio no incluye un ejecutable ni un perfil de exportación verificado. Para generar una compilación:</p>
+    <ol>
+      <li>En Godot, abre <strong>Proyecto &gt; Exportar</strong>.</li>
+      <li>Añade el preset de la plataforma destino y, si Godot lo solicita, instala las plantillas de exportación de la misma versión.</li>
+      <li>Configura el nombre y la ruta del archivo de salida y pulsa <strong>Exportar proyecto</strong>.</li>
+    </ol>
+    <p>También se puede usar la terminal después de crear un preset llamado <code>Windows Desktop</code> y de instalar las plantillas correspondientes:</p>
+    <pre>godot --headless --path Project/CHATOJ/CHATOJ \
+  --export-release "Windows Desktop" \
+  build/CHATOJ.exe</pre>
+    <p>El nombre del preset debe coincidir exactamente con el definido en el perfil de exportación. Este comando es una plantilla de uso; no se ha generado ni validado una compilación con él en esta entrega.</p>
+
+    <h2 style="margin-top:9mm">5. Solución de errores comunes</h2>
+    <table>
+      <tr><th>Problema</th><th>Solución</th></tr>
+      <tr><td>Godot no encuentra el proyecto.</td><td>Importa el archivo <code>Project/CHATOJ/CHATOJ/project.godot</code>, no el directorio raíz del repositorio.</td></tr>
+      <tr><td>La primera ejecución tarda o muestra recursos cargando.</td><td>Espera a que termine la importación automática. No borres archivos dentro de <code>assets/</code>.</td></tr>
+      <tr><td>F5 no inicia el juego.</td><td>Confirma que se abrió el proyecto correcto y que la escena principal es <code>res://scenes/ui/main_menu.tscn</code>. Prueba Ejecutar proyecto desde el editor.</td></tr>
+      <tr><td>El comando <code>godot</code> no existe.</td><td>Agrega Godot al PATH o ejecuta el binario con su ruta completa. En Windows usa el ejecutable .exe.</td></tr>
+      <tr><td>Falla la exportación.</td><td>Verifica que el preset de exportación coincida con el nombre indicado en el comando y que estén instaladas las plantillas para Godot 4.7.2 y la plataforma elegida.</td></tr>
+      <tr><td>El control no responde.</td><td>Haz clic en la ventana del juego para darle foco y confirma que se está usando el teclado configurado (WASD) y los botones correctos del mouse.</td></tr>
+    </table>
+    <p class="small">No se ha validado soporte para mandos, perfiles de exportación ni distribución de un ejecutable final.</p>
+  </section>
+</body>
+</html>

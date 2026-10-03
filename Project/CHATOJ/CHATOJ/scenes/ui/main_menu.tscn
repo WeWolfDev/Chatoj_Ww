@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://1k0la1dri34o"]
 
-[ext_resource type="Script" path="res://scripts/ui/main_menu.gd" id="1_tt5f1"]
-[ext_resource type="Texture2D" path="res://assets/graphics/MainMenu/MenuBackground.webp" id="2_853f1"]
-[ext_resource type="Texture2D" path="res://assets/graphics/MainMenu/Title.webp" id="3_8saeu"]
-[ext_resource type="Texture2D" path="res://assets/graphics/MainMenu/PlayButton.webp" id="4_df05h"]
-[ext_resource type="Texture2D" path="res://assets/graphics/MainMenu/QuitButton.webp" id="5_8um5k"]
+[ext_resource type="Script" uid="uid://c1jxe707vcqfd" path="res://scripts/ui/main_menu.gd" id="1_tt5f1"]
+[ext_resource type="Texture2D" uid="uid://dngtjjr2jql7s" path="res://assets/graphics/MainMenu/MenuBackground.webp" id="2_853f1"]
+[ext_resource type="Texture2D" uid="uid://n2rdfmy8exla" path="res://assets/graphics/MainMenu/Title.webp" id="3_8saeu"]
+[ext_resource type="Texture2D" uid="uid://d16l8bwsbrj6j" path="res://assets/graphics/MainMenu/PlayButton.webp" id="4_df05h"]
+[ext_resource type="Texture2D" uid="uid://bl6y0iqhu4up3" path="res://assets/graphics/MainMenu/QuitButton.webp" id="5_8um5k"]
 
 [node name="MainMenu" type="Control" unique_id=971241037]
 layout_mode = 3

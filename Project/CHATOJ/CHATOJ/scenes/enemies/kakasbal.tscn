@@ -887,7 +887,3 @@ collision_layer = 0
 [node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionArea" unique_id=964657278]
 position = Vector2(0, -3)
 shape = SubResource("CircleShape2D_v1p6p")
-
-[node name="HealthBar" type="ProgressBar" parent="." unique_id=1108208333]
-offset_right = 4.0
-offset_bottom = 27.0

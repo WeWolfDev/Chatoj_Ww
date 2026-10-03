@@ -21,7 +21,7 @@ texture_filter = 1
 [node name="Player" parent="." unique_id=272724457 instance=ExtResource("1_8vxvj")]
 z_index = 1
 texture_filter = 1
-position = Vector2(827.6411, -692.127)
+position = Vector2(806.374, -668.25104)
 
 [node name="Aldea" parent="." unique_id=650366203 instance=ExtResource("1_nk1lh")]
 texture_filter = 1

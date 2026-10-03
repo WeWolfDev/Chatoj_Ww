@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://b7djk61epgoxx"]
 
-[ext_resource type="Script" path="res://scripts/enemies/wayobs.gd" id="1_kivx8"]
-[ext_resource type="PackedScene" path="res://scenes/enemies/wayobs_shadow.tscn" id="2_p2c0p"]
-[ext_resource type="Texture2D" path="res://assets/graphics/Animaciones/wayob/wayob.webp" id="3_wadv3"]
-[ext_resource type="Script" path="res://scripts/world/sprite_motion.gd" id="7_g6v3f"]
+[ext_resource type="Script" uid="uid://b2jkobmx71k11" path="res://scripts/enemies/wayobs.gd" id="1_kivx8"]
+[ext_resource type="PackedScene" uid="uid://dngo3ipkpp33" path="res://scenes/enemies/wayobs_shadow.tscn" id="2_p2c0p"]
+[ext_resource type="Texture2D" uid="uid://dlogmvkbg37tn" path="res://assets/graphics/Animaciones/wayob/wayob.webp" id="3_wadv3"]
+[ext_resource type="Script" uid="uid://05abiuljrq5g" path="res://scripts/world/sprite_motion.gd" id="7_g6v3f"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_mxben"]
 atlas = ExtResource("3_wadv3")

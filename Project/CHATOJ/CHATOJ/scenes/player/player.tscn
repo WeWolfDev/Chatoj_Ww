@@ -309,7 +309,7 @@ value = 100.0
 texture_under = ExtResource("15_fs7ks")
 texture_over = ExtResource("16_l6n3p")
 texture_progress = ExtResource("17_olqyp")
-texture_progress_offset = Vector2(0, 33)
+texture_progress_offset = Vector2(0, 35)
 
 [node name="ConsumablesHUD" type="Control" parent="HUD" unique_id=1213156992]
 layout_mode = 3

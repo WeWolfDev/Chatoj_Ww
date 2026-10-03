@@ -128,7 +128,7 @@ func _physics_process(delta):
 		# repite si el jugador nunca salió y volvió a entrar al área)
 		for body in detection_area.get_overlapping_bodies():
 
-			if body.has_method("take_damage"):
+			if is_player(body):
 
 				target = body
 
@@ -225,11 +225,18 @@ func _physics_process(delta):
 
 func _on_detection_area_body_entered(body):
 
-	if body.has_method("take_damage"):
+	if is_player(body):
 
 		target = body
 
 		print("El villano detectó al jugador")
+
+
+func is_player(body):
+
+	# Solo el jugador tiene take_damage Y heal. Así el villano no elige como
+	# objetivo a otros enemigos (soldados, otros Wayob) ni a sí mismo.
+	return body.has_method("take_damage") and body.has_method("heal")
 
 
 # =========================
@@ -335,9 +342,10 @@ func try_summon_illusions():
 	# Anular impulso de golpe previo, ya no aplica en la nueva posición
 	knockback_velocity = Vector2.ZERO
 
-	# El jugador "pierde de vista" cuál era el original: debe volver a
-	# fijarse/acercarse para que el DetectionArea lo detecte de nuevo
-	target = null
+	# IMPORTANTE: el villano conserva al jugador como objetivo. Antes se ponía
+	# target = null aquí, y solo volvía a perseguirte si caía dentro de su
+	# DetectionArea; si el intercambio lo dejaba más lejos que el radio de esa
+	# área, se quedaba quieto para siempre y no volvía a atacar.
 
 	AudioManager.play_2d(SFX_SWAP, global_position, -4.0)
 
@@ -396,6 +404,19 @@ func take_damage(damage, attacker_position = null):
 		"/",
 		max_health
 	)
+
+
+	# =========================
+	# QUIEN LO GOLPEA SE VUELVE SU OBJETIVO
+	# (aunque esté fuera de su área de detección, o lo haya golpeado una daga)
+	# =========================
+
+	if target == null:
+
+		var player = get_tree().get_first_node_in_group("player")
+
+		if player != null and is_player(player):
+			target = player
 
 
 	# =========================
